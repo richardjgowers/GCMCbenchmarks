@@ -4,11 +4,11 @@ Input files for GCMC benchmarking work
 List of simulation programs
 ---------------------------
 
-- Cassandra
-- DL_Monte2
-- Music
-- RASPA2
-- Towhee
+ - Cassandra v1.1
+ - DL_Monte2 v2.0.1-2016_May-Beta
+ - Music v4.0
+ - RASPA v2.0
+ - Towhee v7.1.0
 
 
 System details
@@ -23,3 +23,10 @@ System conditions
 -----------------
 
 Temperature 208.0 K
+
+
+3 sets of simulations were performed with all software
+
+ 1) Only LJ interactions between all components
+ 2) As 1) but with fluid-fluid electrostatics
+ 3) As 2) but with solid-fluid electrostatics
