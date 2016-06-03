@@ -1,0 +1,3106 @@
+inputformat
+'Towhee'
+ensemble
+'uvt'
+temperature
+298.0d0
+nmolty
+2
+nmolectyp
+1 1000
+chempot
+0.0 0.0
+numboxes
+1
+stepstyle
+'moves'
+nstep
+1000
+controlstyle
+'production'
+potentialstyle
+'internal'
+ffnumber
+1
+ff_filename
+./towheebase/ForceFields/towhee_ff_DREIDING
+classical_potential
+'Lennard-Jones'
+classical_mixrule
+'Lorentz-Berthelot'
+lshift
+.false.
+ltailc
+.true.
+rmin
+1.0d0 
+rcut
+12.8d0
+rcutin
+12.8d0 
+electrostatic_form
+'none'
+linit
+.TRUE.
+initboxtype
+'dimensions'
+initstyle
+'coords'  'full cbmc'
+initlattice
+'none' 'center'
+initmol
+1 0
+inix iniy iniz
+1    1    1
+hmatrix
+25.832 0.0    0.0
+0.0    25.832 0.0
+0.0    0.0    25.832
+# Insert/delete
+pmuvtcbswap
+0.50d0
+          pmuvtcbmt
+          0.0d0 1.0d0
+# COM reinsertion
+#pm1boxcbswap
+#0.75d0
+#          pm1cbswmt
+#          0.0d0 1.0d0
+# COM translation
+pmtracm
+0.75d0
+          pmtcmt
+	  0.0 1.0
+	  rmtrac
+	  2.0
+	  tatrac
+	  0.5d0
+# Rotation around COM
+pmrotate
+1.0d0
+          pmromt  
+          0.0d0 1.0d0
+          rmrot
+          0.05d0
+          tarot
+          0.5d0
+cbmc_formulation
+'Martin and Siepmann 1999 + Martin and Thompson 2004'
+cbmc_setting_style
+'default ideal'
+## BEGIN MOLECULES
+## IRMOF 1
+input_style
+'basic connectivity map'
+nunit 
+424
+nmaxcbmc 
+424
+lpdbnames 
+.FALSE.
+forcefield
+'DREIDING'
+charge_assignment
+'none'
+unit ntype
+  1 'Zn_+2'
+vibration
+  4
+  2 3 198 419
+improper torsion
+  0
+unit ntype
+  2 'O_3'
+vibration
+  4
+  1 57 105 247
+improper torsion
+  0
+unit ntype
+  3 'O_3'
+vibration
+  2
+  1 4
+improper torsion
+  0
+unit ntype
+  4 'C_R'
+vibration
+  3
+  3 5 174
+improper torsion
+  0
+unit ntype
+  5 'C_R'
+vibration
+  3
+  4 6 175
+improper torsion
+  0
+unit ntype
+  6 'C_R'
+vibration
+  3
+  5 7 160
+improper torsion
+  0
+unit ntype
+  7 'H_'
+vibration
+  1
+  6
+improper torsion
+  0
+unit ntype
+  8 'Zn_+2'
+vibration
+  4
+  9 10 189 349
+improper torsion
+  0
+unit ntype
+  9 'O_3'
+vibration
+  4
+  8 63 147 287
+improper torsion
+  0
+unit ntype
+  10 'O_3'
+vibration
+  2
+  8 11
+improper torsion
+  0
+unit ntype
+  11 'C_R'
+vibration
+  3
+  10 12 165
+improper torsion
+  0
+unit ntype
+  12 'C_R'
+vibration
+  3
+  11 13 166
+improper torsion
+  0
+unit ntype
+  13 'C_R'
+vibration
+  3
+  12 14 163
+improper torsion
+  0
+unit ntype
+  14 'H_'
+vibration
+  1
+  13
+improper torsion
+  0
+unit ntype
+  15 'Zn_+2'
+vibration
+  4
+  16 17 192 422
+improper torsion
+  0
+unit ntype
+  16 'O_3'
+vibration
+  4
+  15 69 135 258
+improper torsion
+  0
+unit ntype
+  17 'O_3'
+vibration
+  2
+  15 18
+improper torsion
+  0
+unit ntype
+  18 'C_R'
+vibration
+  3
+  17 19 168
+improper torsion
+  0
+unit ntype
+  19 'C_R'
+vibration
+  3
+  18 20 169
+improper torsion
+  0
+unit ntype
+  20 'C_R'
+vibration
+  3
+  19 21 154
+improper torsion
+  0
+unit ntype
+  21 'H_'
+vibration
+  1
+  20
+improper torsion
+  0
+unit ntype
+  22 'Zn_+2'
+vibration
+  4
+  23 24 195 358
+improper torsion
+  0
+unit ntype
+  23 'O_3'
+vibration
+  4
+  22 75 141 281
+improper torsion
+  0
+unit ntype
+  24 'O_3'
+vibration
+  2
+  22 25
+improper torsion
+  0
+unit ntype
+  25 'C_R'
+vibration
+  3
+  24 26 171
+improper torsion
+  0
+unit ntype
+  26 'C_R'
+vibration
+  3
+  25 27 172
+improper torsion
+  0
+unit ntype
+  27 'C_R'
+vibration
+  3
+  26 28 157
+improper torsion
+  0
+unit ntype
+  28 'H_'
+vibration
+  1
+  27
+improper torsion
+  0
+unit ntype
+  29 'Zn_+2'
+vibration
+  4
+  30 31 180 413
+improper torsion
+  0
+unit ntype
+  30 'O_3'
+vibration
+  4
+  29 81 111 225
+improper torsion
+  0
+unit ntype
+  31 'O_3'
+vibration
+  2
+  29 32
+improper torsion
+  0
+unit ntype
+  32 'C_R'
+vibration
+  3
+  31 33 156
+improper torsion
+  0
+unit ntype
+  33 'C_R'
+vibration
+  3
+  32 34 157
+improper torsion
+  0
+unit ntype
+  34 'C_R'
+vibration
+  3
+  33 35 172
+improper torsion
+  0
+unit ntype
+  35 'H_'
+vibration
+  1
+  34
+improper torsion
+  0
+unit ntype
+  36 'Zn_+2'
+vibration
+  4
+  37 38 183 355
+improper torsion
+  0
+unit ntype
+  37 'O_3'
+vibration
+  4
+  36 87 117 275
+improper torsion
+  0
+unit ntype
+  38 'O_3'
+vibration
+  2
+  36 39
+improper torsion
+  0
+unit ntype
+  39 'C_R'
+vibration
+  3
+  38 40 159
+improper torsion
+  0
+unit ntype
+  40 'C_R'
+vibration
+  3
+  39 41 160
+improper torsion
+  0
+unit ntype
+  41 'C_R'
+vibration
+  3
+  40 42 175
+improper torsion
+  0
+unit ntype
+  42 'H_'
+vibration
+  1
+  41
+improper torsion
+  0
+unit ntype
+  43 'Zn_+2'
+vibration
+  4
+  44 45 186 416
+improper torsion
+  0
+unit ntype
+  44 'O_3'
+vibration
+  4
+  43 93 123 236
+improper torsion
+  0
+unit ntype
+  45 'O_3'
+vibration
+  2
+  43 46
+improper torsion
+  0
+unit ntype
+  46 'C_R'
+vibration
+  3
+  45 47 162
+improper torsion
+  0
+unit ntype
+  47 'C_R'
+vibration
+  3
+  46 48 163
+improper torsion
+  0
+unit ntype
+  48 'C_R'
+vibration
+  3
+  47 49 166
+improper torsion
+  0
+unit ntype
+  49 'H_'
+vibration
+  1
+  48
+improper torsion
+  0
+unit ntype
+  50 'Zn_+2'
+vibration
+  4
+  51 52 177 352
+improper torsion
+  0
+unit ntype
+  51 'O_3'
+vibration
+  4
+  50 99 129 269
+improper torsion
+  0
+unit ntype
+  52 'O_3'
+vibration
+  2
+  50 53
+improper torsion
+  0
+unit ntype
+  53 'C_R'
+vibration
+  3
+  52 54 153
+improper torsion
+  0
+unit ntype
+  54 'C_R'
+vibration
+  3
+  53 55 154
+improper torsion
+  0
+unit ntype
+  55 'C_R'
+vibration
+  3
+  54 56 169
+improper torsion
+  0
+unit ntype
+  56 'H_'
+vibration
+  1
+  55
+improper torsion
+  0
+unit ntype
+  57 'Zn_+2'
+vibration
+  4
+  2 58 174 298
+improper torsion
+  0
+unit ntype
+  58 'O_3'
+vibration
+  2
+  57 59
+improper torsion
+  0
+unit ntype
+  59 'C_R'
+vibration
+  3
+  58 60 213
+improper torsion
+  0
+unit ntype
+  60 'C_R'
+vibration
+  3
+  59 61 214
+improper torsion
+  0
+unit ntype
+  61 'C_R'
+vibration
+  3
+  60 62 190
+improper torsion
+  0
+unit ntype
+  62 'H_'
+vibration
+  1
+  61
+improper torsion
+  0
+unit ntype
+  63 'Zn_+2'
+vibration
+  4
+  9 64 165 381
+improper torsion
+  0
+unit ntype
+  64 'O_3'
+vibration
+  2
+  63 65
+improper torsion
+  0
+unit ntype
+  65 'C_R'
+vibration
+  3
+  64 66 204
+improper torsion
+  0
+unit ntype
+  66 'C_R'
+vibration
+  3
+  65 67 205
+improper torsion
+  0
+unit ntype
+  67 'C_R'
+vibration
+  3
+  66 68 193
+improper torsion
+  0
+unit ntype
+  68 'H_'
+vibration
+  1
+  67
+improper torsion
+  0
+unit ntype
+  69 'Zn_+2'
+vibration
+  4
+  16 70 168 303
+improper torsion
+  0
+unit ntype
+  70 'O_3'
+vibration
+  2
+  69 71
+improper torsion
+  0
+unit ntype
+  71 'C_R'
+vibration
+  3
+  70 72 207
+improper torsion
+  0
+unit ntype
+  72 'C_R'
+vibration
+  3
+  71 73 208
+improper torsion
+  0
+unit ntype
+  73 'C_R'
+vibration
+  3
+  72 74 196
+improper torsion
+  0
+unit ntype
+  74 'H_'
+vibration
+  1
+  73
+improper torsion
+  0
+unit ntype
+  75 'Zn_+2'
+vibration
+  4
+  23 76 171 386
+improper torsion
+  0
+unit ntype
+  76 'O_3'
+vibration
+  2
+  75 77
+improper torsion
+  0
+unit ntype
+  77 'C_R'
+vibration
+  3
+  76 78 210
+improper torsion
+  0
+unit ntype
+  78 'C_R'
+vibration
+  3
+  77 79 211
+improper torsion
+  0
+unit ntype
+  79 'C_R'
+vibration
+  3
+  78 80 199
+improper torsion
+  0
+unit ntype
+  80 'H_'
+vibration
+  1
+  79
+improper torsion
+  0
+unit ntype
+  81 'Zn_+2'
+vibration
+  4
+  30 82 156 293
+improper torsion
+  0
+unit ntype
+  82 'O_3'
+vibration
+  2
+  81 83
+improper torsion
+  0
+unit ntype
+  83 'C_R'
+vibration
+  3
+  82 84 222
+improper torsion
+  0
+unit ntype
+  84 'C_R'
+vibration
+  3
+  83 85 223
+improper torsion
+  0
+unit ntype
+  85 'C_R'
+vibration
+  3
+  84 86 178
+improper torsion
+  0
+unit ntype
+  86 'H_'
+vibration
+  1
+  85
+improper torsion
+  0
+unit ntype
+  87 'Zn_+2'
+vibration
+  4
+  37 88 159 396
+improper torsion
+  0
+unit ntype
+  88 'O_3'
+vibration
+  2
+  87 89
+improper torsion
+  0
+unit ntype
+  89 'C_R'
+vibration
+  3
+  88 90 216
+improper torsion
+  0
+unit ntype
+  90 'C_R'
+vibration
+  3
+  89 91 217
+improper torsion
+  0
+unit ntype
+  91 'C_R'
+vibration
+  3
+  90 92 181
+improper torsion
+  0
+unit ntype
+  92 'H_'
+vibration
+  1
+  91
+improper torsion
+  0
+unit ntype
+  93 'Zn_+2'
+vibration
+  4
+  44 94 162 308
+improper torsion
+  0
+unit ntype
+  94 'O_3'
+vibration
+  2
+  93 95
+improper torsion
+  0
+unit ntype
+  95 'C_R'
+vibration
+  3
+  94 96 219
+improper torsion
+  0
+unit ntype
+  96 'C_R'
+vibration
+  3
+  95 97 220
+improper torsion
+  0
+unit ntype
+  97 'C_R'
+vibration
+  3
+  96 98 184
+improper torsion
+  0
+unit ntype
+  98 'H_'
+vibration
+  1
+  97
+improper torsion
+  0
+unit ntype
+  99 'Zn_+2'
+vibration
+  4
+  51 100 153 391
+improper torsion
+  0
+unit ntype
+  100 'O_3'
+vibration
+  2
+  99 101
+improper torsion
+  0
+unit ntype
+  101 'C_R'
+vibration
+  3
+  100 102 201
+improper torsion
+  0
+unit ntype
+  102 'C_R'
+vibration
+  3
+  101 103 202
+improper torsion
+  0
+unit ntype
+  103 'C_R'
+vibration
+  3
+  102 104 187
+improper torsion
+  0
+unit ntype
+  104 'H_'
+vibration
+  1
+  103
+improper torsion
+  0
+unit ntype
+  105 'Zn_+2'
+vibration
+  4
+  2 106 213 316
+improper torsion
+  0
+unit ntype
+  106 'O_3'
+vibration
+  2
+  105 107
+improper torsion
+  0
+unit ntype
+  107 'C_R'
+vibration
+  3
+  106 108 198
+improper torsion
+  0
+unit ntype
+  108 'C_R'
+vibration
+  3
+  107 109 199
+improper torsion
+  0
+unit ntype
+  109 'C_R'
+vibration
+  3
+  108 110 211
+improper torsion
+  0
+unit ntype
+  110 'H_'
+vibration
+  1
+  109
+improper torsion
+  0
+unit ntype
+  111 'Zn_+2'
+vibration
+  4
+  30 112 222 334
+improper torsion
+  0
+unit ntype
+  112 'O_3'
+vibration
+  2
+  111 113
+improper torsion
+  0
+unit ntype
+  113 'C_R'
+vibration
+  3
+  112 114 180
+improper torsion
+  0
+unit ntype
+  114 'C_R'
+vibration
+  3
+  113 115 181
+improper torsion
+  0
+unit ntype
+  115 'C_R'
+vibration
+  3
+  114 116 217
+improper torsion
+  0
+unit ntype
+  116 'H_'
+vibration
+  1
+  115
+improper torsion
+  0
+unit ntype
+  117 'Zn_+2'
+vibration
+  4
+  37 118 216 242
+improper torsion
+  0
+unit ntype
+  118 'O_3'
+vibration
+  2
+  117 119
+improper torsion
+  0
+unit ntype
+  119 'C_R'
+vibration
+  3
+  118 120 183
+improper torsion
+  0
+unit ntype
+  120 'C_R'
+vibration
+  3
+  119 121 184
+improper torsion
+  0
+unit ntype
+  121 'C_R'
+vibration
+  3
+  120 122 220
+improper torsion
+  0
+unit ntype
+  122 'H_'
+vibration
+  1
+  121
+improper torsion
+  0
+unit ntype
+  123 'Zn_+2'
+vibration
+  4
+  44 124 219 328
+improper torsion
+  0
+unit ntype
+  124 'O_3'
+vibration
+  2
+  123 125
+improper torsion
+  0
+unit ntype
+  125 'C_R'
+vibration
+  3
+  124 126 186
+improper torsion
+  0
+unit ntype
+  126 'C_R'
+vibration
+  3
+  125 127 187
+improper torsion
+  0
+unit ntype
+  127 'C_R'
+vibration
+  3
+  126 128 202
+improper torsion
+  0
+unit ntype
+  128 'H_'
+vibration
+  1
+  127
+improper torsion
+  0
+unit ntype
+  129 'Zn_+2'
+vibration
+  4
+  51 130 201 231
+improper torsion
+  0
+unit ntype
+  130 'O_3'
+vibration
+  2
+  129 131
+improper torsion
+  0
+unit ntype
+  131 'C_R'
+vibration
+  3
+  130 132 177
+improper torsion
+  0
+unit ntype
+  132 'C_R'
+vibration
+  3
+  131 133 178
+improper torsion
+  0
+unit ntype
+  133 'C_R'
+vibration
+  3
+  132 134 223
+improper torsion
+  0
+unit ntype
+  134 'H_'
+vibration
+  1
+  133
+improper torsion
+  0
+unit ntype
+  135 'Zn_+2'
+vibration
+  4
+  16 136 207 322
+improper torsion
+  0
+unit ntype
+  136 'O_3'
+vibration
+  2
+  135 137
+improper torsion
+  0
+unit ntype
+  137 'C_R'
+vibration
+  3
+  136 138 192
+improper torsion
+  0
+unit ntype
+  138 'C_R'
+vibration
+  3
+  137 139 193
+improper torsion
+  0
+unit ntype
+  139 'C_R'
+vibration
+  3
+  138 140 205
+improper torsion
+  0
+unit ntype
+  140 'H_'
+vibration
+  1
+  139
+improper torsion
+  0
+unit ntype
+  141 'Zn_+2'
+vibration
+  4
+  23 142 210 253
+improper torsion
+  0
+unit ntype
+  142 'O_3'
+vibration
+  2
+  141 143
+improper torsion
+  0
+unit ntype
+  143 'C_R'
+vibration
+  3
+  142 144 195
+improper torsion
+  0
+unit ntype
+  144 'C_R'
+vibration
+  3
+  143 145 196
+improper torsion
+  0
+unit ntype
+  145 'C_R'
+vibration
+  3
+  144 146 208
+improper torsion
+  0
+unit ntype
+  146 'H_'
+vibration
+  1
+  145
+improper torsion
+  0
+unit ntype
+  147 'Zn_+2'
+vibration
+  4
+  9 148 204 264
+improper torsion
+  0
+unit ntype
+  148 'O_3'
+vibration
+  2
+  147 149
+improper torsion
+  0
+unit ntype
+  149 'C_R'
+vibration
+  3
+  148 150 189
+improper torsion
+  0
+unit ntype
+  150 'C_R'
+vibration
+  3
+  149 151 190
+improper torsion
+  0
+unit ntype
+  151 'C_R'
+vibration
+  3
+  150 152 214
+improper torsion
+  0
+unit ntype
+  152 'H_'
+vibration
+  1
+  151
+improper torsion
+  0
+unit ntype
+  153 'O_3'
+vibration
+  2
+  53 99
+improper torsion
+  0
+unit ntype
+  154 'C_R'
+vibration
+  3
+  20 54 155
+improper torsion
+  0
+unit ntype
+  155 'H_'
+vibration
+  1
+  154
+improper torsion
+  0
+unit ntype
+  156 'O_3'
+vibration
+  2
+  32 81
+improper torsion
+  0
+unit ntype
+  157 'C_R'
+vibration
+  3
+  27 33 158
+improper torsion
+  0
+unit ntype
+  158 'H_'
+vibration
+  1
+  157
+improper torsion
+  0
+unit ntype
+  159 'O_3'
+vibration
+  2
+  39 87
+improper torsion
+  0
+unit ntype
+  160 'C_R'
+vibration
+  3
+  6 40 161
+improper torsion
+  0
+unit ntype
+  161 'H_'
+vibration
+  1
+  160
+improper torsion
+  0
+unit ntype
+  162 'O_3'
+vibration
+  2
+  46 93
+improper torsion
+  0
+unit ntype
+  163 'C_R'
+vibration
+  3
+  13 47 164
+improper torsion
+  0
+unit ntype
+  164 'H_'
+vibration
+  1
+  163
+improper torsion
+  0
+unit ntype
+  165 'O_3'
+vibration
+  2
+  11 63
+improper torsion
+  0
+unit ntype
+  166 'C_R'
+vibration
+  3
+  12 48 167
+improper torsion
+  0
+unit ntype
+  167 'H_'
+vibration
+  1
+  166
+improper torsion
+  0
+unit ntype
+  168 'O_3'
+vibration
+  2
+  18 69
+improper torsion
+  0
+unit ntype
+  169 'C_R'
+vibration
+  3
+  19 55 170
+improper torsion
+  0
+unit ntype
+  170 'H_'
+vibration
+  1
+  169
+improper torsion
+  0
+unit ntype
+  171 'O_3'
+vibration
+  2
+  25 75
+improper torsion
+  0
+unit ntype
+  172 'C_R'
+vibration
+  3
+  26 34 173
+improper torsion
+  0
+unit ntype
+  173 'H_'
+vibration
+  1
+  172
+improper torsion
+  0
+unit ntype
+  174 'O_3'
+vibration
+  2
+  4 57
+improper torsion
+  0
+unit ntype
+  175 'C_R'
+vibration
+  3
+  5 41 176
+improper torsion
+  0
+unit ntype
+  176 'H_'
+vibration
+  1
+  175
+improper torsion
+  0
+unit ntype
+  177 'O_3'
+vibration
+  2
+  50 131
+improper torsion
+  0
+unit ntype
+  178 'C_R'
+vibration
+  3
+  85 132 179
+improper torsion
+  0
+unit ntype
+  179 'H_'
+vibration
+  1
+  178
+improper torsion
+  0
+unit ntype
+  180 'O_3'
+vibration
+  2
+  29 113
+improper torsion
+  0
+unit ntype
+  181 'C_R'
+vibration
+  3
+  91 114 182
+improper torsion
+  0
+unit ntype
+  182 'H_'
+vibration
+  1
+  181
+improper torsion
+  0
+unit ntype
+  183 'O_3'
+vibration
+  2
+  36 119
+improper torsion
+  0
+unit ntype
+  184 'C_R'
+vibration
+  3
+  97 120 185
+improper torsion
+  0
+unit ntype
+  185 'H_'
+vibration
+  1
+  184
+improper torsion
+  0
+unit ntype
+  186 'O_3'
+vibration
+  2
+  43 125
+improper torsion
+  0
+unit ntype
+  187 'C_R'
+vibration
+  3
+  103 126 188
+improper torsion
+  0
+unit ntype
+  188 'H_'
+vibration
+  1
+  187
+improper torsion
+  0
+unit ntype
+  189 'O_3'
+vibration
+  2
+  8 149
+improper torsion
+  0
+unit ntype
+  190 'C_R'
+vibration
+  3
+  61 150 191
+improper torsion
+  0
+unit ntype
+  191 'H_'
+vibration
+  1
+  190
+improper torsion
+  0
+unit ntype
+  192 'O_3'
+vibration
+  2
+  15 137
+improper torsion
+  0
+unit ntype
+  193 'C_R'
+vibration
+  3
+  67 138 194
+improper torsion
+  0
+unit ntype
+  194 'H_'
+vibration
+  1
+  193
+improper torsion
+  0
+unit ntype
+  195 'O_3'
+vibration
+  2
+  22 143
+improper torsion
+  0
+unit ntype
+  196 'C_R'
+vibration
+  3
+  73 144 197
+improper torsion
+  0
+unit ntype
+  197 'H_'
+vibration
+  1
+  196
+improper torsion
+  0
+unit ntype
+  198 'O_3'
+vibration
+  2
+  1 107
+improper torsion
+  0
+unit ntype
+  199 'C_R'
+vibration
+  3
+  79 108 200
+improper torsion
+  0
+unit ntype
+  200 'H_'
+vibration
+  1
+  199
+improper torsion
+  0
+unit ntype
+  201 'O_3'
+vibration
+  2
+  101 129
+improper torsion
+  0
+unit ntype
+  202 'C_R'
+vibration
+  3
+  102 127 203
+improper torsion
+  0
+unit ntype
+  203 'H_'
+vibration
+  1
+  202
+improper torsion
+  0
+unit ntype
+  204 'O_3'
+vibration
+  2
+  65 147
+improper torsion
+  0
+unit ntype
+  205 'C_R'
+vibration
+  3
+  66 139 206
+improper torsion
+  0
+unit ntype
+  206 'H_'
+vibration
+  1
+  205
+improper torsion
+  0
+unit ntype
+  207 'O_3'
+vibration
+  2
+  71 135
+improper torsion
+  0
+unit ntype
+  208 'C_R'
+vibration
+  3
+  72 145 209
+improper torsion
+  0
+unit ntype
+  209 'H_'
+vibration
+  1
+  208
+improper torsion
+  0
+unit ntype
+  210 'O_3'
+vibration
+  2
+  77 141
+improper torsion
+  0
+unit ntype
+  211 'C_R'
+vibration
+  3
+  78 109 212
+improper torsion
+  0
+unit ntype
+  212 'H_'
+vibration
+  1
+  211
+improper torsion
+  0
+unit ntype
+  213 'O_3'
+vibration
+  2
+  59 105
+improper torsion
+  0
+unit ntype
+  214 'C_R'
+vibration
+  3
+  60 151 215
+improper torsion
+  0
+unit ntype
+  215 'H_'
+vibration
+  1
+  214
+improper torsion
+  0
+unit ntype
+  216 'O_3'
+vibration
+  2
+  89 117
+improper torsion
+  0
+unit ntype
+  217 'C_R'
+vibration
+  3
+  90 115 218
+improper torsion
+  0
+unit ntype
+  218 'H_'
+vibration
+  1
+  217
+improper torsion
+  0
+unit ntype
+  219 'O_3'
+vibration
+  2
+  95 123
+improper torsion
+  0
+unit ntype
+  220 'C_R'
+vibration
+  3
+  96 121 221
+improper torsion
+  0
+unit ntype
+  221 'H_'
+vibration
+  1
+  220
+improper torsion
+  0
+unit ntype
+  222 'O_3'
+vibration
+  2
+  83 111
+improper torsion
+  0
+unit ntype
+  223 'C_R'
+vibration
+  3
+  84 133 224
+improper torsion
+  0
+unit ntype
+  224 'H_'
+vibration
+  1
+  223
+improper torsion
+  0
+unit ntype
+  225 'Zn_+2'
+vibration
+  4
+  30 226 346 366
+improper torsion
+  0
+unit ntype
+  226 'O_3'
+vibration
+  2
+  225 227
+improper torsion
+  0
+unit ntype
+  227 'C_R'
+vibration
+  3
+  226 228 334
+improper torsion
+  0
+unit ntype
+  228 'C_R'
+vibration
+  3
+  227 229 335
+improper torsion
+  0
+unit ntype
+  229 'C_R'
+vibration
+  3
+  228 230 320
+improper torsion
+  0
+unit ntype
+  230 'H_'
+vibration
+  1
+  229
+improper torsion
+  0
+unit ntype
+  231 'O_3'
+vibration
+  2
+  129 232
+improper torsion
+  0
+unit ntype
+  232 'C_R'
+vibration
+  3
+  231 233 325
+improper torsion
+  0
+unit ntype
+  233 'C_R'
+vibration
+  3
+  232 234 326
+improper torsion
+  0
+unit ntype
+  234 'C_R'
+vibration
+  3
+  233 235 323
+improper torsion
+  0
+unit ntype
+  235 'H_'
+vibration
+  1
+  234
+improper torsion
+  0
+unit ntype
+  236 'Zn_+2'
+vibration
+  4
+  44 237 343 361
+improper torsion
+  0
+unit ntype
+  237 'O_3'
+vibration
+  2
+  236 238
+improper torsion
+  0
+unit ntype
+  238 'C_R'
+vibration
+  3
+  237 239 328
+improper torsion
+  0
+unit ntype
+  239 'C_R'
+vibration
+  3
+  238 240 329
+improper torsion
+  0
+unit ntype
+  240 'C_R'
+vibration
+  3
+  239 241 314
+improper torsion
+  0
+unit ntype
+  241 'H_'
+vibration
+  1
+  240
+improper torsion
+  0
+unit ntype
+  242 'O_3'
+vibration
+  2
+  117 243
+improper torsion
+  0
+unit ntype
+  243 'C_R'
+vibration
+  3
+  242 244 331
+improper torsion
+  0
+unit ntype
+  244 'C_R'
+vibration
+  3
+  243 245 332
+improper torsion
+  0
+unit ntype
+  245 'C_R'
+vibration
+  3
+  244 246 317
+improper torsion
+  0
+unit ntype
+  246 'H_'
+vibration
+  1
+  245
+improper torsion
+  0
+unit ntype
+  247 'Zn_+2'
+vibration
+  4
+  2 248 337 376
+improper torsion
+  0
+unit ntype
+  248 'O_3'
+vibration
+  2
+  247 249
+improper torsion
+  0
+unit ntype
+  249 'C_R'
+vibration
+  3
+  248 250 316
+improper torsion
+  0
+unit ntype
+  250 'C_R'
+vibration
+  3
+  249 251 317
+improper torsion
+  0
+unit ntype
+  251 'C_R'
+vibration
+  3
+  250 252 332
+improper torsion
+  0
+unit ntype
+  252 'H_'
+vibration
+  1
+  251
+improper torsion
+  0
+unit ntype
+  253 'O_3'
+vibration
+  2
+  141 254
+improper torsion
+  0
+unit ntype
+  254 'C_R'
+vibration
+  3
+  253 255 319
+improper torsion
+  0
+unit ntype
+  255 'C_R'
+vibration
+  3
+  254 256 320
+improper torsion
+  0
+unit ntype
+  256 'C_R'
+vibration
+  3
+  255 257 335
+improper torsion
+  0
+unit ntype
+  257 'H_'
+vibration
+  1
+  256
+improper torsion
+  0
+unit ntype
+  258 'Zn_+2'
+vibration
+  4
+  16 259 340 371
+improper torsion
+  0
+unit ntype
+  259 'O_3'
+vibration
+  2
+  258 260
+improper torsion
+  0
+unit ntype
+  260 'C_R'
+vibration
+  3
+  259 261 322
+improper torsion
+  0
+unit ntype
+  261 'C_R'
+vibration
+  3
+  260 262 323
+improper torsion
+  0
+unit ntype
+  262 'C_R'
+vibration
+  3
+  261 263 326
+improper torsion
+  0
+unit ntype
+  263 'H_'
+vibration
+  1
+  262
+improper torsion
+  0
+unit ntype
+  264 'O_3'
+vibration
+  2
+  147 265
+improper torsion
+  0
+unit ntype
+  265 'C_R'
+vibration
+  3
+  264 266 313
+improper torsion
+  0
+unit ntype
+  266 'C_R'
+vibration
+  3
+  265 267 314
+improper torsion
+  0
+unit ntype
+  267 'C_R'
+vibration
+  3
+  266 268 329
+improper torsion
+  0
+unit ntype
+  268 'H_'
+vibration
+  1
+  267
+improper torsion
+  0
+unit ntype
+  269 'Zn_+2'
+vibration
+  4
+  51 270 325 410
+improper torsion
+  0
+unit ntype
+  270 'O_3'
+vibration
+  2
+  269 271
+improper torsion
+  0
+unit ntype
+  271 'C_R'
+vibration
+  3
+  270 272 352
+improper torsion
+  0
+unit ntype
+  272 'C_R'
+vibration
+  3
+  271 273 353
+improper torsion
+  0
+unit ntype
+  273 'C_R'
+vibration
+  3
+  272 274 344
+improper torsion
+  0
+unit ntype
+  274 'H_'
+vibration
+  1
+  273
+improper torsion
+  0
+unit ntype
+  275 'Zn_+2'
+vibration
+  4
+  37 276 331 407
+improper torsion
+  0
+unit ntype
+  276 'O_3'
+vibration
+  2
+  275 277
+improper torsion
+  0
+unit ntype
+  277 'C_R'
+vibration
+  3
+  276 278 355
+improper torsion
+  0
+unit ntype
+  278 'C_R'
+vibration
+  3
+  277 279 356
+improper torsion
+  0
+unit ntype
+  279 'C_R'
+vibration
+  3
+  278 280 347
+improper torsion
+  0
+unit ntype
+  280 'H_'
+vibration
+  1
+  279
+improper torsion
+  0
+unit ntype
+  281 'Zn_+2'
+vibration
+  4
+  23 282 319 401
+improper torsion
+  0
+unit ntype
+  282 'O_3'
+vibration
+  2
+  281 283
+improper torsion
+  0
+unit ntype
+  283 'C_R'
+vibration
+  3
+  282 284 358
+improper torsion
+  0
+unit ntype
+  284 'C_R'
+vibration
+  3
+  283 285 359
+improper torsion
+  0
+unit ntype
+  285 'C_R'
+vibration
+  3
+  284 286 338
+improper torsion
+  0
+unit ntype
+  286 'H_'
+vibration
+  1
+  285
+improper torsion
+  0
+unit ntype
+  287 'Zn_+2'
+vibration
+  4
+  9 288 313 404
+improper torsion
+  0
+unit ntype
+  288 'O_3'
+vibration
+  2
+  287 289
+improper torsion
+  0
+unit ntype
+  289 'C_R'
+vibration
+  3
+  288 290 349
+improper torsion
+  0
+unit ntype
+  290 'C_R'
+vibration
+  3
+  289 291 350
+improper torsion
+  0
+unit ntype
+  291 'C_R'
+vibration
+  3
+  290 292 341
+improper torsion
+  0
+unit ntype
+  292 'H_'
+vibration
+  1
+  291
+improper torsion
+  0
+unit ntype
+  293 'O_3'
+vibration
+  2
+  81 294
+improper torsion
+  0
+unit ntype
+  294 'C_R'
+vibration
+  3
+  293 295 346
+improper torsion
+  0
+unit ntype
+  295 'C_R'
+vibration
+  3
+  294 296 347
+improper torsion
+  0
+unit ntype
+  296 'C_R'
+vibration
+  3
+  295 297 356
+improper torsion
+  0
+unit ntype
+  297 'H_'
+vibration
+  1
+  296
+improper torsion
+  0
+unit ntype
+  298 'O_3'
+vibration
+  2
+  57 299
+improper torsion
+  0
+unit ntype
+  299 'C_R'
+vibration
+  3
+  298 300 337
+improper torsion
+  0
+unit ntype
+  300 'C_R'
+vibration
+  3
+  299 301 338
+improper torsion
+  0
+unit ntype
+  301 'C_R'
+vibration
+  3
+  300 302 359
+improper torsion
+  0
+unit ntype
+  302 'H_'
+vibration
+  1
+  301
+improper torsion
+  0
+unit ntype
+  303 'O_3'
+vibration
+  2
+  69 304
+improper torsion
+  0
+unit ntype
+  304 'C_R'
+vibration
+  3
+  303 305 340
+improper torsion
+  0
+unit ntype
+  305 'C_R'
+vibration
+  3
+  304 306 341
+improper torsion
+  0
+unit ntype
+  306 'C_R'
+vibration
+  3
+  305 307 350
+improper torsion
+  0
+unit ntype
+  307 'H_'
+vibration
+  1
+  306
+improper torsion
+  0
+unit ntype
+  308 'O_3'
+vibration
+  2
+  93 309
+improper torsion
+  0
+unit ntype
+  309 'C_R'
+vibration
+  3
+  308 310 343
+improper torsion
+  0
+unit ntype
+  310 'C_R'
+vibration
+  3
+  309 311 344
+improper torsion
+  0
+unit ntype
+  311 'C_R'
+vibration
+  3
+  310 312 353
+improper torsion
+  0
+unit ntype
+  312 'H_'
+vibration
+  1
+  311
+improper torsion
+  0
+unit ntype
+  313 'O_3'
+vibration
+  2
+  265 287
+improper torsion
+  0
+unit ntype
+  314 'C_R'
+vibration
+  3
+  240 266 315
+improper torsion
+  0
+unit ntype
+  315 'H_'
+vibration
+  1
+  314
+improper torsion
+  0
+unit ntype
+  316 'O_3'
+vibration
+  2
+  105 249
+improper torsion
+  0
+unit ntype
+  317 'C_R'
+vibration
+  3
+  245 250 318
+improper torsion
+  0
+unit ntype
+  318 'H_'
+vibration
+  1
+  317
+improper torsion
+  0
+unit ntype
+  319 'O_3'
+vibration
+  2
+  254 281
+improper torsion
+  0
+unit ntype
+  320 'C_R'
+vibration
+  3
+  229 255 321
+improper torsion
+  0
+unit ntype
+  321 'H_'
+vibration
+  1
+  320
+improper torsion
+  0
+unit ntype
+  322 'O_3'
+vibration
+  2
+  135 260
+improper torsion
+  0
+unit ntype
+  323 'C_R'
+vibration
+  3
+  234 261 324
+improper torsion
+  0
+unit ntype
+  324 'H_'
+vibration
+  1
+  323
+improper torsion
+  0
+unit ntype
+  325 'O_3'
+vibration
+  2
+  232 269
+improper torsion
+  0
+unit ntype
+  326 'C_R'
+vibration
+  3
+  233 262 327
+improper torsion
+  0
+unit ntype
+  327 'H_'
+vibration
+  1
+  326
+improper torsion
+  0
+unit ntype
+  328 'O_3'
+vibration
+  2
+  123 238
+improper torsion
+  0
+unit ntype
+  329 'C_R'
+vibration
+  3
+  239 267 330
+improper torsion
+  0
+unit ntype
+  330 'H_'
+vibration
+  1
+  329
+improper torsion
+  0
+unit ntype
+  331 'O_3'
+vibration
+  2
+  243 275
+improper torsion
+  0
+unit ntype
+  332 'C_R'
+vibration
+  3
+  244 251 333
+improper torsion
+  0
+unit ntype
+  333 'H_'
+vibration
+  1
+  332
+improper torsion
+  0
+unit ntype
+  334 'O_3'
+vibration
+  2
+  111 227
+improper torsion
+  0
+unit ntype
+  335 'C_R'
+vibration
+  3
+  228 256 336
+improper torsion
+  0
+unit ntype
+  336 'H_'
+vibration
+  1
+  335
+improper torsion
+  0
+unit ntype
+  337 'O_3'
+vibration
+  2
+  247 299
+improper torsion
+  0
+unit ntype
+  338 'C_R'
+vibration
+  3
+  285 300 339
+improper torsion
+  0
+unit ntype
+  339 'H_'
+vibration
+  1
+  338
+improper torsion
+  0
+unit ntype
+  340 'O_3'
+vibration
+  2
+  258 304
+improper torsion
+  0
+unit ntype
+  341 'C_R'
+vibration
+  3
+  291 305 342
+improper torsion
+  0
+unit ntype
+  342 'H_'
+vibration
+  1
+  341
+improper torsion
+  0
+unit ntype
+  343 'O_3'
+vibration
+  2
+  236 309
+improper torsion
+  0
+unit ntype
+  344 'C_R'
+vibration
+  3
+  273 310 345
+improper torsion
+  0
+unit ntype
+  345 'H_'
+vibration
+  1
+  344
+improper torsion
+  0
+unit ntype
+  346 'O_3'
+vibration
+  2
+  225 294
+improper torsion
+  0
+unit ntype
+  347 'C_R'
+vibration
+  3
+  279 295 348
+improper torsion
+  0
+unit ntype
+  348 'H_'
+vibration
+  1
+  347
+improper torsion
+  0
+unit ntype
+  349 'O_3'
+vibration
+  2
+  8 289
+improper torsion
+  0
+unit ntype
+  350 'C_R'
+vibration
+  3
+  290 306 351
+improper torsion
+  0
+unit ntype
+  351 'H_'
+vibration
+  1
+  350
+improper torsion
+  0
+unit ntype
+  352 'O_3'
+vibration
+  2
+  50 271
+improper torsion
+  0
+unit ntype
+  353 'C_R'
+vibration
+  3
+  272 311 354
+improper torsion
+  0
+unit ntype
+  354 'H_'
+vibration
+  1
+  353
+improper torsion
+  0
+unit ntype
+  355 'O_3'
+vibration
+  2
+  36 277
+improper torsion
+  0
+unit ntype
+  356 'C_R'
+vibration
+  3
+  278 296 357
+improper torsion
+  0
+unit ntype
+  357 'H_'
+vibration
+  1
+  356
+improper torsion
+  0
+unit ntype
+  358 'O_3'
+vibration
+  2
+  22 283
+improper torsion
+  0
+unit ntype
+  359 'C_R'
+vibration
+  3
+  284 301 360
+improper torsion
+  0
+unit ntype
+  360 'H_'
+vibration
+  1
+  359
+improper torsion
+  0
+unit ntype
+  361 'O_3'
+vibration
+  2
+  236 362
+improper torsion
+  0
+unit ntype
+  362 'C_R'
+vibration
+  3
+  361 363 416
+improper torsion
+  0
+unit ntype
+  363 'C_R'
+vibration
+  3
+  362 364 417
+improper torsion
+  0
+unit ntype
+  364 'C_R'
+vibration
+  3
+  363 365 408
+improper torsion
+  0
+unit ntype
+  365 'H_'
+vibration
+  1
+  364
+improper torsion
+  0
+unit ntype
+  366 'O_3'
+vibration
+  2
+  225 367
+improper torsion
+  0
+unit ntype
+  367 'C_R'
+vibration
+  3
+  366 368 413
+improper torsion
+  0
+unit ntype
+  368 'C_R'
+vibration
+  3
+  367 369 414
+improper torsion
+  0
+unit ntype
+  369 'C_R'
+vibration
+  3
+  368 370 411
+improper torsion
+  0
+unit ntype
+  370 'H_'
+vibration
+  1
+  369
+improper torsion
+  0
+unit ntype
+  371 'O_3'
+vibration
+  2
+  258 372
+improper torsion
+  0
+unit ntype
+  372 'C_R'
+vibration
+  3
+  371 373 422
+improper torsion
+  0
+unit ntype
+  373 'C_R'
+vibration
+  3
+  372 374 423
+improper torsion
+  0
+unit ntype
+  374 'C_R'
+vibration
+  3
+  373 375 402
+improper torsion
+  0
+unit ntype
+  375 'H_'
+vibration
+  1
+  374
+improper torsion
+  0
+unit ntype
+  376 'O_3'
+vibration
+  2
+  247 377
+improper torsion
+  0
+unit ntype
+  377 'C_R'
+vibration
+  3
+  376 378 419
+improper torsion
+  0
+unit ntype
+  378 'C_R'
+vibration
+  3
+  377 379 420
+improper torsion
+  0
+unit ntype
+  379 'C_R'
+vibration
+  3
+  378 380 405
+improper torsion
+  0
+unit ntype
+  380 'H_'
+vibration
+  1
+  379
+improper torsion
+  0
+unit ntype
+  381 'O_3'
+vibration
+  2
+  63 382
+improper torsion
+  0
+unit ntype
+  382 'C_R'
+vibration
+  3
+  381 383 404
+improper torsion
+  0
+unit ntype
+  383 'C_R'
+vibration
+  3
+  382 384 405
+improper torsion
+  0
+unit ntype
+  384 'C_R'
+vibration
+  3
+  383 385 420
+improper torsion
+  0
+unit ntype
+  385 'H_'
+vibration
+  1
+  384
+improper torsion
+  0
+unit ntype
+  386 'O_3'
+vibration
+  2
+  75 387
+improper torsion
+  0
+unit ntype
+  387 'C_R'
+vibration
+  3
+  386 388 401
+improper torsion
+  0
+unit ntype
+  388 'C_R'
+vibration
+  3
+  387 389 402
+improper torsion
+  0
+unit ntype
+  389 'C_R'
+vibration
+  3
+  388 390 423
+improper torsion
+  0
+unit ntype
+  390 'H_'
+vibration
+  1
+  389
+improper torsion
+  0
+unit ntype
+  391 'O_3'
+vibration
+  2
+  99 392
+improper torsion
+  0
+unit ntype
+  392 'C_R'
+vibration
+  3
+  391 393 410
+improper torsion
+  0
+unit ntype
+  393 'C_R'
+vibration
+  3
+  392 394 411
+improper torsion
+  0
+unit ntype
+  394 'C_R'
+vibration
+  3
+  393 395 414
+improper torsion
+  0
+unit ntype
+  395 'H_'
+vibration
+  1
+  394
+improper torsion
+  0
+unit ntype
+  396 'O_3'
+vibration
+  2
+  87 397
+improper torsion
+  0
+unit ntype
+  397 'C_R'
+vibration
+  3
+  396 398 407
+improper torsion
+  0
+unit ntype
+  398 'C_R'
+vibration
+  3
+  397 399 408
+improper torsion
+  0
+unit ntype
+  399 'C_R'
+vibration
+  3
+  398 400 417
+improper torsion
+  0
+unit ntype
+  400 'H_'
+vibration
+  1
+  399
+improper torsion
+  0
+unit ntype
+  401 'O_3'
+vibration
+  2
+  281 387
+improper torsion
+  0
+unit ntype
+  402 'C_R'
+vibration
+  3
+  374 388 403
+improper torsion
+  0
+unit ntype
+  403 'H_'
+vibration
+  1
+  402
+improper torsion
+  0
+unit ntype
+  404 'O_3'
+vibration
+  2
+  287 382
+improper torsion
+  0
+unit ntype
+  405 'C_R'
+vibration
+  3
+  379 383 406
+improper torsion
+  0
+unit ntype
+  406 'H_'
+vibration
+  1
+  405
+improper torsion
+  0
+unit ntype
+  407 'O_3'
+vibration
+  2
+  275 397
+improper torsion
+  0
+unit ntype
+  408 'C_R'
+vibration
+  3
+  364 398 409
+improper torsion
+  0
+unit ntype
+  409 'H_'
+vibration
+  1
+  408
+improper torsion
+  0
+unit ntype
+  410 'O_3'
+vibration
+  2
+  269 392
+improper torsion
+  0
+unit ntype
+  411 'C_R'
+vibration
+  3
+  369 393 412
+improper torsion
+  0
+unit ntype
+  412 'H_'
+vibration
+  1
+  411
+improper torsion
+  0
+unit ntype
+  413 'O_3'
+vibration
+  2
+  29 367
+improper torsion
+  0
+unit ntype
+  414 'C_R'
+vibration
+  3
+  368 394 415
+improper torsion
+  0
+unit ntype
+  415 'H_'
+vibration
+  1
+  414
+improper torsion
+  0
+unit ntype
+  416 'O_3'
+vibration
+  2
+  43 362
+improper torsion
+  0
+unit ntype
+  417 'C_R'
+vibration
+  3
+  363 399 418
+improper torsion
+  0
+unit ntype
+  418 'H_'
+vibration
+  1
+  417
+improper torsion
+  0
+unit ntype
+  419 'O_3'
+vibration
+  2
+  1 377
+improper torsion
+  0
+unit ntype
+  420 'C_R'
+vibration
+  3
+  378 384 421
+improper torsion
+  0
+unit ntype
+  421 'H_'
+vibration
+  1
+  420
+improper torsion
+  0
+unit ntype
+  422 'O_3'
+vibration
+  2
+  15 372
+improper torsion
+  0
+unit ntype
+  423 'C_R'
+vibration
+  3
+  373 389 424
+improper torsion
+  0
+unit ntype
+  424 'H_'
+vibration
+  1
+  423
+improper torsion
+  0
+## CO2
+input_style
+'basic connectivity map'
+nunit 
+3
+nmaxcbmc 
+3
+lpdbnames 
+.FALSE.
+forcefield
+'DREIDING'
+charge_assignment
+'none'
+unit ntype
+  1 'C_1'
+vibration
+  2
+  2 3
+improper torsion
+  0
+unit ntype
+  2 'O_1'
+vibration
+  1
+  1
+improper torsion
+  0
+unit ntype
+  3 'O_1'
+vibration
+  1
+  1
+improper torsion
+  0
