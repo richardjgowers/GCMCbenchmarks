@@ -26,5 +26,5 @@ CO2
 move rotatemol   1 25
 CO2
 move gcinsertmol 1 50 1.0  # atom types, freq, overlap distance
-CO2 0.002
+CO2 {pressure}
 start
