@@ -1,0 +1,3 @@
+#! /bin/sh -f
+export RASPA_DIR=/exports/csce/eddie/eng/groups/eddie_see_imp_bio/Amir/Results_RASPA/RASPA/simulations
+$RASPA_DIR/bin/simulate $1

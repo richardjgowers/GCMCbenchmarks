@@ -1,0 +1,10 @@
+RASPA Simulation notes
+----------------------
+
+
+Simulations were performed using version 2.0 of Raspa
+
+
+Raspa allows a grid to be used to calculate fluid-framework interactions.
+The input files to generate this grid are in the XXXXX directory.
+Benchmarks were performed with and without this grid.
