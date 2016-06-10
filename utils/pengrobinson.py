@@ -1,7 +1,33 @@
+"""Useful functions for dealing with gases
+
+## Finding the chemical potential for a given set of conditions:
+from co2 import Pc, Tc, omega, m
+
+P = 10000
+T = 208.0
+
+phi = fugacity_coeff(P, T, Pc, Tc, omega)
+f = P * phi
+
+lambda = debroglie(m, T)
+
+mu = chempot(f, T, lambda)
+  
+
+"""
+from __future__ import division
+
 import numpy as np
-from scipy.constants import R  # gas constant
+from scipy.constants import (
+    R,  # gas constant (J/mol/K)
+    k,  # Boltzmann (J/K)
+    h,  # Planck (J s)
+    m_u,  # Atomic mass (kg)
+    N_A,  # Avagadro
+)
 
 
+# Peng Robinson EOS
 def calc_A(P, T, Pc, Tc, omega):
     ret = P / R**2 / T**2
     ret *= 0.47724 * R**2 * Tc ** 2 / Pc
@@ -37,13 +63,13 @@ def find_Z(P, T, Pc, Tc, omega):
     return [r for r in rts if np.isreal(r)][0].real
 
 
-def calc_fugacity_coeff(P, T, Pc, Tc, omega):
-    """Find the fugacity coefficient
+def fugacity_coeff(P, T, Pc, Tc, omega):
+    """Find the fugacity coefficient according to Peng-Robinson EoS
 
     P, Pc
-      system pressure and critical pressure in Pa
+      system pressure and critical pressure (Pa)
     T, Tc
-      system temperature and critical temperature in K
+      system temperature and critical temperature (K)
     omega
       acentric factor
     """
@@ -58,3 +84,24 @@ def calc_fugacity_coeff(P, T, Pc, Tc, omega):
     lnP -=  A/(2 * rt2 * B) * ln((Z + (1 + rt2) * B)/(Z + (1 - rt2) * B))
 
     return np.exp(lnP)
+
+
+def debroglie(m, T):
+    """De Broglie wavelength of particle in *m*
+
+    m : mass (A.M.U (ie carbon=12))
+    T : temperature (K)
+    """
+    p = np.sqrt(3 * k * m * m_u * T)
+    return h / p
+
+
+def chempot(f, T, db):
+    """Chemical potential in *J/mol*
+    
+    f : fugacity (Pa)
+    T : temperature (K)
+    db : de Broglie wavelength (m)
+    """
+    beta = k * T
+    return np.log(beta * f * db ** 3)/ beta / N_A
