@@ -1,4 +1,4 @@
-! This is the input file for a short GCMC simulation of N2 in Silicalite at 77.0 K.
+! CO2 in IRMOF
 
 # Run_Name
 nitrogen_IRMOF
@@ -13,7 +13,7 @@ GCMC
 !----------------
 
 # VDW_Style
-LJ cut_tail 6.0
+LJ cut_tail 25.0
 !----------------
 
 # Charge_Style
@@ -23,12 +23,24 @@ NONE ! coul Ewald 6.0 1E-5
 # Intra_Scaling
 0.0  0.0  0.0  0.0
 0.0  0.0  0.0  0.0
-0.0  0.0  0.0  1.0
+0.0  0.0  0.0  0.0
 0.0  0.0  0.0  1.0
 !------------------
 
 # Mixing_Rule
-LB
+custom
+! a b epsilon sigma
+Zn_s1  C_s2  27.35 3.42
+Zn_s1  O_s2  46.78 3.55
+O_s1   C_s2  36.07 2.92
+O_s1   O_s2  61.70 3.04
+C_s1   C_s2  35.96 3.32
+C_s1   O_s2  61.51 3.26
+H_s1   C_s2  14.38 2.82
+H_s1   O_s2  24.59 2.95
+O_s2 O_s2    79.0  3.05
+O_s2 C_s2    46.18 2.93
+C_s2 C_s2    27.0  2.80
 !----------------
 
 # Seed_Info
@@ -56,11 +68,11 @@ ORTHOGONAL
 !-------------------------
 
 # Temperature_Info
-77.0 
+208.0
 !------------------
 
 # Chemical_Potential_Info
--10.0
+{chempot}
 !------------------------
 
 
