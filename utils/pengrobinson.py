@@ -87,12 +87,12 @@ def fugacity_coeff(P, T, Pc, Tc, omega):
 
 
 def debroglie(m, T):
-    """De Broglie wavelength of particle in *m*
+    """Thermal De Broglie wavelength of particle in *m*
 
-    m : mass (A.M.U (ie carbon=12))
+    m : mass (A.M.U. (ie carbon=12))
     T : temperature (K)
     """
-    p = np.sqrt(3 * k * m * m_u * T)
+    p = np.sqrt(2 * np.pi * k * m * m_u * T)
     return h / p
 
 
@@ -103,5 +103,5 @@ def chempot(f, T, db):
     T : temperature (K)
     db : de Broglie wavelength (m)
     """
-    beta = k * T
-    return np.log(beta * f * db ** 3)/ beta / N_A
+    beta = 1 / (k * T)
+    return np.log(beta * f * db ** 3) / beta
