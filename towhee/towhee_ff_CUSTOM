@@ -1,0 +1,227 @@
+towhee_ff Version
+          15
+Number of Nonbonded Types
+          6
+Potential Type
+Lennard-Jones                 
+Classical Mixrule
+Explicit
+Atom Type Number
+           1
+Nonbond Coefficients  # Znmof (itself)
+    0.0000000000E+00
+    0.0000000000E+00
+    0.0000000000E+00
+    0.0000000000E+00
+Nonbond Coefficients  # Omof
+    0.0000000000E+00
+    0.0000000000E+00
+    0.0000000000E+00
+    0.0000000000E+00
+Nonbond Coefficients  # Cmof
+    0.0000000000E+00
+    0.0000000000E+00
+    0.0000000000E+00
+    0.0000000000E+00
+Nonbond Coefficients  # Hmof
+    0.0000000000E+00
+    0.0000000000E+00
+    0.0000000000E+00
+    0.0000000000E+00
+Nonbond Coefficients  # Oco2
+    0.3550000000E+01
+    0.4678000000E+02
+    0.0000000000E+00
+    0.0000000000E+00
+Nonbond Coefficients  # Cco2
+    0.3420000000E+01
+    0.2735000000E+02
+    0.0000000000E+00
+    0.0000000000E+00
+Mass
+    0.6538000000E+02
+Element
+    Zn
+Bond Pattern
+    Null
+Base Charge
+    0.0000000000E+00
+Polarizability
+    0.0000000000E+00
+Force Field Name
+    IRMOF
+Atom Names
+    Zn
+    Zn
+    Zn
+    Zn
+Atom Type Number
+           2
+Nonbond Coefficients  # Omof (itself)
+    0.0000000000E+00
+    0.0000000000E+00
+    0.0000000000E+00
+    0.0000000000E+00
+Nonbond Coefficients  # Cmof
+    0.0000000000E+00
+    0.0000000000E+00
+    0.0000000000E+00
+    0.0000000000E+00
+Nonbond Coefficients  # Hmof
+    0.0000000000E+00
+    0.0000000000E+00
+    0.0000000000E+00
+    0.0000000000E+00
+Nonbond Coefficients  # Oco2
+    0.3040000000E+01
+    0.6170000000E+02
+    0.0000000000E+00
+    0.0000000000E+00
+Nonbond Coefficients  # Cco2
+    0.2920000000E+01
+    0.3607000000E+02
+    0.0000000000E+00
+    0.0000000000E+00
+Mass
+    0.1599900000E+02
+Element
+    O
+Bond Pattern
+    Null
+Base Charge
+    0.0000000000E+00
+Polarizability
+    0.0000000000E+00
+Force Field Name
+    IRMOF
+Atom Names
+    O
+    O
+    O
+    O
+Atom Type Number
+           3
+Nonbond Coefficients  # Cmof (itself)
+    0.0000000000E+00
+    0.0000000000E+00
+    0.0000000000E+00
+    0.0000000000E+00
+Nonbond Coefficients  # Hmof
+    0.0000000000E+00
+    0.0000000000E+00
+    0.0000000000E+00
+    0.0000000000E+00
+Nonbond Coefficients  # Oco2
+    0.3260000000E+01
+    0.6151000000E+02
+    0.0000000000E+00
+    0.0000000000E+00
+Nonbond Coefficients  # Cco2
+    0.3320000000E+01
+    0.3596000000E+02
+    0.0000000000E+00
+    0.0000000000E+00
+Mass
+    0.1201100000E+02
+Element
+    C
+Bond Pattern
+    Null
+Base Charge
+    0.0000000000E+00
+Polarizability
+    0.0000000000E+00
+Force Field Name
+    IRMOF
+Atom Names
+    C
+    C
+    C
+    C
+Atom Type Number
+           4
+Nonbond Coefficients  # Hmof (itself)
+    0.0000000000E+00
+    0.0000000000E+00
+    0.0000000000E+00
+    0.0000000000E+00
+Nonbond Coefficients  # Oco2
+    0.2950000000E+01
+    0.2459000000E+02
+    0.0000000000E+00
+    0.0000000000E+00
+Nonbond Coefficients  # Cco2
+    0.2820000000E+01
+    0.1438000000E+02
+    0.0000000000E+00
+    0.0000000000E+00
+Mass
+    0.1007900000E+01
+Element
+    H
+Bond Pattern
+    Null
+Base Charge
+    0.0000000000E+00
+Polarizability
+    0.0000000000E+00
+Force Field Name
+    IRMOF
+Atom Names
+    H
+    H
+    H
+    H
+Atom Type Number
+           5
+Nonbond Coefficients  # Oco2 (itself)
+    0.3050000000E+01
+    0.7900000000E+02
+    0.0000000000E+00
+    0.0000000000E+00
+Nonbond Coefficients  # Cco2
+    0.2930000000E+01
+    0.4618000000E+02
+    0.0000000000E+00
+    0.0000000000E+00
+Mass
+    0.1599900000E+02
+Element
+    O
+Bond Pattern
+    Null
+Base Charge
+    0.0000000000E+00
+Polarizability
+    0.0000000000E+00
+Force Field Name
+    IRMOF
+Atom Names
+    Oco2
+    Oco2
+    Oco2
+    Oco2
+Atom Type Number
+           6
+Nonbond Coefficients  # Cco2 (itself)
+    0.2800000000E+01
+    0.2700000000E+02
+    0.0000000000E+00
+    0.0000000000E+00
+Mass
+    0.1201100000E+02
+Element
+    C
+Bond Pattern
+    Null
+Base Charge
+    0.0000000000E+00
+Polarizability
+    0.0000000000E+00
+Force Field Name
+    IRMOF
+Atom Names
+    Cco2
+    Cco2
+    Cco2
+    Cco2
