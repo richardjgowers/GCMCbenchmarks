@@ -3,13 +3,13 @@ inputformat
 ensemble
 'uvt'
 temperature
-298.0d0
+208.0d0
 nmolty
 2
 nmolectyp
-1 1000
+1 1500
 chempot
-0.0 0.0
+0.0 {chempot}
 numboxes
 1
 stepstyle
@@ -35,9 +35,9 @@ ltailc
 rmin
 1.0d0 
 rcut
-12.8d0
+25.0d0
 rcutin
-12.8d0 
+25.0d0 
 electrostatic_form
 'none'
 linit
@@ -53,19 +53,18 @@ initmol
 inix iniy iniz
 1    1    1
 hmatrix
-25.832 0.0    0.0
-0.0    25.832 0.0
-0.0    0.0    25.832
+51.664 0.0    0.0
+0.0    51.664 0.0
+0.0    0.0    51.664
+# Moves:
+# 50% insert/delete
+# 25% move
+# 25% rotation
 # Insert/delete
 pmuvtcbswap
 0.50d0
           pmuvtcbmt
           0.0d0 1.0d0
-# COM reinsertion
-#pm1boxcbswap
-#0.75d0
-#          pm1cbswmt
-#          0.0d0 1.0d0
 # COM translation
 pmtracm
 0.75d0
