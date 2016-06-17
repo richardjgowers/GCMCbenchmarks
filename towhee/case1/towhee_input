@@ -23,7 +23,7 @@ potentialstyle
 ffnumber
 1
 ff_filename
-./towheebase/ForceFields/towhee_ff_DREIDING
+./towhee_ff_CUSTOM
 classical_potential
 'Lennard-Jones'
 classical_mixrule
@@ -97,7 +97,7 @@ nmaxcbmc
 lpdbnames 
 .FALSE.
 forcefield
-'##FORCEFIELD'
+'IRMOF'
 charge_assignment
 'none'
 unit ntype
@@ -20450,5 +20450,39 @@ unit ntype
   3392 'H'
 vibration
   0
+improper torsion
+  0
+input_style
+  'basic connectivity map'
+nunit
+  3
+nmaxcbmc
+  3
+lpdbnames
+.FALSE.
+forcefield
+  'IRMOF'
+charge_assignment
+  'none'
+unit ntype
+  1  'Oco2'
+vibration
+  1
+  2
+improper torsion
+  0
+unit ntype
+  2  'Cco2'
+vibration
+  2
+  1
+  3
+improper torsion
+  0
+unit ntype
+  3  'Oco2'
+vibration
+  1
+  2
 improper torsion
   0

@@ -225,3 +225,35 @@ Atom Names
     Cco2
     Cco2
     Cco2
+Number of Bonded Terms
+    1
+Bond Type Number
+    1
+Bond Style
+    1  # fixed
+Bond Coefficients
+    1.16  # C=O bondlength
+Vibration Order
+    'any'
+Force Field Name
+    IRMOF
+Number of Atoms with Same Parameters
+    1
+Atom Names
+    Oco2 Cco2
+Number of Angle Terms
+    1
+Angle Type Number
+    1
+Angle Style
+    1  # rigid
+Angle Coefficients
+    180.0
+Angle Order
+    'any'
+Force Field Name
+    IRMOF
+Number of Atoms with Same Parameters
+    1
+Atom Names
+    Oco2 Cco2 Oco2
