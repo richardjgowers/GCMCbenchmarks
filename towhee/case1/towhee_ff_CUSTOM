@@ -1,39 +1,54 @@
 towhee_ff Version
           15
 Number of Nonbonded Types
-          6
+          9
 Potential Type
-Lennard-Jones                 
+Lennard-Jones
 Classical Mixrule
 Explicit
 Atom Type Number
            1
-Nonbond Coefficients  # Znmof (itself)
+Nonbond Coefficients
     0.0000000000E+00
     0.0000000000E+00
     0.0000000000E+00
     0.0000000000E+00
-Nonbond Coefficients  # Omof
+Nonbond Coefficients
     0.0000000000E+00
     0.0000000000E+00
     0.0000000000E+00
     0.0000000000E+00
-Nonbond Coefficients  # Cmof
+Nonbond Coefficients
     0.0000000000E+00
     0.0000000000E+00
     0.0000000000E+00
     0.0000000000E+00
-Nonbond Coefficients  # Hmof
+Nonbond Coefficients
     0.0000000000E+00
     0.0000000000E+00
     0.0000000000E+00
     0.0000000000E+00
-Nonbond Coefficients  # Oco2
+Nonbond Coefficients
+    0.0000000000E+00
+    0.0000000000E+00
+    0.0000000000E+00
+    0.0000000000E+00
+Nonbond Coefficients
+    0.0000000000E+00
+    0.0000000000E+00
+    0.0000000000E+00
+    0.0000000000E+00
+Nonbond Coefficients
+    0.0000000000E+00
+    0.0000000000E+00
+    0.0000000000E+00
+    0.0000000000E+00
+Nonbond Coefficients
     0.3550000000E+01
     0.4678000000E+02
     0.0000000000E+00
     0.0000000000E+00
-Nonbond Coefficients  # Cco2
+Nonbond Coefficients
     0.3420000000E+01
     0.2735000000E+02
     0.0000000000E+00
@@ -49,35 +64,50 @@ Base Charge
 Polarizability
     0.0000000000E+00
 Force Field Name
-    IRMOF
+IRMOF
 Atom Names
-    Zn
-    Zn
-    Zn
-    Zn
+Zn
+Zn
+Zn
+Zn
 Atom Type Number
            2
-Nonbond Coefficients  # Omof (itself)
+Nonbond Coefficients
     0.0000000000E+00
     0.0000000000E+00
     0.0000000000E+00
     0.0000000000E+00
-Nonbond Coefficients  # Cmof
+Nonbond Coefficients
     0.0000000000E+00
     0.0000000000E+00
     0.0000000000E+00
     0.0000000000E+00
-Nonbond Coefficients  # Hmof
+Nonbond Coefficients
     0.0000000000E+00
     0.0000000000E+00
     0.0000000000E+00
     0.0000000000E+00
-Nonbond Coefficients  # Oco2
+Nonbond Coefficients
+    0.0000000000E+00
+    0.0000000000E+00
+    0.0000000000E+00
+    0.0000000000E+00
+Nonbond Coefficients
+    0.0000000000E+00
+    0.0000000000E+00
+    0.0000000000E+00
+    0.0000000000E+00
+Nonbond Coefficients
+    0.0000000000E+00
+    0.0000000000E+00
+    0.0000000000E+00
+    0.0000000000E+00
+Nonbond Coefficients
     0.3040000000E+01
     0.6170000000E+02
     0.0000000000E+00
     0.0000000000E+00
-Nonbond Coefficients  # Cco2
+Nonbond Coefficients
     0.2920000000E+01
     0.3607000000E+02
     0.0000000000E+00
@@ -95,28 +125,92 @@ Polarizability
 Force Field Name
     IRMOF
 Atom Names
-    O
-    O
-    O
-    O
+O1
+O1
+O1
+O1
 Atom Type Number
            3
-Nonbond Coefficients  # Cmof (itself)
+Nonbond Coefficients
     0.0000000000E+00
     0.0000000000E+00
     0.0000000000E+00
     0.0000000000E+00
-Nonbond Coefficients  # Hmof
+Nonbond Coefficients
     0.0000000000E+00
     0.0000000000E+00
     0.0000000000E+00
     0.0000000000E+00
-Nonbond Coefficients  # Oco2
+Nonbond Coefficients
+    0.0000000000E+00
+    0.0000000000E+00
+    0.0000000000E+00
+    0.0000000000E+00
+Nonbond Coefficients
+    0.0000000000E+00
+    0.0000000000E+00
+    0.0000000000E+00
+    0.0000000000E+00
+Nonbond Coefficients
+    0.0000000000E+00
+    0.0000000000E+00
+    0.0000000000E+00
+    0.0000000000E+00
+Nonbond Coefficients
+    0.3040000000E+01
+    0.6170000000E+02
+    0.0000000000E+00
+    0.0000000000E+00
+Nonbond Coefficients
+    0.2920000000E+01
+    0.3607000000E+02
+    0.0000000000E+00
+    0.0000000000E+00
+Mass
+    0.1599900000E+02
+Element
+    O
+Bond Pattern
+    Null
+Base Charge
+    0.0000000000E+00
+Polarizability
+    0.0000000000E+00
+Force Field Name
+    IRMOF
+Atom Names
+O2
+O2
+O2
+O2
+Atom Type Number
+           4
+Nonbond Coefficients
+    0.0000000000E+00
+    0.0000000000E+00
+    0.0000000000E+00
+    0.0000000000E+00
+Nonbond Coefficients
+    0.0000000000E+00
+    0.0000000000E+00
+    0.0000000000E+00
+    0.0000000000E+00
+Nonbond Coefficients
+    0.0000000000E+00
+    0.0000000000E+00
+    0.0000000000E+00
+    0.0000000000E+00
+Nonbond Coefficients
+    0.0000000000E+00
+    0.0000000000E+00
+    0.0000000000E+00
+    0.0000000000E+00
+Nonbond Coefficients
     0.3260000000E+01
     0.6151000000E+02
     0.0000000000E+00
     0.0000000000E+00
-Nonbond Coefficients  # Cco2
+Nonbond Coefficients
     0.3320000000E+01
     0.3596000000E+02
     0.0000000000E+00
@@ -134,23 +228,106 @@ Polarizability
 Force Field Name
     IRMOF
 Atom Names
-    C
-    C
-    C
-    C
+C1
+C1
+C1
+C1
 Atom Type Number
-           4
-Nonbond Coefficients  # Hmof (itself)
+           5
+Nonbond Coefficients
     0.0000000000E+00
     0.0000000000E+00
     0.0000000000E+00
     0.0000000000E+00
-Nonbond Coefficients  # Oco2
+Nonbond Coefficients
+    0.0000000000E+00
+    0.0000000000E+00
+    0.0000000000E+00
+    0.0000000000E+00
+Nonbond Coefficients
+    0.0000000000E+00
+    0.0000000000E+00
+    0.0000000000E+00
+    0.0000000000E+00
+Nonbond Coefficients
+    0.3260000000E+01
+    0.6151000000E+02
+    0.0000000000E+00
+    0.0000000000E+00
+Nonbond Coefficients
+    0.3320000000E+01
+    0.3596000000E+02
+    0.0000000000E+00
+    0.0000000000E+00
+Mass
+    0.1201100000E+02
+Element
+    C
+Bond Pattern
+    Null
+Base Charge
+    0.0000000000E+00
+Polarizability
+    0.0000000000E+00
+Force Field Name
+    IRMOF
+Atom Names
+C2
+C2
+C2
+C2
+Atom Type Number
+           6
+Nonbond Coefficients
+    0.0000000000E+00
+    0.0000000000E+00
+    0.0000000000E+00
+    0.0000000000E+00
+Nonbond Coefficients
+    0.0000000000E+00
+    0.0000000000E+00
+    0.0000000000E+00
+    0.0000000000E+00
+Nonbond Coefficients
+    0.3260000000E+01
+    0.6151000000E+02
+    0.0000000000E+00
+    0.0000000000E+00
+Nonbond Coefficients
+    0.3320000000E+01
+    0.3596000000E+02
+    0.0000000000E+00
+    0.0000000000E+00
+Mass
+    0.1201100000E+02
+Element
+    C
+Bond Pattern
+    Null
+Base Charge
+    0.0000000000E+00
+Polarizability
+    0.0000000000E+00
+Force Field Name
+    IRMOF
+Atom Names
+C3
+C3
+C3
+C3
+Atom Type Number
+           7
+Nonbond Coefficients
+    0.0000000000E+00
+    0.0000000000E+00
+    0.0000000000E+00
+    0.0000000000E+00
+Nonbond Coefficients
     0.2950000000E+01
     0.2459000000E+02
     0.0000000000E+00
     0.0000000000E+00
-Nonbond Coefficients  # Cco2
+Nonbond Coefficients
     0.2820000000E+01
     0.1438000000E+02
     0.0000000000E+00
@@ -168,18 +345,18 @@ Polarizability
 Force Field Name
     IRMOF
 Atom Names
-    H
-    H
-    H
-    H
+H
+H
+H
+H
 Atom Type Number
            5
-Nonbond Coefficients  # Oco2 (itself)
+Nonbond Coefficients
     0.3050000000E+01
     0.7900000000E+02
     0.0000000000E+00
     0.0000000000E+00
-Nonbond Coefficients  # Cco2
+Nonbond Coefficients
     0.2930000000E+01
     0.4618000000E+02
     0.0000000000E+00
@@ -197,13 +374,13 @@ Polarizability
 Force Field Name
     IRMOF
 Atom Names
-    Oco2
-    Oco2
-    Oco2
-    Oco2
+Oco2
+Oco2
+Oco2
+Oco2
 Atom Type Number
            6
-Nonbond Coefficients  # Cco2 (itself)
+Nonbond Coefficients
     0.2800000000E+01
     0.2700000000E+02
     0.0000000000E+00
@@ -221,18 +398,18 @@ Polarizability
 Force Field Name
     IRMOF
 Atom Names
-    Cco2
-    Cco2
-    Cco2
-    Cco2
+Cco2
+Cco2
+Cco2
+Cco2
 Number of Bonded Terms
-    1
+    9
 Bond Type Number
     1
 Bond Style
-    1  # fixed
+    1
 Bond Coefficients
-    1.16  # C=O bondlength
+    1.16
 Vibration Order
     'any'
 Force Field Name
@@ -240,13 +417,125 @@ Force Field Name
 Number of Atoms with Same Parameters
     1
 Atom Names
-    Oco2 Cco2
+Oco2      Cco2
+Bond Type Number
+    2
+Bond Style
+    1
+Bond Coefficients
+    1.485
+Vibration Order
+    'any'
+Force Field Name
+    IRMOF
+Number of Atoms with Same Parameters
+    1
+Atom Names
+C1        C2  
+Bond Type Number
+    3
+Bond Style
+    1
+Bond Coefficients
+    1.38853360568
+Vibration Order
+    'any'
+Force Field Name
+    IRMOF
+Number of Atoms with Same Parameters
+    1
+Atom Names
+C2        C3  
+Bond Type Number
+    4
+Bond Style
+    1
+Bond Coefficients
+    1.390
+Vibration Order
+    'any'
+Force Field Name
+    IRMOF
+Number of Atoms with Same Parameters
+    1
+Atom Names
+C3        C3  
+Bond Type Number
+    5
+Bond Style
+    1
+Bond Coefficients
+    1.30435726031
+Vibration Order
+    'any'
+Force Field Name
+    IRMOF
+Number of Atoms with Same Parameters
+    1
+Atom Names
+O2        C1  
+Bond Type Number
+    6
+Bond Style
+    1
+Bond Coefficients
+    0.926656812337
+Vibration Order
+    'any'
+Force Field Name
+    IRMOF
+Number of Atoms with Same Parameters
+    1
+Atom Names
+C3        H   
+Bond Type Number
+    7
+Bond Style
+    1
+Bond Coefficients
+    1.94162894124
+Vibration Order
+    'any'
+Force Field Name
+    IRMOF
+Number of Atoms with Same Parameters
+    1
+Atom Names
+Zn        O1  
+Bond Type Number
+    8
+Bond Style
+    1
+Bond Coefficients
+    1.92244466304
+Vibration Order
+    'any'
+Force Field Name
+    IRMOF
+Number of Atoms with Same Parameters
+    1
+Atom Names
+Zn        O2  
+Bond Type Number
+    9
+Bond Style
+    1
+Bond Coefficients
+    3.17066678391
+Vibration Order
+    'any'
+Force Field Name
+    IRMOF
+Number of Atoms with Same Parameters
+    1
+Atom Names
+Zn        Zn  
 Number of Angle Terms
     1
 Angle Type Number
     1
 Angle Style
-    1  # rigid
+    1
 Angle Coefficients
     180.0
 Angle Order
@@ -256,4 +545,4 @@ Force Field Name
 Number of Atoms with Same Parameters
     1
 Atom Names
-    Oco2 Cco2 Oco2
+Oco2      Cco2      Oco2
