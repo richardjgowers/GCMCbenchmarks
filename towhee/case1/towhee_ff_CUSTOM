@@ -531,7 +531,7 @@ Number of Atoms with Same Parameters
 Atom Names
 Zn         Zn  
 Number of Angle Terms
-    1
+    2
 Angle Type Number
     1
 Angle Style
@@ -547,8 +547,36 @@ Number of Atoms with Same Parameters
     1
 Atom Names
 Oco2       Cco2       Oco2
+Angle Type Number
+    2
+Angle Style
+    11
+Angle Coefficients
+Angle Order
+    'any'
+Force Field Name
+IRMOF
+Number of Atoms with Same Parameters
+    1
+Atom Names
+wild       wild       wild
 Number of Torsion Terms
-0
+1
+Torsion Type Number
+1
+Torsion Style
+8
+One-Four Nonbond Logical
+F
+Torsion Coefficients
+Torsion Order
+wild
+Force Field Name
+IRMOF
+Number of Atoms with Same Parameters
+1
+Atom Names
+wild       wild       wild       wild
 Number of Improper Terms
 0
 Number of Angle-Angle Terms

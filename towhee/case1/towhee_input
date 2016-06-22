@@ -103,22 +103,20 @@ charge_assignment
 unit ntype qqatom
   1 'Zn' 1.333
 vibration
-  7
-  2 3 57 105 198 247 419
+  0
 improper torsion
   0
 unit ntype qqatom
   2 'O1' -1.564
 vibration
-  4
-  1 57 105 247
+  0
 improper torsion
   0
 unit ntype qqatom
   3 'O2' -0.641
 vibration
-  2
-  1 4
+  1
+  4
 improper torsion
   0
 unit ntype qqatom
@@ -152,22 +150,20 @@ improper torsion
 unit ntype qqatom
   8 'Zn' 1.333
 vibration
-  7
-  9 10 63 147 189 287 349
+  0
 improper torsion
   0
 unit ntype qqatom
   9 'O1' -1.564
 vibration
-  4
-  8 63 147 287
+  0
 improper torsion
   0
 unit ntype qqatom
   10 'O2' -0.641
 vibration
-  2
-  8 11
+  1
+  11
 improper torsion
   0
 unit ntype qqatom
@@ -201,22 +197,20 @@ improper torsion
 unit ntype qqatom
   15 'Zn' 1.333
 vibration
-  7
-  16 17 69 135 192 258 422
+  0
 improper torsion
   0
 unit ntype qqatom
   16 'O1' -1.564
 vibration
-  4
-  15 69 135 258
+  0
 improper torsion
   0
 unit ntype qqatom
   17 'O2' -0.641
 vibration
-  2
-  15 18
+  1
+  18
 improper torsion
   0
 unit ntype qqatom
@@ -250,22 +244,20 @@ improper torsion
 unit ntype qqatom
   22 'Zn' 1.333
 vibration
-  7
-  23 24 75 141 195 281 358
+  0
 improper torsion
   0
 unit ntype qqatom
   23 'O1' -1.564
 vibration
-  4
-  22 75 141 281
+  0
 improper torsion
   0
 unit ntype qqatom
   24 'O2' -0.641
 vibration
-  2
-  22 25
+  1
+  25
 improper torsion
   0
 unit ntype qqatom
@@ -299,22 +291,20 @@ improper torsion
 unit ntype qqatom
   29 'Zn' 1.333
 vibration
-  7
-  30 31 81 111 180 225 413
+  0
 improper torsion
   0
 unit ntype qqatom
   30 'O1' -1.564
 vibration
-  4
-  29 81 111 225
+  0
 improper torsion
   0
 unit ntype qqatom
   31 'O2' -0.641
 vibration
-  2
-  29 32
+  1
+  32
 improper torsion
   0
 unit ntype qqatom
@@ -348,22 +338,20 @@ improper torsion
 unit ntype qqatom
   36 'Zn' 1.333
 vibration
-  7
-  37 38 87 117 183 275 355
+  0
 improper torsion
   0
 unit ntype qqatom
   37 'O1' -1.564
 vibration
-  4
-  36 87 117 275
+  0
 improper torsion
   0
 unit ntype qqatom
   38 'O2' -0.641
 vibration
-  2
-  36 39
+  1
+  39
 improper torsion
   0
 unit ntype qqatom
@@ -397,22 +385,20 @@ improper torsion
 unit ntype qqatom
   43 'Zn' 1.333
 vibration
-  7
-  44 45 93 123 186 236 416
+  0
 improper torsion
   0
 unit ntype qqatom
   44 'O1' -1.564
 vibration
-  4
-  43 93 123 236
+  0
 improper torsion
   0
 unit ntype qqatom
   45 'O2' -0.641
 vibration
-  2
-  43 46
+  1
+  46
 improper torsion
   0
 unit ntype qqatom
@@ -446,22 +432,20 @@ improper torsion
 unit ntype qqatom
   50 'Zn' 1.333
 vibration
-  7
-  51 52 99 129 177 269 352
+  0
 improper torsion
   0
 unit ntype qqatom
   51 'O1' -1.564
 vibration
-  4
-  50 99 129 269
+  0
 improper torsion
   0
 unit ntype qqatom
   52 'O2' -0.641
 vibration
-  2
-  50 53
+  1
+  53
 improper torsion
   0
 unit ntype qqatom
@@ -495,15 +479,14 @@ improper torsion
 unit ntype qqatom
   57 'Zn' 1.333
 vibration
-  7
-  1 2 58 105 174 247 298
+  0
 improper torsion
   0
 unit ntype qqatom
   58 'O2' -0.641
 vibration
-  2
-  57 59
+  1
+  59
 improper torsion
   0
 unit ntype qqatom
@@ -537,15 +520,14 @@ improper torsion
 unit ntype qqatom
   63 'Zn' 1.333
 vibration
-  7
-  8 9 64 147 165 287 381
+  0
 improper torsion
   0
 unit ntype qqatom
   64 'O2' -0.641
 vibration
-  2
-  63 65
+  1
+  65
 improper torsion
   0
 unit ntype qqatom
@@ -579,15 +561,14 @@ improper torsion
 unit ntype qqatom
   69 'Zn' 1.333
 vibration
-  7
-  15 16 70 135 168 258 303
+  0
 improper torsion
   0
 unit ntype qqatom
   70 'O2' -0.641
 vibration
-  2
-  69 71
+  1
+  71
 improper torsion
   0
 unit ntype qqatom
@@ -621,15 +602,14 @@ improper torsion
 unit ntype qqatom
   75 'Zn' 1.333
 vibration
-  7
-  22 23 76 141 171 281 386
+  0
 improper torsion
   0
 unit ntype qqatom
   76 'O2' -0.641
 vibration
-  2
-  75 77
+  1
+  77
 improper torsion
   0
 unit ntype qqatom
@@ -663,15 +643,14 @@ improper torsion
 unit ntype qqatom
   81 'Zn' 1.333
 vibration
-  7
-  29 30 82 111 156 225 293
+  0
 improper torsion
   0
 unit ntype qqatom
   82 'O2' -0.641
 vibration
-  2
-  81 83
+  1
+  83
 improper torsion
   0
 unit ntype qqatom
@@ -705,15 +684,14 @@ improper torsion
 unit ntype qqatom
   87 'Zn' 1.333
 vibration
-  7
-  36 37 88 117 159 275 396
+  0
 improper torsion
   0
 unit ntype qqatom
   88 'O2' -0.641
 vibration
-  2
-  87 89
+  1
+  89
 improper torsion
   0
 unit ntype qqatom
@@ -747,15 +725,14 @@ improper torsion
 unit ntype qqatom
   93 'Zn' 1.333
 vibration
-  7
-  43 44 94 123 162 236 308
+  0
 improper torsion
   0
 unit ntype qqatom
   94 'O2' -0.641
 vibration
-  2
-  93 95
+  1
+  95
 improper torsion
   0
 unit ntype qqatom
@@ -789,15 +766,14 @@ improper torsion
 unit ntype qqatom
   99 'Zn' 1.333
 vibration
-  7
-  50 51 100 129 153 269 391
+  0
 improper torsion
   0
 unit ntype qqatom
   100 'O2' -0.641
 vibration
-  2
-  99 101
+  1
+  101
 improper torsion
   0
 unit ntype qqatom
@@ -831,15 +807,14 @@ improper torsion
 unit ntype qqatom
   105 'Zn' 1.333
 vibration
-  7
-  1 2 57 106 213 247 316
+  0
 improper torsion
   0
 unit ntype qqatom
   106 'O2' -0.641
 vibration
-  2
-  105 107
+  1
+  107
 improper torsion
   0
 unit ntype qqatom
@@ -873,15 +848,14 @@ improper torsion
 unit ntype qqatom
   111 'Zn' 1.333
 vibration
-  7
-  29 30 81 112 222 225 334
+  0
 improper torsion
   0
 unit ntype qqatom
   112 'O2' -0.641
 vibration
-  2
-  111 113
+  1
+  113
 improper torsion
   0
 unit ntype qqatom
@@ -915,15 +889,14 @@ improper torsion
 unit ntype qqatom
   117 'Zn' 1.333
 vibration
-  7
-  36 37 87 118 216 242 275
+  0
 improper torsion
   0
 unit ntype qqatom
   118 'O2' -0.641
 vibration
-  2
-  117 119
+  1
+  119
 improper torsion
   0
 unit ntype qqatom
@@ -957,15 +930,14 @@ improper torsion
 unit ntype qqatom
   123 'Zn' 1.333
 vibration
-  7
-  43 44 93 124 219 236 328
+  0
 improper torsion
   0
 unit ntype qqatom
   124 'O2' -0.641
 vibration
-  2
-  123 125
+  1
+  125
 improper torsion
   0
 unit ntype qqatom
@@ -999,15 +971,14 @@ improper torsion
 unit ntype qqatom
   129 'Zn' 1.333
 vibration
-  7
-  50 51 99 130 201 231 269
+  0
 improper torsion
   0
 unit ntype qqatom
   130 'O2' -0.641
 vibration
-  2
-  129 131
+  1
+  131
 improper torsion
   0
 unit ntype qqatom
@@ -1041,15 +1012,14 @@ improper torsion
 unit ntype qqatom
   135 'Zn' 1.333
 vibration
-  7
-  15 16 69 136 207 258 322
+  0
 improper torsion
   0
 unit ntype qqatom
   136 'O2' -0.641
 vibration
-  2
-  135 137
+  1
+  137
 improper torsion
   0
 unit ntype qqatom
@@ -1083,15 +1053,14 @@ improper torsion
 unit ntype qqatom
   141 'Zn' 1.333
 vibration
-  7
-  22 23 75 142 210 253 281
+  0
 improper torsion
   0
 unit ntype qqatom
   142 'O2' -0.641
 vibration
-  2
-  141 143
+  1
+  143
 improper torsion
   0
 unit ntype qqatom
@@ -1125,15 +1094,14 @@ improper torsion
 unit ntype qqatom
   147 'Zn' 1.333
 vibration
-  7
-  8 9 63 148 204 264 287
+  0
 improper torsion
   0
 unit ntype qqatom
   148 'O2' -0.641
 vibration
-  2
-  147 149
+  1
+  149
 improper torsion
   0
 unit ntype qqatom
@@ -1167,8 +1135,8 @@ improper torsion
 unit ntype qqatom
   153 'O2' -0.641
 vibration
-  2
-  53 99
+  1
+  53
 improper torsion
   0
 unit ntype qqatom
@@ -1188,8 +1156,8 @@ improper torsion
 unit ntype qqatom
   156 'O2' -0.641
 vibration
-  2
-  32 81
+  1
+  32
 improper torsion
   0
 unit ntype qqatom
@@ -1209,8 +1177,8 @@ improper torsion
 unit ntype qqatom
   159 'O2' -0.641
 vibration
-  2
-  39 87
+  1
+  39
 improper torsion
   0
 unit ntype qqatom
@@ -1230,8 +1198,8 @@ improper torsion
 unit ntype qqatom
   162 'O2' -0.641
 vibration
-  2
-  46 93
+  1
+  46
 improper torsion
   0
 unit ntype qqatom
@@ -1251,8 +1219,8 @@ improper torsion
 unit ntype qqatom
   165 'O2' -0.641
 vibration
-  2
-  11 63
+  1
+  11
 improper torsion
   0
 unit ntype qqatom
@@ -1272,8 +1240,8 @@ improper torsion
 unit ntype qqatom
   168 'O2' -0.641
 vibration
-  2
-  18 69
+  1
+  18
 improper torsion
   0
 unit ntype qqatom
@@ -1293,8 +1261,8 @@ improper torsion
 unit ntype qqatom
   171 'O2' -0.641
 vibration
-  2
-  25 75
+  1
+  25
 improper torsion
   0
 unit ntype qqatom
@@ -1314,8 +1282,8 @@ improper torsion
 unit ntype qqatom
   174 'O2' -0.641
 vibration
-  2
-  4 57
+  1
+  4
 improper torsion
   0
 unit ntype qqatom
@@ -1335,8 +1303,8 @@ improper torsion
 unit ntype qqatom
   177 'O2' -0.641
 vibration
-  2
-  50 131
+  1
+  131
 improper torsion
   0
 unit ntype qqatom
@@ -1356,8 +1324,8 @@ improper torsion
 unit ntype qqatom
   180 'O2' -0.641
 vibration
-  2
-  29 113
+  1
+  113
 improper torsion
   0
 unit ntype qqatom
@@ -1377,8 +1345,8 @@ improper torsion
 unit ntype qqatom
   183 'O2' -0.641
 vibration
-  2
-  36 119
+  1
+  119
 improper torsion
   0
 unit ntype qqatom
@@ -1398,8 +1366,8 @@ improper torsion
 unit ntype qqatom
   186 'O2' -0.641
 vibration
-  2
-  43 125
+  1
+  125
 improper torsion
   0
 unit ntype qqatom
@@ -1419,8 +1387,8 @@ improper torsion
 unit ntype qqatom
   189 'O2' -0.641
 vibration
-  2
-  8 149
+  1
+  149
 improper torsion
   0
 unit ntype qqatom
@@ -1440,8 +1408,8 @@ improper torsion
 unit ntype qqatom
   192 'O2' -0.641
 vibration
-  2
-  15 137
+  1
+  137
 improper torsion
   0
 unit ntype qqatom
@@ -1461,8 +1429,8 @@ improper torsion
 unit ntype qqatom
   195 'O2' -0.641
 vibration
-  2
-  22 143
+  1
+  143
 improper torsion
   0
 unit ntype qqatom
@@ -1482,8 +1450,8 @@ improper torsion
 unit ntype qqatom
   198 'O2' -0.641
 vibration
-  2
-  1 107
+  1
+  107
 improper torsion
   0
 unit ntype qqatom
@@ -1503,8 +1471,8 @@ improper torsion
 unit ntype qqatom
   201 'O2' -0.641
 vibration
-  2
-  101 129
+  1
+  101
 improper torsion
   0
 unit ntype qqatom
@@ -1524,8 +1492,8 @@ improper torsion
 unit ntype qqatom
   204 'O2' -0.641
 vibration
-  2
-  65 147
+  1
+  65
 improper torsion
   0
 unit ntype qqatom
@@ -1545,8 +1513,8 @@ improper torsion
 unit ntype qqatom
   207 'O2' -0.641
 vibration
-  2
-  71 135
+  1
+  71
 improper torsion
   0
 unit ntype qqatom
@@ -1566,8 +1534,8 @@ improper torsion
 unit ntype qqatom
   210 'O2' -0.641
 vibration
-  2
-  77 141
+  1
+  77
 improper torsion
   0
 unit ntype qqatom
@@ -1587,8 +1555,8 @@ improper torsion
 unit ntype qqatom
   213 'O2' -0.641
 vibration
-  2
-  59 105
+  1
+  59
 improper torsion
   0
 unit ntype qqatom
@@ -1608,8 +1576,8 @@ improper torsion
 unit ntype qqatom
   216 'O2' -0.641
 vibration
-  2
-  89 117
+  1
+  89
 improper torsion
   0
 unit ntype qqatom
@@ -1629,8 +1597,8 @@ improper torsion
 unit ntype qqatom
   219 'O2' -0.641
 vibration
-  2
-  95 123
+  1
+  95
 improper torsion
   0
 unit ntype qqatom
@@ -1650,8 +1618,8 @@ improper torsion
 unit ntype qqatom
   222 'O2' -0.641
 vibration
-  2
-  83 111
+  1
+  83
 improper torsion
   0
 unit ntype qqatom
@@ -1671,15 +1639,14 @@ improper torsion
 unit ntype qqatom
   225 'Zn' 1.333
 vibration
-  7
-  29 30 81 111 226 346 366
+  0
 improper torsion
   0
 unit ntype qqatom
   226 'O2' -0.641
 vibration
-  2
-  225 227
+  1
+  227
 improper torsion
   0
 unit ntype qqatom
@@ -1713,8 +1680,8 @@ improper torsion
 unit ntype qqatom
   231 'O2' -0.641
 vibration
-  2
-  129 232
+  1
+  232
 improper torsion
   0
 unit ntype qqatom
@@ -1748,15 +1715,14 @@ improper torsion
 unit ntype qqatom
   236 'Zn' 1.333
 vibration
-  7
-  43 44 93 123 237 343 361
+  0
 improper torsion
   0
 unit ntype qqatom
   237 'O2' -0.641
 vibration
-  2
-  236 238
+  1
+  238
 improper torsion
   0
 unit ntype qqatom
@@ -1790,8 +1756,8 @@ improper torsion
 unit ntype qqatom
   242 'O2' -0.641
 vibration
-  2
-  117 243
+  1
+  243
 improper torsion
   0
 unit ntype qqatom
@@ -1825,15 +1791,14 @@ improper torsion
 unit ntype qqatom
   247 'Zn' 1.333
 vibration
-  7
-  1 2 57 105 248 337 376
+  0
 improper torsion
   0
 unit ntype qqatom
   248 'O2' -0.641
 vibration
-  2
-  247 249
+  1
+  249
 improper torsion
   0
 unit ntype qqatom
@@ -1867,8 +1832,8 @@ improper torsion
 unit ntype qqatom
   253 'O2' -0.641
 vibration
-  2
-  141 254
+  1
+  254
 improper torsion
   0
 unit ntype qqatom
@@ -1902,15 +1867,14 @@ improper torsion
 unit ntype qqatom
   258 'Zn' 1.333
 vibration
-  7
-  15 16 69 135 259 340 371
+  0
 improper torsion
   0
 unit ntype qqatom
   259 'O2' -0.641
 vibration
-  2
-  258 260
+  1
+  260
 improper torsion
   0
 unit ntype qqatom
@@ -1944,8 +1908,8 @@ improper torsion
 unit ntype qqatom
   264 'O2' -0.641
 vibration
-  2
-  147 265
+  1
+  265
 improper torsion
   0
 unit ntype qqatom
@@ -1979,15 +1943,14 @@ improper torsion
 unit ntype qqatom
   269 'Zn' 1.333
 vibration
-  7
-  50 51 99 129 270 325 410
+  0
 improper torsion
   0
 unit ntype qqatom
   270 'O2' -0.641
 vibration
-  2
-  269 271
+  1
+  271
 improper torsion
   0
 unit ntype qqatom
@@ -2021,15 +1984,14 @@ improper torsion
 unit ntype qqatom
   275 'Zn' 1.333
 vibration
-  7
-  36 37 87 117 276 331 407
+  0
 improper torsion
   0
 unit ntype qqatom
   276 'O2' -0.641
 vibration
-  2
-  275 277
+  1
+  277
 improper torsion
   0
 unit ntype qqatom
@@ -2063,15 +2025,14 @@ improper torsion
 unit ntype qqatom
   281 'Zn' 1.333
 vibration
-  7
-  22 23 75 141 282 319 401
+  0
 improper torsion
   0
 unit ntype qqatom
   282 'O2' -0.641
 vibration
-  2
-  281 283
+  1
+  283
 improper torsion
   0
 unit ntype qqatom
@@ -2105,15 +2066,14 @@ improper torsion
 unit ntype qqatom
   287 'Zn' 1.333
 vibration
-  7
-  8 9 63 147 288 313 404
+  0
 improper torsion
   0
 unit ntype qqatom
   288 'O2' -0.641
 vibration
-  2
-  287 289
+  1
+  289
 improper torsion
   0
 unit ntype qqatom
@@ -2147,8 +2107,8 @@ improper torsion
 unit ntype qqatom
   293 'O2' -0.641
 vibration
-  2
-  81 294
+  1
+  294
 improper torsion
   0
 unit ntype qqatom
@@ -2182,8 +2142,8 @@ improper torsion
 unit ntype qqatom
   298 'O2' -0.641
 vibration
-  2
-  57 299
+  1
+  299
 improper torsion
   0
 unit ntype qqatom
@@ -2217,8 +2177,8 @@ improper torsion
 unit ntype qqatom
   303 'O2' -0.641
 vibration
-  2
-  69 304
+  1
+  304
 improper torsion
   0
 unit ntype qqatom
@@ -2252,8 +2212,8 @@ improper torsion
 unit ntype qqatom
   308 'O2' -0.641
 vibration
-  2
-  93 309
+  1
+  309
 improper torsion
   0
 unit ntype qqatom
@@ -2287,8 +2247,8 @@ improper torsion
 unit ntype qqatom
   313 'O2' -0.641
 vibration
-  2
-  265 287
+  1
+  265
 improper torsion
   0
 unit ntype qqatom
@@ -2308,8 +2268,8 @@ improper torsion
 unit ntype qqatom
   316 'O2' -0.641
 vibration
-  2
-  105 249
+  1
+  249
 improper torsion
   0
 unit ntype qqatom
@@ -2329,8 +2289,8 @@ improper torsion
 unit ntype qqatom
   319 'O2' -0.641
 vibration
-  2
-  254 281
+  1
+  254
 improper torsion
   0
 unit ntype qqatom
@@ -2350,8 +2310,8 @@ improper torsion
 unit ntype qqatom
   322 'O2' -0.641
 vibration
-  2
-  135 260
+  1
+  260
 improper torsion
   0
 unit ntype qqatom
@@ -2371,8 +2331,8 @@ improper torsion
 unit ntype qqatom
   325 'O2' -0.641
 vibration
-  2
-  232 269
+  1
+  232
 improper torsion
   0
 unit ntype qqatom
@@ -2392,8 +2352,8 @@ improper torsion
 unit ntype qqatom
   328 'O2' -0.641
 vibration
-  2
-  123 238
+  1
+  238
 improper torsion
   0
 unit ntype qqatom
@@ -2413,8 +2373,8 @@ improper torsion
 unit ntype qqatom
   331 'O2' -0.641
 vibration
-  2
-  243 275
+  1
+  243
 improper torsion
   0
 unit ntype qqatom
@@ -2434,8 +2394,8 @@ improper torsion
 unit ntype qqatom
   334 'O2' -0.641
 vibration
-  2
-  111 227
+  1
+  227
 improper torsion
   0
 unit ntype qqatom
@@ -2455,8 +2415,8 @@ improper torsion
 unit ntype qqatom
   337 'O2' -0.641
 vibration
-  2
-  247 299
+  1
+  299
 improper torsion
   0
 unit ntype qqatom
@@ -2476,8 +2436,8 @@ improper torsion
 unit ntype qqatom
   340 'O2' -0.641
 vibration
-  2
-  258 304
+  1
+  304
 improper torsion
   0
 unit ntype qqatom
@@ -2497,8 +2457,8 @@ improper torsion
 unit ntype qqatom
   343 'O2' -0.641
 vibration
-  2
-  236 309
+  1
+  309
 improper torsion
   0
 unit ntype qqatom
@@ -2518,8 +2478,8 @@ improper torsion
 unit ntype qqatom
   346 'O2' -0.641
 vibration
-  2
-  225 294
+  1
+  294
 improper torsion
   0
 unit ntype qqatom
@@ -2539,8 +2499,8 @@ improper torsion
 unit ntype qqatom
   349 'O2' -0.641
 vibration
-  2
-  8 289
+  1
+  289
 improper torsion
   0
 unit ntype qqatom
@@ -2560,8 +2520,8 @@ improper torsion
 unit ntype qqatom
   352 'O2' -0.641
 vibration
-  2
-  50 271
+  1
+  271
 improper torsion
   0
 unit ntype qqatom
@@ -2581,8 +2541,8 @@ improper torsion
 unit ntype qqatom
   355 'O2' -0.641
 vibration
-  2
-  36 277
+  1
+  277
 improper torsion
   0
 unit ntype qqatom
@@ -2602,8 +2562,8 @@ improper torsion
 unit ntype qqatom
   358 'O2' -0.641
 vibration
-  2
-  22 283
+  1
+  283
 improper torsion
   0
 unit ntype qqatom
@@ -2623,8 +2583,8 @@ improper torsion
 unit ntype qqatom
   361 'O2' -0.641
 vibration
-  2
-  236 362
+  1
+  362
 improper torsion
   0
 unit ntype qqatom
@@ -2658,8 +2618,8 @@ improper torsion
 unit ntype qqatom
   366 'O2' -0.641
 vibration
-  2
-  225 367
+  1
+  367
 improper torsion
   0
 unit ntype qqatom
@@ -2693,8 +2653,8 @@ improper torsion
 unit ntype qqatom
   371 'O2' -0.641
 vibration
-  2
-  258 372
+  1
+  372
 improper torsion
   0
 unit ntype qqatom
@@ -2728,8 +2688,8 @@ improper torsion
 unit ntype qqatom
   376 'O2' -0.641
 vibration
-  2
-  247 377
+  1
+  377
 improper torsion
   0
 unit ntype qqatom
@@ -2763,8 +2723,8 @@ improper torsion
 unit ntype qqatom
   381 'O2' -0.641
 vibration
-  2
-  63 382
+  1
+  382
 improper torsion
   0
 unit ntype qqatom
@@ -2798,8 +2758,8 @@ improper torsion
 unit ntype qqatom
   386 'O2' -0.641
 vibration
-  2
-  75 387
+  1
+  387
 improper torsion
   0
 unit ntype qqatom
@@ -2833,8 +2793,8 @@ improper torsion
 unit ntype qqatom
   391 'O2' -0.641
 vibration
-  2
-  99 392
+  1
+  392
 improper torsion
   0
 unit ntype qqatom
@@ -2868,8 +2828,8 @@ improper torsion
 unit ntype qqatom
   396 'O2' -0.641
 vibration
-  2
-  87 397
+  1
+  397
 improper torsion
   0
 unit ntype qqatom
@@ -2903,8 +2863,8 @@ improper torsion
 unit ntype qqatom
   401 'O2' -0.641
 vibration
-  2
-  281 387
+  1
+  387
 improper torsion
   0
 unit ntype qqatom
@@ -2924,8 +2884,8 @@ improper torsion
 unit ntype qqatom
   404 'O2' -0.641
 vibration
-  2
-  287 382
+  1
+  382
 improper torsion
   0
 unit ntype qqatom
@@ -2945,8 +2905,8 @@ improper torsion
 unit ntype qqatom
   407 'O2' -0.641
 vibration
-  2
-  275 397
+  1
+  397
 improper torsion
   0
 unit ntype qqatom
@@ -2966,8 +2926,8 @@ improper torsion
 unit ntype qqatom
   410 'O2' -0.641
 vibration
-  2
-  269 392
+  1
+  392
 improper torsion
   0
 unit ntype qqatom
@@ -2987,8 +2947,8 @@ improper torsion
 unit ntype qqatom
   413 'O2' -0.641
 vibration
-  2
-  29 367
+  1
+  367
 improper torsion
   0
 unit ntype qqatom
@@ -3008,8 +2968,8 @@ improper torsion
 unit ntype qqatom
   416 'O2' -0.641
 vibration
-  2
-  43 362
+  1
+  362
 improper torsion
   0
 unit ntype qqatom
@@ -3029,8 +2989,8 @@ improper torsion
 unit ntype qqatom
   419 'O2' -0.641
 vibration
-  2
-  1 377
+  1
+  377
 improper torsion
   0
 unit ntype qqatom
@@ -3050,8 +3010,8 @@ improper torsion
 unit ntype qqatom
   422 'O2' -0.641
 vibration
-  2
-  15 372
+  1
+  372
 improper torsion
   0
 unit ntype qqatom
@@ -3071,22 +3031,20 @@ improper torsion
 unit ntype qqatom
   425 'Zn' 1.333
 vibration
-  7
-  426 427 481 529 622 671 843
+  0
 improper torsion
   0
 unit ntype qqatom
   426 'O1' -1.564
 vibration
-  4
-  425 481 529 671
+  0
 improper torsion
   0
 unit ntype qqatom
   427 'O2' -0.641
 vibration
-  2
-  425 428
+  1
+  428
 improper torsion
   0
 unit ntype qqatom
@@ -3120,22 +3078,20 @@ improper torsion
 unit ntype qqatom
   432 'Zn' 1.333
 vibration
-  7
-  433 434 487 571 613 711 773
+  0
 improper torsion
   0
 unit ntype qqatom
   433 'O1' -1.564
 vibration
-  4
-  432 487 571 711
+  0
 improper torsion
   0
 unit ntype qqatom
   434 'O2' -0.641
 vibration
-  2
-  432 435
+  1
+  435
 improper torsion
   0
 unit ntype qqatom
@@ -3169,22 +3125,20 @@ improper torsion
 unit ntype qqatom
   439 'Zn' 1.333
 vibration
-  7
-  440 441 493 559 616 682 846
+  0
 improper torsion
   0
 unit ntype qqatom
   440 'O1' -1.564
 vibration
-  4
-  439 493 559 682
+  0
 improper torsion
   0
 unit ntype qqatom
   441 'O2' -0.641
 vibration
-  2
-  439 442
+  1
+  442
 improper torsion
   0
 unit ntype qqatom
@@ -3218,22 +3172,20 @@ improper torsion
 unit ntype qqatom
   446 'Zn' 1.333
 vibration
-  7
-  447 448 499 565 619 705 782
+  0
 improper torsion
   0
 unit ntype qqatom
   447 'O1' -1.564
 vibration
-  4
-  446 499 565 705
+  0
 improper torsion
   0
 unit ntype qqatom
   448 'O2' -0.641
 vibration
-  2
-  446 449
+  1
+  449
 improper torsion
   0
 unit ntype qqatom
@@ -3267,22 +3219,20 @@ improper torsion
 unit ntype qqatom
   453 'Zn' 1.333
 vibration
-  7
-  454 455 505 535 604 649 837
+  0
 improper torsion
   0
 unit ntype qqatom
   454 'O1' -1.564
 vibration
-  4
-  453 505 535 649
+  0
 improper torsion
   0
 unit ntype qqatom
   455 'O2' -0.641
 vibration
-  2
-  453 456
+  1
+  456
 improper torsion
   0
 unit ntype qqatom
@@ -3316,22 +3266,20 @@ improper torsion
 unit ntype qqatom
   460 'Zn' 1.333
 vibration
-  7
-  461 462 511 541 607 699 779
+  0
 improper torsion
   0
 unit ntype qqatom
   461 'O1' -1.564
 vibration
-  4
-  460 511 541 699
+  0
 improper torsion
   0
 unit ntype qqatom
   462 'O2' -0.641
 vibration
-  2
-  460 463
+  1
+  463
 improper torsion
   0
 unit ntype qqatom
@@ -3365,22 +3313,20 @@ improper torsion
 unit ntype qqatom
   467 'Zn' 1.333
 vibration
-  7
-  468 469 517 547 610 660 840
+  0
 improper torsion
   0
 unit ntype qqatom
   468 'O1' -1.564
 vibration
-  4
-  467 517 547 660
+  0
 improper torsion
   0
 unit ntype qqatom
   469 'O2' -0.641
 vibration
-  2
-  467 470
+  1
+  470
 improper torsion
   0
 unit ntype qqatom
@@ -3414,22 +3360,20 @@ improper torsion
 unit ntype qqatom
   474 'Zn' 1.333
 vibration
-  7
-  475 476 523 553 601 693 776
+  0
 improper torsion
   0
 unit ntype qqatom
   475 'O1' -1.564
 vibration
-  4
-  474 523 553 693
+  0
 improper torsion
   0
 unit ntype qqatom
   476 'O2' -0.641
 vibration
-  2
-  474 477
+  1
+  477
 improper torsion
   0
 unit ntype qqatom
@@ -3463,15 +3407,14 @@ improper torsion
 unit ntype qqatom
   481 'Zn' 1.333
 vibration
-  7
-  425 426 482 529 598 671 722
+  0
 improper torsion
   0
 unit ntype qqatom
   482 'O2' -0.641
 vibration
-  2
-  481 483
+  1
+  483
 improper torsion
   0
 unit ntype qqatom
@@ -3505,15 +3448,14 @@ improper torsion
 unit ntype qqatom
   487 'Zn' 1.333
 vibration
-  7
-  432 433 488 571 589 711 805
+  0
 improper torsion
   0
 unit ntype qqatom
   488 'O2' -0.641
 vibration
-  2
-  487 489
+  1
+  489
 improper torsion
   0
 unit ntype qqatom
@@ -3547,15 +3489,14 @@ improper torsion
 unit ntype qqatom
   493 'Zn' 1.333
 vibration
-  7
-  439 440 494 559 592 682 727
+  0
 improper torsion
   0
 unit ntype qqatom
   494 'O2' -0.641
 vibration
-  2
-  493 495
+  1
+  495
 improper torsion
   0
 unit ntype qqatom
@@ -3589,15 +3530,14 @@ improper torsion
 unit ntype qqatom
   499 'Zn' 1.333
 vibration
-  7
-  446 447 500 565 595 705 810
+  0
 improper torsion
   0
 unit ntype qqatom
   500 'O2' -0.641
 vibration
-  2
-  499 501
+  1
+  501
 improper torsion
   0
 unit ntype qqatom
@@ -3631,15 +3571,14 @@ improper torsion
 unit ntype qqatom
   505 'Zn' 1.333
 vibration
-  7
-  453 454 506 535 580 649 717
+  0
 improper torsion
   0
 unit ntype qqatom
   506 'O2' -0.641
 vibration
-  2
-  505 507
+  1
+  507
 improper torsion
   0
 unit ntype qqatom
@@ -3673,15 +3612,14 @@ improper torsion
 unit ntype qqatom
   511 'Zn' 1.333
 vibration
-  7
-  460 461 512 541 583 699 820
+  0
 improper torsion
   0
 unit ntype qqatom
   512 'O2' -0.641
 vibration
-  2
-  511 513
+  1
+  513
 improper torsion
   0
 unit ntype qqatom
@@ -3715,15 +3653,14 @@ improper torsion
 unit ntype qqatom
   517 'Zn' 1.333
 vibration
-  7
-  467 468 518 547 586 660 732
+  0
 improper torsion
   0
 unit ntype qqatom
   518 'O2' -0.641
 vibration
-  2
-  517 519
+  1
+  519
 improper torsion
   0
 unit ntype qqatom
@@ -3757,15 +3694,14 @@ improper torsion
 unit ntype qqatom
   523 'Zn' 1.333
 vibration
-  7
-  474 475 524 553 577 693 815
+  0
 improper torsion
   0
 unit ntype qqatom
   524 'O2' -0.641
 vibration
-  2
-  523 525
+  1
+  525
 improper torsion
   0
 unit ntype qqatom
@@ -3799,15 +3735,14 @@ improper torsion
 unit ntype qqatom
   529 'Zn' 1.333
 vibration
-  7
-  425 426 481 530 637 671 740
+  0
 improper torsion
   0
 unit ntype qqatom
   530 'O2' -0.641
 vibration
-  2
-  529 531
+  1
+  531
 improper torsion
   0
 unit ntype qqatom
@@ -3841,15 +3776,14 @@ improper torsion
 unit ntype qqatom
   535 'Zn' 1.333
 vibration
-  7
-  453 454 505 536 646 649 758
+  0
 improper torsion
   0
 unit ntype qqatom
   536 'O2' -0.641
 vibration
-  2
-  535 537
+  1
+  537
 improper torsion
   0
 unit ntype qqatom
@@ -3883,15 +3817,14 @@ improper torsion
 unit ntype qqatom
   541 'Zn' 1.333
 vibration
-  7
-  460 461 511 542 640 666 699
+  0
 improper torsion
   0
 unit ntype qqatom
   542 'O2' -0.641
 vibration
-  2
-  541 543
+  1
+  543
 improper torsion
   0
 unit ntype qqatom
@@ -3925,15 +3858,14 @@ improper torsion
 unit ntype qqatom
   547 'Zn' 1.333
 vibration
-  7
-  467 468 517 548 643 660 752
+  0
 improper torsion
   0
 unit ntype qqatom
   548 'O2' -0.641
 vibration
-  2
-  547 549
+  1
+  549
 improper torsion
   0
 unit ntype qqatom
@@ -3967,15 +3899,14 @@ improper torsion
 unit ntype qqatom
   553 'Zn' 1.333
 vibration
-  7
-  474 475 523 554 625 655 693
+  0
 improper torsion
   0
 unit ntype qqatom
   554 'O2' -0.641
 vibration
-  2
-  553 555
+  1
+  555
 improper torsion
   0
 unit ntype qqatom
@@ -4009,15 +3940,14 @@ improper torsion
 unit ntype qqatom
   559 'Zn' 1.333
 vibration
-  7
-  439 440 493 560 631 682 746
+  0
 improper torsion
   0
 unit ntype qqatom
   560 'O2' -0.641
 vibration
-  2
-  559 561
+  1
+  561
 improper torsion
   0
 unit ntype qqatom
@@ -4051,15 +3981,14 @@ improper torsion
 unit ntype qqatom
   565 'Zn' 1.333
 vibration
-  7
-  446 447 499 566 634 677 705
+  0
 improper torsion
   0
 unit ntype qqatom
   566 'O2' -0.641
 vibration
-  2
-  565 567
+  1
+  567
 improper torsion
   0
 unit ntype qqatom
@@ -4093,15 +4022,14 @@ improper torsion
 unit ntype qqatom
   571 'Zn' 1.333
 vibration
-  7
-  432 433 487 572 628 688 711
+  0
 improper torsion
   0
 unit ntype qqatom
   572 'O2' -0.641
 vibration
-  2
-  571 573
+  1
+  573
 improper torsion
   0
 unit ntype qqatom
@@ -4135,8 +4063,8 @@ improper torsion
 unit ntype qqatom
   577 'O2' -0.641
 vibration
-  2
-  477 523
+  1
+  477
 improper torsion
   0
 unit ntype qqatom
@@ -4156,8 +4084,8 @@ improper torsion
 unit ntype qqatom
   580 'O2' -0.641
 vibration
-  2
-  456 505
+  1
+  456
 improper torsion
   0
 unit ntype qqatom
@@ -4177,8 +4105,8 @@ improper torsion
 unit ntype qqatom
   583 'O2' -0.641
 vibration
-  2
-  463 511
+  1
+  463
 improper torsion
   0
 unit ntype qqatom
@@ -4198,8 +4126,8 @@ improper torsion
 unit ntype qqatom
   586 'O2' -0.641
 vibration
-  2
-  470 517
+  1
+  470
 improper torsion
   0
 unit ntype qqatom
@@ -4219,8 +4147,8 @@ improper torsion
 unit ntype qqatom
   589 'O2' -0.641
 vibration
-  2
-  435 487
+  1
+  435
 improper torsion
   0
 unit ntype qqatom
@@ -4240,8 +4168,8 @@ improper torsion
 unit ntype qqatom
   592 'O2' -0.641
 vibration
-  2
-  442 493
+  1
+  442
 improper torsion
   0
 unit ntype qqatom
@@ -4261,8 +4189,8 @@ improper torsion
 unit ntype qqatom
   595 'O2' -0.641
 vibration
-  2
-  449 499
+  1
+  449
 improper torsion
   0
 unit ntype qqatom
@@ -4282,8 +4210,8 @@ improper torsion
 unit ntype qqatom
   598 'O2' -0.641
 vibration
-  2
-  428 481
+  1
+  428
 improper torsion
   0
 unit ntype qqatom
@@ -4303,8 +4231,8 @@ improper torsion
 unit ntype qqatom
   601 'O2' -0.641
 vibration
-  2
-  474 555
+  1
+  555
 improper torsion
   0
 unit ntype qqatom
@@ -4324,8 +4252,8 @@ improper torsion
 unit ntype qqatom
   604 'O2' -0.641
 vibration
-  2
-  453 537
+  1
+  537
 improper torsion
   0
 unit ntype qqatom
@@ -4345,8 +4273,8 @@ improper torsion
 unit ntype qqatom
   607 'O2' -0.641
 vibration
-  2
-  460 543
+  1
+  543
 improper torsion
   0
 unit ntype qqatom
@@ -4366,8 +4294,8 @@ improper torsion
 unit ntype qqatom
   610 'O2' -0.641
 vibration
-  2
-  467 549
+  1
+  549
 improper torsion
   0
 unit ntype qqatom
@@ -4387,8 +4315,8 @@ improper torsion
 unit ntype qqatom
   613 'O2' -0.641
 vibration
-  2
-  432 573
+  1
+  573
 improper torsion
   0
 unit ntype qqatom
@@ -4408,8 +4336,8 @@ improper torsion
 unit ntype qqatom
   616 'O2' -0.641
 vibration
-  2
-  439 561
+  1
+  561
 improper torsion
   0
 unit ntype qqatom
@@ -4429,8 +4357,8 @@ improper torsion
 unit ntype qqatom
   619 'O2' -0.641
 vibration
-  2
-  446 567
+  1
+  567
 improper torsion
   0
 unit ntype qqatom
@@ -4450,8 +4378,8 @@ improper torsion
 unit ntype qqatom
   622 'O2' -0.641
 vibration
-  2
-  425 531
+  1
+  531
 improper torsion
   0
 unit ntype qqatom
@@ -4471,8 +4399,8 @@ improper torsion
 unit ntype qqatom
   625 'O2' -0.641
 vibration
-  2
-  525 553
+  1
+  525
 improper torsion
   0
 unit ntype qqatom
@@ -4492,8 +4420,8 @@ improper torsion
 unit ntype qqatom
   628 'O2' -0.641
 vibration
-  2
-  489 571
+  1
+  489
 improper torsion
   0
 unit ntype qqatom
@@ -4513,8 +4441,8 @@ improper torsion
 unit ntype qqatom
   631 'O2' -0.641
 vibration
-  2
-  495 559
+  1
+  495
 improper torsion
   0
 unit ntype qqatom
@@ -4534,8 +4462,8 @@ improper torsion
 unit ntype qqatom
   634 'O2' -0.641
 vibration
-  2
-  501 565
+  1
+  501
 improper torsion
   0
 unit ntype qqatom
@@ -4555,8 +4483,8 @@ improper torsion
 unit ntype qqatom
   637 'O2' -0.641
 vibration
-  2
-  483 529
+  1
+  483
 improper torsion
   0
 unit ntype qqatom
@@ -4576,8 +4504,8 @@ improper torsion
 unit ntype qqatom
   640 'O2' -0.641
 vibration
-  2
-  513 541
+  1
+  513
 improper torsion
   0
 unit ntype qqatom
@@ -4597,8 +4525,8 @@ improper torsion
 unit ntype qqatom
   643 'O2' -0.641
 vibration
-  2
-  519 547
+  1
+  519
 improper torsion
   0
 unit ntype qqatom
@@ -4618,8 +4546,8 @@ improper torsion
 unit ntype qqatom
   646 'O2' -0.641
 vibration
-  2
-  507 535
+  1
+  507
 improper torsion
   0
 unit ntype qqatom
@@ -4639,15 +4567,14 @@ improper torsion
 unit ntype qqatom
   649 'Zn' 1.333
 vibration
-  7
-  453 454 505 535 650 770 790
+  0
 improper torsion
   0
 unit ntype qqatom
   650 'O2' -0.641
 vibration
-  2
-  649 651
+  1
+  651
 improper torsion
   0
 unit ntype qqatom
@@ -4681,8 +4608,8 @@ improper torsion
 unit ntype qqatom
   655 'O2' -0.641
 vibration
-  2
-  553 656
+  1
+  656
 improper torsion
   0
 unit ntype qqatom
@@ -4716,15 +4643,14 @@ improper torsion
 unit ntype qqatom
   660 'Zn' 1.333
 vibration
-  7
-  467 468 517 547 661 767 785
+  0
 improper torsion
   0
 unit ntype qqatom
   661 'O2' -0.641
 vibration
-  2
-  660 662
+  1
+  662
 improper torsion
   0
 unit ntype qqatom
@@ -4758,8 +4684,8 @@ improper torsion
 unit ntype qqatom
   666 'O2' -0.641
 vibration
-  2
-  541 667
+  1
+  667
 improper torsion
   0
 unit ntype qqatom
@@ -4793,15 +4719,14 @@ improper torsion
 unit ntype qqatom
   671 'Zn' 1.333
 vibration
-  7
-  425 426 481 529 672 761 800
+  0
 improper torsion
   0
 unit ntype qqatom
   672 'O2' -0.641
 vibration
-  2
-  671 673
+  1
+  673
 improper torsion
   0
 unit ntype qqatom
@@ -4835,8 +4760,8 @@ improper torsion
 unit ntype qqatom
   677 'O2' -0.641
 vibration
-  2
-  565 678
+  1
+  678
 improper torsion
   0
 unit ntype qqatom
@@ -4870,15 +4795,14 @@ improper torsion
 unit ntype qqatom
   682 'Zn' 1.333
 vibration
-  7
-  439 440 493 559 683 764 795
+  0
 improper torsion
   0
 unit ntype qqatom
   683 'O2' -0.641
 vibration
-  2
-  682 684
+  1
+  684
 improper torsion
   0
 unit ntype qqatom
@@ -4912,8 +4836,8 @@ improper torsion
 unit ntype qqatom
   688 'O2' -0.641
 vibration
-  2
-  571 689
+  1
+  689
 improper torsion
   0
 unit ntype qqatom
@@ -4947,15 +4871,14 @@ improper torsion
 unit ntype qqatom
   693 'Zn' 1.333
 vibration
-  7
-  474 475 523 553 694 749 834
+  0
 improper torsion
   0
 unit ntype qqatom
   694 'O2' -0.641
 vibration
-  2
-  693 695
+  1
+  695
 improper torsion
   0
 unit ntype qqatom
@@ -4989,15 +4912,14 @@ improper torsion
 unit ntype qqatom
   699 'Zn' 1.333
 vibration
-  7
-  460 461 511 541 700 755 831
+  0
 improper torsion
   0
 unit ntype qqatom
   700 'O2' -0.641
 vibration
-  2
-  699 701
+  1
+  701
 improper torsion
   0
 unit ntype qqatom
@@ -5031,15 +4953,14 @@ improper torsion
 unit ntype qqatom
   705 'Zn' 1.333
 vibration
-  7
-  446 447 499 565 706 743 825
+  0
 improper torsion
   0
 unit ntype qqatom
   706 'O2' -0.641
 vibration
-  2
-  705 707
+  1
+  707
 improper torsion
   0
 unit ntype qqatom
@@ -5073,15 +4994,14 @@ improper torsion
 unit ntype qqatom
   711 'Zn' 1.333
 vibration
-  7
-  432 433 487 571 712 737 828
+  0
 improper torsion
   0
 unit ntype qqatom
   712 'O2' -0.641
 vibration
-  2
-  711 713
+  1
+  713
 improper torsion
   0
 unit ntype qqatom
@@ -5115,8 +5035,8 @@ improper torsion
 unit ntype qqatom
   717 'O2' -0.641
 vibration
-  2
-  505 718
+  1
+  718
 improper torsion
   0
 unit ntype qqatom
@@ -5150,8 +5070,8 @@ improper torsion
 unit ntype qqatom
   722 'O2' -0.641
 vibration
-  2
-  481 723
+  1
+  723
 improper torsion
   0
 unit ntype qqatom
@@ -5185,8 +5105,8 @@ improper torsion
 unit ntype qqatom
   727 'O2' -0.641
 vibration
-  2
-  493 728
+  1
+  728
 improper torsion
   0
 unit ntype qqatom
@@ -5220,8 +5140,8 @@ improper torsion
 unit ntype qqatom
   732 'O2' -0.641
 vibration
-  2
-  517 733
+  1
+  733
 improper torsion
   0
 unit ntype qqatom
@@ -5255,8 +5175,8 @@ improper torsion
 unit ntype qqatom
   737 'O2' -0.641
 vibration
-  2
-  689 711
+  1
+  689
 improper torsion
   0
 unit ntype qqatom
@@ -5276,8 +5196,8 @@ improper torsion
 unit ntype qqatom
   740 'O2' -0.641
 vibration
-  2
-  529 673
+  1
+  673
 improper torsion
   0
 unit ntype qqatom
@@ -5297,8 +5217,8 @@ improper torsion
 unit ntype qqatom
   743 'O2' -0.641
 vibration
-  2
-  678 705
+  1
+  678
 improper torsion
   0
 unit ntype qqatom
@@ -5318,8 +5238,8 @@ improper torsion
 unit ntype qqatom
   746 'O2' -0.641
 vibration
-  2
-  559 684
+  1
+  684
 improper torsion
   0
 unit ntype qqatom
@@ -5339,8 +5259,8 @@ improper torsion
 unit ntype qqatom
   749 'O2' -0.641
 vibration
-  2
-  656 693
+  1
+  656
 improper torsion
   0
 unit ntype qqatom
@@ -5360,8 +5280,8 @@ improper torsion
 unit ntype qqatom
   752 'O2' -0.641
 vibration
-  2
-  547 662
+  1
+  662
 improper torsion
   0
 unit ntype qqatom
@@ -5381,8 +5301,8 @@ improper torsion
 unit ntype qqatom
   755 'O2' -0.641
 vibration
-  2
-  667 699
+  1
+  667
 improper torsion
   0
 unit ntype qqatom
@@ -5402,8 +5322,8 @@ improper torsion
 unit ntype qqatom
   758 'O2' -0.641
 vibration
-  2
-  535 651
+  1
+  651
 improper torsion
   0
 unit ntype qqatom
@@ -5423,8 +5343,8 @@ improper torsion
 unit ntype qqatom
   761 'O2' -0.641
 vibration
-  2
-  671 723
+  1
+  723
 improper torsion
   0
 unit ntype qqatom
@@ -5444,8 +5364,8 @@ improper torsion
 unit ntype qqatom
   764 'O2' -0.641
 vibration
-  2
-  682 728
+  1
+  728
 improper torsion
   0
 unit ntype qqatom
@@ -5465,8 +5385,8 @@ improper torsion
 unit ntype qqatom
   767 'O2' -0.641
 vibration
-  2
-  660 733
+  1
+  733
 improper torsion
   0
 unit ntype qqatom
@@ -5486,8 +5406,8 @@ improper torsion
 unit ntype qqatom
   770 'O2' -0.641
 vibration
-  2
-  649 718
+  1
+  718
 improper torsion
   0
 unit ntype qqatom
@@ -5507,8 +5427,8 @@ improper torsion
 unit ntype qqatom
   773 'O2' -0.641
 vibration
-  2
-  432 713
+  1
+  713
 improper torsion
   0
 unit ntype qqatom
@@ -5528,8 +5448,8 @@ improper torsion
 unit ntype qqatom
   776 'O2' -0.641
 vibration
-  2
-  474 695
+  1
+  695
 improper torsion
   0
 unit ntype qqatom
@@ -5549,8 +5469,8 @@ improper torsion
 unit ntype qqatom
   779 'O2' -0.641
 vibration
-  2
-  460 701
+  1
+  701
 improper torsion
   0
 unit ntype qqatom
@@ -5570,8 +5490,8 @@ improper torsion
 unit ntype qqatom
   782 'O2' -0.641
 vibration
-  2
-  446 707
+  1
+  707
 improper torsion
   0
 unit ntype qqatom
@@ -5591,8 +5511,8 @@ improper torsion
 unit ntype qqatom
   785 'O2' -0.641
 vibration
-  2
-  660 786
+  1
+  786
 improper torsion
   0
 unit ntype qqatom
@@ -5626,8 +5546,8 @@ improper torsion
 unit ntype qqatom
   790 'O2' -0.641
 vibration
-  2
-  649 791
+  1
+  791
 improper torsion
   0
 unit ntype qqatom
@@ -5661,8 +5581,8 @@ improper torsion
 unit ntype qqatom
   795 'O2' -0.641
 vibration
-  2
-  682 796
+  1
+  796
 improper torsion
   0
 unit ntype qqatom
@@ -5696,8 +5616,8 @@ improper torsion
 unit ntype qqatom
   800 'O2' -0.641
 vibration
-  2
-  671 801
+  1
+  801
 improper torsion
   0
 unit ntype qqatom
@@ -5731,8 +5651,8 @@ improper torsion
 unit ntype qqatom
   805 'O2' -0.641
 vibration
-  2
-  487 806
+  1
+  806
 improper torsion
   0
 unit ntype qqatom
@@ -5766,8 +5686,8 @@ improper torsion
 unit ntype qqatom
   810 'O2' -0.641
 vibration
-  2
-  499 811
+  1
+  811
 improper torsion
   0
 unit ntype qqatom
@@ -5801,8 +5721,8 @@ improper torsion
 unit ntype qqatom
   815 'O2' -0.641
 vibration
-  2
-  523 816
+  1
+  816
 improper torsion
   0
 unit ntype qqatom
@@ -5836,8 +5756,8 @@ improper torsion
 unit ntype qqatom
   820 'O2' -0.641
 vibration
-  2
-  511 821
+  1
+  821
 improper torsion
   0
 unit ntype qqatom
@@ -5871,8 +5791,8 @@ improper torsion
 unit ntype qqatom
   825 'O2' -0.641
 vibration
-  2
-  705 811
+  1
+  811
 improper torsion
   0
 unit ntype qqatom
@@ -5892,8 +5812,8 @@ improper torsion
 unit ntype qqatom
   828 'O2' -0.641
 vibration
-  2
-  711 806
+  1
+  806
 improper torsion
   0
 unit ntype qqatom
@@ -5913,8 +5833,8 @@ improper torsion
 unit ntype qqatom
   831 'O2' -0.641
 vibration
-  2
-  699 821
+  1
+  821
 improper torsion
   0
 unit ntype qqatom
@@ -5934,8 +5854,8 @@ improper torsion
 unit ntype qqatom
   834 'O2' -0.641
 vibration
-  2
-  693 816
+  1
+  816
 improper torsion
   0
 unit ntype qqatom
@@ -5955,8 +5875,8 @@ improper torsion
 unit ntype qqatom
   837 'O2' -0.641
 vibration
-  2
-  453 791
+  1
+  791
 improper torsion
   0
 unit ntype qqatom
@@ -5976,8 +5896,8 @@ improper torsion
 unit ntype qqatom
   840 'O2' -0.641
 vibration
-  2
-  467 786
+  1
+  786
 improper torsion
   0
 unit ntype qqatom
@@ -5997,8 +5917,8 @@ improper torsion
 unit ntype qqatom
   843 'O2' -0.641
 vibration
-  2
-  425 801
+  1
+  801
 improper torsion
   0
 unit ntype qqatom
@@ -6018,8 +5938,8 @@ improper torsion
 unit ntype qqatom
   846 'O2' -0.641
 vibration
-  2
-  439 796
+  1
+  796
 improper torsion
   0
 unit ntype qqatom
@@ -6039,22 +5959,20 @@ improper torsion
 unit ntype qqatom
   849 'Zn' 1.333
 vibration
-  7
-  850 851 905 953 1046 1095 1267
+  0
 improper torsion
   0
 unit ntype qqatom
   850 'O1' -1.564
 vibration
-  4
-  849 905 953 1095
+  0
 improper torsion
   0
 unit ntype qqatom
   851 'O2' -0.641
 vibration
-  2
-  849 852
+  1
+  852
 improper torsion
   0
 unit ntype qqatom
@@ -6088,22 +6006,20 @@ improper torsion
 unit ntype qqatom
   856 'Zn' 1.333
 vibration
-  7
-  857 858 911 995 1037 1135 1197
+  0
 improper torsion
   0
 unit ntype qqatom
   857 'O1' -1.564
 vibration
-  4
-  856 911 995 1135
+  0
 improper torsion
   0
 unit ntype qqatom
   858 'O2' -0.641
 vibration
-  2
-  856 859
+  1
+  859
 improper torsion
   0
 unit ntype qqatom
@@ -6137,22 +6053,20 @@ improper torsion
 unit ntype qqatom
   863 'Zn' 1.333
 vibration
-  7
-  864 865 917 983 1040 1106 1270
+  0
 improper torsion
   0
 unit ntype qqatom
   864 'O1' -1.564
 vibration
-  4
-  863 917 983 1106
+  0
 improper torsion
   0
 unit ntype qqatom
   865 'O2' -0.641
 vibration
-  2
-  863 866
+  1
+  866
 improper torsion
   0
 unit ntype qqatom
@@ -6186,22 +6100,20 @@ improper torsion
 unit ntype qqatom
   870 'Zn' 1.333
 vibration
-  7
-  871 872 923 989 1043 1129 1206
+  0
 improper torsion
   0
 unit ntype qqatom
   871 'O1' -1.564
 vibration
-  4
-  870 923 989 1129
+  0
 improper torsion
   0
 unit ntype qqatom
   872 'O2' -0.641
 vibration
-  2
-  870 873
+  1
+  873
 improper torsion
   0
 unit ntype qqatom
@@ -6235,22 +6147,20 @@ improper torsion
 unit ntype qqatom
   877 'Zn' 1.333
 vibration
-  7
-  878 879 929 959 1028 1073 1261
+  0
 improper torsion
   0
 unit ntype qqatom
   878 'O1' -1.564
 vibration
-  4
-  877 929 959 1073
+  0
 improper torsion
   0
 unit ntype qqatom
   879 'O2' -0.641
 vibration
-  2
-  877 880
+  1
+  880
 improper torsion
   0
 unit ntype qqatom
@@ -6284,22 +6194,20 @@ improper torsion
 unit ntype qqatom
   884 'Zn' 1.333
 vibration
-  7
-  885 886 935 965 1031 1123 1203
+  0
 improper torsion
   0
 unit ntype qqatom
   885 'O1' -1.564
 vibration
-  4
-  884 935 965 1123
+  0
 improper torsion
   0
 unit ntype qqatom
   886 'O2' -0.641
 vibration
-  2
-  884 887
+  1
+  887
 improper torsion
   0
 unit ntype qqatom
@@ -6333,22 +6241,20 @@ improper torsion
 unit ntype qqatom
   891 'Zn' 1.333
 vibration
-  7
-  892 893 941 971 1034 1084 1264
+  0
 improper torsion
   0
 unit ntype qqatom
   892 'O1' -1.564
 vibration
-  4
-  891 941 971 1084
+  0
 improper torsion
   0
 unit ntype qqatom
   893 'O2' -0.641
 vibration
-  2
-  891 894
+  1
+  894
 improper torsion
   0
 unit ntype qqatom
@@ -6382,22 +6288,20 @@ improper torsion
 unit ntype qqatom
   898 'Zn' 1.333
 vibration
-  7
-  899 900 947 977 1025 1117 1200
+  0
 improper torsion
   0
 unit ntype qqatom
   899 'O1' -1.564
 vibration
-  4
-  898 947 977 1117
+  0
 improper torsion
   0
 unit ntype qqatom
   900 'O2' -0.641
 vibration
-  2
-  898 901
+  1
+  901
 improper torsion
   0
 unit ntype qqatom
@@ -6431,15 +6335,14 @@ improper torsion
 unit ntype qqatom
   905 'Zn' 1.333
 vibration
-  7
-  849 850 906 953 1022 1095 1146
+  0
 improper torsion
   0
 unit ntype qqatom
   906 'O2' -0.641
 vibration
-  2
-  905 907
+  1
+  907
 improper torsion
   0
 unit ntype qqatom
@@ -6473,15 +6376,14 @@ improper torsion
 unit ntype qqatom
   911 'Zn' 1.333
 vibration
-  7
-  856 857 912 995 1013 1135 1229
+  0
 improper torsion
   0
 unit ntype qqatom
   912 'O2' -0.641
 vibration
-  2
-  911 913
+  1
+  913
 improper torsion
   0
 unit ntype qqatom
@@ -6515,15 +6417,14 @@ improper torsion
 unit ntype qqatom
   917 'Zn' 1.333
 vibration
-  7
-  863 864 918 983 1016 1106 1151
+  0
 improper torsion
   0
 unit ntype qqatom
   918 'O2' -0.641
 vibration
-  2
-  917 919
+  1
+  919
 improper torsion
   0
 unit ntype qqatom
@@ -6557,15 +6458,14 @@ improper torsion
 unit ntype qqatom
   923 'Zn' 1.333
 vibration
-  7
-  870 871 924 989 1019 1129 1234
+  0
 improper torsion
   0
 unit ntype qqatom
   924 'O2' -0.641
 vibration
-  2
-  923 925
+  1
+  925
 improper torsion
   0
 unit ntype qqatom
@@ -6599,15 +6499,14 @@ improper torsion
 unit ntype qqatom
   929 'Zn' 1.333
 vibration
-  7
-  877 878 930 959 1004 1073 1141
+  0
 improper torsion
   0
 unit ntype qqatom
   930 'O2' -0.641
 vibration
-  2
-  929 931
+  1
+  931
 improper torsion
   0
 unit ntype qqatom
@@ -6641,15 +6540,14 @@ improper torsion
 unit ntype qqatom
   935 'Zn' 1.333
 vibration
-  7
-  884 885 936 965 1007 1123 1244
+  0
 improper torsion
   0
 unit ntype qqatom
   936 'O2' -0.641
 vibration
-  2
-  935 937
+  1
+  937
 improper torsion
   0
 unit ntype qqatom
@@ -6683,15 +6581,14 @@ improper torsion
 unit ntype qqatom
   941 'Zn' 1.333
 vibration
-  7
-  891 892 942 971 1010 1084 1156
+  0
 improper torsion
   0
 unit ntype qqatom
   942 'O2' -0.641
 vibration
-  2
-  941 943
+  1
+  943
 improper torsion
   0
 unit ntype qqatom
@@ -6725,15 +6622,14 @@ improper torsion
 unit ntype qqatom
   947 'Zn' 1.333
 vibration
-  7
-  898 899 948 977 1001 1117 1239
+  0
 improper torsion
   0
 unit ntype qqatom
   948 'O2' -0.641
 vibration
-  2
-  947 949
+  1
+  949
 improper torsion
   0
 unit ntype qqatom
@@ -6767,15 +6663,14 @@ improper torsion
 unit ntype qqatom
   953 'Zn' 1.333
 vibration
-  7
-  849 850 905 954 1061 1095 1164
+  0
 improper torsion
   0
 unit ntype qqatom
   954 'O2' -0.641
 vibration
-  2
-  953 955
+  1
+  955
 improper torsion
   0
 unit ntype qqatom
@@ -6809,15 +6704,14 @@ improper torsion
 unit ntype qqatom
   959 'Zn' 1.333
 vibration
-  7
-  877 878 929 960 1070 1073 1182
+  0
 improper torsion
   0
 unit ntype qqatom
   960 'O2' -0.641
 vibration
-  2
-  959 961
+  1
+  961
 improper torsion
   0
 unit ntype qqatom
@@ -6851,15 +6745,14 @@ improper torsion
 unit ntype qqatom
   965 'Zn' 1.333
 vibration
-  7
-  884 885 935 966 1064 1090 1123
+  0
 improper torsion
   0
 unit ntype qqatom
   966 'O2' -0.641
 vibration
-  2
-  965 967
+  1
+  967
 improper torsion
   0
 unit ntype qqatom
@@ -6893,15 +6786,14 @@ improper torsion
 unit ntype qqatom
   971 'Zn' 1.333
 vibration
-  7
-  891 892 941 972 1067 1084 1176
+  0
 improper torsion
   0
 unit ntype qqatom
   972 'O2' -0.641
 vibration
-  2
-  971 973
+  1
+  973
 improper torsion
   0
 unit ntype qqatom
@@ -6935,15 +6827,14 @@ improper torsion
 unit ntype qqatom
   977 'Zn' 1.333
 vibration
-  7
-  898 899 947 978 1049 1079 1117
+  0
 improper torsion
   0
 unit ntype qqatom
   978 'O2' -0.641
 vibration
-  2
-  977 979
+  1
+  979
 improper torsion
   0
 unit ntype qqatom
@@ -6977,15 +6868,14 @@ improper torsion
 unit ntype qqatom
   983 'Zn' 1.333
 vibration
-  7
-  863 864 917 984 1055 1106 1170
+  0
 improper torsion
   0
 unit ntype qqatom
   984 'O2' -0.641
 vibration
-  2
-  983 985
+  1
+  985
 improper torsion
   0
 unit ntype qqatom
@@ -7019,15 +6909,14 @@ improper torsion
 unit ntype qqatom
   989 'Zn' 1.333
 vibration
-  7
-  870 871 923 990 1058 1101 1129
+  0
 improper torsion
   0
 unit ntype qqatom
   990 'O2' -0.641
 vibration
-  2
-  989 991
+  1
+  991
 improper torsion
   0
 unit ntype qqatom
@@ -7061,15 +6950,14 @@ improper torsion
 unit ntype qqatom
   995 'Zn' 1.333
 vibration
-  7
-  856 857 911 996 1052 1112 1135
+  0
 improper torsion
   0
 unit ntype qqatom
   996 'O2' -0.641
 vibration
-  2
-  995 997
+  1
+  997
 improper torsion
   0
 unit ntype qqatom
@@ -7103,8 +6991,8 @@ improper torsion
 unit ntype qqatom
   1001 'O2' -0.641
 vibration
-  2
-  901 947
+  1
+  901
 improper torsion
   0
 unit ntype qqatom
@@ -7124,8 +7012,8 @@ improper torsion
 unit ntype qqatom
   1004 'O2' -0.641
 vibration
-  2
-  880 929
+  1
+  880
 improper torsion
   0
 unit ntype qqatom
@@ -7145,8 +7033,8 @@ improper torsion
 unit ntype qqatom
   1007 'O2' -0.641
 vibration
-  2
-  887 935
+  1
+  887
 improper torsion
   0
 unit ntype qqatom
@@ -7166,8 +7054,8 @@ improper torsion
 unit ntype qqatom
   1010 'O2' -0.641
 vibration
-  2
-  894 941
+  1
+  894
 improper torsion
   0
 unit ntype qqatom
@@ -7187,8 +7075,8 @@ improper torsion
 unit ntype qqatom
   1013 'O2' -0.641
 vibration
-  2
-  859 911
+  1
+  859
 improper torsion
   0
 unit ntype qqatom
@@ -7208,8 +7096,8 @@ improper torsion
 unit ntype qqatom
   1016 'O2' -0.641
 vibration
-  2
-  866 917
+  1
+  866
 improper torsion
   0
 unit ntype qqatom
@@ -7229,8 +7117,8 @@ improper torsion
 unit ntype qqatom
   1019 'O2' -0.641
 vibration
-  2
-  873 923
+  1
+  873
 improper torsion
   0
 unit ntype qqatom
@@ -7250,8 +7138,8 @@ improper torsion
 unit ntype qqatom
   1022 'O2' -0.641
 vibration
-  2
-  852 905
+  1
+  852
 improper torsion
   0
 unit ntype qqatom
@@ -7271,8 +7159,8 @@ improper torsion
 unit ntype qqatom
   1025 'O2' -0.641
 vibration
-  2
-  898 979
+  1
+  979
 improper torsion
   0
 unit ntype qqatom
@@ -7292,8 +7180,8 @@ improper torsion
 unit ntype qqatom
   1028 'O2' -0.641
 vibration
-  2
-  877 961
+  1
+  961
 improper torsion
   0
 unit ntype qqatom
@@ -7313,8 +7201,8 @@ improper torsion
 unit ntype qqatom
   1031 'O2' -0.641
 vibration
-  2
-  884 967
+  1
+  967
 improper torsion
   0
 unit ntype qqatom
@@ -7334,8 +7222,8 @@ improper torsion
 unit ntype qqatom
   1034 'O2' -0.641
 vibration
-  2
-  891 973
+  1
+  973
 improper torsion
   0
 unit ntype qqatom
@@ -7355,8 +7243,8 @@ improper torsion
 unit ntype qqatom
   1037 'O2' -0.641
 vibration
-  2
-  856 997
+  1
+  997
 improper torsion
   0
 unit ntype qqatom
@@ -7376,8 +7264,8 @@ improper torsion
 unit ntype qqatom
   1040 'O2' -0.641
 vibration
-  2
-  863 985
+  1
+  985
 improper torsion
   0
 unit ntype qqatom
@@ -7397,8 +7285,8 @@ improper torsion
 unit ntype qqatom
   1043 'O2' -0.641
 vibration
-  2
-  870 991
+  1
+  991
 improper torsion
   0
 unit ntype qqatom
@@ -7418,8 +7306,8 @@ improper torsion
 unit ntype qqatom
   1046 'O2' -0.641
 vibration
-  2
-  849 955
+  1
+  955
 improper torsion
   0
 unit ntype qqatom
@@ -7439,8 +7327,8 @@ improper torsion
 unit ntype qqatom
   1049 'O2' -0.641
 vibration
-  2
-  949 977
+  1
+  949
 improper torsion
   0
 unit ntype qqatom
@@ -7460,8 +7348,8 @@ improper torsion
 unit ntype qqatom
   1052 'O2' -0.641
 vibration
-  2
-  913 995
+  1
+  913
 improper torsion
   0
 unit ntype qqatom
@@ -7481,8 +7369,8 @@ improper torsion
 unit ntype qqatom
   1055 'O2' -0.641
 vibration
-  2
-  919 983
+  1
+  919
 improper torsion
   0
 unit ntype qqatom
@@ -7502,8 +7390,8 @@ improper torsion
 unit ntype qqatom
   1058 'O2' -0.641
 vibration
-  2
-  925 989
+  1
+  925
 improper torsion
   0
 unit ntype qqatom
@@ -7523,8 +7411,8 @@ improper torsion
 unit ntype qqatom
   1061 'O2' -0.641
 vibration
-  2
-  907 953
+  1
+  907
 improper torsion
   0
 unit ntype qqatom
@@ -7544,8 +7432,8 @@ improper torsion
 unit ntype qqatom
   1064 'O2' -0.641
 vibration
-  2
-  937 965
+  1
+  937
 improper torsion
   0
 unit ntype qqatom
@@ -7565,8 +7453,8 @@ improper torsion
 unit ntype qqatom
   1067 'O2' -0.641
 vibration
-  2
-  943 971
+  1
+  943
 improper torsion
   0
 unit ntype qqatom
@@ -7586,8 +7474,8 @@ improper torsion
 unit ntype qqatom
   1070 'O2' -0.641
 vibration
-  2
-  931 959
+  1
+  931
 improper torsion
   0
 unit ntype qqatom
@@ -7607,15 +7495,14 @@ improper torsion
 unit ntype qqatom
   1073 'Zn' 1.333
 vibration
-  7
-  877 878 929 959 1074 1194 1214
+  0
 improper torsion
   0
 unit ntype qqatom
   1074 'O2' -0.641
 vibration
-  2
-  1073 1075
+  1
+  1075
 improper torsion
   0
 unit ntype qqatom
@@ -7649,8 +7536,8 @@ improper torsion
 unit ntype qqatom
   1079 'O2' -0.641
 vibration
-  2
-  977 1080
+  1
+  1080
 improper torsion
   0
 unit ntype qqatom
@@ -7684,15 +7571,14 @@ improper torsion
 unit ntype qqatom
   1084 'Zn' 1.333
 vibration
-  7
-  891 892 941 971 1085 1191 1209
+  0
 improper torsion
   0
 unit ntype qqatom
   1085 'O2' -0.641
 vibration
-  2
-  1084 1086
+  1
+  1086
 improper torsion
   0
 unit ntype qqatom
@@ -7726,8 +7612,8 @@ improper torsion
 unit ntype qqatom
   1090 'O2' -0.641
 vibration
-  2
-  965 1091
+  1
+  1091
 improper torsion
   0
 unit ntype qqatom
@@ -7761,15 +7647,14 @@ improper torsion
 unit ntype qqatom
   1095 'Zn' 1.333
 vibration
-  7
-  849 850 905 953 1096 1185 1224
+  0
 improper torsion
   0
 unit ntype qqatom
   1096 'O2' -0.641
 vibration
-  2
-  1095 1097
+  1
+  1097
 improper torsion
   0
 unit ntype qqatom
@@ -7803,8 +7688,8 @@ improper torsion
 unit ntype qqatom
   1101 'O2' -0.641
 vibration
-  2
-  989 1102
+  1
+  1102
 improper torsion
   0
 unit ntype qqatom
@@ -7838,15 +7723,14 @@ improper torsion
 unit ntype qqatom
   1106 'Zn' 1.333
 vibration
-  7
-  863 864 917 983 1107 1188 1219
+  0
 improper torsion
   0
 unit ntype qqatom
   1107 'O2' -0.641
 vibration
-  2
-  1106 1108
+  1
+  1108
 improper torsion
   0
 unit ntype qqatom
@@ -7880,8 +7764,8 @@ improper torsion
 unit ntype qqatom
   1112 'O2' -0.641
 vibration
-  2
-  995 1113
+  1
+  1113
 improper torsion
   0
 unit ntype qqatom
@@ -7915,15 +7799,14 @@ improper torsion
 unit ntype qqatom
   1117 'Zn' 1.333
 vibration
-  7
-  898 899 947 977 1118 1173 1258
+  0
 improper torsion
   0
 unit ntype qqatom
   1118 'O2' -0.641
 vibration
-  2
-  1117 1119
+  1
+  1119
 improper torsion
   0
 unit ntype qqatom
@@ -7957,15 +7840,14 @@ improper torsion
 unit ntype qqatom
   1123 'Zn' 1.333
 vibration
-  7
-  884 885 935 965 1124 1179 1255
+  0
 improper torsion
   0
 unit ntype qqatom
   1124 'O2' -0.641
 vibration
-  2
-  1123 1125
+  1
+  1125
 improper torsion
   0
 unit ntype qqatom
@@ -7999,15 +7881,14 @@ improper torsion
 unit ntype qqatom
   1129 'Zn' 1.333
 vibration
-  7
-  870 871 923 989 1130 1167 1249
+  0
 improper torsion
   0
 unit ntype qqatom
   1130 'O2' -0.641
 vibration
-  2
-  1129 1131
+  1
+  1131
 improper torsion
   0
 unit ntype qqatom
@@ -8041,15 +7922,14 @@ improper torsion
 unit ntype qqatom
   1135 'Zn' 1.333
 vibration
-  7
-  856 857 911 995 1136 1161 1252
+  0
 improper torsion
   0
 unit ntype qqatom
   1136 'O2' -0.641
 vibration
-  2
-  1135 1137
+  1
+  1137
 improper torsion
   0
 unit ntype qqatom
@@ -8083,8 +7963,8 @@ improper torsion
 unit ntype qqatom
   1141 'O2' -0.641
 vibration
-  2
-  929 1142
+  1
+  1142
 improper torsion
   0
 unit ntype qqatom
@@ -8118,8 +7998,8 @@ improper torsion
 unit ntype qqatom
   1146 'O2' -0.641
 vibration
-  2
-  905 1147
+  1
+  1147
 improper torsion
   0
 unit ntype qqatom
@@ -8153,8 +8033,8 @@ improper torsion
 unit ntype qqatom
   1151 'O2' -0.641
 vibration
-  2
-  917 1152
+  1
+  1152
 improper torsion
   0
 unit ntype qqatom
@@ -8188,8 +8068,8 @@ improper torsion
 unit ntype qqatom
   1156 'O2' -0.641
 vibration
-  2
-  941 1157
+  1
+  1157
 improper torsion
   0
 unit ntype qqatom
@@ -8223,8 +8103,8 @@ improper torsion
 unit ntype qqatom
   1161 'O2' -0.641
 vibration
-  2
-  1113 1135
+  1
+  1113
 improper torsion
   0
 unit ntype qqatom
@@ -8244,8 +8124,8 @@ improper torsion
 unit ntype qqatom
   1164 'O2' -0.641
 vibration
-  2
-  953 1097
+  1
+  1097
 improper torsion
   0
 unit ntype qqatom
@@ -8265,8 +8145,8 @@ improper torsion
 unit ntype qqatom
   1167 'O2' -0.641
 vibration
-  2
-  1102 1129
+  1
+  1102
 improper torsion
   0
 unit ntype qqatom
@@ -8286,8 +8166,8 @@ improper torsion
 unit ntype qqatom
   1170 'O2' -0.641
 vibration
-  2
-  983 1108
+  1
+  1108
 improper torsion
   0
 unit ntype qqatom
@@ -8307,8 +8187,8 @@ improper torsion
 unit ntype qqatom
   1173 'O2' -0.641
 vibration
-  2
-  1080 1117
+  1
+  1080
 improper torsion
   0
 unit ntype qqatom
@@ -8328,8 +8208,8 @@ improper torsion
 unit ntype qqatom
   1176 'O2' -0.641
 vibration
-  2
-  971 1086
+  1
+  1086
 improper torsion
   0
 unit ntype qqatom
@@ -8349,8 +8229,8 @@ improper torsion
 unit ntype qqatom
   1179 'O2' -0.641
 vibration
-  2
-  1091 1123
+  1
+  1091
 improper torsion
   0
 unit ntype qqatom
@@ -8370,8 +8250,8 @@ improper torsion
 unit ntype qqatom
   1182 'O2' -0.641
 vibration
-  2
-  959 1075
+  1
+  1075
 improper torsion
   0
 unit ntype qqatom
@@ -8391,8 +8271,8 @@ improper torsion
 unit ntype qqatom
   1185 'O2' -0.641
 vibration
-  2
-  1095 1147
+  1
+  1147
 improper torsion
   0
 unit ntype qqatom
@@ -8412,8 +8292,8 @@ improper torsion
 unit ntype qqatom
   1188 'O2' -0.641
 vibration
-  2
-  1106 1152
+  1
+  1152
 improper torsion
   0
 unit ntype qqatom
@@ -8433,8 +8313,8 @@ improper torsion
 unit ntype qqatom
   1191 'O2' -0.641
 vibration
-  2
-  1084 1157
+  1
+  1157
 improper torsion
   0
 unit ntype qqatom
@@ -8454,8 +8334,8 @@ improper torsion
 unit ntype qqatom
   1194 'O2' -0.641
 vibration
-  2
-  1073 1142
+  1
+  1142
 improper torsion
   0
 unit ntype qqatom
@@ -8475,8 +8355,8 @@ improper torsion
 unit ntype qqatom
   1197 'O2' -0.641
 vibration
-  2
-  856 1137
+  1
+  1137
 improper torsion
   0
 unit ntype qqatom
@@ -8496,8 +8376,8 @@ improper torsion
 unit ntype qqatom
   1200 'O2' -0.641
 vibration
-  2
-  898 1119
+  1
+  1119
 improper torsion
   0
 unit ntype qqatom
@@ -8517,8 +8397,8 @@ improper torsion
 unit ntype qqatom
   1203 'O2' -0.641
 vibration
-  2
-  884 1125
+  1
+  1125
 improper torsion
   0
 unit ntype qqatom
@@ -8538,8 +8418,8 @@ improper torsion
 unit ntype qqatom
   1206 'O2' -0.641
 vibration
-  2
-  870 1131
+  1
+  1131
 improper torsion
   0
 unit ntype qqatom
@@ -8559,8 +8439,8 @@ improper torsion
 unit ntype qqatom
   1209 'O2' -0.641
 vibration
-  2
-  1084 1210
+  1
+  1210
 improper torsion
   0
 unit ntype qqatom
@@ -8594,8 +8474,8 @@ improper torsion
 unit ntype qqatom
   1214 'O2' -0.641
 vibration
-  2
-  1073 1215
+  1
+  1215
 improper torsion
   0
 unit ntype qqatom
@@ -8629,8 +8509,8 @@ improper torsion
 unit ntype qqatom
   1219 'O2' -0.641
 vibration
-  2
-  1106 1220
+  1
+  1220
 improper torsion
   0
 unit ntype qqatom
@@ -8664,8 +8544,8 @@ improper torsion
 unit ntype qqatom
   1224 'O2' -0.641
 vibration
-  2
-  1095 1225
+  1
+  1225
 improper torsion
   0
 unit ntype qqatom
@@ -8699,8 +8579,8 @@ improper torsion
 unit ntype qqatom
   1229 'O2' -0.641
 vibration
-  2
-  911 1230
+  1
+  1230
 improper torsion
   0
 unit ntype qqatom
@@ -8734,8 +8614,8 @@ improper torsion
 unit ntype qqatom
   1234 'O2' -0.641
 vibration
-  2
-  923 1235
+  1
+  1235
 improper torsion
   0
 unit ntype qqatom
@@ -8769,8 +8649,8 @@ improper torsion
 unit ntype qqatom
   1239 'O2' -0.641
 vibration
-  2
-  947 1240
+  1
+  1240
 improper torsion
   0
 unit ntype qqatom
@@ -8804,8 +8684,8 @@ improper torsion
 unit ntype qqatom
   1244 'O2' -0.641
 vibration
-  2
-  935 1245
+  1
+  1245
 improper torsion
   0
 unit ntype qqatom
@@ -8839,8 +8719,8 @@ improper torsion
 unit ntype qqatom
   1249 'O2' -0.641
 vibration
-  2
-  1129 1235
+  1
+  1235
 improper torsion
   0
 unit ntype qqatom
@@ -8860,8 +8740,8 @@ improper torsion
 unit ntype qqatom
   1252 'O2' -0.641
 vibration
-  2
-  1135 1230
+  1
+  1230
 improper torsion
   0
 unit ntype qqatom
@@ -8881,8 +8761,8 @@ improper torsion
 unit ntype qqatom
   1255 'O2' -0.641
 vibration
-  2
-  1123 1245
+  1
+  1245
 improper torsion
   0
 unit ntype qqatom
@@ -8902,8 +8782,8 @@ improper torsion
 unit ntype qqatom
   1258 'O2' -0.641
 vibration
-  2
-  1117 1240
+  1
+  1240
 improper torsion
   0
 unit ntype qqatom
@@ -8923,8 +8803,8 @@ improper torsion
 unit ntype qqatom
   1261 'O2' -0.641
 vibration
-  2
-  877 1215
+  1
+  1215
 improper torsion
   0
 unit ntype qqatom
@@ -8944,8 +8824,8 @@ improper torsion
 unit ntype qqatom
   1264 'O2' -0.641
 vibration
-  2
-  891 1210
+  1
+  1210
 improper torsion
   0
 unit ntype qqatom
@@ -8965,8 +8845,8 @@ improper torsion
 unit ntype qqatom
   1267 'O2' -0.641
 vibration
-  2
-  849 1225
+  1
+  1225
 improper torsion
   0
 unit ntype qqatom
@@ -8986,8 +8866,8 @@ improper torsion
 unit ntype qqatom
   1270 'O2' -0.641
 vibration
-  2
-  863 1220
+  1
+  1220
 improper torsion
   0
 unit ntype qqatom
@@ -9007,22 +8887,20 @@ improper torsion
 unit ntype qqatom
   1273 'Zn' 1.333
 vibration
-  7
-  1274 1275 1329 1377 1470 1519 1691
+  0
 improper torsion
   0
 unit ntype qqatom
   1274 'O1' -1.564
 vibration
-  4
-  1273 1329 1377 1519
+  0
 improper torsion
   0
 unit ntype qqatom
   1275 'O2' -0.641
 vibration
-  2
-  1273 1276
+  1
+  1276
 improper torsion
   0
 unit ntype qqatom
@@ -9056,22 +8934,20 @@ improper torsion
 unit ntype qqatom
   1280 'Zn' 1.333
 vibration
-  7
-  1281 1282 1335 1419 1461 1559 1621
+  0
 improper torsion
   0
 unit ntype qqatom
   1281 'O1' -1.564
 vibration
-  4
-  1280 1335 1419 1559
+  0
 improper torsion
   0
 unit ntype qqatom
   1282 'O2' -0.641
 vibration
-  2
-  1280 1283
+  1
+  1283
 improper torsion
   0
 unit ntype qqatom
@@ -9105,22 +8981,20 @@ improper torsion
 unit ntype qqatom
   1287 'Zn' 1.333
 vibration
-  7
-  1288 1289 1341 1407 1464 1530 1694
+  0
 improper torsion
   0
 unit ntype qqatom
   1288 'O1' -1.564
 vibration
-  4
-  1287 1341 1407 1530
+  0
 improper torsion
   0
 unit ntype qqatom
   1289 'O2' -0.641
 vibration
-  2
-  1287 1290
+  1
+  1290
 improper torsion
   0
 unit ntype qqatom
@@ -9154,22 +9028,20 @@ improper torsion
 unit ntype qqatom
   1294 'Zn' 1.333
 vibration
-  7
-  1295 1296 1347 1413 1467 1553 1630
+  0
 improper torsion
   0
 unit ntype qqatom
   1295 'O1' -1.564
 vibration
-  4
-  1294 1347 1413 1553
+  0
 improper torsion
   0
 unit ntype qqatom
   1296 'O2' -0.641
 vibration
-  2
-  1294 1297
+  1
+  1297
 improper torsion
   0
 unit ntype qqatom
@@ -9203,22 +9075,20 @@ improper torsion
 unit ntype qqatom
   1301 'Zn' 1.333
 vibration
-  7
-  1302 1303 1353 1383 1452 1497 1685
+  0
 improper torsion
   0
 unit ntype qqatom
   1302 'O1' -1.564
 vibration
-  4
-  1301 1353 1383 1497
+  0
 improper torsion
   0
 unit ntype qqatom
   1303 'O2' -0.641
 vibration
-  2
-  1301 1304
+  1
+  1304
 improper torsion
   0
 unit ntype qqatom
@@ -9252,22 +9122,20 @@ improper torsion
 unit ntype qqatom
   1308 'Zn' 1.333
 vibration
-  7
-  1309 1310 1359 1389 1455 1547 1627
+  0
 improper torsion
   0
 unit ntype qqatom
   1309 'O1' -1.564
 vibration
-  4
-  1308 1359 1389 1547
+  0
 improper torsion
   0
 unit ntype qqatom
   1310 'O2' -0.641
 vibration
-  2
-  1308 1311
+  1
+  1311
 improper torsion
   0
 unit ntype qqatom
@@ -9301,22 +9169,20 @@ improper torsion
 unit ntype qqatom
   1315 'Zn' 1.333
 vibration
-  7
-  1316 1317 1365 1395 1458 1508 1688
+  0
 improper torsion
   0
 unit ntype qqatom
   1316 'O1' -1.564
 vibration
-  4
-  1315 1365 1395 1508
+  0
 improper torsion
   0
 unit ntype qqatom
   1317 'O2' -0.641
 vibration
-  2
-  1315 1318
+  1
+  1318
 improper torsion
   0
 unit ntype qqatom
@@ -9350,22 +9216,20 @@ improper torsion
 unit ntype qqatom
   1322 'Zn' 1.333
 vibration
-  7
-  1323 1324 1371 1401 1449 1541 1624
+  0
 improper torsion
   0
 unit ntype qqatom
   1323 'O1' -1.564
 vibration
-  4
-  1322 1371 1401 1541
+  0
 improper torsion
   0
 unit ntype qqatom
   1324 'O2' -0.641
 vibration
-  2
-  1322 1325
+  1
+  1325
 improper torsion
   0
 unit ntype qqatom
@@ -9399,15 +9263,14 @@ improper torsion
 unit ntype qqatom
   1329 'Zn' 1.333
 vibration
-  7
-  1273 1274 1330 1377 1446 1519 1570
+  0
 improper torsion
   0
 unit ntype qqatom
   1330 'O2' -0.641
 vibration
-  2
-  1329 1331
+  1
+  1331
 improper torsion
   0
 unit ntype qqatom
@@ -9441,15 +9304,14 @@ improper torsion
 unit ntype qqatom
   1335 'Zn' 1.333
 vibration
-  7
-  1280 1281 1336 1419 1437 1559 1653
+  0
 improper torsion
   0
 unit ntype qqatom
   1336 'O2' -0.641
 vibration
-  2
-  1335 1337
+  1
+  1337
 improper torsion
   0
 unit ntype qqatom
@@ -9483,15 +9345,14 @@ improper torsion
 unit ntype qqatom
   1341 'Zn' 1.333
 vibration
-  7
-  1287 1288 1342 1407 1440 1530 1575
+  0
 improper torsion
   0
 unit ntype qqatom
   1342 'O2' -0.641
 vibration
-  2
-  1341 1343
+  1
+  1343
 improper torsion
   0
 unit ntype qqatom
@@ -9525,15 +9386,14 @@ improper torsion
 unit ntype qqatom
   1347 'Zn' 1.333
 vibration
-  7
-  1294 1295 1348 1413 1443 1553 1658
+  0
 improper torsion
   0
 unit ntype qqatom
   1348 'O2' -0.641
 vibration
-  2
-  1347 1349
+  1
+  1349
 improper torsion
   0
 unit ntype qqatom
@@ -9567,15 +9427,14 @@ improper torsion
 unit ntype qqatom
   1353 'Zn' 1.333
 vibration
-  7
-  1301 1302 1354 1383 1428 1497 1565
+  0
 improper torsion
   0
 unit ntype qqatom
   1354 'O2' -0.641
 vibration
-  2
-  1353 1355
+  1
+  1355
 improper torsion
   0
 unit ntype qqatom
@@ -9609,15 +9468,14 @@ improper torsion
 unit ntype qqatom
   1359 'Zn' 1.333
 vibration
-  7
-  1308 1309 1360 1389 1431 1547 1668
+  0
 improper torsion
   0
 unit ntype qqatom
   1360 'O2' -0.641
 vibration
-  2
-  1359 1361
+  1
+  1361
 improper torsion
   0
 unit ntype qqatom
@@ -9651,15 +9509,14 @@ improper torsion
 unit ntype qqatom
   1365 'Zn' 1.333
 vibration
-  7
-  1315 1316 1366 1395 1434 1508 1580
+  0
 improper torsion
   0
 unit ntype qqatom
   1366 'O2' -0.641
 vibration
-  2
-  1365 1367
+  1
+  1367
 improper torsion
   0
 unit ntype qqatom
@@ -9693,15 +9550,14 @@ improper torsion
 unit ntype qqatom
   1371 'Zn' 1.333
 vibration
-  7
-  1322 1323 1372 1401 1425 1541 1663
+  0
 improper torsion
   0
 unit ntype qqatom
   1372 'O2' -0.641
 vibration
-  2
-  1371 1373
+  1
+  1373
 improper torsion
   0
 unit ntype qqatom
@@ -9735,15 +9591,14 @@ improper torsion
 unit ntype qqatom
   1377 'Zn' 1.333
 vibration
-  7
-  1273 1274 1329 1378 1485 1519 1588
+  0
 improper torsion
   0
 unit ntype qqatom
   1378 'O2' -0.641
 vibration
-  2
-  1377 1379
+  1
+  1379
 improper torsion
   0
 unit ntype qqatom
@@ -9777,15 +9632,14 @@ improper torsion
 unit ntype qqatom
   1383 'Zn' 1.333
 vibration
-  7
-  1301 1302 1353 1384 1494 1497 1606
+  0
 improper torsion
   0
 unit ntype qqatom
   1384 'O2' -0.641
 vibration
-  2
-  1383 1385
+  1
+  1385
 improper torsion
   0
 unit ntype qqatom
@@ -9819,15 +9673,14 @@ improper torsion
 unit ntype qqatom
   1389 'Zn' 1.333
 vibration
-  7
-  1308 1309 1359 1390 1488 1514 1547
+  0
 improper torsion
   0
 unit ntype qqatom
   1390 'O2' -0.641
 vibration
-  2
-  1389 1391
+  1
+  1391
 improper torsion
   0
 unit ntype qqatom
@@ -9861,15 +9714,14 @@ improper torsion
 unit ntype qqatom
   1395 'Zn' 1.333
 vibration
-  7
-  1315 1316 1365 1396 1491 1508 1600
+  0
 improper torsion
   0
 unit ntype qqatom
   1396 'O2' -0.641
 vibration
-  2
-  1395 1397
+  1
+  1397
 improper torsion
   0
 unit ntype qqatom
@@ -9903,15 +9755,14 @@ improper torsion
 unit ntype qqatom
   1401 'Zn' 1.333
 vibration
-  7
-  1322 1323 1371 1402 1473 1503 1541
+  0
 improper torsion
   0
 unit ntype qqatom
   1402 'O2' -0.641
 vibration
-  2
-  1401 1403
+  1
+  1403
 improper torsion
   0
 unit ntype qqatom
@@ -9945,15 +9796,14 @@ improper torsion
 unit ntype qqatom
   1407 'Zn' 1.333
 vibration
-  7
-  1287 1288 1341 1408 1479 1530 1594
+  0
 improper torsion
   0
 unit ntype qqatom
   1408 'O2' -0.641
 vibration
-  2
-  1407 1409
+  1
+  1409
 improper torsion
   0
 unit ntype qqatom
@@ -9987,15 +9837,14 @@ improper torsion
 unit ntype qqatom
   1413 'Zn' 1.333
 vibration
-  7
-  1294 1295 1347 1414 1482 1525 1553
+  0
 improper torsion
   0
 unit ntype qqatom
   1414 'O2' -0.641
 vibration
-  2
-  1413 1415
+  1
+  1415
 improper torsion
   0
 unit ntype qqatom
@@ -10029,15 +9878,14 @@ improper torsion
 unit ntype qqatom
   1419 'Zn' 1.333
 vibration
-  7
-  1280 1281 1335 1420 1476 1536 1559
+  0
 improper torsion
   0
 unit ntype qqatom
   1420 'O2' -0.641
 vibration
-  2
-  1419 1421
+  1
+  1421
 improper torsion
   0
 unit ntype qqatom
@@ -10071,8 +9919,8 @@ improper torsion
 unit ntype qqatom
   1425 'O2' -0.641
 vibration
-  2
-  1325 1371
+  1
+  1325
 improper torsion
   0
 unit ntype qqatom
@@ -10092,8 +9940,8 @@ improper torsion
 unit ntype qqatom
   1428 'O2' -0.641
 vibration
-  2
-  1304 1353
+  1
+  1304
 improper torsion
   0
 unit ntype qqatom
@@ -10113,8 +9961,8 @@ improper torsion
 unit ntype qqatom
   1431 'O2' -0.641
 vibration
-  2
-  1311 1359
+  1
+  1311
 improper torsion
   0
 unit ntype qqatom
@@ -10134,8 +9982,8 @@ improper torsion
 unit ntype qqatom
   1434 'O2' -0.641
 vibration
-  2
-  1318 1365
+  1
+  1318
 improper torsion
   0
 unit ntype qqatom
@@ -10155,8 +10003,8 @@ improper torsion
 unit ntype qqatom
   1437 'O2' -0.641
 vibration
-  2
-  1283 1335
+  1
+  1283
 improper torsion
   0
 unit ntype qqatom
@@ -10176,8 +10024,8 @@ improper torsion
 unit ntype qqatom
   1440 'O2' -0.641
 vibration
-  2
-  1290 1341
+  1
+  1290
 improper torsion
   0
 unit ntype qqatom
@@ -10197,8 +10045,8 @@ improper torsion
 unit ntype qqatom
   1443 'O2' -0.641
 vibration
-  2
-  1297 1347
+  1
+  1297
 improper torsion
   0
 unit ntype qqatom
@@ -10218,8 +10066,8 @@ improper torsion
 unit ntype qqatom
   1446 'O2' -0.641
 vibration
-  2
-  1276 1329
+  1
+  1276
 improper torsion
   0
 unit ntype qqatom
@@ -10239,8 +10087,8 @@ improper torsion
 unit ntype qqatom
   1449 'O2' -0.641
 vibration
-  2
-  1322 1403
+  1
+  1403
 improper torsion
   0
 unit ntype qqatom
@@ -10260,8 +10108,8 @@ improper torsion
 unit ntype qqatom
   1452 'O2' -0.641
 vibration
-  2
-  1301 1385
+  1
+  1385
 improper torsion
   0
 unit ntype qqatom
@@ -10281,8 +10129,8 @@ improper torsion
 unit ntype qqatom
   1455 'O2' -0.641
 vibration
-  2
-  1308 1391
+  1
+  1391
 improper torsion
   0
 unit ntype qqatom
@@ -10302,8 +10150,8 @@ improper torsion
 unit ntype qqatom
   1458 'O2' -0.641
 vibration
-  2
-  1315 1397
+  1
+  1397
 improper torsion
   0
 unit ntype qqatom
@@ -10323,8 +10171,8 @@ improper torsion
 unit ntype qqatom
   1461 'O2' -0.641
 vibration
-  2
-  1280 1421
+  1
+  1421
 improper torsion
   0
 unit ntype qqatom
@@ -10344,8 +10192,8 @@ improper torsion
 unit ntype qqatom
   1464 'O2' -0.641
 vibration
-  2
-  1287 1409
+  1
+  1409
 improper torsion
   0
 unit ntype qqatom
@@ -10365,8 +10213,8 @@ improper torsion
 unit ntype qqatom
   1467 'O2' -0.641
 vibration
-  2
-  1294 1415
+  1
+  1415
 improper torsion
   0
 unit ntype qqatom
@@ -10386,8 +10234,8 @@ improper torsion
 unit ntype qqatom
   1470 'O2' -0.641
 vibration
-  2
-  1273 1379
+  1
+  1379
 improper torsion
   0
 unit ntype qqatom
@@ -10407,8 +10255,8 @@ improper torsion
 unit ntype qqatom
   1473 'O2' -0.641
 vibration
-  2
-  1373 1401
+  1
+  1373
 improper torsion
   0
 unit ntype qqatom
@@ -10428,8 +10276,8 @@ improper torsion
 unit ntype qqatom
   1476 'O2' -0.641
 vibration
-  2
-  1337 1419
+  1
+  1337
 improper torsion
   0
 unit ntype qqatom
@@ -10449,8 +10297,8 @@ improper torsion
 unit ntype qqatom
   1479 'O2' -0.641
 vibration
-  2
-  1343 1407
+  1
+  1343
 improper torsion
   0
 unit ntype qqatom
@@ -10470,8 +10318,8 @@ improper torsion
 unit ntype qqatom
   1482 'O2' -0.641
 vibration
-  2
-  1349 1413
+  1
+  1349
 improper torsion
   0
 unit ntype qqatom
@@ -10491,8 +10339,8 @@ improper torsion
 unit ntype qqatom
   1485 'O2' -0.641
 vibration
-  2
-  1331 1377
+  1
+  1331
 improper torsion
   0
 unit ntype qqatom
@@ -10512,8 +10360,8 @@ improper torsion
 unit ntype qqatom
   1488 'O2' -0.641
 vibration
-  2
-  1361 1389
+  1
+  1361
 improper torsion
   0
 unit ntype qqatom
@@ -10533,8 +10381,8 @@ improper torsion
 unit ntype qqatom
   1491 'O2' -0.641
 vibration
-  2
-  1367 1395
+  1
+  1367
 improper torsion
   0
 unit ntype qqatom
@@ -10554,8 +10402,8 @@ improper torsion
 unit ntype qqatom
   1494 'O2' -0.641
 vibration
-  2
-  1355 1383
+  1
+  1355
 improper torsion
   0
 unit ntype qqatom
@@ -10575,15 +10423,14 @@ improper torsion
 unit ntype qqatom
   1497 'Zn' 1.333
 vibration
-  7
-  1301 1302 1353 1383 1498 1618 1638
+  0
 improper torsion
   0
 unit ntype qqatom
   1498 'O2' -0.641
 vibration
-  2
-  1497 1499
+  1
+  1499
 improper torsion
   0
 unit ntype qqatom
@@ -10617,8 +10464,8 @@ improper torsion
 unit ntype qqatom
   1503 'O2' -0.641
 vibration
-  2
-  1401 1504
+  1
+  1504
 improper torsion
   0
 unit ntype qqatom
@@ -10652,15 +10499,14 @@ improper torsion
 unit ntype qqatom
   1508 'Zn' 1.333
 vibration
-  7
-  1315 1316 1365 1395 1509 1615 1633
+  0
 improper torsion
   0
 unit ntype qqatom
   1509 'O2' -0.641
 vibration
-  2
-  1508 1510
+  1
+  1510
 improper torsion
   0
 unit ntype qqatom
@@ -10694,8 +10540,8 @@ improper torsion
 unit ntype qqatom
   1514 'O2' -0.641
 vibration
-  2
-  1389 1515
+  1
+  1515
 improper torsion
   0
 unit ntype qqatom
@@ -10729,15 +10575,14 @@ improper torsion
 unit ntype qqatom
   1519 'Zn' 1.333
 vibration
-  7
-  1273 1274 1329 1377 1520 1609 1648
+  0
 improper torsion
   0
 unit ntype qqatom
   1520 'O2' -0.641
 vibration
-  2
-  1519 1521
+  1
+  1521
 improper torsion
   0
 unit ntype qqatom
@@ -10771,8 +10616,8 @@ improper torsion
 unit ntype qqatom
   1525 'O2' -0.641
 vibration
-  2
-  1413 1526
+  1
+  1526
 improper torsion
   0
 unit ntype qqatom
@@ -10806,15 +10651,14 @@ improper torsion
 unit ntype qqatom
   1530 'Zn' 1.333
 vibration
-  7
-  1287 1288 1341 1407 1531 1612 1643
+  0
 improper torsion
   0
 unit ntype qqatom
   1531 'O2' -0.641
 vibration
-  2
-  1530 1532
+  1
+  1532
 improper torsion
   0
 unit ntype qqatom
@@ -10848,8 +10692,8 @@ improper torsion
 unit ntype qqatom
   1536 'O2' -0.641
 vibration
-  2
-  1419 1537
+  1
+  1537
 improper torsion
   0
 unit ntype qqatom
@@ -10883,15 +10727,14 @@ improper torsion
 unit ntype qqatom
   1541 'Zn' 1.333
 vibration
-  7
-  1322 1323 1371 1401 1542 1597 1682
+  0
 improper torsion
   0
 unit ntype qqatom
   1542 'O2' -0.641
 vibration
-  2
-  1541 1543
+  1
+  1543
 improper torsion
   0
 unit ntype qqatom
@@ -10925,15 +10768,14 @@ improper torsion
 unit ntype qqatom
   1547 'Zn' 1.333
 vibration
-  7
-  1308 1309 1359 1389 1548 1603 1679
+  0
 improper torsion
   0
 unit ntype qqatom
   1548 'O2' -0.641
 vibration
-  2
-  1547 1549
+  1
+  1549
 improper torsion
   0
 unit ntype qqatom
@@ -10967,15 +10809,14 @@ improper torsion
 unit ntype qqatom
   1553 'Zn' 1.333
 vibration
-  7
-  1294 1295 1347 1413 1554 1591 1673
+  0
 improper torsion
   0
 unit ntype qqatom
   1554 'O2' -0.641
 vibration
-  2
-  1553 1555
+  1
+  1555
 improper torsion
   0
 unit ntype qqatom
@@ -11009,15 +10850,14 @@ improper torsion
 unit ntype qqatom
   1559 'Zn' 1.333
 vibration
-  7
-  1280 1281 1335 1419 1560 1585 1676
+  0
 improper torsion
   0
 unit ntype qqatom
   1560 'O2' -0.641
 vibration
-  2
-  1559 1561
+  1
+  1561
 improper torsion
   0
 unit ntype qqatom
@@ -11051,8 +10891,8 @@ improper torsion
 unit ntype qqatom
   1565 'O2' -0.641
 vibration
-  2
-  1353 1566
+  1
+  1566
 improper torsion
   0
 unit ntype qqatom
@@ -11086,8 +10926,8 @@ improper torsion
 unit ntype qqatom
   1570 'O2' -0.641
 vibration
-  2
-  1329 1571
+  1
+  1571
 improper torsion
   0
 unit ntype qqatom
@@ -11121,8 +10961,8 @@ improper torsion
 unit ntype qqatom
   1575 'O2' -0.641
 vibration
-  2
-  1341 1576
+  1
+  1576
 improper torsion
   0
 unit ntype qqatom
@@ -11156,8 +10996,8 @@ improper torsion
 unit ntype qqatom
   1580 'O2' -0.641
 vibration
-  2
-  1365 1581
+  1
+  1581
 improper torsion
   0
 unit ntype qqatom
@@ -11191,8 +11031,8 @@ improper torsion
 unit ntype qqatom
   1585 'O2' -0.641
 vibration
-  2
-  1537 1559
+  1
+  1537
 improper torsion
   0
 unit ntype qqatom
@@ -11212,8 +11052,8 @@ improper torsion
 unit ntype qqatom
   1588 'O2' -0.641
 vibration
-  2
-  1377 1521
+  1
+  1521
 improper torsion
   0
 unit ntype qqatom
@@ -11233,8 +11073,8 @@ improper torsion
 unit ntype qqatom
   1591 'O2' -0.641
 vibration
-  2
-  1526 1553
+  1
+  1526
 improper torsion
   0
 unit ntype qqatom
@@ -11254,8 +11094,8 @@ improper torsion
 unit ntype qqatom
   1594 'O2' -0.641
 vibration
-  2
-  1407 1532
+  1
+  1532
 improper torsion
   0
 unit ntype qqatom
@@ -11275,8 +11115,8 @@ improper torsion
 unit ntype qqatom
   1597 'O2' -0.641
 vibration
-  2
-  1504 1541
+  1
+  1504
 improper torsion
   0
 unit ntype qqatom
@@ -11296,8 +11136,8 @@ improper torsion
 unit ntype qqatom
   1600 'O2' -0.641
 vibration
-  2
-  1395 1510
+  1
+  1510
 improper torsion
   0
 unit ntype qqatom
@@ -11317,8 +11157,8 @@ improper torsion
 unit ntype qqatom
   1603 'O2' -0.641
 vibration
-  2
-  1515 1547
+  1
+  1515
 improper torsion
   0
 unit ntype qqatom
@@ -11338,8 +11178,8 @@ improper torsion
 unit ntype qqatom
   1606 'O2' -0.641
 vibration
-  2
-  1383 1499
+  1
+  1499
 improper torsion
   0
 unit ntype qqatom
@@ -11359,8 +11199,8 @@ improper torsion
 unit ntype qqatom
   1609 'O2' -0.641
 vibration
-  2
-  1519 1571
+  1
+  1571
 improper torsion
   0
 unit ntype qqatom
@@ -11380,8 +11220,8 @@ improper torsion
 unit ntype qqatom
   1612 'O2' -0.641
 vibration
-  2
-  1530 1576
+  1
+  1576
 improper torsion
   0
 unit ntype qqatom
@@ -11401,8 +11241,8 @@ improper torsion
 unit ntype qqatom
   1615 'O2' -0.641
 vibration
-  2
-  1508 1581
+  1
+  1581
 improper torsion
   0
 unit ntype qqatom
@@ -11422,8 +11262,8 @@ improper torsion
 unit ntype qqatom
   1618 'O2' -0.641
 vibration
-  2
-  1497 1566
+  1
+  1566
 improper torsion
   0
 unit ntype qqatom
@@ -11443,8 +11283,8 @@ improper torsion
 unit ntype qqatom
   1621 'O2' -0.641
 vibration
-  2
-  1280 1561
+  1
+  1561
 improper torsion
   0
 unit ntype qqatom
@@ -11464,8 +11304,8 @@ improper torsion
 unit ntype qqatom
   1624 'O2' -0.641
 vibration
-  2
-  1322 1543
+  1
+  1543
 improper torsion
   0
 unit ntype qqatom
@@ -11485,8 +11325,8 @@ improper torsion
 unit ntype qqatom
   1627 'O2' -0.641
 vibration
-  2
-  1308 1549
+  1
+  1549
 improper torsion
   0
 unit ntype qqatom
@@ -11506,8 +11346,8 @@ improper torsion
 unit ntype qqatom
   1630 'O2' -0.641
 vibration
-  2
-  1294 1555
+  1
+  1555
 improper torsion
   0
 unit ntype qqatom
@@ -11527,8 +11367,8 @@ improper torsion
 unit ntype qqatom
   1633 'O2' -0.641
 vibration
-  2
-  1508 1634
+  1
+  1634
 improper torsion
   0
 unit ntype qqatom
@@ -11562,8 +11402,8 @@ improper torsion
 unit ntype qqatom
   1638 'O2' -0.641
 vibration
-  2
-  1497 1639
+  1
+  1639
 improper torsion
   0
 unit ntype qqatom
@@ -11597,8 +11437,8 @@ improper torsion
 unit ntype qqatom
   1643 'O2' -0.641
 vibration
-  2
-  1530 1644
+  1
+  1644
 improper torsion
   0
 unit ntype qqatom
@@ -11632,8 +11472,8 @@ improper torsion
 unit ntype qqatom
   1648 'O2' -0.641
 vibration
-  2
-  1519 1649
+  1
+  1649
 improper torsion
   0
 unit ntype qqatom
@@ -11667,8 +11507,8 @@ improper torsion
 unit ntype qqatom
   1653 'O2' -0.641
 vibration
-  2
-  1335 1654
+  1
+  1654
 improper torsion
   0
 unit ntype qqatom
@@ -11702,8 +11542,8 @@ improper torsion
 unit ntype qqatom
   1658 'O2' -0.641
 vibration
-  2
-  1347 1659
+  1
+  1659
 improper torsion
   0
 unit ntype qqatom
@@ -11737,8 +11577,8 @@ improper torsion
 unit ntype qqatom
   1663 'O2' -0.641
 vibration
-  2
-  1371 1664
+  1
+  1664
 improper torsion
   0
 unit ntype qqatom
@@ -11772,8 +11612,8 @@ improper torsion
 unit ntype qqatom
   1668 'O2' -0.641
 vibration
-  2
-  1359 1669
+  1
+  1669
 improper torsion
   0
 unit ntype qqatom
@@ -11807,8 +11647,8 @@ improper torsion
 unit ntype qqatom
   1673 'O2' -0.641
 vibration
-  2
-  1553 1659
+  1
+  1659
 improper torsion
   0
 unit ntype qqatom
@@ -11828,8 +11668,8 @@ improper torsion
 unit ntype qqatom
   1676 'O2' -0.641
 vibration
-  2
-  1559 1654
+  1
+  1654
 improper torsion
   0
 unit ntype qqatom
@@ -11849,8 +11689,8 @@ improper torsion
 unit ntype qqatom
   1679 'O2' -0.641
 vibration
-  2
-  1547 1669
+  1
+  1669
 improper torsion
   0
 unit ntype qqatom
@@ -11870,8 +11710,8 @@ improper torsion
 unit ntype qqatom
   1682 'O2' -0.641
 vibration
-  2
-  1541 1664
+  1
+  1664
 improper torsion
   0
 unit ntype qqatom
@@ -11891,8 +11731,8 @@ improper torsion
 unit ntype qqatom
   1685 'O2' -0.641
 vibration
-  2
-  1301 1639
+  1
+  1639
 improper torsion
   0
 unit ntype qqatom
@@ -11912,8 +11752,8 @@ improper torsion
 unit ntype qqatom
   1688 'O2' -0.641
 vibration
-  2
-  1315 1634
+  1
+  1634
 improper torsion
   0
 unit ntype qqatom
@@ -11933,8 +11773,8 @@ improper torsion
 unit ntype qqatom
   1691 'O2' -0.641
 vibration
-  2
-  1273 1649
+  1
+  1649
 improper torsion
   0
 unit ntype qqatom
@@ -11954,8 +11794,8 @@ improper torsion
 unit ntype qqatom
   1694 'O2' -0.641
 vibration
-  2
-  1287 1644
+  1
+  1644
 improper torsion
   0
 unit ntype qqatom
@@ -11975,22 +11815,20 @@ improper torsion
 unit ntype qqatom
   1697 'Zn' 1.333
 vibration
-  7
-  1698 1699 1753 1801 1894 1943 2115
+  0
 improper torsion
   0
 unit ntype qqatom
   1698 'O1' -1.564
 vibration
-  4
-  1697 1753 1801 1943
+  0
 improper torsion
   0
 unit ntype qqatom
   1699 'O2' -0.641
 vibration
-  2
-  1697 1700
+  1
+  1700
 improper torsion
   0
 unit ntype qqatom
@@ -12024,22 +11862,20 @@ improper torsion
 unit ntype qqatom
   1704 'Zn' 1.333
 vibration
-  7
-  1705 1706 1759 1843 1885 1983 2045
+  0
 improper torsion
   0
 unit ntype qqatom
   1705 'O1' -1.564
 vibration
-  4
-  1704 1759 1843 1983
+  0
 improper torsion
   0
 unit ntype qqatom
   1706 'O2' -0.641
 vibration
-  2
-  1704 1707
+  1
+  1707
 improper torsion
   0
 unit ntype qqatom
@@ -12073,22 +11909,20 @@ improper torsion
 unit ntype qqatom
   1711 'Zn' 1.333
 vibration
-  7
-  1712 1713 1765 1831 1888 1954 2118
+  0
 improper torsion
   0
 unit ntype qqatom
   1712 'O1' -1.564
 vibration
-  4
-  1711 1765 1831 1954
+  0
 improper torsion
   0
 unit ntype qqatom
   1713 'O2' -0.641
 vibration
-  2
-  1711 1714
+  1
+  1714
 improper torsion
   0
 unit ntype qqatom
@@ -12122,22 +11956,20 @@ improper torsion
 unit ntype qqatom
   1718 'Zn' 1.333
 vibration
-  7
-  1719 1720 1771 1837 1891 1977 2054
+  0
 improper torsion
   0
 unit ntype qqatom
   1719 'O1' -1.564
 vibration
-  4
-  1718 1771 1837 1977
+  0
 improper torsion
   0
 unit ntype qqatom
   1720 'O2' -0.641
 vibration
-  2
-  1718 1721
+  1
+  1721
 improper torsion
   0
 unit ntype qqatom
@@ -12171,22 +12003,20 @@ improper torsion
 unit ntype qqatom
   1725 'Zn' 1.333
 vibration
-  7
-  1726 1727 1777 1807 1876 1921 2109
+  0
 improper torsion
   0
 unit ntype qqatom
   1726 'O1' -1.564
 vibration
-  4
-  1725 1777 1807 1921
+  0
 improper torsion
   0
 unit ntype qqatom
   1727 'O2' -0.641
 vibration
-  2
-  1725 1728
+  1
+  1728
 improper torsion
   0
 unit ntype qqatom
@@ -12220,22 +12050,20 @@ improper torsion
 unit ntype qqatom
   1732 'Zn' 1.333
 vibration
-  7
-  1733 1734 1783 1813 1879 1971 2051
+  0
 improper torsion
   0
 unit ntype qqatom
   1733 'O1' -1.564
 vibration
-  4
-  1732 1783 1813 1971
+  0
 improper torsion
   0
 unit ntype qqatom
   1734 'O2' -0.641
 vibration
-  2
-  1732 1735
+  1
+  1735
 improper torsion
   0
 unit ntype qqatom
@@ -12269,22 +12097,20 @@ improper torsion
 unit ntype qqatom
   1739 'Zn' 1.333
 vibration
-  7
-  1740 1741 1789 1819 1882 1932 2112
+  0
 improper torsion
   0
 unit ntype qqatom
   1740 'O1' -1.564
 vibration
-  4
-  1739 1789 1819 1932
+  0
 improper torsion
   0
 unit ntype qqatom
   1741 'O2' -0.641
 vibration
-  2
-  1739 1742
+  1
+  1742
 improper torsion
   0
 unit ntype qqatom
@@ -12318,22 +12144,20 @@ improper torsion
 unit ntype qqatom
   1746 'Zn' 1.333
 vibration
-  7
-  1747 1748 1795 1825 1873 1965 2048
+  0
 improper torsion
   0
 unit ntype qqatom
   1747 'O1' -1.564
 vibration
-  4
-  1746 1795 1825 1965
+  0
 improper torsion
   0
 unit ntype qqatom
   1748 'O2' -0.641
 vibration
-  2
-  1746 1749
+  1
+  1749
 improper torsion
   0
 unit ntype qqatom
@@ -12367,15 +12191,14 @@ improper torsion
 unit ntype qqatom
   1753 'Zn' 1.333
 vibration
-  7
-  1697 1698 1754 1801 1870 1943 1994
+  0
 improper torsion
   0
 unit ntype qqatom
   1754 'O2' -0.641
 vibration
-  2
-  1753 1755
+  1
+  1755
 improper torsion
   0
 unit ntype qqatom
@@ -12409,15 +12232,14 @@ improper torsion
 unit ntype qqatom
   1759 'Zn' 1.333
 vibration
-  7
-  1704 1705 1760 1843 1861 1983 2077
+  0
 improper torsion
   0
 unit ntype qqatom
   1760 'O2' -0.641
 vibration
-  2
-  1759 1761
+  1
+  1761
 improper torsion
   0
 unit ntype qqatom
@@ -12451,15 +12273,14 @@ improper torsion
 unit ntype qqatom
   1765 'Zn' 1.333
 vibration
-  7
-  1711 1712 1766 1831 1864 1954 1999
+  0
 improper torsion
   0
 unit ntype qqatom
   1766 'O2' -0.641
 vibration
-  2
-  1765 1767
+  1
+  1767
 improper torsion
   0
 unit ntype qqatom
@@ -12493,15 +12314,14 @@ improper torsion
 unit ntype qqatom
   1771 'Zn' 1.333
 vibration
-  7
-  1718 1719 1772 1837 1867 1977 2082
+  0
 improper torsion
   0
 unit ntype qqatom
   1772 'O2' -0.641
 vibration
-  2
-  1771 1773
+  1
+  1773
 improper torsion
   0
 unit ntype qqatom
@@ -12535,15 +12355,14 @@ improper torsion
 unit ntype qqatom
   1777 'Zn' 1.333
 vibration
-  7
-  1725 1726 1778 1807 1852 1921 1989
+  0
 improper torsion
   0
 unit ntype qqatom
   1778 'O2' -0.641
 vibration
-  2
-  1777 1779
+  1
+  1779
 improper torsion
   0
 unit ntype qqatom
@@ -12577,15 +12396,14 @@ improper torsion
 unit ntype qqatom
   1783 'Zn' 1.333
 vibration
-  7
-  1732 1733 1784 1813 1855 1971 2092
+  0
 improper torsion
   0
 unit ntype qqatom
   1784 'O2' -0.641
 vibration
-  2
-  1783 1785
+  1
+  1785
 improper torsion
   0
 unit ntype qqatom
@@ -12619,15 +12437,14 @@ improper torsion
 unit ntype qqatom
   1789 'Zn' 1.333
 vibration
-  7
-  1739 1740 1790 1819 1858 1932 2004
+  0
 improper torsion
   0
 unit ntype qqatom
   1790 'O2' -0.641
 vibration
-  2
-  1789 1791
+  1
+  1791
 improper torsion
   0
 unit ntype qqatom
@@ -12661,15 +12478,14 @@ improper torsion
 unit ntype qqatom
   1795 'Zn' 1.333
 vibration
-  7
-  1746 1747 1796 1825 1849 1965 2087
+  0
 improper torsion
   0
 unit ntype qqatom
   1796 'O2' -0.641
 vibration
-  2
-  1795 1797
+  1
+  1797
 improper torsion
   0
 unit ntype qqatom
@@ -12703,15 +12519,14 @@ improper torsion
 unit ntype qqatom
   1801 'Zn' 1.333
 vibration
-  7
-  1697 1698 1753 1802 1909 1943 2012
+  0
 improper torsion
   0
 unit ntype qqatom
   1802 'O2' -0.641
 vibration
-  2
-  1801 1803
+  1
+  1803
 improper torsion
   0
 unit ntype qqatom
@@ -12745,15 +12560,14 @@ improper torsion
 unit ntype qqatom
   1807 'Zn' 1.333
 vibration
-  7
-  1725 1726 1777 1808 1918 1921 2030
+  0
 improper torsion
   0
 unit ntype qqatom
   1808 'O2' -0.641
 vibration
-  2
-  1807 1809
+  1
+  1809
 improper torsion
   0
 unit ntype qqatom
@@ -12787,15 +12601,14 @@ improper torsion
 unit ntype qqatom
   1813 'Zn' 1.333
 vibration
-  7
-  1732 1733 1783 1814 1912 1938 1971
+  0
 improper torsion
   0
 unit ntype qqatom
   1814 'O2' -0.641
 vibration
-  2
-  1813 1815
+  1
+  1815
 improper torsion
   0
 unit ntype qqatom
@@ -12829,15 +12642,14 @@ improper torsion
 unit ntype qqatom
   1819 'Zn' 1.333
 vibration
-  7
-  1739 1740 1789 1820 1915 1932 2024
+  0
 improper torsion
   0
 unit ntype qqatom
   1820 'O2' -0.641
 vibration
-  2
-  1819 1821
+  1
+  1821
 improper torsion
   0
 unit ntype qqatom
@@ -12871,15 +12683,14 @@ improper torsion
 unit ntype qqatom
   1825 'Zn' 1.333
 vibration
-  7
-  1746 1747 1795 1826 1897 1927 1965
+  0
 improper torsion
   0
 unit ntype qqatom
   1826 'O2' -0.641
 vibration
-  2
-  1825 1827
+  1
+  1827
 improper torsion
   0
 unit ntype qqatom
@@ -12913,15 +12724,14 @@ improper torsion
 unit ntype qqatom
   1831 'Zn' 1.333
 vibration
-  7
-  1711 1712 1765 1832 1903 1954 2018
+  0
 improper torsion
   0
 unit ntype qqatom
   1832 'O2' -0.641
 vibration
-  2
-  1831 1833
+  1
+  1833
 improper torsion
   0
 unit ntype qqatom
@@ -12955,15 +12765,14 @@ improper torsion
 unit ntype qqatom
   1837 'Zn' 1.333
 vibration
-  7
-  1718 1719 1771 1838 1906 1949 1977
+  0
 improper torsion
   0
 unit ntype qqatom
   1838 'O2' -0.641
 vibration
-  2
-  1837 1839
+  1
+  1839
 improper torsion
   0
 unit ntype qqatom
@@ -12997,15 +12806,14 @@ improper torsion
 unit ntype qqatom
   1843 'Zn' 1.333
 vibration
-  7
-  1704 1705 1759 1844 1900 1960 1983
+  0
 improper torsion
   0
 unit ntype qqatom
   1844 'O2' -0.641
 vibration
-  2
-  1843 1845
+  1
+  1845
 improper torsion
   0
 unit ntype qqatom
@@ -13039,8 +12847,8 @@ improper torsion
 unit ntype qqatom
   1849 'O2' -0.641
 vibration
-  2
-  1749 1795
+  1
+  1749
 improper torsion
   0
 unit ntype qqatom
@@ -13060,8 +12868,8 @@ improper torsion
 unit ntype qqatom
   1852 'O2' -0.641
 vibration
-  2
-  1728 1777
+  1
+  1728
 improper torsion
   0
 unit ntype qqatom
@@ -13081,8 +12889,8 @@ improper torsion
 unit ntype qqatom
   1855 'O2' -0.641
 vibration
-  2
-  1735 1783
+  1
+  1735
 improper torsion
   0
 unit ntype qqatom
@@ -13102,8 +12910,8 @@ improper torsion
 unit ntype qqatom
   1858 'O2' -0.641
 vibration
-  2
-  1742 1789
+  1
+  1742
 improper torsion
   0
 unit ntype qqatom
@@ -13123,8 +12931,8 @@ improper torsion
 unit ntype qqatom
   1861 'O2' -0.641
 vibration
-  2
-  1707 1759
+  1
+  1707
 improper torsion
   0
 unit ntype qqatom
@@ -13144,8 +12952,8 @@ improper torsion
 unit ntype qqatom
   1864 'O2' -0.641
 vibration
-  2
-  1714 1765
+  1
+  1714
 improper torsion
   0
 unit ntype qqatom
@@ -13165,8 +12973,8 @@ improper torsion
 unit ntype qqatom
   1867 'O2' -0.641
 vibration
-  2
-  1721 1771
+  1
+  1721
 improper torsion
   0
 unit ntype qqatom
@@ -13186,8 +12994,8 @@ improper torsion
 unit ntype qqatom
   1870 'O2' -0.641
 vibration
-  2
-  1700 1753
+  1
+  1700
 improper torsion
   0
 unit ntype qqatom
@@ -13207,8 +13015,8 @@ improper torsion
 unit ntype qqatom
   1873 'O2' -0.641
 vibration
-  2
-  1746 1827
+  1
+  1827
 improper torsion
   0
 unit ntype qqatom
@@ -13228,8 +13036,8 @@ improper torsion
 unit ntype qqatom
   1876 'O2' -0.641
 vibration
-  2
-  1725 1809
+  1
+  1809
 improper torsion
   0
 unit ntype qqatom
@@ -13249,8 +13057,8 @@ improper torsion
 unit ntype qqatom
   1879 'O2' -0.641
 vibration
-  2
-  1732 1815
+  1
+  1815
 improper torsion
   0
 unit ntype qqatom
@@ -13270,8 +13078,8 @@ improper torsion
 unit ntype qqatom
   1882 'O2' -0.641
 vibration
-  2
-  1739 1821
+  1
+  1821
 improper torsion
   0
 unit ntype qqatom
@@ -13291,8 +13099,8 @@ improper torsion
 unit ntype qqatom
   1885 'O2' -0.641
 vibration
-  2
-  1704 1845
+  1
+  1845
 improper torsion
   0
 unit ntype qqatom
@@ -13312,8 +13120,8 @@ improper torsion
 unit ntype qqatom
   1888 'O2' -0.641
 vibration
-  2
-  1711 1833
+  1
+  1833
 improper torsion
   0
 unit ntype qqatom
@@ -13333,8 +13141,8 @@ improper torsion
 unit ntype qqatom
   1891 'O2' -0.641
 vibration
-  2
-  1718 1839
+  1
+  1839
 improper torsion
   0
 unit ntype qqatom
@@ -13354,8 +13162,8 @@ improper torsion
 unit ntype qqatom
   1894 'O2' -0.641
 vibration
-  2
-  1697 1803
+  1
+  1803
 improper torsion
   0
 unit ntype qqatom
@@ -13375,8 +13183,8 @@ improper torsion
 unit ntype qqatom
   1897 'O2' -0.641
 vibration
-  2
-  1797 1825
+  1
+  1797
 improper torsion
   0
 unit ntype qqatom
@@ -13396,8 +13204,8 @@ improper torsion
 unit ntype qqatom
   1900 'O2' -0.641
 vibration
-  2
-  1761 1843
+  1
+  1761
 improper torsion
   0
 unit ntype qqatom
@@ -13417,8 +13225,8 @@ improper torsion
 unit ntype qqatom
   1903 'O2' -0.641
 vibration
-  2
-  1767 1831
+  1
+  1767
 improper torsion
   0
 unit ntype qqatom
@@ -13438,8 +13246,8 @@ improper torsion
 unit ntype qqatom
   1906 'O2' -0.641
 vibration
-  2
-  1773 1837
+  1
+  1773
 improper torsion
   0
 unit ntype qqatom
@@ -13459,8 +13267,8 @@ improper torsion
 unit ntype qqatom
   1909 'O2' -0.641
 vibration
-  2
-  1755 1801
+  1
+  1755
 improper torsion
   0
 unit ntype qqatom
@@ -13480,8 +13288,8 @@ improper torsion
 unit ntype qqatom
   1912 'O2' -0.641
 vibration
-  2
-  1785 1813
+  1
+  1785
 improper torsion
   0
 unit ntype qqatom
@@ -13501,8 +13309,8 @@ improper torsion
 unit ntype qqatom
   1915 'O2' -0.641
 vibration
-  2
-  1791 1819
+  1
+  1791
 improper torsion
   0
 unit ntype qqatom
@@ -13522,8 +13330,8 @@ improper torsion
 unit ntype qqatom
   1918 'O2' -0.641
 vibration
-  2
-  1779 1807
+  1
+  1779
 improper torsion
   0
 unit ntype qqatom
@@ -13543,15 +13351,14 @@ improper torsion
 unit ntype qqatom
   1921 'Zn' 1.333
 vibration
-  7
-  1725 1726 1777 1807 1922 2042 2062
+  0
 improper torsion
   0
 unit ntype qqatom
   1922 'O2' -0.641
 vibration
-  2
-  1921 1923
+  1
+  1923
 improper torsion
   0
 unit ntype qqatom
@@ -13585,8 +13392,8 @@ improper torsion
 unit ntype qqatom
   1927 'O2' -0.641
 vibration
-  2
-  1825 1928
+  1
+  1928
 improper torsion
   0
 unit ntype qqatom
@@ -13620,15 +13427,14 @@ improper torsion
 unit ntype qqatom
   1932 'Zn' 1.333
 vibration
-  7
-  1739 1740 1789 1819 1933 2039 2057
+  0
 improper torsion
   0
 unit ntype qqatom
   1933 'O2' -0.641
 vibration
-  2
-  1932 1934
+  1
+  1934
 improper torsion
   0
 unit ntype qqatom
@@ -13662,8 +13468,8 @@ improper torsion
 unit ntype qqatom
   1938 'O2' -0.641
 vibration
-  2
-  1813 1939
+  1
+  1939
 improper torsion
   0
 unit ntype qqatom
@@ -13697,15 +13503,14 @@ improper torsion
 unit ntype qqatom
   1943 'Zn' 1.333
 vibration
-  7
-  1697 1698 1753 1801 1944 2033 2072
+  0
 improper torsion
   0
 unit ntype qqatom
   1944 'O2' -0.641
 vibration
-  2
-  1943 1945
+  1
+  1945
 improper torsion
   0
 unit ntype qqatom
@@ -13739,8 +13544,8 @@ improper torsion
 unit ntype qqatom
   1949 'O2' -0.641
 vibration
-  2
-  1837 1950
+  1
+  1950
 improper torsion
   0
 unit ntype qqatom
@@ -13774,15 +13579,14 @@ improper torsion
 unit ntype qqatom
   1954 'Zn' 1.333
 vibration
-  7
-  1711 1712 1765 1831 1955 2036 2067
+  0
 improper torsion
   0
 unit ntype qqatom
   1955 'O2' -0.641
 vibration
-  2
-  1954 1956
+  1
+  1956
 improper torsion
   0
 unit ntype qqatom
@@ -13816,8 +13620,8 @@ improper torsion
 unit ntype qqatom
   1960 'O2' -0.641
 vibration
-  2
-  1843 1961
+  1
+  1961
 improper torsion
   0
 unit ntype qqatom
@@ -13851,15 +13655,14 @@ improper torsion
 unit ntype qqatom
   1965 'Zn' 1.333
 vibration
-  7
-  1746 1747 1795 1825 1966 2021 2106
+  0
 improper torsion
   0
 unit ntype qqatom
   1966 'O2' -0.641
 vibration
-  2
-  1965 1967
+  1
+  1967
 improper torsion
   0
 unit ntype qqatom
@@ -13893,15 +13696,14 @@ improper torsion
 unit ntype qqatom
   1971 'Zn' 1.333
 vibration
-  7
-  1732 1733 1783 1813 1972 2027 2103
+  0
 improper torsion
   0
 unit ntype qqatom
   1972 'O2' -0.641
 vibration
-  2
-  1971 1973
+  1
+  1973
 improper torsion
   0
 unit ntype qqatom
@@ -13935,15 +13737,14 @@ improper torsion
 unit ntype qqatom
   1977 'Zn' 1.333
 vibration
-  7
-  1718 1719 1771 1837 1978 2015 2097
+  0
 improper torsion
   0
 unit ntype qqatom
   1978 'O2' -0.641
 vibration
-  2
-  1977 1979
+  1
+  1979
 improper torsion
   0
 unit ntype qqatom
@@ -13977,15 +13778,14 @@ improper torsion
 unit ntype qqatom
   1983 'Zn' 1.333
 vibration
-  7
-  1704 1705 1759 1843 1984 2009 2100
+  0
 improper torsion
   0
 unit ntype qqatom
   1984 'O2' -0.641
 vibration
-  2
-  1983 1985
+  1
+  1985
 improper torsion
   0
 unit ntype qqatom
@@ -14019,8 +13819,8 @@ improper torsion
 unit ntype qqatom
   1989 'O2' -0.641
 vibration
-  2
-  1777 1990
+  1
+  1990
 improper torsion
   0
 unit ntype qqatom
@@ -14054,8 +13854,8 @@ improper torsion
 unit ntype qqatom
   1994 'O2' -0.641
 vibration
-  2
-  1753 1995
+  1
+  1995
 improper torsion
   0
 unit ntype qqatom
@@ -14089,8 +13889,8 @@ improper torsion
 unit ntype qqatom
   1999 'O2' -0.641
 vibration
-  2
-  1765 2000
+  1
+  2000
 improper torsion
   0
 unit ntype qqatom
@@ -14124,8 +13924,8 @@ improper torsion
 unit ntype qqatom
   2004 'O2' -0.641
 vibration
-  2
-  1789 2005
+  1
+  2005
 improper torsion
   0
 unit ntype qqatom
@@ -14159,8 +13959,8 @@ improper torsion
 unit ntype qqatom
   2009 'O2' -0.641
 vibration
-  2
-  1961 1983
+  1
+  1961
 improper torsion
   0
 unit ntype qqatom
@@ -14180,8 +13980,8 @@ improper torsion
 unit ntype qqatom
   2012 'O2' -0.641
 vibration
-  2
-  1801 1945
+  1
+  1945
 improper torsion
   0
 unit ntype qqatom
@@ -14201,8 +14001,8 @@ improper torsion
 unit ntype qqatom
   2015 'O2' -0.641
 vibration
-  2
-  1950 1977
+  1
+  1950
 improper torsion
   0
 unit ntype qqatom
@@ -14222,8 +14022,8 @@ improper torsion
 unit ntype qqatom
   2018 'O2' -0.641
 vibration
-  2
-  1831 1956
+  1
+  1956
 improper torsion
   0
 unit ntype qqatom
@@ -14243,8 +14043,8 @@ improper torsion
 unit ntype qqatom
   2021 'O2' -0.641
 vibration
-  2
-  1928 1965
+  1
+  1928
 improper torsion
   0
 unit ntype qqatom
@@ -14264,8 +14064,8 @@ improper torsion
 unit ntype qqatom
   2024 'O2' -0.641
 vibration
-  2
-  1819 1934
+  1
+  1934
 improper torsion
   0
 unit ntype qqatom
@@ -14285,8 +14085,8 @@ improper torsion
 unit ntype qqatom
   2027 'O2' -0.641
 vibration
-  2
-  1939 1971
+  1
+  1939
 improper torsion
   0
 unit ntype qqatom
@@ -14306,8 +14106,8 @@ improper torsion
 unit ntype qqatom
   2030 'O2' -0.641
 vibration
-  2
-  1807 1923
+  1
+  1923
 improper torsion
   0
 unit ntype qqatom
@@ -14327,8 +14127,8 @@ improper torsion
 unit ntype qqatom
   2033 'O2' -0.641
 vibration
-  2
-  1943 1995
+  1
+  1995
 improper torsion
   0
 unit ntype qqatom
@@ -14348,8 +14148,8 @@ improper torsion
 unit ntype qqatom
   2036 'O2' -0.641
 vibration
-  2
-  1954 2000
+  1
+  2000
 improper torsion
   0
 unit ntype qqatom
@@ -14369,8 +14169,8 @@ improper torsion
 unit ntype qqatom
   2039 'O2' -0.641
 vibration
-  2
-  1932 2005
+  1
+  2005
 improper torsion
   0
 unit ntype qqatom
@@ -14390,8 +14190,8 @@ improper torsion
 unit ntype qqatom
   2042 'O2' -0.641
 vibration
-  2
-  1921 1990
+  1
+  1990
 improper torsion
   0
 unit ntype qqatom
@@ -14411,8 +14211,8 @@ improper torsion
 unit ntype qqatom
   2045 'O2' -0.641
 vibration
-  2
-  1704 1985
+  1
+  1985
 improper torsion
   0
 unit ntype qqatom
@@ -14432,8 +14232,8 @@ improper torsion
 unit ntype qqatom
   2048 'O2' -0.641
 vibration
-  2
-  1746 1967
+  1
+  1967
 improper torsion
   0
 unit ntype qqatom
@@ -14453,8 +14253,8 @@ improper torsion
 unit ntype qqatom
   2051 'O2' -0.641
 vibration
-  2
-  1732 1973
+  1
+  1973
 improper torsion
   0
 unit ntype qqatom
@@ -14474,8 +14274,8 @@ improper torsion
 unit ntype qqatom
   2054 'O2' -0.641
 vibration
-  2
-  1718 1979
+  1
+  1979
 improper torsion
   0
 unit ntype qqatom
@@ -14495,8 +14295,8 @@ improper torsion
 unit ntype qqatom
   2057 'O2' -0.641
 vibration
-  2
-  1932 2058
+  1
+  2058
 improper torsion
   0
 unit ntype qqatom
@@ -14530,8 +14330,8 @@ improper torsion
 unit ntype qqatom
   2062 'O2' -0.641
 vibration
-  2
-  1921 2063
+  1
+  2063
 improper torsion
   0
 unit ntype qqatom
@@ -14565,8 +14365,8 @@ improper torsion
 unit ntype qqatom
   2067 'O2' -0.641
 vibration
-  2
-  1954 2068
+  1
+  2068
 improper torsion
   0
 unit ntype qqatom
@@ -14600,8 +14400,8 @@ improper torsion
 unit ntype qqatom
   2072 'O2' -0.641
 vibration
-  2
-  1943 2073
+  1
+  2073
 improper torsion
   0
 unit ntype qqatom
@@ -14635,8 +14435,8 @@ improper torsion
 unit ntype qqatom
   2077 'O2' -0.641
 vibration
-  2
-  1759 2078
+  1
+  2078
 improper torsion
   0
 unit ntype qqatom
@@ -14670,8 +14470,8 @@ improper torsion
 unit ntype qqatom
   2082 'O2' -0.641
 vibration
-  2
-  1771 2083
+  1
+  2083
 improper torsion
   0
 unit ntype qqatom
@@ -14705,8 +14505,8 @@ improper torsion
 unit ntype qqatom
   2087 'O2' -0.641
 vibration
-  2
-  1795 2088
+  1
+  2088
 improper torsion
   0
 unit ntype qqatom
@@ -14740,8 +14540,8 @@ improper torsion
 unit ntype qqatom
   2092 'O2' -0.641
 vibration
-  2
-  1783 2093
+  1
+  2093
 improper torsion
   0
 unit ntype qqatom
@@ -14775,8 +14575,8 @@ improper torsion
 unit ntype qqatom
   2097 'O2' -0.641
 vibration
-  2
-  1977 2083
+  1
+  2083
 improper torsion
   0
 unit ntype qqatom
@@ -14796,8 +14596,8 @@ improper torsion
 unit ntype qqatom
   2100 'O2' -0.641
 vibration
-  2
-  1983 2078
+  1
+  2078
 improper torsion
   0
 unit ntype qqatom
@@ -14817,8 +14617,8 @@ improper torsion
 unit ntype qqatom
   2103 'O2' -0.641
 vibration
-  2
-  1971 2093
+  1
+  2093
 improper torsion
   0
 unit ntype qqatom
@@ -14838,8 +14638,8 @@ improper torsion
 unit ntype qqatom
   2106 'O2' -0.641
 vibration
-  2
-  1965 2088
+  1
+  2088
 improper torsion
   0
 unit ntype qqatom
@@ -14859,8 +14659,8 @@ improper torsion
 unit ntype qqatom
   2109 'O2' -0.641
 vibration
-  2
-  1725 2063
+  1
+  2063
 improper torsion
   0
 unit ntype qqatom
@@ -14880,8 +14680,8 @@ improper torsion
 unit ntype qqatom
   2112 'O2' -0.641
 vibration
-  2
-  1739 2058
+  1
+  2058
 improper torsion
   0
 unit ntype qqatom
@@ -14901,8 +14701,8 @@ improper torsion
 unit ntype qqatom
   2115 'O2' -0.641
 vibration
-  2
-  1697 2073
+  1
+  2073
 improper torsion
   0
 unit ntype qqatom
@@ -14922,8 +14722,8 @@ improper torsion
 unit ntype qqatom
   2118 'O2' -0.641
 vibration
-  2
-  1711 2068
+  1
+  2068
 improper torsion
   0
 unit ntype qqatom
@@ -14943,22 +14743,20 @@ improper torsion
 unit ntype qqatom
   2121 'Zn' 1.333
 vibration
-  7
-  2122 2123 2177 2225 2318 2367 2539
+  0
 improper torsion
   0
 unit ntype qqatom
   2122 'O1' -1.564
 vibration
-  4
-  2121 2177 2225 2367
+  0
 improper torsion
   0
 unit ntype qqatom
   2123 'O2' -0.641
 vibration
-  2
-  2121 2124
+  1
+  2124
 improper torsion
   0
 unit ntype qqatom
@@ -14992,22 +14790,20 @@ improper torsion
 unit ntype qqatom
   2128 'Zn' 1.333
 vibration
-  7
-  2129 2130 2183 2267 2309 2407 2469
+  0
 improper torsion
   0
 unit ntype qqatom
   2129 'O1' -1.564
 vibration
-  4
-  2128 2183 2267 2407
+  0
 improper torsion
   0
 unit ntype qqatom
   2130 'O2' -0.641
 vibration
-  2
-  2128 2131
+  1
+  2131
 improper torsion
   0
 unit ntype qqatom
@@ -15041,22 +14837,20 @@ improper torsion
 unit ntype qqatom
   2135 'Zn' 1.333
 vibration
-  7
-  2136 2137 2189 2255 2312 2378 2542
+  0
 improper torsion
   0
 unit ntype qqatom
   2136 'O1' -1.564
 vibration
-  4
-  2135 2189 2255 2378
+  0
 improper torsion
   0
 unit ntype qqatom
   2137 'O2' -0.641
 vibration
-  2
-  2135 2138
+  1
+  2138
 improper torsion
   0
 unit ntype qqatom
@@ -15090,22 +14884,20 @@ improper torsion
 unit ntype qqatom
   2142 'Zn' 1.333
 vibration
-  7
-  2143 2144 2195 2261 2315 2401 2478
+  0
 improper torsion
   0
 unit ntype qqatom
   2143 'O1' -1.564
 vibration
-  4
-  2142 2195 2261 2401
+  0
 improper torsion
   0
 unit ntype qqatom
   2144 'O2' -0.641
 vibration
-  2
-  2142 2145
+  1
+  2145
 improper torsion
   0
 unit ntype qqatom
@@ -15139,22 +14931,20 @@ improper torsion
 unit ntype qqatom
   2149 'Zn' 1.333
 vibration
-  7
-  2150 2151 2201 2231 2300 2345 2533
+  0
 improper torsion
   0
 unit ntype qqatom
   2150 'O1' -1.564
 vibration
-  4
-  2149 2201 2231 2345
+  0
 improper torsion
   0
 unit ntype qqatom
   2151 'O2' -0.641
 vibration
-  2
-  2149 2152
+  1
+  2152
 improper torsion
   0
 unit ntype qqatom
@@ -15188,22 +14978,20 @@ improper torsion
 unit ntype qqatom
   2156 'Zn' 1.333
 vibration
-  7
-  2157 2158 2207 2237 2303 2395 2475
+  0
 improper torsion
   0
 unit ntype qqatom
   2157 'O1' -1.564
 vibration
-  4
-  2156 2207 2237 2395
+  0
 improper torsion
   0
 unit ntype qqatom
   2158 'O2' -0.641
 vibration
-  2
-  2156 2159
+  1
+  2159
 improper torsion
   0
 unit ntype qqatom
@@ -15237,22 +15025,20 @@ improper torsion
 unit ntype qqatom
   2163 'Zn' 1.333
 vibration
-  7
-  2164 2165 2213 2243 2306 2356 2536
+  0
 improper torsion
   0
 unit ntype qqatom
   2164 'O1' -1.564
 vibration
-  4
-  2163 2213 2243 2356
+  0
 improper torsion
   0
 unit ntype qqatom
   2165 'O2' -0.641
 vibration
-  2
-  2163 2166
+  1
+  2166
 improper torsion
   0
 unit ntype qqatom
@@ -15286,22 +15072,20 @@ improper torsion
 unit ntype qqatom
   2170 'Zn' 1.333
 vibration
-  7
-  2171 2172 2219 2249 2297 2389 2472
+  0
 improper torsion
   0
 unit ntype qqatom
   2171 'O1' -1.564
 vibration
-  4
-  2170 2219 2249 2389
+  0
 improper torsion
   0
 unit ntype qqatom
   2172 'O2' -0.641
 vibration
-  2
-  2170 2173
+  1
+  2173
 improper torsion
   0
 unit ntype qqatom
@@ -15335,15 +15119,14 @@ improper torsion
 unit ntype qqatom
   2177 'Zn' 1.333
 vibration
-  7
-  2121 2122 2178 2225 2294 2367 2418
+  0
 improper torsion
   0
 unit ntype qqatom
   2178 'O2' -0.641
 vibration
-  2
-  2177 2179
+  1
+  2179
 improper torsion
   0
 unit ntype qqatom
@@ -15377,15 +15160,14 @@ improper torsion
 unit ntype qqatom
   2183 'Zn' 1.333
 vibration
-  7
-  2128 2129 2184 2267 2285 2407 2501
+  0
 improper torsion
   0
 unit ntype qqatom
   2184 'O2' -0.641
 vibration
-  2
-  2183 2185
+  1
+  2185
 improper torsion
   0
 unit ntype qqatom
@@ -15419,15 +15201,14 @@ improper torsion
 unit ntype qqatom
   2189 'Zn' 1.333
 vibration
-  7
-  2135 2136 2190 2255 2288 2378 2423
+  0
 improper torsion
   0
 unit ntype qqatom
   2190 'O2' -0.641
 vibration
-  2
-  2189 2191
+  1
+  2191
 improper torsion
   0
 unit ntype qqatom
@@ -15461,15 +15242,14 @@ improper torsion
 unit ntype qqatom
   2195 'Zn' 1.333
 vibration
-  7
-  2142 2143 2196 2261 2291 2401 2506
+  0
 improper torsion
   0
 unit ntype qqatom
   2196 'O2' -0.641
 vibration
-  2
-  2195 2197
+  1
+  2197
 improper torsion
   0
 unit ntype qqatom
@@ -15503,15 +15283,14 @@ improper torsion
 unit ntype qqatom
   2201 'Zn' 1.333
 vibration
-  7
-  2149 2150 2202 2231 2276 2345 2413
+  0
 improper torsion
   0
 unit ntype qqatom
   2202 'O2' -0.641
 vibration
-  2
-  2201 2203
+  1
+  2203
 improper torsion
   0
 unit ntype qqatom
@@ -15545,15 +15324,14 @@ improper torsion
 unit ntype qqatom
   2207 'Zn' 1.333
 vibration
-  7
-  2156 2157 2208 2237 2279 2395 2516
+  0
 improper torsion
   0
 unit ntype qqatom
   2208 'O2' -0.641
 vibration
-  2
-  2207 2209
+  1
+  2209
 improper torsion
   0
 unit ntype qqatom
@@ -15587,15 +15365,14 @@ improper torsion
 unit ntype qqatom
   2213 'Zn' 1.333
 vibration
-  7
-  2163 2164 2214 2243 2282 2356 2428
+  0
 improper torsion
   0
 unit ntype qqatom
   2214 'O2' -0.641
 vibration
-  2
-  2213 2215
+  1
+  2215
 improper torsion
   0
 unit ntype qqatom
@@ -15629,15 +15406,14 @@ improper torsion
 unit ntype qqatom
   2219 'Zn' 1.333
 vibration
-  7
-  2170 2171 2220 2249 2273 2389 2511
+  0
 improper torsion
   0
 unit ntype qqatom
   2220 'O2' -0.641
 vibration
-  2
-  2219 2221
+  1
+  2221
 improper torsion
   0
 unit ntype qqatom
@@ -15671,15 +15447,14 @@ improper torsion
 unit ntype qqatom
   2225 'Zn' 1.333
 vibration
-  7
-  2121 2122 2177 2226 2333 2367 2436
+  0
 improper torsion
   0
 unit ntype qqatom
   2226 'O2' -0.641
 vibration
-  2
-  2225 2227
+  1
+  2227
 improper torsion
   0
 unit ntype qqatom
@@ -15713,15 +15488,14 @@ improper torsion
 unit ntype qqatom
   2231 'Zn' 1.333
 vibration
-  7
-  2149 2150 2201 2232 2342 2345 2454
+  0
 improper torsion
   0
 unit ntype qqatom
   2232 'O2' -0.641
 vibration
-  2
-  2231 2233
+  1
+  2233
 improper torsion
   0
 unit ntype qqatom
@@ -15755,15 +15529,14 @@ improper torsion
 unit ntype qqatom
   2237 'Zn' 1.333
 vibration
-  7
-  2156 2157 2207 2238 2336 2362 2395
+  0
 improper torsion
   0
 unit ntype qqatom
   2238 'O2' -0.641
 vibration
-  2
-  2237 2239
+  1
+  2239
 improper torsion
   0
 unit ntype qqatom
@@ -15797,15 +15570,14 @@ improper torsion
 unit ntype qqatom
   2243 'Zn' 1.333
 vibration
-  7
-  2163 2164 2213 2244 2339 2356 2448
+  0
 improper torsion
   0
 unit ntype qqatom
   2244 'O2' -0.641
 vibration
-  2
-  2243 2245
+  1
+  2245
 improper torsion
   0
 unit ntype qqatom
@@ -15839,15 +15611,14 @@ improper torsion
 unit ntype qqatom
   2249 'Zn' 1.333
 vibration
-  7
-  2170 2171 2219 2250 2321 2351 2389
+  0
 improper torsion
   0
 unit ntype qqatom
   2250 'O2' -0.641
 vibration
-  2
-  2249 2251
+  1
+  2251
 improper torsion
   0
 unit ntype qqatom
@@ -15881,15 +15652,14 @@ improper torsion
 unit ntype qqatom
   2255 'Zn' 1.333
 vibration
-  7
-  2135 2136 2189 2256 2327 2378 2442
+  0
 improper torsion
   0
 unit ntype qqatom
   2256 'O2' -0.641
 vibration
-  2
-  2255 2257
+  1
+  2257
 improper torsion
   0
 unit ntype qqatom
@@ -15923,15 +15693,14 @@ improper torsion
 unit ntype qqatom
   2261 'Zn' 1.333
 vibration
-  7
-  2142 2143 2195 2262 2330 2373 2401
+  0
 improper torsion
   0
 unit ntype qqatom
   2262 'O2' -0.641
 vibration
-  2
-  2261 2263
+  1
+  2263
 improper torsion
   0
 unit ntype qqatom
@@ -15965,15 +15734,14 @@ improper torsion
 unit ntype qqatom
   2267 'Zn' 1.333
 vibration
-  7
-  2128 2129 2183 2268 2324 2384 2407
+  0
 improper torsion
   0
 unit ntype qqatom
   2268 'O2' -0.641
 vibration
-  2
-  2267 2269
+  1
+  2269
 improper torsion
   0
 unit ntype qqatom
@@ -16007,8 +15775,8 @@ improper torsion
 unit ntype qqatom
   2273 'O2' -0.641
 vibration
-  2
-  2173 2219
+  1
+  2173
 improper torsion
   0
 unit ntype qqatom
@@ -16028,8 +15796,8 @@ improper torsion
 unit ntype qqatom
   2276 'O2' -0.641
 vibration
-  2
-  2152 2201
+  1
+  2152
 improper torsion
   0
 unit ntype qqatom
@@ -16049,8 +15817,8 @@ improper torsion
 unit ntype qqatom
   2279 'O2' -0.641
 vibration
-  2
-  2159 2207
+  1
+  2159
 improper torsion
   0
 unit ntype qqatom
@@ -16070,8 +15838,8 @@ improper torsion
 unit ntype qqatom
   2282 'O2' -0.641
 vibration
-  2
-  2166 2213
+  1
+  2166
 improper torsion
   0
 unit ntype qqatom
@@ -16091,8 +15859,8 @@ improper torsion
 unit ntype qqatom
   2285 'O2' -0.641
 vibration
-  2
-  2131 2183
+  1
+  2131
 improper torsion
   0
 unit ntype qqatom
@@ -16112,8 +15880,8 @@ improper torsion
 unit ntype qqatom
   2288 'O2' -0.641
 vibration
-  2
-  2138 2189
+  1
+  2138
 improper torsion
   0
 unit ntype qqatom
@@ -16133,8 +15901,8 @@ improper torsion
 unit ntype qqatom
   2291 'O2' -0.641
 vibration
-  2
-  2145 2195
+  1
+  2145
 improper torsion
   0
 unit ntype qqatom
@@ -16154,8 +15922,8 @@ improper torsion
 unit ntype qqatom
   2294 'O2' -0.641
 vibration
-  2
-  2124 2177
+  1
+  2124
 improper torsion
   0
 unit ntype qqatom
@@ -16175,8 +15943,8 @@ improper torsion
 unit ntype qqatom
   2297 'O2' -0.641
 vibration
-  2
-  2170 2251
+  1
+  2251
 improper torsion
   0
 unit ntype qqatom
@@ -16196,8 +15964,8 @@ improper torsion
 unit ntype qqatom
   2300 'O2' -0.641
 vibration
-  2
-  2149 2233
+  1
+  2233
 improper torsion
   0
 unit ntype qqatom
@@ -16217,8 +15985,8 @@ improper torsion
 unit ntype qqatom
   2303 'O2' -0.641
 vibration
-  2
-  2156 2239
+  1
+  2239
 improper torsion
   0
 unit ntype qqatom
@@ -16238,8 +16006,8 @@ improper torsion
 unit ntype qqatom
   2306 'O2' -0.641
 vibration
-  2
-  2163 2245
+  1
+  2245
 improper torsion
   0
 unit ntype qqatom
@@ -16259,8 +16027,8 @@ improper torsion
 unit ntype qqatom
   2309 'O2' -0.641
 vibration
-  2
-  2128 2269
+  1
+  2269
 improper torsion
   0
 unit ntype qqatom
@@ -16280,8 +16048,8 @@ improper torsion
 unit ntype qqatom
   2312 'O2' -0.641
 vibration
-  2
-  2135 2257
+  1
+  2257
 improper torsion
   0
 unit ntype qqatom
@@ -16301,8 +16069,8 @@ improper torsion
 unit ntype qqatom
   2315 'O2' -0.641
 vibration
-  2
-  2142 2263
+  1
+  2263
 improper torsion
   0
 unit ntype qqatom
@@ -16322,8 +16090,8 @@ improper torsion
 unit ntype qqatom
   2318 'O2' -0.641
 vibration
-  2
-  2121 2227
+  1
+  2227
 improper torsion
   0
 unit ntype qqatom
@@ -16343,8 +16111,8 @@ improper torsion
 unit ntype qqatom
   2321 'O2' -0.641
 vibration
-  2
-  2221 2249
+  1
+  2221
 improper torsion
   0
 unit ntype qqatom
@@ -16364,8 +16132,8 @@ improper torsion
 unit ntype qqatom
   2324 'O2' -0.641
 vibration
-  2
-  2185 2267
+  1
+  2185
 improper torsion
   0
 unit ntype qqatom
@@ -16385,8 +16153,8 @@ improper torsion
 unit ntype qqatom
   2327 'O2' -0.641
 vibration
-  2
-  2191 2255
+  1
+  2191
 improper torsion
   0
 unit ntype qqatom
@@ -16406,8 +16174,8 @@ improper torsion
 unit ntype qqatom
   2330 'O2' -0.641
 vibration
-  2
-  2197 2261
+  1
+  2197
 improper torsion
   0
 unit ntype qqatom
@@ -16427,8 +16195,8 @@ improper torsion
 unit ntype qqatom
   2333 'O2' -0.641
 vibration
-  2
-  2179 2225
+  1
+  2179
 improper torsion
   0
 unit ntype qqatom
@@ -16448,8 +16216,8 @@ improper torsion
 unit ntype qqatom
   2336 'O2' -0.641
 vibration
-  2
-  2209 2237
+  1
+  2209
 improper torsion
   0
 unit ntype qqatom
@@ -16469,8 +16237,8 @@ improper torsion
 unit ntype qqatom
   2339 'O2' -0.641
 vibration
-  2
-  2215 2243
+  1
+  2215
 improper torsion
   0
 unit ntype qqatom
@@ -16490,8 +16258,8 @@ improper torsion
 unit ntype qqatom
   2342 'O2' -0.641
 vibration
-  2
-  2203 2231
+  1
+  2203
 improper torsion
   0
 unit ntype qqatom
@@ -16511,15 +16279,14 @@ improper torsion
 unit ntype qqatom
   2345 'Zn' 1.333
 vibration
-  7
-  2149 2150 2201 2231 2346 2466 2486
+  0
 improper torsion
   0
 unit ntype qqatom
   2346 'O2' -0.641
 vibration
-  2
-  2345 2347
+  1
+  2347
 improper torsion
   0
 unit ntype qqatom
@@ -16553,8 +16320,8 @@ improper torsion
 unit ntype qqatom
   2351 'O2' -0.641
 vibration
-  2
-  2249 2352
+  1
+  2352
 improper torsion
   0
 unit ntype qqatom
@@ -16588,15 +16355,14 @@ improper torsion
 unit ntype qqatom
   2356 'Zn' 1.333
 vibration
-  7
-  2163 2164 2213 2243 2357 2463 2481
+  0
 improper torsion
   0
 unit ntype qqatom
   2357 'O2' -0.641
 vibration
-  2
-  2356 2358
+  1
+  2358
 improper torsion
   0
 unit ntype qqatom
@@ -16630,8 +16396,8 @@ improper torsion
 unit ntype qqatom
   2362 'O2' -0.641
 vibration
-  2
-  2237 2363
+  1
+  2363
 improper torsion
   0
 unit ntype qqatom
@@ -16665,15 +16431,14 @@ improper torsion
 unit ntype qqatom
   2367 'Zn' 1.333
 vibration
-  7
-  2121 2122 2177 2225 2368 2457 2496
+  0
 improper torsion
   0
 unit ntype qqatom
   2368 'O2' -0.641
 vibration
-  2
-  2367 2369
+  1
+  2369
 improper torsion
   0
 unit ntype qqatom
@@ -16707,8 +16472,8 @@ improper torsion
 unit ntype qqatom
   2373 'O2' -0.641
 vibration
-  2
-  2261 2374
+  1
+  2374
 improper torsion
   0
 unit ntype qqatom
@@ -16742,15 +16507,14 @@ improper torsion
 unit ntype qqatom
   2378 'Zn' 1.333
 vibration
-  7
-  2135 2136 2189 2255 2379 2460 2491
+  0
 improper torsion
   0
 unit ntype qqatom
   2379 'O2' -0.641
 vibration
-  2
-  2378 2380
+  1
+  2380
 improper torsion
   0
 unit ntype qqatom
@@ -16784,8 +16548,8 @@ improper torsion
 unit ntype qqatom
   2384 'O2' -0.641
 vibration
-  2
-  2267 2385
+  1
+  2385
 improper torsion
   0
 unit ntype qqatom
@@ -16819,15 +16583,14 @@ improper torsion
 unit ntype qqatom
   2389 'Zn' 1.333
 vibration
-  7
-  2170 2171 2219 2249 2390 2445 2530
+  0
 improper torsion
   0
 unit ntype qqatom
   2390 'O2' -0.641
 vibration
-  2
-  2389 2391
+  1
+  2391
 improper torsion
   0
 unit ntype qqatom
@@ -16861,15 +16624,14 @@ improper torsion
 unit ntype qqatom
   2395 'Zn' 1.333
 vibration
-  7
-  2156 2157 2207 2237 2396 2451 2527
+  0
 improper torsion
   0
 unit ntype qqatom
   2396 'O2' -0.641
 vibration
-  2
-  2395 2397
+  1
+  2397
 improper torsion
   0
 unit ntype qqatom
@@ -16903,15 +16665,14 @@ improper torsion
 unit ntype qqatom
   2401 'Zn' 1.333
 vibration
-  7
-  2142 2143 2195 2261 2402 2439 2521
+  0
 improper torsion
   0
 unit ntype qqatom
   2402 'O2' -0.641
 vibration
-  2
-  2401 2403
+  1
+  2403
 improper torsion
   0
 unit ntype qqatom
@@ -16945,15 +16706,14 @@ improper torsion
 unit ntype qqatom
   2407 'Zn' 1.333
 vibration
-  7
-  2128 2129 2183 2267 2408 2433 2524
+  0
 improper torsion
   0
 unit ntype qqatom
   2408 'O2' -0.641
 vibration
-  2
-  2407 2409
+  1
+  2409
 improper torsion
   0
 unit ntype qqatom
@@ -16987,8 +16747,8 @@ improper torsion
 unit ntype qqatom
   2413 'O2' -0.641
 vibration
-  2
-  2201 2414
+  1
+  2414
 improper torsion
   0
 unit ntype qqatom
@@ -17022,8 +16782,8 @@ improper torsion
 unit ntype qqatom
   2418 'O2' -0.641
 vibration
-  2
-  2177 2419
+  1
+  2419
 improper torsion
   0
 unit ntype qqatom
@@ -17057,8 +16817,8 @@ improper torsion
 unit ntype qqatom
   2423 'O2' -0.641
 vibration
-  2
-  2189 2424
+  1
+  2424
 improper torsion
   0
 unit ntype qqatom
@@ -17092,8 +16852,8 @@ improper torsion
 unit ntype qqatom
   2428 'O2' -0.641
 vibration
-  2
-  2213 2429
+  1
+  2429
 improper torsion
   0
 unit ntype qqatom
@@ -17127,8 +16887,8 @@ improper torsion
 unit ntype qqatom
   2433 'O2' -0.641
 vibration
-  2
-  2385 2407
+  1
+  2385
 improper torsion
   0
 unit ntype qqatom
@@ -17148,8 +16908,8 @@ improper torsion
 unit ntype qqatom
   2436 'O2' -0.641
 vibration
-  2
-  2225 2369
+  1
+  2369
 improper torsion
   0
 unit ntype qqatom
@@ -17169,8 +16929,8 @@ improper torsion
 unit ntype qqatom
   2439 'O2' -0.641
 vibration
-  2
-  2374 2401
+  1
+  2374
 improper torsion
   0
 unit ntype qqatom
@@ -17190,8 +16950,8 @@ improper torsion
 unit ntype qqatom
   2442 'O2' -0.641
 vibration
-  2
-  2255 2380
+  1
+  2380
 improper torsion
   0
 unit ntype qqatom
@@ -17211,8 +16971,8 @@ improper torsion
 unit ntype qqatom
   2445 'O2' -0.641
 vibration
-  2
-  2352 2389
+  1
+  2352
 improper torsion
   0
 unit ntype qqatom
@@ -17232,8 +16992,8 @@ improper torsion
 unit ntype qqatom
   2448 'O2' -0.641
 vibration
-  2
-  2243 2358
+  1
+  2358
 improper torsion
   0
 unit ntype qqatom
@@ -17253,8 +17013,8 @@ improper torsion
 unit ntype qqatom
   2451 'O2' -0.641
 vibration
-  2
-  2363 2395
+  1
+  2363
 improper torsion
   0
 unit ntype qqatom
@@ -17274,8 +17034,8 @@ improper torsion
 unit ntype qqatom
   2454 'O2' -0.641
 vibration
-  2
-  2231 2347
+  1
+  2347
 improper torsion
   0
 unit ntype qqatom
@@ -17295,8 +17055,8 @@ improper torsion
 unit ntype qqatom
   2457 'O2' -0.641
 vibration
-  2
-  2367 2419
+  1
+  2419
 improper torsion
   0
 unit ntype qqatom
@@ -17316,8 +17076,8 @@ improper torsion
 unit ntype qqatom
   2460 'O2' -0.641
 vibration
-  2
-  2378 2424
+  1
+  2424
 improper torsion
   0
 unit ntype qqatom
@@ -17337,8 +17097,8 @@ improper torsion
 unit ntype qqatom
   2463 'O2' -0.641
 vibration
-  2
-  2356 2429
+  1
+  2429
 improper torsion
   0
 unit ntype qqatom
@@ -17358,8 +17118,8 @@ improper torsion
 unit ntype qqatom
   2466 'O2' -0.641
 vibration
-  2
-  2345 2414
+  1
+  2414
 improper torsion
   0
 unit ntype qqatom
@@ -17379,8 +17139,8 @@ improper torsion
 unit ntype qqatom
   2469 'O2' -0.641
 vibration
-  2
-  2128 2409
+  1
+  2409
 improper torsion
   0
 unit ntype qqatom
@@ -17400,8 +17160,8 @@ improper torsion
 unit ntype qqatom
   2472 'O2' -0.641
 vibration
-  2
-  2170 2391
+  1
+  2391
 improper torsion
   0
 unit ntype qqatom
@@ -17421,8 +17181,8 @@ improper torsion
 unit ntype qqatom
   2475 'O2' -0.641
 vibration
-  2
-  2156 2397
+  1
+  2397
 improper torsion
   0
 unit ntype qqatom
@@ -17442,8 +17202,8 @@ improper torsion
 unit ntype qqatom
   2478 'O2' -0.641
 vibration
-  2
-  2142 2403
+  1
+  2403
 improper torsion
   0
 unit ntype qqatom
@@ -17463,8 +17223,8 @@ improper torsion
 unit ntype qqatom
   2481 'O2' -0.641
 vibration
-  2
-  2356 2482
+  1
+  2482
 improper torsion
   0
 unit ntype qqatom
@@ -17498,8 +17258,8 @@ improper torsion
 unit ntype qqatom
   2486 'O2' -0.641
 vibration
-  2
-  2345 2487
+  1
+  2487
 improper torsion
   0
 unit ntype qqatom
@@ -17533,8 +17293,8 @@ improper torsion
 unit ntype qqatom
   2491 'O2' -0.641
 vibration
-  2
-  2378 2492
+  1
+  2492
 improper torsion
   0
 unit ntype qqatom
@@ -17568,8 +17328,8 @@ improper torsion
 unit ntype qqatom
   2496 'O2' -0.641
 vibration
-  2
-  2367 2497
+  1
+  2497
 improper torsion
   0
 unit ntype qqatom
@@ -17603,8 +17363,8 @@ improper torsion
 unit ntype qqatom
   2501 'O2' -0.641
 vibration
-  2
-  2183 2502
+  1
+  2502
 improper torsion
   0
 unit ntype qqatom
@@ -17638,8 +17398,8 @@ improper torsion
 unit ntype qqatom
   2506 'O2' -0.641
 vibration
-  2
-  2195 2507
+  1
+  2507
 improper torsion
   0
 unit ntype qqatom
@@ -17673,8 +17433,8 @@ improper torsion
 unit ntype qqatom
   2511 'O2' -0.641
 vibration
-  2
-  2219 2512
+  1
+  2512
 improper torsion
   0
 unit ntype qqatom
@@ -17708,8 +17468,8 @@ improper torsion
 unit ntype qqatom
   2516 'O2' -0.641
 vibration
-  2
-  2207 2517
+  1
+  2517
 improper torsion
   0
 unit ntype qqatom
@@ -17743,8 +17503,8 @@ improper torsion
 unit ntype qqatom
   2521 'O2' -0.641
 vibration
-  2
-  2401 2507
+  1
+  2507
 improper torsion
   0
 unit ntype qqatom
@@ -17764,8 +17524,8 @@ improper torsion
 unit ntype qqatom
   2524 'O2' -0.641
 vibration
-  2
-  2407 2502
+  1
+  2502
 improper torsion
   0
 unit ntype qqatom
@@ -17785,8 +17545,8 @@ improper torsion
 unit ntype qqatom
   2527 'O2' -0.641
 vibration
-  2
-  2395 2517
+  1
+  2517
 improper torsion
   0
 unit ntype qqatom
@@ -17806,8 +17566,8 @@ improper torsion
 unit ntype qqatom
   2530 'O2' -0.641
 vibration
-  2
-  2389 2512
+  1
+  2512
 improper torsion
   0
 unit ntype qqatom
@@ -17827,8 +17587,8 @@ improper torsion
 unit ntype qqatom
   2533 'O2' -0.641
 vibration
-  2
-  2149 2487
+  1
+  2487
 improper torsion
   0
 unit ntype qqatom
@@ -17848,8 +17608,8 @@ improper torsion
 unit ntype qqatom
   2536 'O2' -0.641
 vibration
-  2
-  2163 2482
+  1
+  2482
 improper torsion
   0
 unit ntype qqatom
@@ -17869,8 +17629,8 @@ improper torsion
 unit ntype qqatom
   2539 'O2' -0.641
 vibration
-  2
-  2121 2497
+  1
+  2497
 improper torsion
   0
 unit ntype qqatom
@@ -17890,8 +17650,8 @@ improper torsion
 unit ntype qqatom
   2542 'O2' -0.641
 vibration
-  2
-  2135 2492
+  1
+  2492
 improper torsion
   0
 unit ntype qqatom
@@ -17911,22 +17671,20 @@ improper torsion
 unit ntype qqatom
   2545 'Zn' 1.333
 vibration
-  7
-  2546 2547 2601 2649 2742 2791 2963
+  0
 improper torsion
   0
 unit ntype qqatom
   2546 'O1' -1.564
 vibration
-  4
-  2545 2601 2649 2791
+  0
 improper torsion
   0
 unit ntype qqatom
   2547 'O2' -0.641
 vibration
-  2
-  2545 2548
+  1
+  2548
 improper torsion
   0
 unit ntype qqatom
@@ -17960,22 +17718,20 @@ improper torsion
 unit ntype qqatom
   2552 'Zn' 1.333
 vibration
-  7
-  2553 2554 2607 2691 2733 2831 2893
+  0
 improper torsion
   0
 unit ntype qqatom
   2553 'O1' -1.564
 vibration
-  4
-  2552 2607 2691 2831
+  0
 improper torsion
   0
 unit ntype qqatom
   2554 'O2' -0.641
 vibration
-  2
-  2552 2555
+  1
+  2555
 improper torsion
   0
 unit ntype qqatom
@@ -18009,22 +17765,20 @@ improper torsion
 unit ntype qqatom
   2559 'Zn' 1.333
 vibration
-  7
-  2560 2561 2613 2679 2736 2802 2966
+  0
 improper torsion
   0
 unit ntype qqatom
   2560 'O1' -1.564
 vibration
-  4
-  2559 2613 2679 2802
+  0
 improper torsion
   0
 unit ntype qqatom
   2561 'O2' -0.641
 vibration
-  2
-  2559 2562
+  1
+  2562
 improper torsion
   0
 unit ntype qqatom
@@ -18058,22 +17812,20 @@ improper torsion
 unit ntype qqatom
   2566 'Zn' 1.333
 vibration
-  7
-  2567 2568 2619 2685 2739 2825 2902
+  0
 improper torsion
   0
 unit ntype qqatom
   2567 'O1' -1.564
 vibration
-  4
-  2566 2619 2685 2825
+  0
 improper torsion
   0
 unit ntype qqatom
   2568 'O2' -0.641
 vibration
-  2
-  2566 2569
+  1
+  2569
 improper torsion
   0
 unit ntype qqatom
@@ -18107,22 +17859,20 @@ improper torsion
 unit ntype qqatom
   2573 'Zn' 1.333
 vibration
-  7
-  2574 2575 2625 2655 2724 2769 2957
+  0
 improper torsion
   0
 unit ntype qqatom
   2574 'O1' -1.564
 vibration
-  4
-  2573 2625 2655 2769
+  0
 improper torsion
   0
 unit ntype qqatom
   2575 'O2' -0.641
 vibration
-  2
-  2573 2576
+  1
+  2576
 improper torsion
   0
 unit ntype qqatom
@@ -18156,22 +17906,20 @@ improper torsion
 unit ntype qqatom
   2580 'Zn' 1.333
 vibration
-  7
-  2581 2582 2631 2661 2727 2819 2899
+  0
 improper torsion
   0
 unit ntype qqatom
   2581 'O1' -1.564
 vibration
-  4
-  2580 2631 2661 2819
+  0
 improper torsion
   0
 unit ntype qqatom
   2582 'O2' -0.641
 vibration
-  2
-  2580 2583
+  1
+  2583
 improper torsion
   0
 unit ntype qqatom
@@ -18205,22 +17953,20 @@ improper torsion
 unit ntype qqatom
   2587 'Zn' 1.333
 vibration
-  7
-  2588 2589 2637 2667 2730 2780 2960
+  0
 improper torsion
   0
 unit ntype qqatom
   2588 'O1' -1.564
 vibration
-  4
-  2587 2637 2667 2780
+  0
 improper torsion
   0
 unit ntype qqatom
   2589 'O2' -0.641
 vibration
-  2
-  2587 2590
+  1
+  2590
 improper torsion
   0
 unit ntype qqatom
@@ -18254,22 +18000,20 @@ improper torsion
 unit ntype qqatom
   2594 'Zn' 1.333
 vibration
-  7
-  2595 2596 2643 2673 2721 2813 2896
+  0
 improper torsion
   0
 unit ntype qqatom
   2595 'O1' -1.564
 vibration
-  4
-  2594 2643 2673 2813
+  0
 improper torsion
   0
 unit ntype qqatom
   2596 'O2' -0.641
 vibration
-  2
-  2594 2597
+  1
+  2597
 improper torsion
   0
 unit ntype qqatom
@@ -18303,15 +18047,14 @@ improper torsion
 unit ntype qqatom
   2601 'Zn' 1.333
 vibration
-  7
-  2545 2546 2602 2649 2718 2791 2842
+  0
 improper torsion
   0
 unit ntype qqatom
   2602 'O2' -0.641
 vibration
-  2
-  2601 2603
+  1
+  2603
 improper torsion
   0
 unit ntype qqatom
@@ -18345,15 +18088,14 @@ improper torsion
 unit ntype qqatom
   2607 'Zn' 1.333
 vibration
-  7
-  2552 2553 2608 2691 2709 2831 2925
+  0
 improper torsion
   0
 unit ntype qqatom
   2608 'O2' -0.641
 vibration
-  2
-  2607 2609
+  1
+  2609
 improper torsion
   0
 unit ntype qqatom
@@ -18387,15 +18129,14 @@ improper torsion
 unit ntype qqatom
   2613 'Zn' 1.333
 vibration
-  7
-  2559 2560 2614 2679 2712 2802 2847
+  0
 improper torsion
   0
 unit ntype qqatom
   2614 'O2' -0.641
 vibration
-  2
-  2613 2615
+  1
+  2615
 improper torsion
   0
 unit ntype qqatom
@@ -18429,15 +18170,14 @@ improper torsion
 unit ntype qqatom
   2619 'Zn' 1.333
 vibration
-  7
-  2566 2567 2620 2685 2715 2825 2930
+  0
 improper torsion
   0
 unit ntype qqatom
   2620 'O2' -0.641
 vibration
-  2
-  2619 2621
+  1
+  2621
 improper torsion
   0
 unit ntype qqatom
@@ -18471,15 +18211,14 @@ improper torsion
 unit ntype qqatom
   2625 'Zn' 1.333
 vibration
-  7
-  2573 2574 2626 2655 2700 2769 2837
+  0
 improper torsion
   0
 unit ntype qqatom
   2626 'O2' -0.641
 vibration
-  2
-  2625 2627
+  1
+  2627
 improper torsion
   0
 unit ntype qqatom
@@ -18513,15 +18252,14 @@ improper torsion
 unit ntype qqatom
   2631 'Zn' 1.333
 vibration
-  7
-  2580 2581 2632 2661 2703 2819 2940
+  0
 improper torsion
   0
 unit ntype qqatom
   2632 'O2' -0.641
 vibration
-  2
-  2631 2633
+  1
+  2633
 improper torsion
   0
 unit ntype qqatom
@@ -18555,15 +18293,14 @@ improper torsion
 unit ntype qqatom
   2637 'Zn' 1.333
 vibration
-  7
-  2587 2588 2638 2667 2706 2780 2852
+  0
 improper torsion
   0
 unit ntype qqatom
   2638 'O2' -0.641
 vibration
-  2
-  2637 2639
+  1
+  2639
 improper torsion
   0
 unit ntype qqatom
@@ -18597,15 +18334,14 @@ improper torsion
 unit ntype qqatom
   2643 'Zn' 1.333
 vibration
-  7
-  2594 2595 2644 2673 2697 2813 2935
+  0
 improper torsion
   0
 unit ntype qqatom
   2644 'O2' -0.641
 vibration
-  2
-  2643 2645
+  1
+  2645
 improper torsion
   0
 unit ntype qqatom
@@ -18639,15 +18375,14 @@ improper torsion
 unit ntype qqatom
   2649 'Zn' 1.333
 vibration
-  7
-  2545 2546 2601 2650 2757 2791 2860
+  0
 improper torsion
   0
 unit ntype qqatom
   2650 'O2' -0.641
 vibration
-  2
-  2649 2651
+  1
+  2651
 improper torsion
   0
 unit ntype qqatom
@@ -18681,15 +18416,14 @@ improper torsion
 unit ntype qqatom
   2655 'Zn' 1.333
 vibration
-  7
-  2573 2574 2625 2656 2766 2769 2878
+  0
 improper torsion
   0
 unit ntype qqatom
   2656 'O2' -0.641
 vibration
-  2
-  2655 2657
+  1
+  2657
 improper torsion
   0
 unit ntype qqatom
@@ -18723,15 +18457,14 @@ improper torsion
 unit ntype qqatom
   2661 'Zn' 1.333
 vibration
-  7
-  2580 2581 2631 2662 2760 2786 2819
+  0
 improper torsion
   0
 unit ntype qqatom
   2662 'O2' -0.641
 vibration
-  2
-  2661 2663
+  1
+  2663
 improper torsion
   0
 unit ntype qqatom
@@ -18765,15 +18498,14 @@ improper torsion
 unit ntype qqatom
   2667 'Zn' 1.333
 vibration
-  7
-  2587 2588 2637 2668 2763 2780 2872
+  0
 improper torsion
   0
 unit ntype qqatom
   2668 'O2' -0.641
 vibration
-  2
-  2667 2669
+  1
+  2669
 improper torsion
   0
 unit ntype qqatom
@@ -18807,15 +18539,14 @@ improper torsion
 unit ntype qqatom
   2673 'Zn' 1.333
 vibration
-  7
-  2594 2595 2643 2674 2745 2775 2813
+  0
 improper torsion
   0
 unit ntype qqatom
   2674 'O2' -0.641
 vibration
-  2
-  2673 2675
+  1
+  2675
 improper torsion
   0
 unit ntype qqatom
@@ -18849,15 +18580,14 @@ improper torsion
 unit ntype qqatom
   2679 'Zn' 1.333
 vibration
-  7
-  2559 2560 2613 2680 2751 2802 2866
+  0
 improper torsion
   0
 unit ntype qqatom
   2680 'O2' -0.641
 vibration
-  2
-  2679 2681
+  1
+  2681
 improper torsion
   0
 unit ntype qqatom
@@ -18891,15 +18621,14 @@ improper torsion
 unit ntype qqatom
   2685 'Zn' 1.333
 vibration
-  7
-  2566 2567 2619 2686 2754 2797 2825
+  0
 improper torsion
   0
 unit ntype qqatom
   2686 'O2' -0.641
 vibration
-  2
-  2685 2687
+  1
+  2687
 improper torsion
   0
 unit ntype qqatom
@@ -18933,15 +18662,14 @@ improper torsion
 unit ntype qqatom
   2691 'Zn' 1.333
 vibration
-  7
-  2552 2553 2607 2692 2748 2808 2831
+  0
 improper torsion
   0
 unit ntype qqatom
   2692 'O2' -0.641
 vibration
-  2
-  2691 2693
+  1
+  2693
 improper torsion
   0
 unit ntype qqatom
@@ -18975,8 +18703,8 @@ improper torsion
 unit ntype qqatom
   2697 'O2' -0.641
 vibration
-  2
-  2597 2643
+  1
+  2597
 improper torsion
   0
 unit ntype qqatom
@@ -18996,8 +18724,8 @@ improper torsion
 unit ntype qqatom
   2700 'O2' -0.641
 vibration
-  2
-  2576 2625
+  1
+  2576
 improper torsion
   0
 unit ntype qqatom
@@ -19017,8 +18745,8 @@ improper torsion
 unit ntype qqatom
   2703 'O2' -0.641
 vibration
-  2
-  2583 2631
+  1
+  2583
 improper torsion
   0
 unit ntype qqatom
@@ -19038,8 +18766,8 @@ improper torsion
 unit ntype qqatom
   2706 'O2' -0.641
 vibration
-  2
-  2590 2637
+  1
+  2590
 improper torsion
   0
 unit ntype qqatom
@@ -19059,8 +18787,8 @@ improper torsion
 unit ntype qqatom
   2709 'O2' -0.641
 vibration
-  2
-  2555 2607
+  1
+  2555
 improper torsion
   0
 unit ntype qqatom
@@ -19080,8 +18808,8 @@ improper torsion
 unit ntype qqatom
   2712 'O2' -0.641
 vibration
-  2
-  2562 2613
+  1
+  2562
 improper torsion
   0
 unit ntype qqatom
@@ -19101,8 +18829,8 @@ improper torsion
 unit ntype qqatom
   2715 'O2' -0.641
 vibration
-  2
-  2569 2619
+  1
+  2569
 improper torsion
   0
 unit ntype qqatom
@@ -19122,8 +18850,8 @@ improper torsion
 unit ntype qqatom
   2718 'O2' -0.641
 vibration
-  2
-  2548 2601
+  1
+  2548
 improper torsion
   0
 unit ntype qqatom
@@ -19143,8 +18871,8 @@ improper torsion
 unit ntype qqatom
   2721 'O2' -0.641
 vibration
-  2
-  2594 2675
+  1
+  2675
 improper torsion
   0
 unit ntype qqatom
@@ -19164,8 +18892,8 @@ improper torsion
 unit ntype qqatom
   2724 'O2' -0.641
 vibration
-  2
-  2573 2657
+  1
+  2657
 improper torsion
   0
 unit ntype qqatom
@@ -19185,8 +18913,8 @@ improper torsion
 unit ntype qqatom
   2727 'O2' -0.641
 vibration
-  2
-  2580 2663
+  1
+  2663
 improper torsion
   0
 unit ntype qqatom
@@ -19206,8 +18934,8 @@ improper torsion
 unit ntype qqatom
   2730 'O2' -0.641
 vibration
-  2
-  2587 2669
+  1
+  2669
 improper torsion
   0
 unit ntype qqatom
@@ -19227,8 +18955,8 @@ improper torsion
 unit ntype qqatom
   2733 'O2' -0.641
 vibration
-  2
-  2552 2693
+  1
+  2693
 improper torsion
   0
 unit ntype qqatom
@@ -19248,8 +18976,8 @@ improper torsion
 unit ntype qqatom
   2736 'O2' -0.641
 vibration
-  2
-  2559 2681
+  1
+  2681
 improper torsion
   0
 unit ntype qqatom
@@ -19269,8 +18997,8 @@ improper torsion
 unit ntype qqatom
   2739 'O2' -0.641
 vibration
-  2
-  2566 2687
+  1
+  2687
 improper torsion
   0
 unit ntype qqatom
@@ -19290,8 +19018,8 @@ improper torsion
 unit ntype qqatom
   2742 'O2' -0.641
 vibration
-  2
-  2545 2651
+  1
+  2651
 improper torsion
   0
 unit ntype qqatom
@@ -19311,8 +19039,8 @@ improper torsion
 unit ntype qqatom
   2745 'O2' -0.641
 vibration
-  2
-  2645 2673
+  1
+  2645
 improper torsion
   0
 unit ntype qqatom
@@ -19332,8 +19060,8 @@ improper torsion
 unit ntype qqatom
   2748 'O2' -0.641
 vibration
-  2
-  2609 2691
+  1
+  2609
 improper torsion
   0
 unit ntype qqatom
@@ -19353,8 +19081,8 @@ improper torsion
 unit ntype qqatom
   2751 'O2' -0.641
 vibration
-  2
-  2615 2679
+  1
+  2615
 improper torsion
   0
 unit ntype qqatom
@@ -19374,8 +19102,8 @@ improper torsion
 unit ntype qqatom
   2754 'O2' -0.641
 vibration
-  2
-  2621 2685
+  1
+  2621
 improper torsion
   0
 unit ntype qqatom
@@ -19395,8 +19123,8 @@ improper torsion
 unit ntype qqatom
   2757 'O2' -0.641
 vibration
-  2
-  2603 2649
+  1
+  2603
 improper torsion
   0
 unit ntype qqatom
@@ -19416,8 +19144,8 @@ improper torsion
 unit ntype qqatom
   2760 'O2' -0.641
 vibration
-  2
-  2633 2661
+  1
+  2633
 improper torsion
   0
 unit ntype qqatom
@@ -19437,8 +19165,8 @@ improper torsion
 unit ntype qqatom
   2763 'O2' -0.641
 vibration
-  2
-  2639 2667
+  1
+  2639
 improper torsion
   0
 unit ntype qqatom
@@ -19458,8 +19186,8 @@ improper torsion
 unit ntype qqatom
   2766 'O2' -0.641
 vibration
-  2
-  2627 2655
+  1
+  2627
 improper torsion
   0
 unit ntype qqatom
@@ -19479,15 +19207,14 @@ improper torsion
 unit ntype qqatom
   2769 'Zn' 1.333
 vibration
-  7
-  2573 2574 2625 2655 2770 2890 2910
+  0
 improper torsion
   0
 unit ntype qqatom
   2770 'O2' -0.641
 vibration
-  2
-  2769 2771
+  1
+  2771
 improper torsion
   0
 unit ntype qqatom
@@ -19521,8 +19248,8 @@ improper torsion
 unit ntype qqatom
   2775 'O2' -0.641
 vibration
-  2
-  2673 2776
+  1
+  2776
 improper torsion
   0
 unit ntype qqatom
@@ -19556,15 +19283,14 @@ improper torsion
 unit ntype qqatom
   2780 'Zn' 1.333
 vibration
-  7
-  2587 2588 2637 2667 2781 2887 2905
+  0
 improper torsion
   0
 unit ntype qqatom
   2781 'O2' -0.641
 vibration
-  2
-  2780 2782
+  1
+  2782
 improper torsion
   0
 unit ntype qqatom
@@ -19598,8 +19324,8 @@ improper torsion
 unit ntype qqatom
   2786 'O2' -0.641
 vibration
-  2
-  2661 2787
+  1
+  2787
 improper torsion
   0
 unit ntype qqatom
@@ -19633,15 +19359,14 @@ improper torsion
 unit ntype qqatom
   2791 'Zn' 1.333
 vibration
-  7
-  2545 2546 2601 2649 2792 2881 2920
+  0
 improper torsion
   0
 unit ntype qqatom
   2792 'O2' -0.641
 vibration
-  2
-  2791 2793
+  1
+  2793
 improper torsion
   0
 unit ntype qqatom
@@ -19675,8 +19400,8 @@ improper torsion
 unit ntype qqatom
   2797 'O2' -0.641
 vibration
-  2
-  2685 2798
+  1
+  2798
 improper torsion
   0
 unit ntype qqatom
@@ -19710,15 +19435,14 @@ improper torsion
 unit ntype qqatom
   2802 'Zn' 1.333
 vibration
-  7
-  2559 2560 2613 2679 2803 2884 2915
+  0
 improper torsion
   0
 unit ntype qqatom
   2803 'O2' -0.641
 vibration
-  2
-  2802 2804
+  1
+  2804
 improper torsion
   0
 unit ntype qqatom
@@ -19752,8 +19476,8 @@ improper torsion
 unit ntype qqatom
   2808 'O2' -0.641
 vibration
-  2
-  2691 2809
+  1
+  2809
 improper torsion
   0
 unit ntype qqatom
@@ -19787,15 +19511,14 @@ improper torsion
 unit ntype qqatom
   2813 'Zn' 1.333
 vibration
-  7
-  2594 2595 2643 2673 2814 2869 2954
+  0
 improper torsion
   0
 unit ntype qqatom
   2814 'O2' -0.641
 vibration
-  2
-  2813 2815
+  1
+  2815
 improper torsion
   0
 unit ntype qqatom
@@ -19829,15 +19552,14 @@ improper torsion
 unit ntype qqatom
   2819 'Zn' 1.333
 vibration
-  7
-  2580 2581 2631 2661 2820 2875 2951
+  0
 improper torsion
   0
 unit ntype qqatom
   2820 'O2' -0.641
 vibration
-  2
-  2819 2821
+  1
+  2821
 improper torsion
   0
 unit ntype qqatom
@@ -19871,15 +19593,14 @@ improper torsion
 unit ntype qqatom
   2825 'Zn' 1.333
 vibration
-  7
-  2566 2567 2619 2685 2826 2863 2945
+  0
 improper torsion
   0
 unit ntype qqatom
   2826 'O2' -0.641
 vibration
-  2
-  2825 2827
+  1
+  2827
 improper torsion
   0
 unit ntype qqatom
@@ -19913,15 +19634,14 @@ improper torsion
 unit ntype qqatom
   2831 'Zn' 1.333
 vibration
-  7
-  2552 2553 2607 2691 2832 2857 2948
+  0
 improper torsion
   0
 unit ntype qqatom
   2832 'O2' -0.641
 vibration
-  2
-  2831 2833
+  1
+  2833
 improper torsion
   0
 unit ntype qqatom
@@ -19955,8 +19675,8 @@ improper torsion
 unit ntype qqatom
   2837 'O2' -0.641
 vibration
-  2
-  2625 2838
+  1
+  2838
 improper torsion
   0
 unit ntype qqatom
@@ -19990,8 +19710,8 @@ improper torsion
 unit ntype qqatom
   2842 'O2' -0.641
 vibration
-  2
-  2601 2843
+  1
+  2843
 improper torsion
   0
 unit ntype qqatom
@@ -20025,8 +19745,8 @@ improper torsion
 unit ntype qqatom
   2847 'O2' -0.641
 vibration
-  2
-  2613 2848
+  1
+  2848
 improper torsion
   0
 unit ntype qqatom
@@ -20060,8 +19780,8 @@ improper torsion
 unit ntype qqatom
   2852 'O2' -0.641
 vibration
-  2
-  2637 2853
+  1
+  2853
 improper torsion
   0
 unit ntype qqatom
@@ -20095,8 +19815,8 @@ improper torsion
 unit ntype qqatom
   2857 'O2' -0.641
 vibration
-  2
-  2809 2831
+  1
+  2809
 improper torsion
   0
 unit ntype qqatom
@@ -20116,8 +19836,8 @@ improper torsion
 unit ntype qqatom
   2860 'O2' -0.641
 vibration
-  2
-  2649 2793
+  1
+  2793
 improper torsion
   0
 unit ntype qqatom
@@ -20137,8 +19857,8 @@ improper torsion
 unit ntype qqatom
   2863 'O2' -0.641
 vibration
-  2
-  2798 2825
+  1
+  2798
 improper torsion
   0
 unit ntype qqatom
@@ -20158,8 +19878,8 @@ improper torsion
 unit ntype qqatom
   2866 'O2' -0.641
 vibration
-  2
-  2679 2804
+  1
+  2804
 improper torsion
   0
 unit ntype qqatom
@@ -20179,8 +19899,8 @@ improper torsion
 unit ntype qqatom
   2869 'O2' -0.641
 vibration
-  2
-  2776 2813
+  1
+  2776
 improper torsion
   0
 unit ntype qqatom
@@ -20200,8 +19920,8 @@ improper torsion
 unit ntype qqatom
   2872 'O2' -0.641
 vibration
-  2
-  2667 2782
+  1
+  2782
 improper torsion
   0
 unit ntype qqatom
@@ -20221,8 +19941,8 @@ improper torsion
 unit ntype qqatom
   2875 'O2' -0.641
 vibration
-  2
-  2787 2819
+  1
+  2787
 improper torsion
   0
 unit ntype qqatom
@@ -20242,8 +19962,8 @@ improper torsion
 unit ntype qqatom
   2878 'O2' -0.641
 vibration
-  2
-  2655 2771
+  1
+  2771
 improper torsion
   0
 unit ntype qqatom
@@ -20263,8 +19983,8 @@ improper torsion
 unit ntype qqatom
   2881 'O2' -0.641
 vibration
-  2
-  2791 2843
+  1
+  2843
 improper torsion
   0
 unit ntype qqatom
@@ -20284,8 +20004,8 @@ improper torsion
 unit ntype qqatom
   2884 'O2' -0.641
 vibration
-  2
-  2802 2848
+  1
+  2848
 improper torsion
   0
 unit ntype qqatom
@@ -20305,8 +20025,8 @@ improper torsion
 unit ntype qqatom
   2887 'O2' -0.641
 vibration
-  2
-  2780 2853
+  1
+  2853
 improper torsion
   0
 unit ntype qqatom
@@ -20326,8 +20046,8 @@ improper torsion
 unit ntype qqatom
   2890 'O2' -0.641
 vibration
-  2
-  2769 2838
+  1
+  2838
 improper torsion
   0
 unit ntype qqatom
@@ -20347,8 +20067,8 @@ improper torsion
 unit ntype qqatom
   2893 'O2' -0.641
 vibration
-  2
-  2552 2833
+  1
+  2833
 improper torsion
   0
 unit ntype qqatom
@@ -20368,8 +20088,8 @@ improper torsion
 unit ntype qqatom
   2896 'O2' -0.641
 vibration
-  2
-  2594 2815
+  1
+  2815
 improper torsion
   0
 unit ntype qqatom
@@ -20389,8 +20109,8 @@ improper torsion
 unit ntype qqatom
   2899 'O2' -0.641
 vibration
-  2
-  2580 2821
+  1
+  2821
 improper torsion
   0
 unit ntype qqatom
@@ -20410,8 +20130,8 @@ improper torsion
 unit ntype qqatom
   2902 'O2' -0.641
 vibration
-  2
-  2566 2827
+  1
+  2827
 improper torsion
   0
 unit ntype qqatom
@@ -20431,8 +20151,8 @@ improper torsion
 unit ntype qqatom
   2905 'O2' -0.641
 vibration
-  2
-  2780 2906
+  1
+  2906
 improper torsion
   0
 unit ntype qqatom
@@ -20466,8 +20186,8 @@ improper torsion
 unit ntype qqatom
   2910 'O2' -0.641
 vibration
-  2
-  2769 2911
+  1
+  2911
 improper torsion
   0
 unit ntype qqatom
@@ -20501,8 +20221,8 @@ improper torsion
 unit ntype qqatom
   2915 'O2' -0.641
 vibration
-  2
-  2802 2916
+  1
+  2916
 improper torsion
   0
 unit ntype qqatom
@@ -20536,8 +20256,8 @@ improper torsion
 unit ntype qqatom
   2920 'O2' -0.641
 vibration
-  2
-  2791 2921
+  1
+  2921
 improper torsion
   0
 unit ntype qqatom
@@ -20571,8 +20291,8 @@ improper torsion
 unit ntype qqatom
   2925 'O2' -0.641
 vibration
-  2
-  2607 2926
+  1
+  2926
 improper torsion
   0
 unit ntype qqatom
@@ -20606,8 +20326,8 @@ improper torsion
 unit ntype qqatom
   2930 'O2' -0.641
 vibration
-  2
-  2619 2931
+  1
+  2931
 improper torsion
   0
 unit ntype qqatom
@@ -20641,8 +20361,8 @@ improper torsion
 unit ntype qqatom
   2935 'O2' -0.641
 vibration
-  2
-  2643 2936
+  1
+  2936
 improper torsion
   0
 unit ntype qqatom
@@ -20676,8 +20396,8 @@ improper torsion
 unit ntype qqatom
   2940 'O2' -0.641
 vibration
-  2
-  2631 2941
+  1
+  2941
 improper torsion
   0
 unit ntype qqatom
@@ -20711,8 +20431,8 @@ improper torsion
 unit ntype qqatom
   2945 'O2' -0.641
 vibration
-  2
-  2825 2931
+  1
+  2931
 improper torsion
   0
 unit ntype qqatom
@@ -20732,8 +20452,8 @@ improper torsion
 unit ntype qqatom
   2948 'O2' -0.641
 vibration
-  2
-  2831 2926
+  1
+  2926
 improper torsion
   0
 unit ntype qqatom
@@ -20753,8 +20473,8 @@ improper torsion
 unit ntype qqatom
   2951 'O2' -0.641
 vibration
-  2
-  2819 2941
+  1
+  2941
 improper torsion
   0
 unit ntype qqatom
@@ -20774,8 +20494,8 @@ improper torsion
 unit ntype qqatom
   2954 'O2' -0.641
 vibration
-  2
-  2813 2936
+  1
+  2936
 improper torsion
   0
 unit ntype qqatom
@@ -20795,8 +20515,8 @@ improper torsion
 unit ntype qqatom
   2957 'O2' -0.641
 vibration
-  2
-  2573 2911
+  1
+  2911
 improper torsion
   0
 unit ntype qqatom
@@ -20816,8 +20536,8 @@ improper torsion
 unit ntype qqatom
   2960 'O2' -0.641
 vibration
-  2
-  2587 2906
+  1
+  2906
 improper torsion
   0
 unit ntype qqatom
@@ -20837,8 +20557,8 @@ improper torsion
 unit ntype qqatom
   2963 'O2' -0.641
 vibration
-  2
-  2545 2921
+  1
+  2921
 improper torsion
   0
 unit ntype qqatom
@@ -20858,8 +20578,8 @@ improper torsion
 unit ntype qqatom
   2966 'O2' -0.641
 vibration
-  2
-  2559 2916
+  1
+  2916
 improper torsion
   0
 unit ntype qqatom
@@ -20879,22 +20599,20 @@ improper torsion
 unit ntype qqatom
   2969 'Zn' 1.333
 vibration
-  7
-  2970 2971 3025 3073 3166 3215 3387
+  0
 improper torsion
   0
 unit ntype qqatom
   2970 'O1' -1.564
 vibration
-  4
-  2969 3025 3073 3215
+  0
 improper torsion
   0
 unit ntype qqatom
   2971 'O2' -0.641
 vibration
-  2
-  2969 2972
+  1
+  2972
 improper torsion
   0
 unit ntype qqatom
@@ -20928,22 +20646,20 @@ improper torsion
 unit ntype qqatom
   2976 'Zn' 1.333
 vibration
-  7
-  2977 2978 3031 3115 3157 3255 3317
+  0
 improper torsion
   0
 unit ntype qqatom
   2977 'O1' -1.564
 vibration
-  4
-  2976 3031 3115 3255
+  0
 improper torsion
   0
 unit ntype qqatom
   2978 'O2' -0.641
 vibration
-  2
-  2976 2979
+  1
+  2979
 improper torsion
   0
 unit ntype qqatom
@@ -20977,22 +20693,20 @@ improper torsion
 unit ntype qqatom
   2983 'Zn' 1.333
 vibration
-  7
-  2984 2985 3037 3103 3160 3226 3390
+  0
 improper torsion
   0
 unit ntype qqatom
   2984 'O1' -1.564
 vibration
-  4
-  2983 3037 3103 3226
+  0
 improper torsion
   0
 unit ntype qqatom
   2985 'O2' -0.641
 vibration
-  2
-  2983 2986
+  1
+  2986
 improper torsion
   0
 unit ntype qqatom
@@ -21026,22 +20740,20 @@ improper torsion
 unit ntype qqatom
   2990 'Zn' 1.333
 vibration
-  7
-  2991 2992 3043 3109 3163 3249 3326
+  0
 improper torsion
   0
 unit ntype qqatom
   2991 'O1' -1.564
 vibration
-  4
-  2990 3043 3109 3249
+  0
 improper torsion
   0
 unit ntype qqatom
   2992 'O2' -0.641
 vibration
-  2
-  2990 2993
+  1
+  2993
 improper torsion
   0
 unit ntype qqatom
@@ -21075,22 +20787,20 @@ improper torsion
 unit ntype qqatom
   2997 'Zn' 1.333
 vibration
-  7
-  2998 2999 3049 3079 3148 3193 3381
+  0
 improper torsion
   0
 unit ntype qqatom
   2998 'O1' -1.564
 vibration
-  4
-  2997 3049 3079 3193
+  0
 improper torsion
   0
 unit ntype qqatom
   2999 'O2' -0.641
 vibration
-  2
-  2997 3000
+  1
+  3000
 improper torsion
   0
 unit ntype qqatom
@@ -21124,22 +20834,20 @@ improper torsion
 unit ntype qqatom
   3004 'Zn' 1.333
 vibration
-  7
-  3005 3006 3055 3085 3151 3243 3323
+  0
 improper torsion
   0
 unit ntype qqatom
   3005 'O1' -1.564
 vibration
-  4
-  3004 3055 3085 3243
+  0
 improper torsion
   0
 unit ntype qqatom
   3006 'O2' -0.641
 vibration
-  2
-  3004 3007
+  1
+  3007
 improper torsion
   0
 unit ntype qqatom
@@ -21173,22 +20881,20 @@ improper torsion
 unit ntype qqatom
   3011 'Zn' 1.333
 vibration
-  7
-  3012 3013 3061 3091 3154 3204 3384
+  0
 improper torsion
   0
 unit ntype qqatom
   3012 'O1' -1.564
 vibration
-  4
-  3011 3061 3091 3204
+  0
 improper torsion
   0
 unit ntype qqatom
   3013 'O2' -0.641
 vibration
-  2
-  3011 3014
+  1
+  3014
 improper torsion
   0
 unit ntype qqatom
@@ -21222,22 +20928,20 @@ improper torsion
 unit ntype qqatom
   3018 'Zn' 1.333
 vibration
-  7
-  3019 3020 3067 3097 3145 3237 3320
+  0
 improper torsion
   0
 unit ntype qqatom
   3019 'O1' -1.564
 vibration
-  4
-  3018 3067 3097 3237
+  0
 improper torsion
   0
 unit ntype qqatom
   3020 'O2' -0.641
 vibration
-  2
-  3018 3021
+  1
+  3021
 improper torsion
   0
 unit ntype qqatom
@@ -21271,15 +20975,14 @@ improper torsion
 unit ntype qqatom
   3025 'Zn' 1.333
 vibration
-  7
-  2969 2970 3026 3073 3142 3215 3266
+  0
 improper torsion
   0
 unit ntype qqatom
   3026 'O2' -0.641
 vibration
-  2
-  3025 3027
+  1
+  3027
 improper torsion
   0
 unit ntype qqatom
@@ -21313,15 +21016,14 @@ improper torsion
 unit ntype qqatom
   3031 'Zn' 1.333
 vibration
-  7
-  2976 2977 3032 3115 3133 3255 3349
+  0
 improper torsion
   0
 unit ntype qqatom
   3032 'O2' -0.641
 vibration
-  2
-  3031 3033
+  1
+  3033
 improper torsion
   0
 unit ntype qqatom
@@ -21355,15 +21057,14 @@ improper torsion
 unit ntype qqatom
   3037 'Zn' 1.333
 vibration
-  7
-  2983 2984 3038 3103 3136 3226 3271
+  0
 improper torsion
   0
 unit ntype qqatom
   3038 'O2' -0.641
 vibration
-  2
-  3037 3039
+  1
+  3039
 improper torsion
   0
 unit ntype qqatom
@@ -21397,15 +21098,14 @@ improper torsion
 unit ntype qqatom
   3043 'Zn' 1.333
 vibration
-  7
-  2990 2991 3044 3109 3139 3249 3354
+  0
 improper torsion
   0
 unit ntype qqatom
   3044 'O2' -0.641
 vibration
-  2
-  3043 3045
+  1
+  3045
 improper torsion
   0
 unit ntype qqatom
@@ -21439,15 +21139,14 @@ improper torsion
 unit ntype qqatom
   3049 'Zn' 1.333
 vibration
-  7
-  2997 2998 3050 3079 3124 3193 3261
+  0
 improper torsion
   0
 unit ntype qqatom
   3050 'O2' -0.641
 vibration
-  2
-  3049 3051
+  1
+  3051
 improper torsion
   0
 unit ntype qqatom
@@ -21481,15 +21180,14 @@ improper torsion
 unit ntype qqatom
   3055 'Zn' 1.333
 vibration
-  7
-  3004 3005 3056 3085 3127 3243 3364
+  0
 improper torsion
   0
 unit ntype qqatom
   3056 'O2' -0.641
 vibration
-  2
-  3055 3057
+  1
+  3057
 improper torsion
   0
 unit ntype qqatom
@@ -21523,15 +21221,14 @@ improper torsion
 unit ntype qqatom
   3061 'Zn' 1.333
 vibration
-  7
-  3011 3012 3062 3091 3130 3204 3276
+  0
 improper torsion
   0
 unit ntype qqatom
   3062 'O2' -0.641
 vibration
-  2
-  3061 3063
+  1
+  3063
 improper torsion
   0
 unit ntype qqatom
@@ -21565,15 +21262,14 @@ improper torsion
 unit ntype qqatom
   3067 'Zn' 1.333
 vibration
-  7
-  3018 3019 3068 3097 3121 3237 3359
+  0
 improper torsion
   0
 unit ntype qqatom
   3068 'O2' -0.641
 vibration
-  2
-  3067 3069
+  1
+  3069
 improper torsion
   0
 unit ntype qqatom
@@ -21607,15 +21303,14 @@ improper torsion
 unit ntype qqatom
   3073 'Zn' 1.333
 vibration
-  7
-  2969 2970 3025 3074 3181 3215 3284
+  0
 improper torsion
   0
 unit ntype qqatom
   3074 'O2' -0.641
 vibration
-  2
-  3073 3075
+  1
+  3075
 improper torsion
   0
 unit ntype qqatom
@@ -21649,15 +21344,14 @@ improper torsion
 unit ntype qqatom
   3079 'Zn' 1.333
 vibration
-  7
-  2997 2998 3049 3080 3190 3193 3302
+  0
 improper torsion
   0
 unit ntype qqatom
   3080 'O2' -0.641
 vibration
-  2
-  3079 3081
+  1
+  3081
 improper torsion
   0
 unit ntype qqatom
@@ -21691,15 +21385,14 @@ improper torsion
 unit ntype qqatom
   3085 'Zn' 1.333
 vibration
-  7
-  3004 3005 3055 3086 3184 3210 3243
+  0
 improper torsion
   0
 unit ntype qqatom
   3086 'O2' -0.641
 vibration
-  2
-  3085 3087
+  1
+  3087
 improper torsion
   0
 unit ntype qqatom
@@ -21733,15 +21426,14 @@ improper torsion
 unit ntype qqatom
   3091 'Zn' 1.333
 vibration
-  7
-  3011 3012 3061 3092 3187 3204 3296
+  0
 improper torsion
   0
 unit ntype qqatom
   3092 'O2' -0.641
 vibration
-  2
-  3091 3093
+  1
+  3093
 improper torsion
   0
 unit ntype qqatom
@@ -21775,15 +21467,14 @@ improper torsion
 unit ntype qqatom
   3097 'Zn' 1.333
 vibration
-  7
-  3018 3019 3067 3098 3169 3199 3237
+  0
 improper torsion
   0
 unit ntype qqatom
   3098 'O2' -0.641
 vibration
-  2
-  3097 3099
+  1
+  3099
 improper torsion
   0
 unit ntype qqatom
@@ -21817,15 +21508,14 @@ improper torsion
 unit ntype qqatom
   3103 'Zn' 1.333
 vibration
-  7
-  2983 2984 3037 3104 3175 3226 3290
+  0
 improper torsion
   0
 unit ntype qqatom
   3104 'O2' -0.641
 vibration
-  2
-  3103 3105
+  1
+  3105
 improper torsion
   0
 unit ntype qqatom
@@ -21859,15 +21549,14 @@ improper torsion
 unit ntype qqatom
   3109 'Zn' 1.333
 vibration
-  7
-  2990 2991 3043 3110 3178 3221 3249
+  0
 improper torsion
   0
 unit ntype qqatom
   3110 'O2' -0.641
 vibration
-  2
-  3109 3111
+  1
+  3111
 improper torsion
   0
 unit ntype qqatom
@@ -21901,15 +21590,14 @@ improper torsion
 unit ntype qqatom
   3115 'Zn' 1.333
 vibration
-  7
-  2976 2977 3031 3116 3172 3232 3255
+  0
 improper torsion
   0
 unit ntype qqatom
   3116 'O2' -0.641
 vibration
-  2
-  3115 3117
+  1
+  3117
 improper torsion
   0
 unit ntype qqatom
@@ -21943,8 +21631,8 @@ improper torsion
 unit ntype qqatom
   3121 'O2' -0.641
 vibration
-  2
-  3021 3067
+  1
+  3021
 improper torsion
   0
 unit ntype qqatom
@@ -21964,8 +21652,8 @@ improper torsion
 unit ntype qqatom
   3124 'O2' -0.641
 vibration
-  2
-  3000 3049
+  1
+  3000
 improper torsion
   0
 unit ntype qqatom
@@ -21985,8 +21673,8 @@ improper torsion
 unit ntype qqatom
   3127 'O2' -0.641
 vibration
-  2
-  3007 3055
+  1
+  3007
 improper torsion
   0
 unit ntype qqatom
@@ -22006,8 +21694,8 @@ improper torsion
 unit ntype qqatom
   3130 'O2' -0.641
 vibration
-  2
-  3014 3061
+  1
+  3014
 improper torsion
   0
 unit ntype qqatom
@@ -22027,8 +21715,8 @@ improper torsion
 unit ntype qqatom
   3133 'O2' -0.641
 vibration
-  2
-  2979 3031
+  1
+  2979
 improper torsion
   0
 unit ntype qqatom
@@ -22048,8 +21736,8 @@ improper torsion
 unit ntype qqatom
   3136 'O2' -0.641
 vibration
-  2
-  2986 3037
+  1
+  2986
 improper torsion
   0
 unit ntype qqatom
@@ -22069,8 +21757,8 @@ improper torsion
 unit ntype qqatom
   3139 'O2' -0.641
 vibration
-  2
-  2993 3043
+  1
+  2993
 improper torsion
   0
 unit ntype qqatom
@@ -22090,8 +21778,8 @@ improper torsion
 unit ntype qqatom
   3142 'O2' -0.641
 vibration
-  2
-  2972 3025
+  1
+  2972
 improper torsion
   0
 unit ntype qqatom
@@ -22111,8 +21799,8 @@ improper torsion
 unit ntype qqatom
   3145 'O2' -0.641
 vibration
-  2
-  3018 3099
+  1
+  3099
 improper torsion
   0
 unit ntype qqatom
@@ -22132,8 +21820,8 @@ improper torsion
 unit ntype qqatom
   3148 'O2' -0.641
 vibration
-  2
-  2997 3081
+  1
+  3081
 improper torsion
   0
 unit ntype qqatom
@@ -22153,8 +21841,8 @@ improper torsion
 unit ntype qqatom
   3151 'O2' -0.641
 vibration
-  2
-  3004 3087
+  1
+  3087
 improper torsion
   0
 unit ntype qqatom
@@ -22174,8 +21862,8 @@ improper torsion
 unit ntype qqatom
   3154 'O2' -0.641
 vibration
-  2
-  3011 3093
+  1
+  3093
 improper torsion
   0
 unit ntype qqatom
@@ -22195,8 +21883,8 @@ improper torsion
 unit ntype qqatom
   3157 'O2' -0.641
 vibration
-  2
-  2976 3117
+  1
+  3117
 improper torsion
   0
 unit ntype qqatom
@@ -22216,8 +21904,8 @@ improper torsion
 unit ntype qqatom
   3160 'O2' -0.641
 vibration
-  2
-  2983 3105
+  1
+  3105
 improper torsion
   0
 unit ntype qqatom
@@ -22237,8 +21925,8 @@ improper torsion
 unit ntype qqatom
   3163 'O2' -0.641
 vibration
-  2
-  2990 3111
+  1
+  3111
 improper torsion
   0
 unit ntype qqatom
@@ -22258,8 +21946,8 @@ improper torsion
 unit ntype qqatom
   3166 'O2' -0.641
 vibration
-  2
-  2969 3075
+  1
+  3075
 improper torsion
   0
 unit ntype qqatom
@@ -22279,8 +21967,8 @@ improper torsion
 unit ntype qqatom
   3169 'O2' -0.641
 vibration
-  2
-  3069 3097
+  1
+  3069
 improper torsion
   0
 unit ntype qqatom
@@ -22300,8 +21988,8 @@ improper torsion
 unit ntype qqatom
   3172 'O2' -0.641
 vibration
-  2
-  3033 3115
+  1
+  3033
 improper torsion
   0
 unit ntype qqatom
@@ -22321,8 +22009,8 @@ improper torsion
 unit ntype qqatom
   3175 'O2' -0.641
 vibration
-  2
-  3039 3103
+  1
+  3039
 improper torsion
   0
 unit ntype qqatom
@@ -22342,8 +22030,8 @@ improper torsion
 unit ntype qqatom
   3178 'O2' -0.641
 vibration
-  2
-  3045 3109
+  1
+  3045
 improper torsion
   0
 unit ntype qqatom
@@ -22363,8 +22051,8 @@ improper torsion
 unit ntype qqatom
   3181 'O2' -0.641
 vibration
-  2
-  3027 3073
+  1
+  3027
 improper torsion
   0
 unit ntype qqatom
@@ -22384,8 +22072,8 @@ improper torsion
 unit ntype qqatom
   3184 'O2' -0.641
 vibration
-  2
-  3057 3085
+  1
+  3057
 improper torsion
   0
 unit ntype qqatom
@@ -22405,8 +22093,8 @@ improper torsion
 unit ntype qqatom
   3187 'O2' -0.641
 vibration
-  2
-  3063 3091
+  1
+  3063
 improper torsion
   0
 unit ntype qqatom
@@ -22426,8 +22114,8 @@ improper torsion
 unit ntype qqatom
   3190 'O2' -0.641
 vibration
-  2
-  3051 3079
+  1
+  3051
 improper torsion
   0
 unit ntype qqatom
@@ -22447,15 +22135,14 @@ improper torsion
 unit ntype qqatom
   3193 'Zn' 1.333
 vibration
-  7
-  2997 2998 3049 3079 3194 3314 3334
+  0
 improper torsion
   0
 unit ntype qqatom
   3194 'O2' -0.641
 vibration
-  2
-  3193 3195
+  1
+  3195
 improper torsion
   0
 unit ntype qqatom
@@ -22489,8 +22176,8 @@ improper torsion
 unit ntype qqatom
   3199 'O2' -0.641
 vibration
-  2
-  3097 3200
+  1
+  3200
 improper torsion
   0
 unit ntype qqatom
@@ -22524,15 +22211,14 @@ improper torsion
 unit ntype qqatom
   3204 'Zn' 1.333
 vibration
-  7
-  3011 3012 3061 3091 3205 3311 3329
+  0
 improper torsion
   0
 unit ntype qqatom
   3205 'O2' -0.641
 vibration
-  2
-  3204 3206
+  1
+  3206
 improper torsion
   0
 unit ntype qqatom
@@ -22566,8 +22252,8 @@ improper torsion
 unit ntype qqatom
   3210 'O2' -0.641
 vibration
-  2
-  3085 3211
+  1
+  3211
 improper torsion
   0
 unit ntype qqatom
@@ -22601,15 +22287,14 @@ improper torsion
 unit ntype qqatom
   3215 'Zn' 1.333
 vibration
-  7
-  2969 2970 3025 3073 3216 3305 3344
+  0
 improper torsion
   0
 unit ntype qqatom
   3216 'O2' -0.641
 vibration
-  2
-  3215 3217
+  1
+  3217
 improper torsion
   0
 unit ntype qqatom
@@ -22643,8 +22328,8 @@ improper torsion
 unit ntype qqatom
   3221 'O2' -0.641
 vibration
-  2
-  3109 3222
+  1
+  3222
 improper torsion
   0
 unit ntype qqatom
@@ -22678,15 +22363,14 @@ improper torsion
 unit ntype qqatom
   3226 'Zn' 1.333
 vibration
-  7
-  2983 2984 3037 3103 3227 3308 3339
+  0
 improper torsion
   0
 unit ntype qqatom
   3227 'O2' -0.641
 vibration
-  2
-  3226 3228
+  1
+  3228
 improper torsion
   0
 unit ntype qqatom
@@ -22720,8 +22404,8 @@ improper torsion
 unit ntype qqatom
   3232 'O2' -0.641
 vibration
-  2
-  3115 3233
+  1
+  3233
 improper torsion
   0
 unit ntype qqatom
@@ -22755,15 +22439,14 @@ improper torsion
 unit ntype qqatom
   3237 'Zn' 1.333
 vibration
-  7
-  3018 3019 3067 3097 3238 3293 3378
+  0
 improper torsion
   0
 unit ntype qqatom
   3238 'O2' -0.641
 vibration
-  2
-  3237 3239
+  1
+  3239
 improper torsion
   0
 unit ntype qqatom
@@ -22797,15 +22480,14 @@ improper torsion
 unit ntype qqatom
   3243 'Zn' 1.333
 vibration
-  7
-  3004 3005 3055 3085 3244 3299 3375
+  0
 improper torsion
   0
 unit ntype qqatom
   3244 'O2' -0.641
 vibration
-  2
-  3243 3245
+  1
+  3245
 improper torsion
   0
 unit ntype qqatom
@@ -22839,15 +22521,14 @@ improper torsion
 unit ntype qqatom
   3249 'Zn' 1.333
 vibration
-  7
-  2990 2991 3043 3109 3250 3287 3369
+  0
 improper torsion
   0
 unit ntype qqatom
   3250 'O2' -0.641
 vibration
-  2
-  3249 3251
+  1
+  3251
 improper torsion
   0
 unit ntype qqatom
@@ -22881,15 +22562,14 @@ improper torsion
 unit ntype qqatom
   3255 'Zn' 1.333
 vibration
-  7
-  2976 2977 3031 3115 3256 3281 3372
+  0
 improper torsion
   0
 unit ntype qqatom
   3256 'O2' -0.641
 vibration
-  2
-  3255 3257
+  1
+  3257
 improper torsion
   0
 unit ntype qqatom
@@ -22923,8 +22603,8 @@ improper torsion
 unit ntype qqatom
   3261 'O2' -0.641
 vibration
-  2
-  3049 3262
+  1
+  3262
 improper torsion
   0
 unit ntype qqatom
@@ -22958,8 +22638,8 @@ improper torsion
 unit ntype qqatom
   3266 'O2' -0.641
 vibration
-  2
-  3025 3267
+  1
+  3267
 improper torsion
   0
 unit ntype qqatom
@@ -22993,8 +22673,8 @@ improper torsion
 unit ntype qqatom
   3271 'O2' -0.641
 vibration
-  2
-  3037 3272
+  1
+  3272
 improper torsion
   0
 unit ntype qqatom
@@ -23028,8 +22708,8 @@ improper torsion
 unit ntype qqatom
   3276 'O2' -0.641
 vibration
-  2
-  3061 3277
+  1
+  3277
 improper torsion
   0
 unit ntype qqatom
@@ -23063,8 +22743,8 @@ improper torsion
 unit ntype qqatom
   3281 'O2' -0.641
 vibration
-  2
-  3233 3255
+  1
+  3233
 improper torsion
   0
 unit ntype qqatom
@@ -23084,8 +22764,8 @@ improper torsion
 unit ntype qqatom
   3284 'O2' -0.641
 vibration
-  2
-  3073 3217
+  1
+  3217
 improper torsion
   0
 unit ntype qqatom
@@ -23105,8 +22785,8 @@ improper torsion
 unit ntype qqatom
   3287 'O2' -0.641
 vibration
-  2
-  3222 3249
+  1
+  3222
 improper torsion
   0
 unit ntype qqatom
@@ -23126,8 +22806,8 @@ improper torsion
 unit ntype qqatom
   3290 'O2' -0.641
 vibration
-  2
-  3103 3228
+  1
+  3228
 improper torsion
   0
 unit ntype qqatom
@@ -23147,8 +22827,8 @@ improper torsion
 unit ntype qqatom
   3293 'O2' -0.641
 vibration
-  2
-  3200 3237
+  1
+  3200
 improper torsion
   0
 unit ntype qqatom
@@ -23168,8 +22848,8 @@ improper torsion
 unit ntype qqatom
   3296 'O2' -0.641
 vibration
-  2
-  3091 3206
+  1
+  3206
 improper torsion
   0
 unit ntype qqatom
@@ -23189,8 +22869,8 @@ improper torsion
 unit ntype qqatom
   3299 'O2' -0.641
 vibration
-  2
-  3211 3243
+  1
+  3211
 improper torsion
   0
 unit ntype qqatom
@@ -23210,8 +22890,8 @@ improper torsion
 unit ntype qqatom
   3302 'O2' -0.641
 vibration
-  2
-  3079 3195
+  1
+  3195
 improper torsion
   0
 unit ntype qqatom
@@ -23231,8 +22911,8 @@ improper torsion
 unit ntype qqatom
   3305 'O2' -0.641
 vibration
-  2
-  3215 3267
+  1
+  3267
 improper torsion
   0
 unit ntype qqatom
@@ -23252,8 +22932,8 @@ improper torsion
 unit ntype qqatom
   3308 'O2' -0.641
 vibration
-  2
-  3226 3272
+  1
+  3272
 improper torsion
   0
 unit ntype qqatom
@@ -23273,8 +22953,8 @@ improper torsion
 unit ntype qqatom
   3311 'O2' -0.641
 vibration
-  2
-  3204 3277
+  1
+  3277
 improper torsion
   0
 unit ntype qqatom
@@ -23294,8 +22974,8 @@ improper torsion
 unit ntype qqatom
   3314 'O2' -0.641
 vibration
-  2
-  3193 3262
+  1
+  3262
 improper torsion
   0
 unit ntype qqatom
@@ -23315,8 +22995,8 @@ improper torsion
 unit ntype qqatom
   3317 'O2' -0.641
 vibration
-  2
-  2976 3257
+  1
+  3257
 improper torsion
   0
 unit ntype qqatom
@@ -23336,8 +23016,8 @@ improper torsion
 unit ntype qqatom
   3320 'O2' -0.641
 vibration
-  2
-  3018 3239
+  1
+  3239
 improper torsion
   0
 unit ntype qqatom
@@ -23357,8 +23037,8 @@ improper torsion
 unit ntype qqatom
   3323 'O2' -0.641
 vibration
-  2
-  3004 3245
+  1
+  3245
 improper torsion
   0
 unit ntype qqatom
@@ -23378,8 +23058,8 @@ improper torsion
 unit ntype qqatom
   3326 'O2' -0.641
 vibration
-  2
-  2990 3251
+  1
+  3251
 improper torsion
   0
 unit ntype qqatom
@@ -23399,8 +23079,8 @@ improper torsion
 unit ntype qqatom
   3329 'O2' -0.641
 vibration
-  2
-  3204 3330
+  1
+  3330
 improper torsion
   0
 unit ntype qqatom
@@ -23434,8 +23114,8 @@ improper torsion
 unit ntype qqatom
   3334 'O2' -0.641
 vibration
-  2
-  3193 3335
+  1
+  3335
 improper torsion
   0
 unit ntype qqatom
@@ -23469,8 +23149,8 @@ improper torsion
 unit ntype qqatom
   3339 'O2' -0.641
 vibration
-  2
-  3226 3340
+  1
+  3340
 improper torsion
   0
 unit ntype qqatom
@@ -23504,8 +23184,8 @@ improper torsion
 unit ntype qqatom
   3344 'O2' -0.641
 vibration
-  2
-  3215 3345
+  1
+  3345
 improper torsion
   0
 unit ntype qqatom
@@ -23539,8 +23219,8 @@ improper torsion
 unit ntype qqatom
   3349 'O2' -0.641
 vibration
-  2
-  3031 3350
+  1
+  3350
 improper torsion
   0
 unit ntype qqatom
@@ -23574,8 +23254,8 @@ improper torsion
 unit ntype qqatom
   3354 'O2' -0.641
 vibration
-  2
-  3043 3355
+  1
+  3355
 improper torsion
   0
 unit ntype qqatom
@@ -23609,8 +23289,8 @@ improper torsion
 unit ntype qqatom
   3359 'O2' -0.641
 vibration
-  2
-  3067 3360
+  1
+  3360
 improper torsion
   0
 unit ntype qqatom
@@ -23644,8 +23324,8 @@ improper torsion
 unit ntype qqatom
   3364 'O2' -0.641
 vibration
-  2
-  3055 3365
+  1
+  3365
 improper torsion
   0
 unit ntype qqatom
@@ -23679,8 +23359,8 @@ improper torsion
 unit ntype qqatom
   3369 'O2' -0.641
 vibration
-  2
-  3249 3355
+  1
+  3355
 improper torsion
   0
 unit ntype qqatom
@@ -23700,8 +23380,8 @@ improper torsion
 unit ntype qqatom
   3372 'O2' -0.641
 vibration
-  2
-  3255 3350
+  1
+  3350
 improper torsion
   0
 unit ntype qqatom
@@ -23721,8 +23401,8 @@ improper torsion
 unit ntype qqatom
   3375 'O2' -0.641
 vibration
-  2
-  3243 3365
+  1
+  3365
 improper torsion
   0
 unit ntype qqatom
@@ -23742,8 +23422,8 @@ improper torsion
 unit ntype qqatom
   3378 'O2' -0.641
 vibration
-  2
-  3237 3360
+  1
+  3360
 improper torsion
   0
 unit ntype qqatom
@@ -23763,8 +23443,8 @@ improper torsion
 unit ntype qqatom
   3381 'O2' -0.641
 vibration
-  2
-  2997 3335
+  1
+  3335
 improper torsion
   0
 unit ntype qqatom
@@ -23784,8 +23464,8 @@ improper torsion
 unit ntype qqatom
   3384 'O2' -0.641
 vibration
-  2
-  3011 3330
+  1
+  3330
 improper torsion
   0
 unit ntype qqatom
@@ -23805,8 +23485,8 @@ improper torsion
 unit ntype qqatom
   3387 'O2' -0.641
 vibration
-  2
-  2969 3345
+  1
+  3345
 improper torsion
   0
 unit ntype qqatom
@@ -23826,8 +23506,8 @@ improper torsion
 unit ntype qqatom
   3390 'O2' -0.641
 vibration
-  2
-  2983 3340
+  1
+  3340
 improper torsion
   0
 unit ntype qqatom
@@ -23845,12 +23525,12 @@ vibration
 improper torsion
   0
 input_style
-'basic_connectivity_map'
+'basic connectivity map'
 nunit
 3
 nmaxcbmc
 3
-lpdnames
+lpdbnames
 .FALSE.
 forcefield
 IRMOF
