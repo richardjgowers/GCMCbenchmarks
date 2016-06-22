@@ -123,7 +123,7 @@ Base Charge
 Polarizability
     0.0000000000E+00
 Force Field Name
-    IRMOF
+IRMOF
 Atom Names
 O1
 O1
@@ -177,7 +177,7 @@ Base Charge
 Polarizability
     0.0000000000E+00
 Force Field Name
-    IRMOF
+IRMOF
 Atom Names
 O2
 O2
@@ -226,7 +226,7 @@ Base Charge
 Polarizability
     0.0000000000E+00
 Force Field Name
-    IRMOF
+IRMOF
 Atom Names
 C1
 C1
@@ -270,7 +270,7 @@ Base Charge
 Polarizability
     0.0000000000E+00
 Force Field Name
-    IRMOF
+IRMOF
 Atom Names
 C2
 C2
@@ -309,7 +309,7 @@ Base Charge
 Polarizability
     0.0000000000E+00
 Force Field Name
-    IRMOF
+IRMOF
 Atom Names
 C3
 C3
@@ -343,14 +343,14 @@ Base Charge
 Polarizability
     0.0000000000E+00
 Force Field Name
-    IRMOF
+IRMOF
 Atom Names
 H
 H
 H
 H
 Atom Type Number
-           5
+           8
 Nonbond Coefficients
     0.3050000000E+01
     0.7900000000E+02
@@ -372,14 +372,14 @@ Base Charge
 Polarizability
     0.0000000000E+00
 Force Field Name
-    IRMOF
+IRMOF
 Atom Names
 Oco2
 Oco2
 Oco2
 Oco2
 Atom Type Number
-           6
+           9
 Nonbond Coefficients
     0.2800000000E+01
     0.2700000000E+02
@@ -396,7 +396,7 @@ Base Charge
 Polarizability
     0.0000000000E+00
 Force Field Name
-    IRMOF
+IRMOF
 Atom Names
 Cco2
 Cco2
@@ -413,11 +413,11 @@ Bond Coefficients
 Vibration Order
     'any'
 Force Field Name
-    IRMOF
+IRMOF
 Number of Atoms with Same Parameters
     1
 Atom Names
-Oco2      Cco2
+Oco2       Cco2
 Bond Type Number
     2
 Bond Style
@@ -427,11 +427,11 @@ Bond Coefficients
 Vibration Order
     'any'
 Force Field Name
-    IRMOF
+IRMOF
 Number of Atoms with Same Parameters
     1
 Atom Names
-C1        C2  
+C1         C2  
 Bond Type Number
     3
 Bond Style
@@ -441,11 +441,11 @@ Bond Coefficients
 Vibration Order
     'any'
 Force Field Name
-    IRMOF
+IRMOF
 Number of Atoms with Same Parameters
     1
 Atom Names
-C2        C3  
+C2         C3  
 Bond Type Number
     4
 Bond Style
@@ -455,11 +455,11 @@ Bond Coefficients
 Vibration Order
     'any'
 Force Field Name
-    IRMOF
+IRMOF
 Number of Atoms with Same Parameters
     1
 Atom Names
-C3        C3  
+C3         C3  
 Bond Type Number
     5
 Bond Style
@@ -469,11 +469,11 @@ Bond Coefficients
 Vibration Order
     'any'
 Force Field Name
-    IRMOF
+IRMOF
 Number of Atoms with Same Parameters
     1
 Atom Names
-O2        C1  
+O2         C1  
 Bond Type Number
     6
 Bond Style
@@ -483,11 +483,11 @@ Bond Coefficients
 Vibration Order
     'any'
 Force Field Name
-    IRMOF
+IRMOF
 Number of Atoms with Same Parameters
     1
 Atom Names
-C3        H   
+C3         H   
 Bond Type Number
     7
 Bond Style
@@ -497,11 +497,11 @@ Bond Coefficients
 Vibration Order
     'any'
 Force Field Name
-    IRMOF
+IRMOF
 Number of Atoms with Same Parameters
     1
 Atom Names
-Zn        O1  
+Zn         O1  
 Bond Type Number
     8
 Bond Style
@@ -511,11 +511,11 @@ Bond Coefficients
 Vibration Order
     'any'
 Force Field Name
-    IRMOF
+IRMOF
 Number of Atoms with Same Parameters
     1
 Atom Names
-Zn        O2  
+Zn         O2  
 Bond Type Number
     9
 Bond Style
@@ -525,24 +525,35 @@ Bond Coefficients
 Vibration Order
     'any'
 Force Field Name
-    IRMOF
+IRMOF
 Number of Atoms with Same Parameters
     1
 Atom Names
-Zn        Zn  
+Zn         Zn  
 Number of Angle Terms
     1
 Angle Type Number
     1
 Angle Style
-    1
+    0
 Angle Coefficients
-    180.0
+180.0
+0.1
 Angle Order
     'any'
 Force Field Name
-    IRMOF
+IRMOF
 Number of Atoms with Same Parameters
     1
 Atom Names
-Oco2      Cco2      Oco2
+Oco2       Cco2       Oco2
+Number of Torsion Terms
+0
+Number of Improper Terms
+0
+Number of Angle-Angle Terms
+0
+Number of One-Five Types
+0
+Number of Bond Increments
+0
