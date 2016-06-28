@@ -15,7 +15,7 @@ numboxes
 stepstyle
 'moves'
 nstep
-1000
+11000000
 controlstyle
 'production'
 potentialstyle
