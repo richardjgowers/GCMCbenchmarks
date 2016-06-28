@@ -23,7 +23,7 @@ def kPa_to_kAtm(p):
     return p / 101325
 
 
-def make_sims(pressure_values, prefix):
+def make_sims(pressure_values, suffix):
     """Make many simulation directories
 
     pressure_values - list of pressues in kPa to make simulations for
@@ -31,16 +31,16 @@ def make_sims(pressure_values, prefix):
     """
     for p in pressure_values:
         newdir = 'dlm_{}'.format(p)
+        sourcedir = 'dlm_{}'.format(suffix)
         os.mkdir(newdir)
         # Files that don't change between runs
         for f in ['FIELD', 'CONFIG']:
-            shutil.copy(os.path.join(prefix, f),
+            shutil.copy(os.path.join(sourcedir, f),
                         os.path.join(newdir, f))
         # Files that need customising for this pressure
-        template = open(os.path.join(prefix, 'CONTROL'), 'r').read()
+        template = open(os.path.join(sourcedir, 'CONTROL'), 'r').read()
         with open(os.path.join(newdir, 'CONTROL'), 'w') as out:
             out.write(template.format(pressure=kPa_to_kAtm(p)))
-        
 
 
 if __name__ == '__main__':

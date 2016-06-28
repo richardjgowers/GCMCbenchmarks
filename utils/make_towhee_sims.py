@@ -23,23 +23,24 @@ CHEMPOTS = {5:-3819.9767,
 }
 
 def make_sims(pressure_values, prefix):
-	for p in PRESSURES:
-		newdir = 'twh_{}'.format(p)
-		os.mkdir(newdir)
+    sourcedir = 'twh_{}'.format(prefix)
+    for p in PRESSURES:
+        newdir = 'twh_{}'.format(p)
+        os.mkdir(newdir)
 
-		for f in ['towhee_coords', 'towhee_ff_CUSTOM']:
-			shutil.copy(os.path.join(prefix, f),
-						os.path.join(newdir, f))
+        for f in ['towhee_coords', 'towhee_ff_CUSTOM']:
+            shutil.copy(os.path.join(sourcedir, f),
+                        os.path.join(newdir, f))
 
-		template = open(os.path.join(prefix, 'towhee_input'), 'r').read()
-		with open(os.path.join(newdir, 'towhee_input'), 'w') as out:
-			out.write(template.format(chempot=CHEMPOTS[p]))
+        template = open(os.path.join(sourcedir, 'towhee_input'), 'r').read()
+        with open(os.path.join(newdir, 'towhee_input'), 'w') as out:
+            out.write(template.format(chempot=CHEMPOTS[p]))
 
 
 if __name__ == '__main__':
-	try:
-		prefix = sys.argv[1]
-	except IndexError:
-		raise SystemExit("Usage: {} templatedir".format(sys.argv[0]))
-	else:
-		make_sims(PRESSURES, prefix)
+    try:
+        prefix = sys.argv[1]
+    except IndexError:
+        raise SystemExit("Usage: {} templatedir".format(sys.argv[0]))
+    else:
+        make_sims(PRESSURES, prefix)
