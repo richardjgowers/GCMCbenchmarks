@@ -1,4 +1,5 @@
 # GCMCbenchmarks
+
 Input files for GCMC benchmarking work
 
 List of simulation programs
@@ -27,6 +28,17 @@ Temperature 208.0 K
 
 3 sets of simulations were performed with all software
 
- 1) Only LJ interactions between all components
- 2) As 1) but with fluid-fluid electrostatics
- 3) As 2) but with solid-fluid electrostatics
+ case1) Only LJ interactions between all components
+ case2) As 1) but with fluid-fluid electrostatics
+ case3) As 2) but with solid-fluid electrostatics
+
+Creating simulations
+--------------------
+
+The input files for simulations can be created using the Python make_* scripts
+in this directory.  These all follow the signature::
+
+python make_X.py <case> <destination>
+
+Where case refers to one of the conditions listed above and <destination> refers to the
+directory in which they will be made.
