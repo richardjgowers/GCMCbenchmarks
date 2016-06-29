@@ -23,7 +23,7 @@ CHEMPOTS = {5:-3819.9767,
 }
 
 def make_sims(pressure_values, prefix, destination):
-    sourcedir = 'twh_{}'.format(prefix)
+    sourcedir = 'towhee/twh_{}'.format(prefix)
     for p in PRESSURES:
         newdir = os.path.join(destination, 'twh_{}'.format(p))
         os.mkdir(newdir)

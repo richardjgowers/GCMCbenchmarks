@@ -30,9 +30,9 @@ def make_sims(pressure_values, suffix, destination):
     prefix - directory where template files can be found
     destination - directory to place new simulation files in
     """
+    sourcedir = 'dlmonte/dlm_{}'.format(suffix)
     for p in pressure_values:
         newdir = os.path.join(destination, 'dlm_{}'.format(p))
-        sourcedir = 'dlm_{}'.format(suffix)
         os.mkdir(newdir)
         # Files that don't change between runs
         for f in ['FIELD', 'CONFIG']:
