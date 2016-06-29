@@ -23,14 +23,15 @@ def kPa_to_kAtm(p):
     return p / 101325
 
 
-def make_sims(pressure_values, suffix):
+def make_sims(pressure_values, suffix, destination):
     """Make many simulation directories
 
     pressure_values - list of pressues in kPa to make simulations for
     prefix - directory where template files can be found
+    destination - directory to place new simulation files in
     """
     for p in pressure_values:
-        newdir = 'dlm_{}'.format(p)
+        newdir = os.path.join(destination, 'dlm_{}'.format(p))
         sourcedir = 'dlm_{}'.format(suffix)
         os.mkdir(newdir)
         # Files that don't change between runs
@@ -45,8 +46,8 @@ def make_sims(pressure_values, suffix):
 
 if __name__ == '__main__':
     try:
-        prefix = sys.argv[1]
+        prefix, destination = sys.argv[1], sys.argv[2]
     except IndexError:
-        raise ValueError("Usage: {} templatedir".format(sys.argv[0]))
+        raise ValueError("Usage: {} templatedir destination".format(sys.argv[0]))
     else:
-        make_sims(PRESSURES, prefix)
+        make_sims(PRESSURES, prefix, destination)

@@ -22,10 +22,10 @@ CHEMPOTS = {5:-3819.9767,
             70:-3273.2120,
 }
 
-def make_sims(pressure_values, prefix):
+def make_sims(pressure_values, prefix, destination):
     sourcedir = 'twh_{}'.format(prefix)
     for p in PRESSURES:
-        newdir = 'twh_{}'.format(p)
+        newdir = os.path.join(destination, 'twh_{}'.format(p))
         os.mkdir(newdir)
 
         for f in ['towhee_coords', 'towhee_ff_CUSTOM']:
@@ -39,8 +39,8 @@ def make_sims(pressure_values, prefix):
 
 if __name__ == '__main__':
     try:
-        prefix = sys.argv[1]
+        prefix, destination = sys.argv[1], sys.argv[2]
     except IndexError:
-        raise SystemExit("Usage: {} templatedir".format(sys.argv[0]))
+        raise SystemExit("Usage: {} templatedir destination".format(sys.argv[0]))
     else:
-        make_sims(PRESSURES, prefix)
+        make_sims(PRESSURES, prefix, destination)
