@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 """Make all simulations
 
 creates many directories with input files
@@ -15,9 +16,11 @@ import textwrap
 import sys
 import os
 
-import make_towhee_sims
-import make_dlm_sims
-
+import make_cassandra_sims as cassandra
+import make_dlm_sims as dlm
+import make_music_sims as music
+import make_raspa_sims as raspa
+import make_towhee_sims as towhee
 
 # Pressures to run in kPa
 PRESSURES = [5, 10, 20, 30, 40, 50, 60, 70]
@@ -104,9 +107,13 @@ def make_all_sims(pressures, suffix, destination):
     """
     # make destination folder
     os.mkdir(destination)
-
-    make_dlm_sims.make_sims(pressures, suffix, destination)
-    make_towhee_sims.make_sims(pressures, suffix, destination)
+    # Input files for each simulation program
+    cassandra.make_sims(pressures, suffix, destination)
+    dlm.make_sims(pressures, suffix, destination)
+    music.make_sims(pressures, suffix, destination)
+    raspa.make_sims(pressures, suffix, destination)
+    towhee.make_sims(pressures, suffix, destination)
+    # Runscripts to run the simulations (and a runscript runner, yo dawg)
     make_runscripts(pressures, destination)
 
 

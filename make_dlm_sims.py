@@ -48,6 +48,6 @@ if __name__ == '__main__':
     try:
         prefix, destination = sys.argv[1], sys.argv[2]
     except IndexError:
-        raise ValueError("Usage: {} templatedir destination".format(sys.argv[0]))
+        raise SystemExit("Usage: {} templatedir destination".format(sys.argv[0]))
     else:
         make_sims(PRESSURES, prefix, destination)
