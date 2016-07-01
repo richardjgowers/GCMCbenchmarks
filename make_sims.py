@@ -79,7 +79,9 @@ date
 cd ../
 
 cd rsp_{pressure}
+export RASPA_DIR=${HOME}/RASPA/
 date
+#./simulate simulation.input
 # rsp exe
 date
 cd ../
