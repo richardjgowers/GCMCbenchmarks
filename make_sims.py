@@ -54,7 +54,8 @@ ulimit -s unlimited
 
 cd cas_{pressure}
 date
-# cassandra exe
+# ./cassandra.exe CO2_IRMOF.inp
+echo "run cassandra"
 date
 cd ../
 
@@ -83,6 +84,7 @@ date
 echo "run towhee"
 date
 cd ../
+
 """.format(pressure=p)))
 
     with open(os.path.join(destination, 'qsuball.sh'), 'w') as out:
