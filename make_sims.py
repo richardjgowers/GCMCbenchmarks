@@ -67,8 +67,14 @@ date
 cd ../
 
 cd mus_{pressure}
+# Setup env variables for music
+ATOMSDIR=../atoms
+MOLSDIR=../molecules
+PMAPDIR=../pmaps_krista
+export ATOMSDIR MOLSDIR PMAPDIR
 date
 # music exe
+# ./music_gcmc_4.exe gcmc.ctr >& music.log
 date
 cd ../
 
