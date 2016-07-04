@@ -93,7 +93,7 @@ echo "run towhee"
 date
 cd ../
 
-""".format(pressure=p)))
+""".format(pressure=p, HOME='HOME')))
 
     with open(os.path.join(destination, 'qsuball.sh'), 'w') as out:
         out.write("#!/bin/bash\n")
