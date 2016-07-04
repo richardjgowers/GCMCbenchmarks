@@ -26,6 +26,7 @@ def make_sims(pressure_values, suffix, destination):
     sourcedir = 'cassandra/cas_{}'.format(suffix)
     for p in pressure_values:
         newdir = os.path.join(destination, 'cas_{}'.format(p))
+        os.mkdir(newdir)
 
         # Copy over individual files
         for f in ['CO2.ff', 'CO2.mcf', 'CO2.pdb',

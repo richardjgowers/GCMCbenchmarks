@@ -34,6 +34,7 @@ def make_sims(pressure_values, suffix, destination):
     for p in pressure_values:
         newdir = os.path.join(destination, 'dlm_{}'.format(p))
         os.mkdir(newdir)
+
         # Files that don't change between runs
         for f in ['FIELD', 'CONFIG']:
             shutil.copy(os.path.join(sourcedir, f),
