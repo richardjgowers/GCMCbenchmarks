@@ -2,6 +2,7 @@
 """Make many Cassandra simulations
 
 """
+import sys
 import os
 import shutil
 
