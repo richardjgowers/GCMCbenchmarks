@@ -13,10 +13,10 @@ def kPa_to_Pa(pressure):
 
 
 def make_sims(pressure_values, suffix, destination):
-    sourcedir = 'raspa/ras_{}'.format(suffix)
+    sourcedir = 'raspa/rsp_{}'.format(suffix)
 
     for p in pressure_values:
-        newdir = os.path.join(detination, 'ras_{}'.format(p))
+        newdir = os.path.join(destination, 'rsp_{}'.format(p))
         os.mkdir(newdir)
 
         for f in ['CO2.def', 'force_field.def', 'framework.def',
@@ -24,8 +24,8 @@ def make_sims(pressure_values, suffix, destination):
             shutil.copy(os.path.join(sourcedir, f),
                         os.path.join(newdir, f))
 
-            template = open(os.path.join(sourcedir, 'simulation.input')).read()
-            with open(os.path.join(newdir, 'simulation.input')) as out:
+            template = open(os.path.join(sourcedir, 'simulation.input'), 'r').read()
+            with open(os.path.join(newdir, 'simulation.input'), 'w') as out:
                 out.write(template.format(pressure=kPa_to_Pa(p)))
 
 
