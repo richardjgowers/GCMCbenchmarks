@@ -52,6 +52,10 @@ def make_runscripts(pressures, destination):
 . /etc/profile.d/modules.sh
 ulimit -s unlimited
 
+## Query the platform we're running on
+# Assumes running on Unix
+cat /proc/cpuinfo > cpuinfo.{pressure}
+
 cd cas_{pressure}
 date
 # ./cassandra.exe CO2_IRMOF.inp
