@@ -23,16 +23,36 @@ def kPa_to_kAtm(p):
     return p / 101325
 
 
-def make_sims(pressure_values, suffix, destination):
+def make_qsubmany(dirs, destination):
+    """
+    dirs - the simulation directories where qsubs can be found
+    """
+    outcontent = "#!/bin/bash\n\n"
+    for d in dirs:
+        outcontent += 'cd {}\n'.format(d)
+        outcontent += 'qsub qsub.sh\n'
+        outcontent += 'cd ../\n\n'
+
+    qsubfn = os.path.join(destination, 'qsub_dlm.sh')
+    with open(qsubfn, 'w') as out:
+        out.write(outcontent)
+    os.chmod(qsubfn, 0744)  # rwxr--r-- permissions
+
+
+def make_sims(pressure_values, case, destination):
     """Make many simulation directories
 
     pressure_values - list of pressues in kPa to make simulations for
-    prefix - directory where template files can be found
+    case - directory where template files can be found
     destination - directory to place new simulation files in
     """
-    sourcedir = 'dlmonte/dlm_{}'.format(suffix)
+    sourcedir = 'dlmonte/dlm_{}'.format(case)
+    simdirs = []
+
     for p in pressure_values:
-        newdir = os.path.join(destination, 'dlm_{}'.format(p))
+        suffix = 'dlm_{}'.format(p)
+        simdirs.append(suffix)
+        newdir = os.path.join(destination, suffix)
         os.mkdir(newdir)
 
         # Files that don't change between runs
@@ -43,6 +63,11 @@ def make_sims(pressure_values, suffix, destination):
         template = open(os.path.join(sourcedir, 'CONTROL'), 'r').read()
         with open(os.path.join(newdir, 'CONTROL'), 'w') as out:
             out.write(template.format(pressure=kPa_to_kAtm(p)))
+        qsub_template = open(os.path.join(sourcedir, 'qsub.sh'), 'r').read()
+        with open(os.path.join(newdir, 'qsub.sh'), 'w') as out:
+            out.write(qsub_template.format(pressure=p))
+    # Make convenience script for starting jobs
+    make_qsubmany(simdirs, destination)
 
 
 if __name__ == '__main__':
