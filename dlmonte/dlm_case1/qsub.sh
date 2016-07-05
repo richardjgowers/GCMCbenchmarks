@@ -8,6 +8,8 @@
 . /etc/profile.d/modules.sh
 ulimit -s unlimited
 
+cat /proc/cpuinfo > cpuinfo.{pressure}
+
 echo "Timing DLMonte case 1 at pressure {pressure}" > timing.out
 date >> timing.out
 ./DLMONTE-SRL.X
