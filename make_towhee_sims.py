@@ -22,10 +22,31 @@ CHEMPOTS = {5:-3819.9767,
             70:-3273.2120,
 }
 
-def make_sims(pressure_values, prefix, destination):
-    sourcedir = 'towhee/twh_{}'.format(prefix)
+
+def make_qsubmany(dirs, destination):
+    """
+    dirs - the simulation directories where qsubs can be found
+    """
+    outcontent = "#!/bin/bash\n\n"
+    for d in dirs:
+        outcontent += 'cd {}\n'.format(d)
+        outcontent += 'qsub qsub.sh\n'
+        outcontent += 'cd ../\n\n'
+
+    qsubfn = os.path.join(destination, 'qsub_twh.sh')
+    with open(qsubfn, 'w') as out:
+        out.write(outcontent)
+    os.chmod(qsubfn, 0744)  # rwxr--r-- permissions
+
+
+def make_sims(pressure_values, case, destination):
+    sourcedir = 'towhee/twh_{}'.format(case)
+    simdirs = []
+
     for p in PRESSURES:
-        newdir = os.path.join(destination, 'twh_{}'.format(p))
+        suffix = 'twh_{}'.format(p)
+        simdirs.append(suffix)
+        newdir = os.path.join(destination, suffix)
         os.mkdir(newdir)
 
         for f in ['towhee_coords', 'towhee_ff_CUSTOM']:
@@ -35,6 +56,11 @@ def make_sims(pressure_values, prefix, destination):
         template = open(os.path.join(sourcedir, 'towhee_input'), 'r').read()
         with open(os.path.join(newdir, 'towhee_input'), 'w') as out:
             out.write(template.format(chempot=CHEMPOTS[p]))
+        qsub_template = open(os.path.join(sourcedir, 'qsub.sh'), 'r').read()
+        with open(os.path.join(newdir, 'qsub.sh'), 'w') as out:
+            out.write(qsub_template.format(pressure=p))
+
+    make_qsubmany(simdirs, destination)
 
 
 if __name__ == '__main__':
