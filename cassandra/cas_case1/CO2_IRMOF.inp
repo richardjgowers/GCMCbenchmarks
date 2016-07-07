@@ -4,7 +4,7 @@
 FALSE
 
 # Run_Name
-nitrogen_IRMOF
+CO2_IRMOF
 !--------------
 
 # Sim_Type
@@ -32,7 +32,7 @@ NONE ! coul Ewald 6.0 1E-5
 
 # Molecule_Files
 IRMOF.mcf 1
-CO2.mcf 1000
+CO2.mcf 1500
 !------------------------
 
 
@@ -81,7 +81,7 @@ C_s2   C_s2  27.0  2.80
 !-------------------
 
 # Rcutoff_Low
-0.5
+0.75
 !----------------
 
 # Pair_Energy
@@ -135,7 +135,7 @@ IRMOF.xyz
 !------------------
 
 # Run_Type
-Production   1000  
+Production 1000
 !------------------
 
 # Average_Info
@@ -145,8 +145,8 @@ Production   1000
 # Simulation_Length_Info
 Units      Steps
 Prop_Freq    1000
-Coord_Freq   1000
-MCsteps      100000
+Coord_Freq   10000
+MCsteps      11000000
 # Done_Simulation_Length_Info
 !----------------------------
 
