@@ -48,7 +48,7 @@ NMOL = {
     'case3':_NMOL_case3,
 }
 
-def Steps_to_Cycles(Steps, case, pressure):
+def steps_to_cycles(Steps, case, pressure):
     """Translate a number of steps to cycles
 
     Parameters
@@ -67,18 +67,38 @@ def Steps_to_Cycles(Steps, case, pressure):
     # select the pressure->nmol dict to use
     trans = NMOL[case]
 
-    return Steps / trans[pressure]
+    # need integer number of cycles
+    return int(Steps / trans[pressure])
 
 
 def kPa_to_Pa(pressure):
     return pressure * 1000.0
 
 
-def make_sims(pressure_values, suffix, destination):
-    sourcedir = 'raspa/rsp_{}'.format(suffix)
+def make_qsubmany(dirs, destination):
+    """
+    dirs - the simulation directories where qsubs can be found
+    """
+    outcontent = "#!/bin/bash\n\n"
+    for d in dirs:
+        outcontent += 'cd {}\n'.format(d)
+        outcontent += 'qsub qsub.sh\n'
+        outcontent += 'cd ../\n\n'
+
+    qsubfn = os.path.join(destination, 'qsub_rsp.sh')
+    with open(qsubfn, 'w') as out:
+        out.write(outcontent)
+    os.chmod(qsubfn, 0744)  # rwxr--r-- permissions
+
+
+def make_sims(pressure_values, case, destination):
+    sourcedir = 'raspa/rsp_{}'.format(case)
+    simdirs = []
 
     for p in pressure_values:
-        newdir = os.path.join(destination, 'rsp_{}'.format(p))
+        suffix = 'rsp_{}'.format(p)
+        simdirs.append(suffix)
+        newdir = os.path.join(destination, suffix)
         os.mkdir(newdir)
 
         for f in ['CO2.def', 'force_field.def', 'framework.def',
@@ -88,7 +108,16 @@ def make_sims(pressure_values, suffix, destination):
 
             template = open(os.path.join(sourcedir, 'simulation.input'), 'r').read()
             with open(os.path.join(newdir, 'simulation.input'), 'w') as out:
-                out.write(template.format(pressure=kPa_to_Pa(p)))
+                out.write(template.format(
+                    pressure=kPa_to_Pa(p),
+                    nsteps=steps_to_cycles(10000000, case, p),
+                    neq=steps_to_cycles(1000000, case, p),
+                ))
+            qsub_template = open(os.path.join(sourcedir, 'qsub.sh'), 'r').read()
+            with open(os.path.join(newdir, 'qsub.sh'), 'w') as out:
+                out.write(qsub_template.format(pressure=p))
+
+    make_qsubmany(simdirs, destination)
 
 
 if __name__ == '__main__':
