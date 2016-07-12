@@ -43,7 +43,7 @@ def make_sims(pressure_values, case, destination):
     sourcedir = 'towhee/twh_{}'.format(case)
     simdirs = []
 
-    for p in PRESSURES:
+    for p in pressure_values:
         suffix = 'twh_{}'.format(p)
         simdirs.append(suffix)
         newdir = os.path.join(destination, suffix)
