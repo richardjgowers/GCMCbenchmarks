@@ -1,0 +1,168 @@
+# Atom-Atom Interactions UFF Parameters
+
+Carbon_CO2      Carbon          LJ        SIG@3.1154    EPS@37.7707     HICUT@25.0
+Carbon_CO2      Oxygen          LJ        SIG@2.9591    EPS@28.5520     HICUT@25.0
+Carbon_CO2      Hydrogen        LJ        SIG@2.6856    EPS@24.4504     HICUT@25.0
+Carbon_CO2      Nitrogen        LJ        SIG@3.0303    EPS@30.6186     HICUT@25.0
+Carbon_CO2      Zinc            LJ        SIG@2.6308    EPS@41.0460     HICUT@25.0
+Carbon_CO2      Copper          LJ        SIG@2.9568    EPS@8.2422      HICUT@25.0
+Carbon_CO2      Nickel          LJ        SIG@2.6624    EPS@14.2760     HICUT@25.0
+Carbon_CO2      Vanadium        LJ        SIG@2.8005    EPS@14.7442     HICUT@25.0
+Carbon_CO2      Magnesium       LJ        SIG@2.7457    EPS@38.8349     HICUT@25.0
+
+Oxygen_CO2      Carbon          LJ        SIG@3.2404    EPS@64.6081     HICUT@25.0
+Oxygen_CO2      Oxygen          LJ        SIG@3.0841    EPS@48.8391     HICUT@25.0
+Oxygen_CO2      Hydrogen        LJ        SIG@2.8106    EPS@41.8233     HICUT@25.0
+Oxygen_CO2      Nitrogen        LJ        SIG@3.1553    EPS@52.3741     HICUT@25.0
+Oxygen_CO2      Zinc            LJ        SIG@2.7558    EPS@70.2106     HICUT@25.0
+Oxygen_CO2      Copper          LJ        SIG@3.0818    EPS@14.0986     HICUT@25.0
+Oxygen_CO2      Nickel          LJ        SIG@2.7874    EPS@24.4196     HICUT@25.0
+Oxygen_CO2      Vanadium        LJ        SIG@2.9255    EPS@25.2204     HICUT@25.0
+Oxygen_CO2      Magnesium       LJ        SIG@2.8707    EPS@66.4284     HICUT@25.0
+
+Nitrogen_N2     Carbon          LJ        SIG@3.3704    EPS@43.6139     HICUT@25.0
+Nitrogen_N2     Oxygen          LJ        SIG@3.2141    EPS@32.9690     HICUT@25.0
+Nitrogen_N2     Hydrogen        LJ        SIG@2.9406    EPS@28.2329     HICUT@25.0
+Nitrogen_N2     Nitrogen        LJ        SIG@3.2853    EPS@35.3553     HICUT@25.0
+Nitrogen_N2     Zinc            LJ        SIG@2.8858    EPS@47.3959     HICUT@25.0
+Nitrogen_N2     Copper          LJ        SIG@3.2118    EPS@9.5173      HICUT@25.0
+Nitrogen_N2     Nickel          LJ        SIG@2.9174    EPS@16.4845     HICUT@25.0
+Nitrogen_N2     Vanadium        LJ        SIG@3.0555    EPS@17.0251     HICUT@25.0
+Nitrogen_N2     Magnesium       LJ        SIG@3.0007    EPS@44.8427     HICUT@25.0
+
+Oxygen_O2       Carbon          LJ        SIG@3.2254    EPS@50.8828     HICUT@25.0
+Oxygen_O2       Oxygen          LJ        SIG@3.0691    EPS@38.4638     HICUT@25.0
+Oxygen_O2       Hydrogen        LJ        SIG@2.7956    EPS@32.9384     HICUT@25.0
+Oxygen_O2       Nitrogen        LJ        SIG@3.1403    EPS@41.2478     HICUT@25.0
+Oxygen_O2       Zinc            LJ        SIG@2.7408    EPS@55.2952     HICUT@25.0
+Oxygen_O2       Copper          LJ        SIG@3.0668    EPS@11.1035     HICUT@25.0
+Oxygen_O2       Nickel          LJ        SIG@2.7724    EPS@19.2319     HICUT@25.0
+Oxygen_O2       Vanadium        LJ        SIG@2.9105    EPS@19.8626     HICUT@25.0
+Oxygen_O2       Magnesium       LJ        SIG@2.8557    EPS@52.3164     HICUT@25.0
+
+Carbon_CO2      Carbon_CO2      LJ        SIG@2.8000    EPS@27.0000     HICUT@25.0
+Oxygen_CO2      Carbon_CO2      LJ        SIG@2.9300    EPS@46.1800     HICUT@25.0
+Oxygen_CO2      Oxygen_CO2      LJ        SIG@3.0500    EPS@79.0000     HICUT@25.0
+Nitrogen_N2     Nitrogen_N2     LJ        SIG@3.3100    EPS@36.0000     HICUT@25.0
+Nitrogen_N2     Carbon_CO2      LJ        SIG@3.0550    EPS@31.1769     HICUT@25.0
+Nitrogen_N2     Oxygen_CO2      LJ        SIG@3.1800    EPS@53.3292     HICUT@25.0
+Oxygen_O2       Oxygen_O2       LJ        SIG@3.0200    EPS@49.0000     HICUT@25.0
+Oxygen_O2       Carbon_CO2      LJ        SIG@2.9100    EPS@36.3731     HICUT@25.0
+Oxygen_O2       Oxygen_CO2      LJ        SIG@3.0350    EPS@62.2174     HICUT@25.0
+Oxygen_O2       Nitrogen_N2     LJ        SIG@3.1650    EPS@42.0000     HICUT@25.0
+
+Dummy           Carbon          LJ        SIG@0.0000    EPS@0.0000      HICUT@25.0
+Dummy           Oxygen          LJ        SIG@0.0000    EPS@0.0000      HICUT@25.0
+Dummy           Hydrogen        LJ        SIG@0.0000    EPS@0.0000      HICUT@25.0
+Dummy           Nitrogen        LJ        SIG@0.0000    EPS@0.0000      HICUT@25.0
+Dummy           Zinc            LJ        SIG@0.0000    EPS@0.0000      HICUT@25.0
+Dummy           Copper          LJ        SIG@0.0000    EPS@0.0000      HICUT@25.0
+Dummy           Nickel          LJ        SIG@0.0000    EPS@0.0000      HICUT@25.0
+Dummy           Vanadium        LJ        SIG@0.0000    EPS@0.0000      HICUT@25.0
+Dummy           Magnesium       LJ        SIG@0.0000    EPS@0.0000      HICUT@25.0
+Dummy           Carbon_CO2      LJ        SIG@0.0000    EPS@0.0000      HICUT@25.0
+Dummy           Oxygen_CO2      LJ        SIG@0.0000    EPS@0.0000      HICUT@25.0
+Dummy           Nitrogen_N2     LJ        SIG@0.0000    EPS@0.0000      HICUT@25.0
+Dummy           Oxygen_O2       LJ        SIG@0.0000    EPS@0.0000      HICUT@25.0
+Dummy           Dummy           LJ        SIG@0.0000    EPS@0.0000      HICUT@25.0
+
+Oxygen          Oxygen       OFF
+Nitrogen        Nitrogen     OFF
+Carbon          Carbon       OFF
+Hydrogen        Hydrogen     OFF
+Copper          Copper       OFF
+Nickel          Nickel       OFF
+Vanadium        Vanadium     OFF
+Magnesium       Magnesium    OFF
+Oxygen          Carbon       OFF
+Oxygen          Nitrogen     OFF
+Oxygen          Hydrogen     OFF
+Oxygen          Copper       OFF
+Oxygen          Nickel       OFF
+Oxygen          Vanadium     OFF
+Oxygen          Magnesium    OFF
+Nitrogen        Carbon       OFF
+Nitrogen        Hydrogen     OFF
+Nitrogen        Copper       OFF
+Nitrogen        Nickel       OFF
+Nitrogen        Vanadium     OFF
+Nitrogen        Magnesium    OFF
+Carbon          Hydrogen     OFF
+Carbon          Copper       OFF
+Carbon          Nickel       OFF
+Carbon          Vanadium     OFF
+Carbon          Magnesium    OFF
+Hydrogen        Copper       OFF
+Hydrogen        Nickel       OFF
+Hydrogen        Vanadium     OFF
+Hydrogen        Magnesium    OFF
+
+Carbon_CO2      Carbon       COUL
+Carbon_CO2      Oxygen       COUL
+Carbon_CO2      Hydrogen     COUL
+Carbon_CO2      Nitrogen     COUL
+Carbon_CO2      Zinc         COUL
+Carbon_CO2      Copper       COUL
+Carbon_CO2      Nickel       COUL
+Carbon_CO2      Vanadium     COUL
+Carbon_CO2      Magnesium    COUL
+
+Oxygen_CO2      Carbon       COUL
+Oxygen_CO2      Oxygen       COUL
+Oxygen_CO2      Hydrogen     COUL
+Oxygen_CO2      Nitrogen     COUL
+Oxygen_CO2      Zinc         COUL
+Oxygen_CO2      Copper       COUL
+Oxygen_CO2      Nickel       COUL
+Oxygen_CO2      Vanadium     COUL
+Oxygen_CO2      Magnesium    COUL
+
+Nitrogen_N2     Carbon       COUL
+Nitrogen_N2     Oxygen       COUL
+Nitrogen_N2     Hydrogen     COUL
+Nitrogen_N2     Nitrogen     COUL
+Nitrogen_N2     Zinc         COUL
+Nitrogen_N2     Copper       COUL
+Nitrogen_N2     Nickel       COUL
+Nitrogen_N2     Vanadium     COUL
+Nitrogen_N2     Magnesium    COUL
+
+Oxygen_O2      Carbon        COUL
+Oxygen_O2      Oxygen        COUL
+Oxygen_O2      Hydrogen      COUL
+Oxygen_O2      Nitrogen      COUL
+Oxygen_O2      Zinc          COUL
+Oxygen_O2      Copper        COUL
+Oxygen_O2      Nickel        COUL
+Oxygen_O2      Vanadium      COUL
+Oxygen_O2      Magnesium     COUL
+
+Dummy           Carbon       COUL
+Dummy           Oxygen       COUL
+Dummy           Hydrogen     COUL
+Dummy           Nitrogen     COUL
+Dummy           Zinc         COUL
+Dummy           Copper       COUL
+Dummy           Nickel       COUL
+Dummy           Vanadium     COUL
+Dummy           Magnesium    COUL
+Dummy           Carbon_CO2   COUL
+Dummy           Oxygen_CO2   COUL
+Dummy           Nitrogen_N2  COUL
+Dummy           Oxygen_O2    COUL
+Dummy           Dummy        COUL
+
+Carbon_CO2      Carbon_CO2   COUL
+Oxygen_CO2      Carbon_CO2   COUL
+Oxygen_CO2      Oxygen_CO2   COUL
+Nitrogen_N2     Nitrogen_N2  COUL
+Nitrogen_N2     Carbon_CO2   COUL
+Nitrogen_N2     Oxygen_CO2   COUL
+Oxygen_O2       Oxygen_O2    COUL
+Oxygen_O2       Carbon_CO2   COUL
+Oxygen_O2       Oxygen_CO2   COUL
+Oxygen_O2       Nitrogen_N2  COUL      
+
+Carbon_CO2 Carbon_CO2 WFCOUL  HICUT@25.0   ALPHA@0.1
+Carbon_CO2 Oxygen_CO2 WFCOUL  HICUT@25.0   ALPHA@0.1
+Oxygen_CO2 Oxygen_CO2 WFCOUL  HICUT@25.0   ALPHA@0.1
