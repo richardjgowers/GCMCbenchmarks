@@ -27,9 +27,12 @@ def parse_dir(loc):
     return np.mean(results) / 8.0
 
 
-def parse_cas_results(loc):
+def parse_cas_results(loc=None):
     """Grab results from all cas_* directories
 
     Returns {dirname: avg mol/uc} for each dir
     """
-    return {d: parse_dir(d) for d in glob.glob('cas_*')}
+    if loc is None:
+        loc = '.'
+    return {d: parse_dir(d)
+            for d in glob.glob(os.path.join(loc, 'cas_*'))}

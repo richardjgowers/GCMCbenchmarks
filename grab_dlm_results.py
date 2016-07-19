@@ -37,13 +37,13 @@ def parse_dir(loc):
     return np.mean(results) / 8.0
 
 
-def parse_dlm_results(loc):
+def parse_dlm_results(loc=None):
     """Look inside *loc* for dlm directories and parse all
 
     returns {dirname: results}
     """
-    dlm_dirs = glob.glob("dlm_*")
+    if loc is None:
+        loc = '.'
+    dlm_dirs = os.path.join(loc, glob.glob("dlm_*"))
 
-    results = {d: parse_dir(d) for d in dlm_dirs}
-
-    return results
+    return {d: parse_dir(d) for d in dlm_dirs}
