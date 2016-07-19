@@ -1,3 +1,7 @@
+"""
+Topology and trajectory reader for MDAnalysis to read DLMonte output
+
+"""
 from MDAnalysis.topology.base import TopologyReader
 from MDAnalysis.coordinates.base import SingleFrameReader
 from MDAnalysis.lib.util import openany
