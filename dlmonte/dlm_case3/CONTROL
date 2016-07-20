@@ -7,18 +7,17 @@ temperature 208.0 # temp in K
 
 ewald prec 1e-6
 
-steps         100000
-equilibration 10000
-print         1000
-stack         1000
-sample coordinates 1000
+steps         10000000
+equilibration 1000000
+print         100000
+stack         10000
+sample coordinates 100000
 
 # GCMC optimisation
-acceptmolmoveupdate 200
+acceptmolmoveupdate 10000
 acceptmolmoveratio 0.5
-acceptmolrotupdate 200
+acceptmolrotupdate 10000
 acceptmolrotratio  0.5
-
 
 # GCMC moves
 move molecule    1 25
@@ -27,4 +26,5 @@ move rotatemol   1 25
 CO2
 move gcinsertmol 1 50 1.0  # atom types, freq, overlap distance
 CO2 {pressure}
+
 start
