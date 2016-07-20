@@ -1,13 +1,13 @@
 SimulationType                MonteCarlo
 NumberOfCycles                {nsteps}
 NumberOfInitializationCycles  {neq}
-PrintEvery                    10000
-PrintPropertiesEvery          10000
+PrintEvery                    {nwrite}  # 100 000 steps
+PrintPropertiesEvery          {nwritesmall}  # 10 000 steps
 RestartFile                   no
 
 # Restart and crash-recovery
 ContinueAfterCrash              no        # Write a binary file (binary restart.dat). 
-WriteBinaryRestartFileEvery     10000       # The output frequency of the crash-recovery file.
+WriteBinaryRestartFileEvery     {nwrite}       # The output frequency of the crash-recovery file.
 
 Forcefield                    IRMOF-1_K.Walton_truncated
 CutOffVDW                     25.0
@@ -24,7 +24,7 @@ HeliumVoidFraction 0.78
 ExternalTemperature 208.0
 ExternalPressure  {pressure}
 Movies yes
-WriteMoviesEvery    10000
+WriteMoviesEvery    {nwrite}  # 100 000 steps
 
 # Grids
 NumberOfGrids 0

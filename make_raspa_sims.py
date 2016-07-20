@@ -110,8 +110,10 @@ def make_sims(pressure_values, case, destination):
             with open(os.path.join(newdir, 'simulation.input'), 'w') as out:
                 out.write(template.format(
                     pressure=kPa_to_Pa(p),
-                    nsteps=steps_to_cycles(10000000, case, p),
-                    neq=steps_to_cycles(1000000, case, p),
+                    nsteps=steps_to_cycles(10000000, case, p),  # 10M production steps
+                    neq=steps_to_cycles(1000000, case, p),  # 1M equilibrium steps
+                    nwrite=steps_to_cycles(100000, case, p),  # large output every 100k steps
+                    nwritesmall=steps_to_cycles(10000, case, p),  # small output every 10k steps
                 ))
             qsub_template = open(os.path.join(sourcedir, 'qsub.sh'), 'r').read()
             with open(os.path.join(newdir, 'qsub.sh'), 'w') as out:
