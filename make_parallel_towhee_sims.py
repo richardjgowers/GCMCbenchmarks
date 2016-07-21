@@ -79,10 +79,10 @@ def make_parallel_sims(cores, destination):
         # for each number of cores, run the simulation
         for c in cores:
             out.write("cd twh_par_{}\n".format(c))
-            out.write("echo 'Doing run for {} cores' >> timing.out\n".format(c))
-            out.write("date >> timing.out\n")
+            out.write("echo 'Doing run for {} cores' >> timing.$JOB_ID\n".format(c))
+            out.write("date >> timing.$JOB_ID\n")
             out.write("mpirun -n {} ./towhee\n".format(c))
-            out.write("date >> timing.out\n")
+            out.write("date >> timing.$JOB_ID\n")
             out.write("cd ../\n")
             out.write("\n")
 

@@ -17,7 +17,7 @@ cat /proc/cpuinfo > cpuinfo.{pressure}
 # Ensure that RASPA is linked in parent directory!
 export RASPA_DIR=/home/rgowers/RASPA/
 
-echo "Timing Raspa case 1 at pressure {pressure}" > timing.out
-date >> timing.out
+echo "Timing Raspa case 1 at pressure {pressure}" > timing.$JOB_ID
+date >> timing.$JOB_ID
 ./simulate simulation.input
-date >> timing.out
+date >> timing.$JOB_ID

@@ -10,7 +10,7 @@ ulimit -s unlimited
 
 cat /proc/cpuinfo > cpuinfo.{pressure}
 
-echo "Timing Cassandra case 1 at pressure {pressure}" > timing.out
-date >> timing.out
+echo "Timing Cassandra case 1 at pressure {pressure}" > timing.$JOB_ID
+date >> timing.$JOB_ID
 ./cassandra.exe CO2_IRMOF.inp
-date >> timing.out
+date >> timing.$JOB_ID
