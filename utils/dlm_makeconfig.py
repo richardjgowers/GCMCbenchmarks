@@ -1,3 +1,5 @@
+"""Create a DL Monte config file from PDB"""
+
 import MDAnalysis as mda
 
 

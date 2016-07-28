@@ -1,3 +1,4 @@
+"""Convert a DL Monte REVCON file to a PDB"""
 import MDAnalysis as mda
 from dlm_parser import (
     DLMParser,
