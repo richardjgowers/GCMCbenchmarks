@@ -20,7 +20,7 @@ LJ cut_tail 25.0
 !----------------
 
 # Charge_Style
-coul Ewald 6.0 1E-5
+coul Ewald 25.0 1E-5
 !----------------
 
 # Intra_Scaling
@@ -32,7 +32,7 @@ coul Ewald 6.0 1E-5
 
 # Molecule_Files
 IRMOF.mcf 1
-CO2.mcf 1500
+CO2.mcf 2000
 !------------------------
 
 
