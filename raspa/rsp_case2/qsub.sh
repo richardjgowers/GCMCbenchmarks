@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#$ -N rsp_{pressure}
+#$ -N rsp_2_{pressure}
 #$ -cwd
 #$ -l h_rt=36:00:00
 #$ -l h_vmem=3G
@@ -17,7 +17,7 @@ cat /proc/cpuinfo > cpuinfo.{pressure}
 # Ensure that RASPA is linked in parent directory!
 export RASPA_DIR=/home/rgowers/RASPA/
 
-echo "Timing Raspa case 1 at pressure {pressure}" > timing.$JOB_ID
+echo "Timing Raspa case 2 at pressure {pressure}" > timing.$JOB_ID
 date >> timing.$JOB_ID
 ./simulate simulation.input
 date >> timing.$JOB_ID
