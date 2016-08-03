@@ -16,11 +16,11 @@ GCMC
 !----------------
 
 # VDW_Style
-LJ cut_tail 25.0
+LJ cut 25.0
 !----------------
 
 # Charge_Style
-coul Ewald 25.0 1E-5
+coul Ewald 25.0 1E-6
 !----------------
 
 # Intra_Scaling

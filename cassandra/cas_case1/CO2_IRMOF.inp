@@ -16,7 +16,7 @@ GCMC
 !----------------
 
 # VDW_Style
-LJ cut_tail 25.0
+LJ cut 25.0
 !----------------
 
 # Charge_Style
