@@ -3396,6 +3396,7 @@ begin atom-atomtype
 3392 H
 end atom-atomtype
 
+vdwtype LJ
 dihedraltype none
 
 nonbonded

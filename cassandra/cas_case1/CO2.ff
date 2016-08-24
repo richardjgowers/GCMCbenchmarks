@@ -7,6 +7,7 @@ begin atom-atomtype
 3 O
 end atom-atomtype
 
+vdwtype LJ
 dihedraltype none
 
 nonbonded
@@ -28,7 +29,7 @@ Constant fixed
 
 angles
 O C O
-Angle 180.0
+Angle    180.0
 Constant fixed
 
 charge
