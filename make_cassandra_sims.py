@@ -55,7 +55,7 @@ def make_sims(pressure_values, case, destination):
             shutil.copy(os.path.join(sourcedir, f),
                         os.path.join(newdir, f))
         # Copy over directories
-        for d in ['species1', 'species2']:
+        for d in ['species2']:
             shutil.copytree(os.path.join(sourcedir, d),
                             os.path.join(newdir, d))
         # Copy and edit input file
