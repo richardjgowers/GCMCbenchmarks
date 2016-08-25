@@ -8,7 +8,7 @@ CO2_IRMOF
 !--------------
 
 # Sim_Type
-GCMC
+gcmc
 !---------------
 
 # Nbr_Species
@@ -16,7 +16,7 @@ GCMC
 !----------------
 
 # VDW_Style
-LJ cut 25.0
+lj cut 25.0
 !----------------
 
 # Charge_Style
@@ -38,42 +38,21 @@ CO2.mcf 2000
 
 # Mixing_Rule
 custom
-Zn_s1  Zn_s1 0.0   0.0
 Zn_s1  O_s1  0.0   0.0
 Zn_s1  C_s1  0.0   0.0
 Zn_s1  H_s1  0.0   0.0
 Zn_s1  O_s2  46.78 3.55
 Zn_s1  C_s2  27.35 3.42
-O_s1   Zn_s1 0.0   0.0
-O_s1   O_s1  0.0   0.0
 O_s1   C_s1  0.0   0.0
 O_s1   H_s1  0.0   0.0
 O_s1   O_s2  61.70 3.04
 O_s1   C_s2  36.07 2.92
-C_s1   Zn_s1 0.0   0.0
-C_s1   O_s1  0.0   0.0
-C_s1   C_s1  0.0   0.0
 C_s1   H_s1  0.0   0.0
 C_s1   O_s2  61.51 3.26
 C_s1   C_s2  35.96 3.32
-H_s1   Zn_s1 0.0   0.0
-H_s1   O_s1  0.0   0.0
-H_s1   C_s1  0.0   0.0
-H_s1   H_s1  0.0   0.0
 H_s1   O_s2  24.59 2.95
 H_s1   C_s2  14.38 2.82
-O_s2   Zn_s1 46.78 3.55
-O_s2   O_s1  61.70 3.04
-O_s2   C_s1  61.51 3.26
-O_s2   H_s1  24.59 2.95
-O_s2   O_s2  79.0  3.05
 O_s2   C_s2  46.18 2.93
-C_s2   Zn_s1 27.35 3.42
-C_s2   O_s1  36.07 2.92
-C_s2   C_s1  35.96 3.32
-C_s2   H_s1  14.38 2.82
-C_s2   O_s2  46.18 2.93
-C_s2   C_s2  27.0  2.80
 !----------------
 
 # Seed_Info
@@ -85,13 +64,13 @@ C_s2   C_s2  27.0  2.80
 !----------------
 
 # Pair_Energy
-TRUE
+true
 !-----------
 
 
 # Box_Info
 1
-ORTHOGONAL
+orthogonal
 51.664 51.664 51.664
 !-------------------------
 
@@ -117,10 +96,7 @@ ORTHOGONAL
 
 # Prob_Insertion
 0.25
-insertion method
-none
-insertion method
-reservoir
+none cbmc
 
 # Prob_Deletion
 0.25
@@ -129,13 +105,12 @@ reservoir
 !----------------------
 
 # Start_Type
-read_old
-IRMOF.xyz
+read_config 1 0 IRMOF.xyz
 
 !------------------
 
 # Run_Type
-Production 1000
+production 1000
 !------------------
 
 # Average_Info
@@ -143,24 +118,22 @@ Production 1000
 !-------------
 
 # Simulation_Length_Info
-Units      Steps
-Prop_Freq    1000
-Coord_Freq   10000
-MCsteps      11000000
-# Done_Simulation_Length_Info
+units        steps
+prop_freq    1000
+coord_freq   10000
+run          11000000
 !----------------------------
 
 
 # Property_Info 1 
-Energy_Total
-Nmols
-Pressure
+energy_total
+nmols
+pressure
 
 !----------------
 
 # Fragment_Files
-species1/frag1/frag1.dat  1
-species2/frag1/frag1.dat  2
+species2/frag1/frag1.dat  1
 !---------------------------------------------------------one line per fragment
 
 # CBMC_Info
