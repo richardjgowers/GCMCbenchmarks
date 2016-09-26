@@ -128,4 +128,8 @@ if __name__ == '__main__':
     except IndexError:
         raise SystemExit("Usage: {} templatedir destination".format(sys.argv[0]))
     else:
+        if not os.path.exists(os.path.join(os.getcwd(), destination)):
+            os.path.mkdir(destination)
+        elif not os.path.isdir(os.path.join(os.getcwd(), destination)):
+            raise SystemExit
         make_sims(PRESSURES, prefix, destination)
