@@ -67,8 +67,8 @@ def steps_to_cycles(Steps, case, pressure):
     # select the pressure->nmol dict to use
     trans = NMOL[case]
 
-    # need integer number of cycles
-    return int(Steps / trans[pressure])
+    # need integer number of cycles, minimum of 1
+    return max((int(Steps / trans[pressure]), 1))
 
 
 def kPa_to_Pa(pressure):
