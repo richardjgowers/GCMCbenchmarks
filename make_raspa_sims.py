@@ -65,7 +65,7 @@ def steps_to_cycles(Steps, case, pressure):
     number of cycles
     """
     # select the pressure->nmol dict to use
-    trans = NMOL[case]
+    trans = NMOL[case[:5]]
 
     # need integer number of cycles, minimum of 1
     return max((int(Steps / trans[pressure]), 1))
