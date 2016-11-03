@@ -1,9 +1,9 @@
 #!/bin/bash
 
-#$ -N rsp_3_{pressure}
+#$ -N rwg3_{pressure}
 #$ -cwd
-#$ -l h_rt=168:00:00
-#$ -l h_vmem=3G
+#$ -l h_rt=23:00:00
+#$ -l h_vmem=4G
 
 . /etc/profile.d/modules.sh
 ulimit -s unlimited
@@ -15,9 +15,10 @@ export LD_LIBRARY_PATH=/exports/applications/apps/SL7/intel/parallel_studio_xe_2
 cat /proc/cpuinfo > cpuinfo.{pressure}
 
 # Ensure that RASPA is linked in parent directory!
-export RASPA_DIR=/home/rgowers/RASPA/
+export RASPA_DIR=/exports/csce/eddie/eng/groups/eddie_see_imp_bio/richard/INT_RASPA
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$RASPA_DIR/lib
 
-echo "Timing Raspa case 3 at pressure {pressure}" > timing.$JOB_ID
+echo "Timing Raspa case 3 with grid " > timing.$JOB_ID
 date >> timing.$JOB_ID
-./simulate simulation.input
+$RASPA_DIR/bin/simulate simulation.input
 date >> timing.$JOB_ID
