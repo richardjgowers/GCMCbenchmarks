@@ -9,7 +9,7 @@ RestartFile                   no
 ContinueAfterCrash              no        # Write a binary file (binary restart.dat). 
 WriteBinaryRestartFileEvery   {nwrite}    # The output frequency of the crash-recovery file.
 
-Forcefield                    IRMOF-1_K.Walton_truncated
+Forcefield                    IRMOF-1_K.Walton_LJ
 CutOffVDW                     25.0
 ChargeMethod                  None  #CoulombShifted or Ewald
 #CutOffChargeCharge            25.8
