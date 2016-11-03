@@ -1,6 +1,6 @@
 ------ General Information ------------------------------------------
 CO2 in IRMOF1
-30000000             # No. of iterations                               
+11000000             # No. of iterations                               
 100000               # No. of steps between writes to output/log file  
 100000               # No. of steps between writes to crash file       
 100000               # No. of steps between writes to config. file     
@@ -56,7 +56,7 @@ CO2                  # Sorbate Name
 208.0                # temperature
 Ideal Parameters     # Tag for the equation of state (NULL = Ideal Gas)
 8                    # No. of simulation points
-5000                 # Block size for statistics
+10000                # Block size for statistics
 1                    # no. of sorbates
           -------------------------
 CO2                  # Sorbate Name
