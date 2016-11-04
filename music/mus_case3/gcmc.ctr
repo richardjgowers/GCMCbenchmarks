@@ -1,6 +1,6 @@
 ------ General Information ------------------------------------------
 CO2 in IRMOF1
-11000000             # No. of iterations                               
+5500000              # No. of iterations                               
 100000               # No. of steps between writes to output/log file  
 100000               # No. of steps between writes to crash file       
 100000               # No. of steps between writes to config. file     
