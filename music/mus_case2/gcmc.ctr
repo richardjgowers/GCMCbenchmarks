@@ -55,7 +55,7 @@ CO2                  # Sorbate Name
 1                    # No. of iterations
 208.0                # temperature
 Ideal Parameters     # Tag for the equation of state (NULL = Ideal Gas)
-8                    # No. of simulation points
+2                    # No. of simulation points
 10000                # Block size for statistics
 1                    # no. of sorbates
           -------------------------
