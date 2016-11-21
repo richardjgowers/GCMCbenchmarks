@@ -1,6 +1,6 @@
 # Molecule-Molecule interaction file for CO2 in IRMOF1 simulation
 
-CO2    CO2    COUL   BASIC  FAST WFCOUL
+CO2    CO2    COUL   SUM    FAST   EWALD   KAPPA@6.4   KMAX@7.0
 CO2    CO2    NCOUL  BASIC  LJ     FAST
 
 IRMOF1  CO2    COUL   MAP@IRMOF1  FAST all@EMAP@IRMOF1.emap
