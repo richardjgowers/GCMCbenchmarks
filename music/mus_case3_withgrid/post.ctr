@@ -6,7 +6,7 @@
 -- Post Processor Information ------------
 GCMC                       # Type of simulation GCMC, NVTMC , MD ....
 CO2.con                    # basename for config files
-1, 6                      # first and last file numbers
+1, 2                      # first and last file numbers
 chk.ctr                    # name for new ctrlfile that will regenerated
 IRMOF1.CO2.post             # Base name for output files
 40, 0                      # Percentages of data to skipped at start and end 
