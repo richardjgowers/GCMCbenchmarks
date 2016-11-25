@@ -1,6 +1,21 @@
 #!/usr/bin/env python
+"""Create Music benchmark simulations
+
+Usage:
+  make_music_sims <case> <destination> [-n NSTEPS -s NSAMP -c NCOORD]
+
+Options:
+  -h --help   Show this screen
+  --version   Show version
+  -n          Total number of steps in simulations        [default: 11000000]
+  -s          Number of steps between writing results     [default: 1000]
+  -c          Number of steps between writing coordinates [default: 100000]
+  -p          Pressures to create directories for
+
+"""
 from __future__ import division
 
+from docopt import docopt
 import os
 import sys
 import shutil
@@ -11,6 +26,9 @@ FUGACITY = {
     5: 4.996, 10: 9.985, 20: 19.94, 30: 29.86,
     40: 39.76, 50: 49.62, 60: 59.46, 70: 69.26
 }
+RUN_LENGTH = 11000000
+SAVE_FREQ = 1000
+COORDS_FREQ = 10000
 
 
 def make_qsubmany(dirs, destination):
@@ -29,7 +47,7 @@ def make_qsubmany(dirs, destination):
     os.chmod(qsubfn, 0744)  # rwxr--r-- permissions
 
 
-def make_sims(pressure_values, case, destination):
+def make_sims(pressure_values, case, destination, **options):
     sourcedir = 'music/mus_{}'.format(case)
     simdirs = []  # all simulation directories
 
@@ -41,14 +59,24 @@ def make_sims(pressure_values, case, destination):
         os.mkdir(newdir)
         # Copy files that don't get modified
         for f in ['atom_atom_all', 'fluid_properties.dat', 'pressure.dat',
-                  'gcmc.ctr', 'intra', 'mol_mol_all', 'post.ctr',
+                  'intra', 'mol_mol_all', 'post.ctr',
                   'setpath']:
             shutil.copy(os.path.join(sourcedir, f),
                         os.path.join(newdir, f))
         # fugacity.dat gets pressure put inside of it
         template = open(os.path.join(sourcedir, 'fugacity.dat'), 'r').read()
         with open(os.path.join(newdir, 'fugacity.dat'), 'w') as out:
-            out.write(template.format(fugacity=FUGACITY[p]))
+            out.write(template.format(
+                fugacity=FUGACITY[p],
+            ))
+        # gcmc.ctr has runlength options
+        template = open(os.path.join(sourcedir, 'gcmc.ctr'), 'r').read()
+        with open(os.path.join(newdir, 'gcmc.ctr'), 'w') as out:
+            out.write(template.format(
+                run_length=options.get('run_length', RUN_LENGTH // 2),
+                coords_freq=options.get('coords_freq', COORDS_FREQ),
+                save_freq=options.get('save_freq', SAVE_FREQ),
+            ))
         template = open(os.path.join(sourcedir, 'qsub.sh'), 'r').read()
         with open(os.path.join(newdir, 'qsub.sh'), 'w') as out:
             out.write(template.format(pressure=p))
