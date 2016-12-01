@@ -1,21 +1,15 @@
 #!/usr/bin/env python
 """Make many DLMonte simulation directories
 
-Requires a template folder to be given which contains
- - FIELD
- - CONFIG
- - CONTROL
-
-Control file must have 'use gaspressure' and the pressure of CO2 set to '{pressure}'
 """
 from __future__ import division
 
+from docopt import docopt
 import sys
 import os
 import shutil
 
-# Pressures to run in kPa
-PRESSURES = [5, 10, 20, 30, 40, 50, 60, 70]
+from gcmcbenchmarks.templates import dlmonte, makestr, PRESSURES
 
 
 def kPa_to_kAtm(p):
@@ -39,14 +33,15 @@ def make_qsubmany(dirs, destination):
     os.chmod(qsubfn, 0744)  # rwxr--r-- permissions
 
 
-def make_sims(pressure_values, case, destination):
+def make_sims(pressure_values, case, destination, options):
     """Make many simulation directories
 
     pressure_values - list of pressues in kPa to make simulations for
     case - directory where template files can be found
     destination - directory to place new simulation files in
+    options - dict from docopt of simulation settings options
     """
-    sourcedir = 'dlmonte/dlm_{}'.format(case)
+    sourcedir = getattr(dlmonte, case)  # dict of filename: filepath
     simdirs = []
 
     for p in pressure_values:
@@ -57,13 +52,18 @@ def make_sims(pressure_values, case, destination):
 
         # Files that don't change between runs
         for f in ['FIELD', 'CONFIG']:
-            shutil.copy(os.path.join(sourcedir, f),
+            shutil.copy(sourcedir[f],
                         os.path.join(newdir, f))
         # Files that need customising for this pressure
-        template = open(os.path.join(sourcedir, 'CONTROL'), 'r').read()
+        template = open(sourcedir['CONTROL'], 'r').read()
         with open(os.path.join(newdir, 'CONTROL'), 'w') as out:
-            out.write(template.format(pressure=kPa_to_kAtm(p)))
-        qsub_template = open(os.path.join(sourcedir, 'qsub.sh'), 'r').read()
+            out.write(template.format(
+                pressure=kPa_to_kAtm(p),
+                run_length=int(options['-n']),
+                save_freq=int(options['-s']),
+                coords_freq=int(options['-c']),
+            ))
+        qsub_template = open(sourcedir['qsub.sh'], 'r').read()
         with open(os.path.join(newdir, 'qsub.sh'), 'w') as out:
             out.write(qsub_template.format(pressure=p))
     # Make convenience script for starting jobs
@@ -71,13 +71,20 @@ def make_sims(pressure_values, case, destination):
 
 
 if __name__ == '__main__':
-    try:
-        prefix, destination = sys.argv[1], sys.argv[2]
-    except IndexError:
-        raise SystemExit("Usage: {} templatedir destination".format(sys.argv[0]))
+    tot = __doc__ + makestr
+
+    args = docopt(tot)
+
+    if args['-p']:
+        pressures = [int(p) for p in args['<pressures>']]
     else:
-        if not os.path.exists(os.path.join(os.getcwd(), destination)):
-            os.mkdir(destination)
-        elif not os.path.isdir(os.path.join(os.getcwd(), destination)):
-            raise SystemExit
-        make_sims(PRESSURES, prefix, destination)
+        pressures = PRESSURES
+
+    destination = args['<dir>']
+
+    if not os.path.exists(os.path.join(os.getcwd(), destination)):
+        os.mkdir(destination)
+    elif not os.path.isdir(os.path.join(os.getcwd(), destination)):
+        raise SystemExit
+
+    make_sims(pressures, args['<case>'], destination, args)

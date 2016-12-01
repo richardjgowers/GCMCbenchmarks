@@ -1,3 +1,8 @@
 include gcmcbenchmarks/templates/dlmonte/dlm_case1/*
 include gcmcbenchmarks/templates/dlmonte/dlm_case2/*
 include gcmcbenchmarks/templates/dlmonte/dlm_case3/*
+include gcmcbenchmarks/templates/cassandra/cas_case1/*
+recursive-include gcmcbenchmarks/templates/cassandra/cas_case1 *
+recursive-include gcmcbenchmarks/templates/cassandra/cas_case2 *
+recursive-include gcmcbenchmarks/templates/cassandra/cas_case3 *
+
