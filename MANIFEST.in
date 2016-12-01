@@ -1,0 +1,3 @@
+include gcmcbenchmarks/templates/dlmonte/dlm_case1/*
+include gcmcbenchmarks/templates/dlmonte/dlm_case2/*
+include gcmcbenchmarks/templates/dlmonte/dlm_case3/*
