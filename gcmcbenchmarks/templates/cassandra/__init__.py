@@ -27,7 +27,7 @@ _FRAGMENTS = ['frag_1_1.car', 'frag_1_1.xyz', 'species2_mcf_gen.chk', 'species2_
               'frag_1_1.mcf', 'molecule.pdb', 'species2_mcf_gen.inp']
 
 case1 = {f: _rf(os.path.join('cas_case1', f)) for f in _FILES}
-case1['frag1'] = {'frag1.dat': _rf('species2/frag1/frag1.dat')}
+case1['frag1'] = {'frag1.dat': _rf('cas_case1/species2/frag1/frag1.dat')}
 case1['fragments'] = {f: _rf(os.path.join('cas_case1/species2/fragments', f))
                       for f in _FRAGMENTS}
 

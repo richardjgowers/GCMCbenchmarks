@@ -16,7 +16,7 @@ Usage:
 Options:
   -h --help
   -v --version
-  -n N                Number of steps [default: 10000000]
+  -n N                Number of steps [default: 11000000]
   -s N                Number of steps between samples [default: 1000]
   -c N                Number of steps between saving coordinatse [default: 100000]
   -p                  Specify manual pressure points
