@@ -13,7 +13,7 @@ from . import (
 )
 
 
-def parse_directory(dirname):
+def format_parser(dirname):
     if 'dlm' in dirname:
         return dlm.grab_timeseries
     elif 'twh' in dirname:
@@ -46,17 +46,17 @@ def find_equil(ser):
     mean = ser.values[3*half:].mean()
     std = ser.values[3*half:].std()
     
-    nwindow = n // 100
+    # For series of length less than 100, use a "window" of 1
+    nwindow = max(n // 100, 1)
     
     eq = ser[ser.rolling(nwindow).mean() > mean - 1.5 * std].index[0]
     
-    #ser.index -= eq
     return eq
 
 
 def grab_all_results(d):
     """Return all results from directory d"""
-    subdir_parser = getter(d)  # appropriate timeseries getter for this directory
+    subdir_parser = format_parser(d)  # appropriate timeseries getter for this directory
 
     subdirs = find_simdirs(d)
 
@@ -73,3 +73,7 @@ def grab_all_results(d):
         final.append((results[eq:].mean(), results[eq:].std()))
 
     return pd.DataFrame(final, pressures, columns=['mean', 'std']).sort_index()
+
+def parse(d):
+    """Return timeseries from directory *d*"""
+    return format_parser(d)(d)

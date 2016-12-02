@@ -5,7 +5,6 @@ for each dlm_* directory:
    check OUTPUT exited correctly?
    read the results
 """
-import glob
 import numpy as np
 import os
 

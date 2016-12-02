@@ -11,4 +11,4 @@ from . import raspa_parser
 from . import towhee_parser
 
 # Generic parser that uses format specific stuff above
-from . import parser
+from . import general_parser
