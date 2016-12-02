@@ -16,5 +16,8 @@ setup(
     packages=find_packages(),
     include_package_data=True,
 
-    scripts = ['bin/make_dlm_sims.py'],
+    scripts = [
+        'bin/make_dlm_sims.py',
+        'bin/make_cassandra_sims.py',
+    ],
 )
