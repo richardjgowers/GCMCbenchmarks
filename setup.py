@@ -17,7 +17,8 @@ setup(
     include_package_data=True,
 
     scripts = [
-        'bin/make_dlm_sims.py',
         'bin/make_cassandra_sims.py',
+        'bin/make_dlm_sims.py',
+        'bin/make_towhee_sims.py',
     ],
 )

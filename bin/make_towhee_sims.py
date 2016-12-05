@@ -4,23 +4,12 @@
 """
 from __future__ import division
 
+from docopt import docopt
 import sys
 import os
 import shutil
 
-# pressures in kPa to run
-PRESSURES = [5, 10, 20, 30, 40, 50, 60, 70]
-
-# chemical potentials calculated in PREoS notebook
-CHEMPOTS = {5:-3819.9767,
-            10:-3675.9676,
-            20:-3532.1242,
-            30:-3448.1191,
-            40:-3388.6133,
-            50:-3342.5320,
-            60:-3304.9420,
-            70:-3273.2120,
-}
+from gcmcbenchmarks.templates import towhee, makestr, PRESSURES
 
 
 def make_qsubmany(dirs, destination):
@@ -39,8 +28,8 @@ def make_qsubmany(dirs, destination):
     os.chmod(qsubfn, 0744)  # rwxr--r-- permissions
 
 
-def make_sims(pressure_values, case, destination):
-    sourcedir = 'towhee/twh_{}'.format(case)
+def make_sims(pressure_values, case, destination, options):
+    sourcedir = getattr(towhee, case)
     simdirs = []
 
     for p in pressure_values:
@@ -50,13 +39,18 @@ def make_sims(pressure_values, case, destination):
         os.mkdir(newdir)
 
         for f in ['towhee_coords', 'towhee_ff_CUSTOM']:
-            shutil.copy(os.path.join(sourcedir, f),
+            shutil.copy(sourcedir[f]),
                         os.path.join(newdir, f))
 
-        template = open(os.path.join(sourcedir, 'towhee_input'), 'r').read()
+        template = open(sourcedir['towhee_input'], 'r').read()
         with open(os.path.join(newdir, 'towhee_input'), 'w') as out:
-            out.write(template.format(chempot=CHEMPOTS[p]))
-        qsub_template = open(os.path.join(sourcedir, 'qsub.sh'), 'r').read()
+            out.write(
+                template.format(chempot=towhee.CHEMPOTS[p]),
+                run_length=int(options['-n']),
+                save_freq=int(options['-s']),
+                coords_freq=int(options['-c']),
+            )
+        qsub_template = open(sourcedir['qsub.sh'], 'r').read()
         with open(os.path.join(newdir, 'qsub.sh'), 'w') as out:
             out.write(qsub_template.format(pressure=p))
 
@@ -64,13 +58,20 @@ def make_sims(pressure_values, case, destination):
 
 
 if __name__ == '__main__':
-    try:
-        prefix, destination = sys.argv[1], sys.argv[2]
-    except IndexError:
-        raise SystemExit("Usage: {} templatedir destination".format(sys.argv[0]))
+    tot = __doc__ + makestr
+
+    args = docopt(tot)
+
+    if args['-p']:
+        pressures = [int(p) for p in args['<pressures>']]
     else:
-        if not os.path.exists(os.path.join(os.getcwd(), destination)):
-            os.mkdir(destination)
-        elif not os.path.isdir(os.path.join(os.getcwd(), destination)):
-            raise SystemExit
-        make_sims(PRESSURES, prefix, destination)
+        pressures = PRESSURES
+
+    destination = args['<dir>']
+
+    if not os.path.exists(os.path.join(os.getcwd(), destination)):
+        os.mkdir(destination)
+    elif not os.path.isdir(os.path.join(os.getcwd(), destination)):
+        raise SystemExit
+
+    make_sims(pressures, args['<case>'], destination, args)
