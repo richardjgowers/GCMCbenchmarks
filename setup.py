@@ -20,5 +20,6 @@ setup(
         'bin/make_cassandra_sims.py',
         'bin/make_dlm_sims.py',
         'bin/make_towhee_sims.py',
+        'bin/make_music_sims.py',
     ],
 )
