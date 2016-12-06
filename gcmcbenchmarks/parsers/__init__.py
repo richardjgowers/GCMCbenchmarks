@@ -12,3 +12,5 @@ from . import towhee_parser
 
 # Generic parser that uses format specific stuff above
 from . import general_parser
+
+from . import time_parser

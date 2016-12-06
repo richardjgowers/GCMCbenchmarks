@@ -11,3 +11,8 @@ from .parsers.general_parser import (
     grab_all_results,
     parse,
 )
+from .parsers.time_parser import (
+    parse_timefile,
+    parse_cpuinfo,
+    get_times,
+)
