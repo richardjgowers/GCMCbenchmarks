@@ -40,7 +40,7 @@ def make_sims(pressure_values, case, destination, options):
         os.mkdir(newdir)
         # Copy files that don't get modified
         for f in ['atom_atom_all', 'fluid_properties.dat', 'pressure.dat',
-                  'intra', 'mol_mol_all', 'post.ctr', 'setpath']:
+                  'intra', 'mol_mol_all', 'setpath']:
             shutil.copy(sourcedir[f],
                         os.path.join(newdir, f))
         # fugacity.dat gets pressure put inside of it
@@ -50,6 +50,12 @@ def make_sims(pressure_values, case, destination, options):
             out.write(template.format(
                 fugacity=music.FUGACITY[p],
             ))
+        # post.ctr needs changing to get the right number of blocks out
+        with open(sourcedir['post.ctr'], 'r') as f:
+            template = f.read()
+        with open(os.path.join(newdir, 'post.ctr'), 'w') as out:
+            nblocks = (int(options['-n']) // 2) // int(options['-s'])
+            out.write(template.format(nblocks=nblocks))
         # gcmc.ctr has runlength options
         with open(sourcedir['gcmc.ctr'], 'r') as f:
             template = f.read()
