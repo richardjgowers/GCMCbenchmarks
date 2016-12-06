@@ -120,7 +120,7 @@ production {save_freq}
 # Simulation_Length_Info
 units        steps
 prop_freq    {save_freq}
-coord_freq   {coord_freq}
+coord_freq   {coords_freq}
 run          {run_length}
 !----------------------------
 
