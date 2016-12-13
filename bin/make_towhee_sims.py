@@ -39,18 +39,20 @@ def make_sims(pressure_values, case, destination, options):
         os.mkdir(newdir)
 
         for f in ['towhee_coords', 'towhee_ff_CUSTOM']:
-            shutil.copy(sourcedir[f]),
+            shutil.copy(sourcedir[f],
                         os.path.join(newdir, f))
 
-        template = open(sourcedir['towhee_input'], 'r').read()
+        with open(sourcedir['towhee_input'], 'r') as f:
+            template = f.read()
         with open(os.path.join(newdir, 'towhee_input'), 'w') as out:
-            out.write(
-                template.format(chempot=towhee.CHEMPOTS[p]),
+            out.write(template.format(
+                chempot=towhee.CHEMPOTS[p],
                 run_length=int(options['-n']),
                 save_freq=int(options['-s']),
                 coords_freq=int(options['-c']),
-            )
-        qsub_template = open(sourcedir['qsub.sh'], 'r').read()
+            ))
+        with open(sourcedir['qsub.sh'], 'r') as f:
+            qsub_template = f.read()
         with open(os.path.join(newdir, 'qsub.sh'), 'w') as out:
             out.write(qsub_template.format(pressure=p))
 
