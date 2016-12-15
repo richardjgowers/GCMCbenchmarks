@@ -39,7 +39,7 @@ def _get_prefix(loc):
     return c.most_common(1)[0][0]
 
 
-def parse_timefile(d):
+def parse_all_timefiles(d):
     """Return the times elapsed in timing files in directory *d*
 
     Assumes files called timing* with a format:
@@ -54,15 +54,27 @@ def parse_timefile(d):
     times = []
     for filename in glob.glob(os.path.join(d, 'timing*')):
         try:
-            t1, t2 = map(parsetime, open(filename, 'r').readlines()[1:])
+            delta = parse_timefile(filename)
         except ValueError as e:
             pass
             #print('Failed for file: {}\n{}'.format(filename, e))
         else:
-            delta = (t2 - t1).total_seconds()
             if delta > 60:  # ignore too small values
                 times.append(delta)
     return times
+
+def parse_timefile(fn):
+    """Parse a single timing file
+
+    Assumes files with the format:
+     - comment line
+     - date call 1
+     - date call 2
+    """
+    with open(fn, 'r') as inp:
+        t1, t2 = map(parsetime, inp.readlines()[1:])
+
+    return (t2 - t1).total_seconds()
 
 
 def parse_cpuinfo(d):
@@ -94,7 +106,7 @@ def grab_times(loc):
 
     for d in glob.glob('{}_*'.format(os.path.join(loc, _get_prefix(loc)))):
         try:
-            times = parse_timefile(d)
+            times = parse_all_timefiles(d)
             cpuinfo = parse_cpuinfo(d)
         except IndexError:
             continue

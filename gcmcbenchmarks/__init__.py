@@ -13,6 +13,7 @@ from .parsers.general_parser import (
 )
 from .parsers.time_parser import (
     parse_timefile,
+    parse_all_timefiles,
     parse_cpuinfo,
     get_times,
 )
