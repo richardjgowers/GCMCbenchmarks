@@ -21,5 +21,6 @@ setup(
         'bin/make_dlm_sims.py',
         'bin/make_towhee_sims.py',
         'bin/make_music_sims.py',
+        'bin/make_raspa_sims.py',
     ],
 )

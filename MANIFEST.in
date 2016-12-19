@@ -23,3 +23,10 @@ include gcmcbenchmarks/templates/music/mus_case3_withgrid/*
 include gcmcbenchmarks/templates/music/atoms/*
 include gcmcbenchmarks/templates/music/molecules/*
 include gcmcbenchmarks/templates/music/pmaps_krista/*
+
+include gcmcbenchmarks/templates/raspa/rsp_case1/*
+include gcmcbenchmarks/templates/raspa/rsp_case2/*
+include gcmcbenchmarks/templates/raspa/rsp_case3/*
+include gcmcbenchmarks/templates/raspa/rsp_case1_withgrid/*
+include gcmcbenchmarks/templates/raspa/rsp_case2_withgrid/*
+include gcmcbenchmarks/templates/raspa/rsp_case3_withgrid/*

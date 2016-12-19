@@ -1,12 +1,15 @@
 #!/usr/bin/env python
+"""Make Raspa benchmark simulations
+
+"""
 from __future__ import division
 
+from docopt import docopt
 import os
 import sys
 import shutil
 
-# Pressures to run in kPa
-PRESSURES = [5, 10, 20, 30, 40, 50, 60, 70]
+from gcmcbenchmarks.templates import raspa, makestr, PRESSURES
 
 # Average number of molecules at a given pressure (ie the result)
 # Used to translate between steps and cycles for benchmarking
@@ -48,7 +51,7 @@ NMOL = {
     'case3':_NMOL_case3,
 }
 
-def steps_to_cycles(Steps, case, pressure):
+def steps_to_cycles(steps, case, pressure):
     """Translate a number of steps to cycles
 
     Parameters
@@ -68,7 +71,7 @@ def steps_to_cycles(Steps, case, pressure):
     trans = NMOL[case[:5]]
 
     # need integer number of cycles, minimum of 1
-    return max((int(Steps / trans[pressure]), 1))
+    return max(int(steps / trans[pressure]), 1)
 
 
 def kPa_to_Pa(pressure):
@@ -91,8 +94,8 @@ def make_qsubmany(dirs, destination):
     os.chmod(qsubfn, 0744)  # rwxr--r-- permissions
 
 
-def make_sims(pressure_values, case, destination):
-    sourcedir = 'raspa/rsp_{}'.format(case)
+def make_sims(pressure_values, case, destination, options):
+    sourcedir = getattr(raspa, case)
     simdirs = []
 
     for p in pressure_values:
@@ -103,19 +106,20 @@ def make_sims(pressure_values, case, destination):
 
         for f in ['CO2.def', 'force_field.def', 'framework.def',
                   'IRMOF-1.cif', 'pseudo_atoms.def']:
-            shutil.copy(os.path.join(sourcedir, f),
+            shutil.copy(sourcedir[f],
                         os.path.join(newdir, f))
 
-            template = open(os.path.join(sourcedir, 'simulation.input'), 'r').read()
+            with open(sourcedir['simulation.input'], 'r') as inf:
+                template = inf.read()
             with open(os.path.join(newdir, 'simulation.input'), 'w') as out:
                 out.write(template.format(
                     pressure=kPa_to_Pa(p),
-                    nsteps=steps_to_cycles(10000000, case, p),  # 10M production steps
-                    neq=steps_to_cycles(1000000, case, p),  # 1M equilibrium steps
-                    nwrite=steps_to_cycles(100000, case, p),  # large output every 100k steps
-                    nwritesmall=steps_to_cycles(10000, case, p),  # small output every 10k steps
+                    run_length=steps_to_cycles(int(options['-n']), case, p),
+                    save_freq=steps_to_cycles(int(options['-s']), case, p),
+                    coords_freq=steps_to_cycles(int(options['-c']), case, p),
                 ))
-            qsub_template = open(os.path.join(sourcedir, 'qsub.sh'), 'r').read()
+            with open(sourcedir['qsub.sh'], 'r') as inf:
+                qsub_template = inf.read()
             with open(os.path.join(newdir, 'qsub.sh'), 'w') as out:
                 out.write(qsub_template.format(pressure=p))
 
@@ -123,13 +127,21 @@ def make_sims(pressure_values, case, destination):
 
 
 if __name__ == '__main__':
-    try:
-        prefix, destination = sys.argv[1], sys.argv[2]
-    except IndexError:
-        raise SystemExit("Usage: {} templatedir destination".format(sys.argv[0]))
+    tot = __doc__ + makestr
+
+    args = docopt(tot)
+
+    if args['-p']:
+        pressures = [int(p) for p in args['<pressures>']]
     else:
-        if not os.path.exists(os.path.join(os.getcwd(), destination)):
-            os.mkdir(destination)
-        elif not os.path.isdir(os.path.join(os.getcwd(), destination)):
-            raise SystemExit
-        make_sims(PRESSURES, prefix, destination)
+        pressures = PRESSURES
+
+    destination = args['<dir>']
+
+    if not os.path.exists(os.path.join(os.getcwd(), destination)):
+        os.mkdir(destination)
+    elif not os.path.isdir(os.path.join(os.getcwd(), destination)):
+        raise SystemExit
+
+    make_sims(pressures, args['<case>'], destination, args)
+
