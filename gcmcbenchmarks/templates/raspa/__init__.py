@@ -2,6 +2,8 @@ from functools import partial
 import os
 from pkg_resources import resource_filename
 
+from .conversions import cycles_to_steps, steps_to_cycles
+
 _rf = partial(resource_filename, __name__)
 
 _FILES = ['CO2.def', 'force_field.def', 'framework.def', 'IRMOF-1.cif', 'pseudo_atoms.def',
