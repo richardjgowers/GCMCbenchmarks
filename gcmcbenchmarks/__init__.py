@@ -3,6 +3,7 @@ __version__ = '0.0.1'
 
 from . import templates
 from . import parsers
+from . import analysis
 
 # Fill top namespace
 from .parsers.general_parser import (
@@ -17,3 +18,4 @@ from .parsers.time_parser import (
     parse_cpuinfo,
     get_times,
 )
+from .analysis import find_equil, find_tau
