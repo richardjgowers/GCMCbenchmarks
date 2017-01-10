@@ -24,10 +24,19 @@ def check_flat(sig, max_drift=5):
     y0 = c + x0 * sig.index[0]
     y1 = c + x0 * sig.index[-1]
 
-    totdrift = abs(100 * (y1 - y0) / sig.mean())
+    totdrift = 100 * abs((y1 - y0) / sig.mean())
 
-    if totdrift > max_drift:
-        raise ValueError("Signal drifted {}%".format(totdrift))
+    # if x0 is very small, dont calculate drift and assume flat
+    # fixes issue with very long time series
+    if (x0 > 1e-4) and (totdrift > max_drift):
+        raise ValueError("Signal drifted {}%."
+                         "x0: {} c: {}"
+                         "y0: {} y1: {}"
+                         "mean: {}".format(
+                             totdrift,
+                             x0, c,
+                             y0, y1,
+                             sig.mean))
     else:
         return True
 
