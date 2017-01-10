@@ -3,7 +3,7 @@ CO2 in IRMOF1
 {run_length}         # No. of iterations                               
 {coords_freq}        # No. of steps between writes to output/log file  
 {coords_freq}        # No. of steps between writes to crash file       
-{coords_freq}        # No. of steps between writes to config. file     
+{save_freq}          # No. of steps between writes to config. file     
 1                    # Start numbering simulations from .              
 82961226             # Iseed                                           
 3                    # specifies contents of config file,              
