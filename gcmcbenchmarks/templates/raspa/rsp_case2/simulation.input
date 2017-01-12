@@ -1,8 +1,8 @@
 SimulationType                MonteCarlo
 NumberOfCycles                {run_length}
 NumberOfInitializationCycles  0
-PrintEvery                    {coords_freq}  # 100 000 steps
-PrintPropertiesEvery          {save_freq}  # 10 000 steps
+PrintEvery                    {save_freq}
+PrintPropertiesEvery          {coords_freq}
 RestartFile                   no
 
 # Restart and crash-recovery
