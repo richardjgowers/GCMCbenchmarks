@@ -16,16 +16,18 @@ import numpy as np
 import os
 
 def check_exit(loc):
-    pass
+    output = os.path.join(loc, 'IRMOF1.CO2.post')
+
+    if not os.path.exists(output):
+        raise ValueError("Output not present in {}".format(loc))
+    # if the file exists, the post processing must have happened
+    return True
 
 def grab_timeseries(loc, ignore_incomplete=False):
     if not ignore_incomplete:
         check_exit(loc)
 
     output = os.path.join(loc, 'IRMOF1.CO2.post')
-
-    if not os.path.exists(output):
-        raise ValueError("Output not present in {}".format(loc))
 
     rd = False
     vals = []

@@ -18,7 +18,7 @@ def check_exit(loc):
     lines = open(ofile, 'r').readlines()
 
     if not 'Cassandra simulation complete' in lines[-1]:
-        warnings.warn("Simulation did not exit correctly in: {}".format(loc))
+        raise ValueError("Simulation did not exit correctly in: {}".format(loc))
 
     return True
 

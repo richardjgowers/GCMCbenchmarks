@@ -18,7 +18,14 @@ import os
 from .grab_utils import get_last_ofile
 
 def check_exit(loc):
-    pass
+    ofile = get_last_ofile(loc)
+
+    with open(ofile, 'r') as f:
+        f.seek(-100, 2)
+        if not 'suggested citations' in f.read():
+            raise ValueError("Output didn't exit correctly in dir: {}".format(loc))
+
+    return True
 
 def grab_timeseries(loc, ignore_incomplete=False):
     if not ignore_incomplete:

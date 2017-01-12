@@ -4,7 +4,16 @@ import os
 
 
 def check_exit(loc):
-    pass
+    output = glob.glob(os.path.join(loc, 'Output', 'System_0', '*.data'))[0]
+
+    if not os.path.exists(output):
+        raise ValueError("Output not present in dir: {}".format(loc))
+    with open(output, 'r') as f:
+        f.seek(-100, 2)  # seek to before EOF
+        if not 'Simulation finished' in f.read():
+            raise ValueError("Output didn't exit correctly in dir: {}".format(loc))
+
+    return True
 
 def grab_timeseries(loc, ignore_incomplete=False):
     """Grab timeseries including equilibration time"""
@@ -18,13 +27,14 @@ def grab_timeseries(loc, ignore_incomplete=False):
     if not ignore_incomplete:
         check_exit(loc)
 
-    output = glob.glob(os.path.join(loc, 'Output', 'System_0', '*.data'))[0]    
+    output = glob.glob(os.path.join(loc, 'Output', 'System_0', '*.data'))[0]
 
     vals = []
-    for line in open(output, 'r'):
-        if line.lstrip(' \t').startswith('absolute adsorption'):
-            if 'avg.' in line:
-                vals.append(_getval1(line.lstrip()))
-            else:
-                vals.append(_getval2(line.lstrip()))
+    with open(output, 'r') as f:
+        for line in f:
+            if line.lstrip(' \t').startswith('absolute adsorption'):
+                if 'avg.' in line:
+                    vals.append(_getval1(line.lstrip()))
+                else:
+                    vals.append(_getval2(line.lstrip()))
     return np.array(vals)
