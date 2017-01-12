@@ -6,6 +6,8 @@ This has functions to convert between moves and cycles for the case studies.
 
 Requires you to know the isotherm a priori..
 """
+import glob
+import os
 
 # Average number of molecules at a given pressure (ie the result)
 # Used to translate between steps and cycles for benchmarking
@@ -85,3 +87,31 @@ def cycles_to_steps(cycles, case, pressure):
     trans = NMOL[case[:5]]
 
     return int(cycles * trans[pressure])
+
+
+def find_completed_cycles(loc, case, pressure):
+    """
+    Parameters
+    ----------
+    loc
+      Where the simulation took place (root folder of sim)
+    case
+      case1/case2/case3
+    pressure : int
+      pressure in kPa
+
+    Returns
+    -------
+    number of MC steps
+    """
+    output = glob.glob(os.path.join(loc, 'Output', 'System_0', '*.data'))[0]
+    
+    with open(output, 'r') as f:
+        # read a chunk from the end of the output
+        f.seek(-25000, 2)
+        data = f.read()
+        
+    start = data.find('cycle:') + 6  # where this string ends
+    end = data[start:].find('out of') + start
+    
+    return cycles_to_steps(int(data[start:end]), case, pressure)
