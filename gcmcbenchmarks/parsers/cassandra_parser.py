@@ -23,7 +23,7 @@ def check_exit(loc):
     return True
 
 
-def grab_timeseries(loc):
+def grab_timeseries(loc, ignore_incomplete=False):
     """Grab mol/uc as a function of time"""
     # figure out which format output this is...
     output = os.path.join(loc, 'CO2_IRMOF.box1.prp1')
@@ -33,13 +33,15 @@ def grab_timeseries(loc):
         if not os.path.exists(output):
             raise ValueError("Output not found in dir: {}".format(loc))
     # check run ended correctly
-    check_exit(loc)
+    if not ignore_incomplete:
+        check_exit(loc)
 
     # finally grab results
     results = []
-    for line in open(output, 'r'):
-        if line.startswith('#'):
-            continue
-        results.append(float(line.split()[3]))
+    with open(output, 'r') as f:
+        for line in f:
+            if line.startswith('#'):
+                continue
+            results.append(float(line.split()[3]))
 
     return np.array(results) / 8.0  # to mol/uc

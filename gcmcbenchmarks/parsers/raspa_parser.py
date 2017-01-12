@@ -3,7 +3,10 @@ import numpy as np
 import os
 
 
-def grab_timeseries(loc):
+def check_exit(loc):
+    pass
+
+def grab_timeseries(loc, ignore_incomplete=False):
     """Grab timeseries including equilibration time"""
     def _getval1(l):
         #return l
@@ -11,6 +14,9 @@ def grab_timeseries(loc):
         #return float(l.split('avg.')[1].split(')')[0])
     def _getval2(l):
         return float(l.split('adsorption:')[1].split('[mol')[0])
+
+    if not ignore_incomplete:
+        check_exit(loc)
 
     output = glob.glob(os.path.join(loc, 'Output', 'System_0', '*.data'))[0]    
 

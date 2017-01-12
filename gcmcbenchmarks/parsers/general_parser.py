@@ -74,6 +74,6 @@ def grab_all_results(d):
 
     return pd.DataFrame(final, pressures, columns=['mean', 'std']).sort_index()
 
-def parse(d):
+def parse(d, ignore_incomplete=False):
     """Return timeseries from directory *d*"""
-    return format_parser(d)(d)
+    return format_parser(d)(d, ignore_incomplete)

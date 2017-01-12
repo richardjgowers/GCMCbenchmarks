@@ -15,8 +15,13 @@ for every other block
 import numpy as np
 import os
 
+def check_exit(loc):
+    pass
 
-def grab_timeseries(loc):
+def grab_timeseries(loc, ignore_incomplete=False):
+    if not ignore_incomplete:
+        check_exit(loc)
+
     output = os.path.join(loc, 'IRMOF1.CO2.post')
 
     if not os.path.exists(output):

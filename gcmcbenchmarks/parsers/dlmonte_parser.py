@@ -25,18 +25,20 @@ def check_exit(loc):
     return True
 
 
-def grab_timeseries(loc):
-    check_exit(loc)
+def grab_timeseries(loc, ignore_incomplete=False):
+    if not ignore_incomplete:
+        check_exit(loc)
 
     output = os.path.join(loc, 'OUTPUT.000')
 
     # grab lines beginning with ' CO2'
     results = []
-    for line in open(output, 'r'):
-        if line.startswith(' CO2'):
-            try:
-                results.append(float(line.split()[1]))
-            except (ValueError, IndexError):
-                pass
+    with open(output, 'r') as f:
+        for line in f:
+            if line.startswith(' CO2'):
+                try:
+                    results.append(float(line.split()[1]))
+                except (ValueError, IndexError):
+                    pass
     # last result is an average, discard it
     return np.array(results[:-1]) / 8.0  # to mol/uc

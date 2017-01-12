@@ -17,8 +17,13 @@ import os
 
 from .grab_utils import get_last_ofile
 
+def check_exit(loc):
+    pass
 
-def grab_timeseries(loc):
+def grab_timeseries(loc, ignore_incomplete=False):
+    if not ignore_incomplete:
+        check_exit(loc)
+
     ofile = get_last_ofile(loc)
 
     vals = []
