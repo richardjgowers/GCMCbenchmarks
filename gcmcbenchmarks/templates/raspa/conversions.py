@@ -89,8 +89,9 @@ def cycles_to_steps(cycles, case, pressure):
     return int(cycles * trans[pressure])
 
 
-def find_completed_cycles(loc, case, pressure):
-    """
+def find_completed_steps(loc, case, pressure):
+    """Find the number of complete steps an incomplete Raspa sim finished
+
     Parameters
     ----------
     loc

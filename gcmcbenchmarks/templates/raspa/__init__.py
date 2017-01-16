@@ -2,7 +2,7 @@ from functools import partial
 import os
 from pkg_resources import resource_filename
 
-from .conversions import cycles_to_steps, steps_to_cycles, find_completed_cycles
+from .conversions import cycles_to_steps, steps_to_cycles, find_completed_steps
 
 _rf = partial(resource_filename, __name__)
 
