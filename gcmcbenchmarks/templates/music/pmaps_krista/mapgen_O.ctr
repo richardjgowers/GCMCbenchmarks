@@ -50,7 +50,7 @@ intra_O                      # intramolecular interactions
 IRMOF1                       # Sorbate to map
 Oxygen_M                    # Sorbate to probe map with
 NCOUL LJ                    # Interaction type to map
-0.2                         # Approximate grid spacing (Ang)
+0.1                         # Approximate grid spacing (Ang)
 100.0                       # High end potential cutoff (kJ/mol)
 AUTO                        # Map filename or AUTO
 ------ Configuration Initialization -------------------------------------

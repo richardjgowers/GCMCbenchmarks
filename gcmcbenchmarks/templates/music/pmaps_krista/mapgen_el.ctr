@@ -50,7 +50,7 @@ intra_el              # intramolecular interactions
 IRMOF1                # Sorbate to map
 Probe                 # Sorbate to probe map with
 COUL                  # Interaction type to map
-0.20                  # Approximate grid spacing (Ang)
+0.1                   # Approximate grid spacing (Ang)
 100.0                 # High end potential cutoff (kJ/mol)
 AUTO                  # Map filename or AUTO
 ------ Configuration Initialization -------------------------------------
