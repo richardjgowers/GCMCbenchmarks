@@ -21,7 +21,7 @@ def check_exit(loc):
     ofile = get_last_ofile(loc)
 
     lastline = tail(ofile, 1)
-    if not 'suggested citations' in lastline:
+    if not b'suggested citations' in lastline:
         raise ValueError("Output didn't exit correctly in dir: {}".format(loc))
 
     return True

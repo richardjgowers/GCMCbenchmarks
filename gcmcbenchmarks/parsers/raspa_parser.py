@@ -9,7 +9,7 @@ def check_exit(loc):
 
     if not os.path.exists(output):
         raise ValueError("Output not present in dir: {}".format(loc))
-    if not 'Simulation finished' in tail(output, 10):
+    if not b'Simulation finished' in tail(output, 10):
         raise ValueError("Output didn't exit correctly in dir: {}".format(loc))
 
     return True

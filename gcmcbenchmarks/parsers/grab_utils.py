@@ -37,7 +37,7 @@ def tail(fn, n):
 
     Returns
     -------
-    A single string representing the output.  Use split to get lines.
+    A bytes string representing the output.  Use split to get lines.
     """
     p = subprocess.Popen(['tail', '-n', str(n), fn],
                          stdout=subprocess.PIPE)

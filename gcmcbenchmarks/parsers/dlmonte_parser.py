@@ -19,7 +19,7 @@ def check_exit(loc):
     if not os.path.exists(output):
         raise ValueError("Output not present in dir: {}".format(loc))
     # check results ended correctly
-    if not 'normal exit' in tail(output, 5):
+    if not b'normal exit' in tail(output, 5):
         raise ValueError("Output didn't exit correct in dir: {}".format(loc))
 
     return True
