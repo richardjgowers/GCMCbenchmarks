@@ -5,6 +5,7 @@
 #$ -j y
 #$ -N mus_c2_{pressure}
 #$ -cwd
+#$ -V
 
 . /etc/profile.d/modules.sh
 ulimit -s unlimited

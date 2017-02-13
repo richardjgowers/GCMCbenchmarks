@@ -2,6 +2,7 @@
 
 #$ -N rwg2_{pressure}
 #$ -cwd
+#$ -V
 #$ -l h_rt=23:00:00
 #$ -l h_vmem=4G
 

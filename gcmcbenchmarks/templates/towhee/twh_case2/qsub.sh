@@ -2,6 +2,7 @@
 
 #$ -N twh_{pressure}
 #$ -cwd
+#$ -V
 #$ -l h_rt=06:00:00
 #$ -l h_vmem=3G
 

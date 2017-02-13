@@ -2,6 +2,7 @@
 
 #$ -N rsp_3_{pressure}
 #$ -cwd
+#$ -V
 #$ -l h_rt=168:00:00
 #$ -l h_vmem=3G
 

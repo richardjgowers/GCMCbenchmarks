@@ -2,6 +2,7 @@
 
 #$ -N cas_2_{pressure}
 #$ -cwd
+#$ -V
 #$ -l h_rt=12:00:00
 #$ -l h_vmem=3G
 
