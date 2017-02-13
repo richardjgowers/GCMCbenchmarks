@@ -5,6 +5,7 @@
 from __future__ import division
 
 from docopt import docopt
+from itertools import cycle
 import sys
 import os
 import shutil
@@ -44,7 +45,14 @@ def make_sims(pressure_values, case, destination, options):
     sourcedir = getattr(dlmonte, case)  # dict of filename: filepath
     simdirs = []
 
-    for p in pressure_values:
+    try:
+        nsteps = int(options['-n'])
+    except ValueError:
+        nsteps = map(int, options['-n'].split(','))
+    else:
+        nsteps = itertools.cycle((nsteps,))
+
+    for p, n in zip(pressure_values, nsteps):
         suffix = 'dlm_{}'.format(p)
         simdirs.append(suffix)
         newdir = os.path.join(destination, suffix)
@@ -60,7 +68,7 @@ def make_sims(pressure_values, case, destination, options):
         with open(os.path.join(newdir, 'CONTROL'), 'w') as out:
             out.write(template.format(
                 pressure=kPa_to_kAtm(p),
-                run_length=int(options['-n']),
+                run_length=n,
                 save_freq=int(options['-s']),
                 coords_freq=int(options['-c']),
             ))

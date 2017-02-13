@@ -5,6 +5,7 @@
 from __future__ import division
 
 from docopt import docopt
+from itertools import cycle
 import os
 import sys
 import shutil
@@ -37,7 +38,14 @@ def make_sims(pressure_values, case, destination, options):
     sourcedir = getattr(raspa, case)
     simdirs = []
 
-    for p in pressure_values:
+    try:
+        nsteps = int(options['-n'])
+    except ValueError:
+        nsteps = map(int, options['-n'].split(','))
+    else:
+        nsteps = itertools.cycle((nsteps,))
+
+    for p, n in zip(pressure_values, nsteps):
         suffix = 'rsp_{}'.format(p)
         simdirs.append(suffix)
         newdir = os.path.join(destination, suffix)
@@ -53,7 +61,7 @@ def make_sims(pressure_values, case, destination, options):
             with open(os.path.join(newdir, 'simulation.input'), 'w') as out:
                 out.write(template.format(
                     pressure=kPa_to_Pa(p),
-                    run_length=steps_to_cycles(int(options['-n']), case, p),
+                    run_length=steps_to_cycles(n, case, p),
                     save_freq=steps_to_cycles(int(options['-s']), case, p),
                     coords_freq=steps_to_cycles(int(options['-c']), case, p),
                 ))

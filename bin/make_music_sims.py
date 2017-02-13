@@ -5,6 +5,7 @@
 from __future__ import division
 
 from docopt import docopt
+from itertools import cycle
 import os
 import sys
 import shutil
@@ -32,7 +33,14 @@ def make_sims(pressure_values, case, destination, options):
     sourcedir = getattr(music, case)
     simdirs = []  # all simulation directories
 
-    for p in pressure_values:
+    try:
+        nsteps = int(options['-n'])
+    except ValueError:
+        nsteps = map(int, options['-n'].split(','))
+    else:
+        nsteps = itertools.cycle((nsteps,))
+
+    for p, n in zip(pressure_values, nsteps):
         suffix = 'mus_{}'.format(p)
         simdirs.append(suffix)
         newdir = os.path.join(destination, suffix)
@@ -61,7 +69,7 @@ def make_sims(pressure_values, case, destination, options):
             template = f.read()
         with open(os.path.join(newdir, 'gcmc.ctr'), 'w') as out:
             out.write(template.format(
-                run_length=int(options['-n']) // 2,  # music divided into 2 sims, so halve length
+                run_length=n // 2,  # music divided into 2 sims, so halve length
                 save_freq=options['-s'],
                 coords_freq=options['-c'],
             ))
@@ -87,7 +95,6 @@ if __name__ == '__main__':
     tot = __doc__ + makestr
 
     args = docopt(tot)
-
 
     if args['-p']:
         pressures = [int(p) for p in args['<pressures>']]
