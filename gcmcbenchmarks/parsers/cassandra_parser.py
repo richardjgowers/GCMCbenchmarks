@@ -15,7 +15,8 @@ def check_exit(loc):
     # find last .o file
     ofile = get_last_ofile(loc)
     # check for
-    lines = open(ofile, 'r').readlines()
+    with open(ofile, 'r') as f:
+        lines = f.readlines()
 
     if not 'Cassandra simulation complete' in lines[-1]:
         raise ValueError("Simulation did not exit correctly in: {}".format(loc))
@@ -32,6 +33,7 @@ def grab_timeseries(loc, ignore_incomplete=False):
         output = os.path.join(loc, 'CO2_IRMOF.prp')
         if not os.path.exists(output):
             raise ValueError("Output not found in dir: {}".format(loc))
+
     # check run ended correctly
     if not ignore_incomplete:
         check_exit(loc)
