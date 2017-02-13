@@ -22,5 +22,6 @@ setup(
         'bin/make_towhee_sims.py',
         'bin/make_music_sims.py',
         'bin/make_raspa_sims.py',
+        'bin/check_exit.py',
     ],
 )
