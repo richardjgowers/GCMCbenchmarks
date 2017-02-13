@@ -9,6 +9,8 @@ Requires you to know the isotherm a priori..
 import glob
 import os
 
+from gcmcbenchmarks.parsers.grab_utils import tail
+
 # Average number of molecules at a given pressure (ie the result)
 # Used to translate between steps and cycles for benchmarking
 #
@@ -106,13 +108,10 @@ def find_completed_steps(loc, case, pressure):
     number of MC steps
     """
     output = glob.glob(os.path.join(loc, 'Output', 'System_0', '*.data'))[0]
-    
-    with open(output, 'r') as f:
-        # read a chunk from the end of the output
-        f.seek(-25000, 2)
-        data = f.read()
+
+    data = tail(output, 12)
         
     start = data.find('cycle:') + 6  # where this string ends
     end = data[start:].find('out of') + start
-    
+
     return cycles_to_steps(int(data[start:end]), case, pressure)

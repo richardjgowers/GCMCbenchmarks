@@ -15,15 +15,14 @@ import glob
 import numpy as np
 import os
 
-from .grab_utils import get_last_ofile
+from .grab_utils import get_last_ofile, tail
 
 def check_exit(loc):
     ofile = get_last_ofile(loc)
 
-    with open(ofile, 'r') as f:
-        f.seek(-100, 2)
-        if not 'suggested citations' in f.read():
-            raise ValueError("Output didn't exit correctly in dir: {}".format(loc))
+    lastline = tail(ofile, 1)
+    if not 'suggested citations' in lastline:
+        raise ValueError("Output didn't exit correctly in dir: {}".format(loc))
 
     return True
 

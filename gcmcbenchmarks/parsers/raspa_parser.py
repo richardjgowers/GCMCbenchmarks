@@ -2,16 +2,15 @@ import glob
 import numpy as np
 import os
 
+from .grab_utils import tail
 
 def check_exit(loc):
     output = glob.glob(os.path.join(loc, 'Output', 'System_0', '*.data'))[0]
 
     if not os.path.exists(output):
         raise ValueError("Output not present in dir: {}".format(loc))
-    with open(output, 'r') as f:
-        f.seek(-100, 2)  # seek to before EOF
-        if not 'Simulation finished' in f.read():
-            raise ValueError("Output didn't exit correctly in dir: {}".format(loc))
+    if not 'Simulation finished' in tail(output, 10):
+        raise ValueError("Output didn't exit correctly in dir: {}".format(loc))
 
     return True
 

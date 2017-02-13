@@ -5,6 +5,7 @@ import functools
 import glob
 import os
 import re
+import subprocess
 
 # regex match lazy anything, .o, then numerical chars
 _O_PATTERN = re.compile('^.+?\.o[0-9]+$')
@@ -24,3 +25,23 @@ def get_last_ofile(loc):
 
     return max(ofiles, key=_getnum)
 
+def tail(fn, n):
+    """Similar to 'tail -n *n* *fn*'
+
+    Parameters
+    ----------
+    fn : str
+      Path to file to tail
+    n : int
+      Number of lines to return
+
+    Returns
+    -------
+    A single string representing the output.  Use split to get lines.
+    """
+    p = subprocess.Popen(['tail', '-n', str(n), fn],
+                         stdout=subprocess.PIPE)
+    p.wait()  # allow subprocess to finish
+    stdout, stderr = p.communicate()
+
+    return stdout

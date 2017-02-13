@@ -8,6 +8,8 @@ for each dlm_* directory:
 import numpy as np
 import os
 
+from .grab_utils import tail
+
 
 def check_exit(loc):
     """Check that simulation in *loc* exited correctly."""
@@ -17,10 +19,8 @@ def check_exit(loc):
     if not os.path.exists(output):
         raise ValueError("Output not present in dir: {}".format(loc))
     # check results ended correctly
-    with open(output, 'r') as f:
-        f.seek(-100, 2)  # seek to 100 before EOF (2)
-        if not f.read().strip().endswith('normal exit'):
-            raise ValueError("Output didn't exit correct in dir: {}".format(loc))
+    if not 'normal exit' in tail(output, 5):
+        raise ValueError("Output didn't exit correct in dir: {}".format(loc))
 
     return True
 
