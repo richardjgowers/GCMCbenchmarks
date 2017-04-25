@@ -26,18 +26,18 @@ _FRAG1 = ['frag1.dat']
 _FRAGMENTS = ['frag_1_1.car', 'frag_1_1.xyz', 'species2_mcf_gen.chk', 'species2_mcf_gen.log',
               'frag_1_1.mcf', 'molecule.pdb', 'species2_mcf_gen.inp']
 
-case1 = {f: _rf(os.path.join('cas_case1', f)) for f in _FILES}
-case1['frag1'] = {'frag1.dat': _rf('cas_case1/species2/frag1/frag1.dat')}
-case1['fragments'] = {f: _rf(os.path.join('cas_case1/species2/fragments', f))
+setup1 = {f: _rf(os.path.join('cas_setup1', f)) for f in _FILES}
+setup1['frag1'] = {'frag1.dat': _rf('cas_setup1/species2/frag1/frag1.dat')}
+setup1['fragments'] = {f: _rf(os.path.join('cas_setup1/species2/fragments', f))
                       for f in _FRAGMENTS}
 
-case2 = {f: _rf(os.path.join('cas_case2', f)) for f in _FILES}
-case2['frag1'] = {'frag1.dat': _rf('cas_case2/species2/frag1/frag1.dat')}
-case2['fragments'] = {f: _rf(os.path.join('cas_case2/species2/fragments', f))
+setup2 = {f: _rf(os.path.join('cas_setup2', f)) for f in _FILES}
+setup2['frag1'] = {'frag1.dat': _rf('cas_setup2/species2/frag1/frag1.dat')}
+setup2['fragments'] = {f: _rf(os.path.join('cas_setup2/species2/fragments', f))
                       for f in _FRAGMENTS}
 
-case3 = {f: _rf(os.path.join('cas_case3', f)) for f in _FILES}
-case3['frag1'] = {'frag1.dat': _rf('cas_case3/species2/frag1/frag1.dat')}
-case3['fragments'] = {f: _rf(os.path.join('cas_case3/species2/fragments', f))
+setup3 = {f: _rf(os.path.join('cas_setup3', f)) for f in _FILES}
+setup3['frag1'] = {'frag1.dat': _rf('cas_setup3/species2/frag1/frag1.dat')}
+setup3['fragments'] = {f: _rf(os.path.join('cas_setup3/species2/fragments', f))
                       for f in _FRAGMENTS}
 

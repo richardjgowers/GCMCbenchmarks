@@ -22,7 +22,7 @@ def format_parser(dirname):
         return rsp.grab_timeseries
     elif 'mus' in dirname:
         return mus.grab_timeseries
-    else:  # cas is in most because I called directories '_case1_'
+    else:
         return cas.grab_timeseries
 
 

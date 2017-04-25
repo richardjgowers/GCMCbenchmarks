@@ -28,9 +28,9 @@ Temperature 208.0 K
 
 3 sets of simulations were performed with all software
 
- case1) Only LJ interactions between all components
- case2) As 1) but with fluid-fluid electrostatics
- case3) As 2) but with solid-fluid electrostatics
+ setup1) Only LJ interactions between all components
+ setup2) As 1) but with fluid-fluid electrostatics
+ setup3) As 2) but with solid-fluid electrostatics
 
 Creating simulations
 --------------------
@@ -38,7 +38,7 @@ Creating simulations
 The input files for simulations can be created using the Python make_* scripts
 in this directory.  These all follow the signature::
 
-python make_X.py <case> <destination>
+python make_X.py <setup> <destination>
 
-Where case refers to one of the conditions listed above and <destination> refers to the
+Where setup refers to one of the conditions listed above and <destination> refers to the
 directory in which they will be made.

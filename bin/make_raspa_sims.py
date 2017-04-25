@@ -34,8 +34,8 @@ def make_qsubmany(dirs, destination):
     os.chmod(qsubfn, 0744)  # rwxr--r-- permissions
 
 
-def make_sims(pressure_values, case, destination, options):
-    sourcedir = getattr(raspa, case)
+def make_sims(pressure_values, setup, destination, options):
+    sourcedir = getattr(raspa, setup)
     simdirs = []
 
     try:
@@ -61,9 +61,9 @@ def make_sims(pressure_values, case, destination, options):
             with open(os.path.join(newdir, 'simulation.input'), 'w') as out:
                 out.write(template.format(
                     pressure=kPa_to_Pa(p),
-                    run_length=steps_to_cycles(n, case, p),
-                    save_freq=steps_to_cycles(int(options['-s']), case, p),
-                    coords_freq=steps_to_cycles(int(options['-c']), case, p),
+                    run_length=steps_to_cycles(n, setup, p),
+                    save_freq=steps_to_cycles(int(options['-s']), setup, p),
+                    coords_freq=steps_to_cycles(int(options['-c']), setup, p),
                 ))
             with open(sourcedir['qsub.sh'], 'r') as inf:
                 qsub_template = inf.read()
@@ -90,5 +90,5 @@ if __name__ == '__main__':
     elif not os.path.isdir(os.path.join(os.getcwd(), destination)):
         raise SystemExit
 
-    make_sims(pressures, args['<case>'], destination, args)
+    make_sims(pressures, args['<setup>'], destination, args)
 

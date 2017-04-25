@@ -34,15 +34,15 @@ def make_qsubmany(dirs, destination):
     os.chmod(qsubfn, 0744)  # rwxr--r-- permissions
 
 
-def make_sims(pressure_values, case, destination, options):
+def make_sims(pressure_values, setup, destination, options):
     """Make many simulation directories
 
     pressure_values - list of pressues in kPa to make simulations for
-    case - directory where template files can be found
+    setup - directory where template files can be found
     destination - directory to place new simulation files in
     options - dict from docopt of simulation settings options
     """
-    sourcedir = getattr(dlmonte, case)  # dict of filename: filepath
+    sourcedir = getattr(dlmonte, setup)  # dict of filename: filepath
     simdirs = []
 
     try:
@@ -98,4 +98,4 @@ if __name__ == '__main__':
     elif not os.path.isdir(os.path.join(os.getcwd(), destination)):
         raise SystemExit
 
-    make_sims(pressures, args['<case>'], destination, args)
+    make_sims(pressures, args['<setup>'], destination, args)

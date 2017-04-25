@@ -17,18 +17,18 @@ _PMAPS_FILES = ['atom_atom_coul', 'atom_atom_lj', 'intra_C', 'intra_el',
                 'mol_mol_C', 'mol_mol_el', 'mol_mol_O', 'script_map.pbs',
                 'script.pbs', 'setpath', 'sili.xyz']
 
-# these are common across all cases
+# these are common across all setups
 molecules = {f: _rf(os.path.join('molecules', f)) for f in _MOL_FILES}
 atoms = {f: _rf(os.path.join('atoms', f)) for f in _ATOM_FILES}
 pmaps_krista = {}
 
-case1 = {f: _rf(os.path.join('mus_case1', f)) for f in _FILES}
-case2 = {f: _rf(os.path.join('mus_case2', f)) for f in _FILES}
-case3 = {f: _rf(os.path.join('mus_case3', f)) for f in _FILES}
+setup1 = {f: _rf(os.path.join('mus_setup1', f)) for f in _FILES}
+setup2 = {f: _rf(os.path.join('mus_setup2', f)) for f in _FILES}
+setup3 = {f: _rf(os.path.join('mus_setup3', f)) for f in _FILES}
 
-case1_withgrid = {f: _rf(os.path.join('mus_case1_withgrid', f)) for f in _FILES}
-case2_withgrid = {f: _rf(os.path.join('mus_case2_withgrid', f)) for f in _FILES}
-case3_withgrid = {f: _rf(os.path.join('mus_case3_withgrid', f)) for f in _FILES}
+setup1_withgrid = {f: _rf(os.path.join('mus_setup1_withgrid', f)) for f in _FILES}
+setup2_withgrid = {f: _rf(os.path.join('mus_setup2_withgrid', f)) for f in _FILES}
+setup3_withgrid = {f: _rf(os.path.join('mus_setup3_withgrid', f)) for f in _FILES}
 
 
 FUGACITY = {

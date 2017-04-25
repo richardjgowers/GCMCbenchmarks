@@ -30,8 +30,8 @@ def make_qsubmany(dirs, destination):
     os.chmod(qsubfn, 0744)  # rwxr--r-- permissions
 
 
-def make_sims(pressure_values, case, destination, options):
-    sourcedir = getattr(cassandra, case)
+def make_sims(pressure_values, setup, destination, options):
+    sourcedir = getattr(cassandra, setup)
     simdirs = []
 
     try:
@@ -97,4 +97,4 @@ if __name__ == '__main__':
     elif not os.path.isdir(os.path.join(os.getcwd(), destination)):
         raise SystemExit
 
-    make_sims(pressures, args['<case>'], destination, args)
+    make_sims(pressures, args['<setup>'], destination, args)

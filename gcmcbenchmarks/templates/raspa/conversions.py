@@ -14,8 +14,8 @@ from gcmcbenchmarks.parsers.grab_utils import tail
 # Average number of molecules at a given pressure (ie the result)
 # Used to translate between steps and cycles for benchmarking
 #
-# This changes depending on which case is done, so dict for each
-_NMOL_case1 = {  # LJ only
+# This changes depending on which setup is done, so dict for each
+_NMOL_setup1 = {  # LJ only
     5 : 4.09 * 8,  # result in mol/uc then *8 because 2x2x2 sim box
     10 : 8.70 * 8,
     20 : 18.57 * 8,
@@ -25,7 +25,7 @@ _NMOL_case1 = {  # LJ only
     60 : 115.95 * 8,
     70 : 133.53 * 8,
 }
-_NMOL_case2 = {  # LJ and FF electrostatics
+_NMOL_setup2 = {  # LJ and FF electrostatics
     5 : 4.26 * 8,
     10 : 9.39 * 8,
     20 : 25.44 * 8,
@@ -35,7 +35,7 @@ _NMOL_case2 = {  # LJ and FF electrostatics
     60 : 193.60 * 8,
     70 : 194.98 * 8,
 }
-_NMOL_case3 = {  # LJ and all electrostatics
+_NMOL_setup3 = {  # LJ and all electrostatics
     5 : 7.66 * 8,
     10 : 16.39 * 8,
     20 : 167.60 * 8,
@@ -46,20 +46,20 @@ _NMOL_case3 = {  # LJ and all electrostatics
     70 : 198.15 * 8,
 }
 NMOL = {
-    'case1':_NMOL_case1,
-    'case2':_NMOL_case2,
-    'case3':_NMOL_case3,
+    'setup1':_NMOL_setup1,
+    'setup2':_NMOL_setup2,
+    'setup3':_NMOL_setup3,
 }
 
-def steps_to_cycles(steps, case, pressure):
+def steps_to_cycles(steps, setup, pressure):
     """Translate a number of steps to cycles
 
     Parameters
     ----------
     Steps
       Number of Monte Carlo moves desired
-    case
-      System conditions [case1/case2/case3]
+    setup
+      System conditions [setup1/setup2/setup3]
     pressure
       Pressure in kPa
 
@@ -68,38 +68,38 @@ def steps_to_cycles(steps, case, pressure):
     number of cycles
     """
     # select the pressure->nmol dict to use
-    trans = NMOL[case[:5]]
+    trans = NMOL[setup[:5]]
 
     # need integer number of cycles, minimum of 1
     return max(int(steps / trans[pressure]), 1)
 
 
-def cycles_to_steps(cycles, case, pressure):
+def cycles_to_steps(cycles, setup, pressure):
     """Translate a number of cycles to steps
 
     Parameters
     ----------
     Cycles
       Number of Monte Carlo cycles
-    case
-      [case1/case2/case3]
+    setup
+      [setup1/setup2/setup3]
     pressure
       pressure in kPa
     """
-    trans = NMOL[case[:5]]
+    trans = NMOL[setup[:5]]
 
     return int(cycles * trans[pressure])
 
 
-def find_completed_steps(loc, case, pressure):
+def find_completed_steps(loc, setup, pressure):
     """Find the number of complete steps an incomplete Raspa sim finished
 
     Parameters
     ----------
     loc
       Where the simulation took place (root folder of sim)
-    case
-      case1/case2/case3
+    setup
+      setup1/setup2/setup3
     pressure : int
       pressure in kPa
 
@@ -114,4 +114,4 @@ def find_completed_steps(loc, case, pressure):
     start = data.find('cycle:') + 6  # where this string ends
     end = data[start:].find('out of') + start
 
-    return cycles_to_steps(int(data[start:end]), case, pressure)
+    return cycles_to_steps(int(data[start:end]), setup, pressure)

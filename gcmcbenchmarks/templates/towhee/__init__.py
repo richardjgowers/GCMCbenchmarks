@@ -6,9 +6,9 @@ _rf = partial(resource_filename, __name__)
 
 _FILES = ['qsub.sh', 'towhee_coords', 'towhee_ff_CUSTOM', 'towhee_input']
 
-case1 = {f: _rf(os.path.join('twh_case1', f)) for f in _FILES}
-case2 = {f: _rf(os.path.join('twh_case2', f)) for f in _FILES}
-case3 = {f: _rf(os.path.join('twh_case3', f)) for f in _FILES}
+setup1 = {f: _rf(os.path.join('twh_setup1', f)) for f in _FILES}
+setup2 = {f: _rf(os.path.join('twh_setup2', f)) for f in _FILES}
+setup3 = {f: _rf(os.path.join('twh_setup3', f)) for f in _FILES}
 
 # chemical potentials calculated in PREoS notebook
 CHEMPOTS = {5:-3819.9691,

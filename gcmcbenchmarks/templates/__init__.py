@@ -11,7 +11,7 @@ PRESSURES = [5, 10, 20, 30, 40, 50, 60, 70]
 makestr = \
 """
 Usage:
-  make_*_sim <case> <dir> [-n NSTEPS -s NSAMP -c NCOORD] [(-p <pressures>...)]
+  make_*_sim <setup> <dir> [-n NSTEPS -s NSAMP -c NCOORD] [(-p <pressures>...)]
 
 Options:
   -h --help
