@@ -28,9 +28,9 @@ Temperature 208.0 K
 
 3 sets of simulations were performed with all software
 
- setup1) Only LJ interactions between all components
- setup2) As 1) but with fluid-fluid electrostatics
- setup3) As 2) but with solid-fluid electrostatics
+ - Setup 1: Only LJ interactions between all components
+ - Setup 2: As 1) but with fluid-fluid electrostatics
+ - Setup 3: As 2) but with solid-fluid electrostatics
 
 Creating simulations
 --------------------
