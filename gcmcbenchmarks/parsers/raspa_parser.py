@@ -37,3 +37,20 @@ def grab_timeseries(loc, ignore_incomplete=False):
                 else:
                     vals.append(_getval2(line.lstrip()))
     return np.array(vals)
+
+def grab_cycle_numbers(loc):
+    output = glob.glob(os.path.join(loc, 'Output', 'System_0', '*.data'))[0]
+
+    ncyc = []
+
+    def parseline(l):
+        return int(l.split('cycle:')[1].split('out of')[0])
+
+    with open(output, 'r') as f:
+        for line in f:
+            if not line.startswith('Current cycle'):
+                continue
+            ncyc.append(parseline(line))
+
+    return np.array(ncyc)
+                
