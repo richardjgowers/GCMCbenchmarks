@@ -35,10 +35,19 @@ Temperature 208.0 K
 Creating simulations
 --------------------
 
-The input files for simulations can be created using the Python make_* scripts
+The input files for simulations can be created using the Python `make_*` scripts
 in this directory.  These all follow the signature::
 
-python make_X.py <setup> <destination>
+`make_X.py <setup> <destination>`
 
-Where setup refers to one of the conditions listed above and <destination> refers to the
+Where `<setup>` refers to one of the conditions listed above and `<destination>` refers to the
 directory in which they will be made.
+
+For example:
+
+`make_raspa_sims setup2 rsp_sims_setup2 -n 10000000`
+
+Makes a set of Raspa simulations for all pressures in the directory "`rsp_sims_setup2`",
+with a length of 10M steps.
+
+Full details of the available options are detailed in the `-h` option for each script.
