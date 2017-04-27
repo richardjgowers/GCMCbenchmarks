@@ -1,9 +1,30 @@
 # GCMCbenchmarks
 
-Input files for GCMC benchmarking work
+Python package to accompany the GCMC benchmarking work.
+This package includes case studies for GCMC adsorption to verify the accuracy of programs,
+as well as analysis tools to quantify the statistical length of MC simulations.
 
-List of simulation programs
----------------------------
+How to install 
+--------------
+
+This package requires:
+ * numpy
+ * scipy
+ * pandas
+ * statsmodels
+ * docopt
+
+To install and use the Python package run the following commands
+
+```
+git clone https://github.com/richardjgowers/GCMCbenchmarks.git
+cd GCMCbenchmarks
+python setup.py install
+```
+
+
+List of supported simulation programs
+-------------------------------------
 
  - Cassandra v1.2
  - DL_Monte2 v2.0.1-2016_May-Beta
@@ -12,21 +33,15 @@ List of simulation programs
  - Towhee v7.1.0
 
 
-System details
---------------
+Reference system details
+------------------------
 
-2 x 2 x 2 unit cell of IRMOF-1 adsorbent (8 x 424 atoms (3392))
+All of the benchmarks in this package are built around a 2 x 2 x 2 unit cell of IRMOF-1 adsorbent (8 x 424 atoms (3392))
+with CO2 adsorbate.
 
-CO2 adsorbate
+These are modelled at a temperature of 208.0 K and pressures of 5, 10, 20, 30, 40, 50, 60 and 70 kPa.
 
-
-System conditions
------------------
-
-Temperature 208.0 K
-
-
-3 sets of simulations were performed with all software
+3 setups of simulations were performed with all software:
 
  - Setup 1: Only LJ interactions between all components
  - Setup 2: As 1) but with fluid-fluid electrostatics
