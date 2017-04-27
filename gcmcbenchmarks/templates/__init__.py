@@ -6,20 +6,3 @@ from . import towhee
 
 # possible pressures in kPa
 PRESSURES = [5, 10, 20, 30, 40, 50, 60, 70]
-
-# string used for docopt & command line interface for making simulations
-makestr = \
-"""
-Usage:
-  make_*_sim <setup> <dir> [-n NSTEPS -s NSAMP -c NCOORD] [(-p <pressures>...)]
-
-Options:
-  -h --help
-  -v --version
-  -n N                Number of steps, can also be , delimited list. [default: 11000000]
-  -s N                Number of steps between samples [default: 1000]
-  -c N                Number of steps between saving coordinatse [default: 100000]
-  -p                  Specify manual pressure points
-  <pressures>...      Pressure points [default: 1 2 3]
-
-"""

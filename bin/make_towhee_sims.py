@@ -1,6 +1,18 @@
 #!/usr/bin/env python
 """Make a set of Towhee simulations
 
+Usage:
+  make_towhee_sims.py <setup> <dir> [-n NSTEPS -s NSAMP -c NCOORD] [(-p <pressures>...)]
+
+Options:
+  -h --help
+  -v --version
+  -n N                Number of steps, can also be , delimited list. [default: 11000000]
+  -s N                Number of steps between samples [default: 1000]
+  -c N                Number of steps between saving coordinates [default: 100000]
+  -p                  Specify manual pressure points
+  <pressures>...      Pressure points [default: 5 10 20 30 40 50 60 70]
+
 """
 from __future__ import division
 
@@ -10,7 +22,7 @@ import sys
 import os
 import shutil
 
-from gcmcbenchmarks.templates import towhee, makestr, PRESSURES
+from gcmcbenchmarks.templates import towhee, PRESSURES
 
 
 def make_qsubmany(dirs, destination):
@@ -68,9 +80,7 @@ def make_sims(pressure_values, setup, destination, options):
 
 
 if __name__ == '__main__':
-    tot = __doc__ + makestr
-
-    args = docopt(tot)
+    args = docopt(__doc__)
 
     if args['-p']:
         pressures = [int(p) for p in args['<pressures>']]
