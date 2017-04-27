@@ -5,7 +5,7 @@ Input files for GCMC benchmarking work
 List of simulation programs
 ---------------------------
 
- - Cassandra v1.1
+ - Cassandra v1.2
  - DL_Monte2 v2.0.1-2016_May-Beta
  - Music v4.0
  - RASPA v2.0
@@ -36,16 +36,20 @@ Creating simulations
 --------------------
 
 The input files for simulations can be created using the Python `make_*` scripts
-in this directory.  These all follow the signature::
+in this directory.  The following scripts are available::
 
-`make_X.py <setup> <destination>`
+ * `make_cassandra_sims.py`
+ * `make_dlm_sims.py`
+ * `make_music_sims.py`
+ * `make_raspa_sims.py`
+ * `make_towhee_sims.py`
 
-Where `<setup>` refers to one of the conditions listed above and `<destination>` refers to the
+These generally follow the signature `make_X_sims.py <setup> <destination>` where `<setup>` refers to one of the conditions listed above and `<destination>` refers to the
 directory in which they will be made.
 
 For example:
 
-`make_raspa_sims setup2 rsp_sims_setup2 -n 10000000`
+`make_raspa_sims.py setup2 rsp_sims_setup2 -n 10000000`
 
 Makes a set of Raspa simulations for all pressures in the directory "`rsp_sims_setup2`",
 with a length of 10M steps.
