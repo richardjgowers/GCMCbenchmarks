@@ -17,8 +17,8 @@ This package requires:
 To install and use the Python package run the following commands
 
 ```
-git clone https://github.com/richardjgowers/GCMCbenchmarks.git
-cd GCMCbenchmarks
+git clone https://rgowers@bitbucket.org/sarkisovgroup/gcmcbenchmarks.git
+cd gcmcbenchmarks
 python setup.py install
 ```
 
