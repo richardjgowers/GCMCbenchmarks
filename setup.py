@@ -10,7 +10,7 @@ with open(path.join(here, 'README.md'), 'r') as f:
 
 setup(
     name = 'gcmcbenchmarks',
-    version = '0.0.2',
+    version = '1.0.0',
     long_description=long_description,
 
     packages=find_packages(),
