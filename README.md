@@ -1,5 +1,9 @@
 # GCMCbenchmarks
 
+
+[![DOI](https://zenodo.org/badge/60168211.svg)](https://zenodo.org/badge/latestdoi/60168211)
+
+
 Python package to accompany the GCMC benchmarking work.
 This package includes case studies for GCMC adsorption to verify the accuracy of programs,
 as well as analysis tools to quantify the statistical length of MC simulations.
