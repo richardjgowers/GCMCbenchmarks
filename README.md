@@ -23,7 +23,7 @@ To install and use the Python package run the following commands
 ```
 git clone https://bitbucket.org/sarkisovgroup/gcmcbenchmarks.git
 cd gcmcbenchmarks
-python setup.py install
+pip install -r requirements.txt .
 ```
 
 
