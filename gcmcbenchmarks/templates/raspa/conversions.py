@@ -68,7 +68,7 @@ def steps_to_cycles(steps, setup, pressure):
     number of cycles
     """
     # select the pressure->nmol dict to use
-    trans = NMOL[setup[:5]]
+    trans = NMOL[setup[:6]]
 
     # need integer number of cycles, minimum of 1
     return max(int(steps / trans[pressure]), 1)
@@ -86,7 +86,7 @@ def cycles_to_steps(cycles, setup, pressure):
     pressure
       pressure in kPa
     """
-    trans = NMOL[setup[:5]]
+    trans = NMOL[setup[:6]]
 
     return int(cycles * trans[pressure])
 
