@@ -38,7 +38,7 @@ def make_qsubmany(dirs, destination):
     qsubfn = os.path.join(destination, 'qsub_twh.sh')
     with open(qsubfn, 'w') as out:
         out.write(outcontent)
-    os.chmod(qsubfn, 0744)  # rwxr--r-- permissions
+    os.chmod(qsubfn, 0o744)  # rwxr--r-- permissions
 
 
 def make_sims(pressure_values, setup, destination, options):
