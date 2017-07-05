@@ -12,11 +12,11 @@ How to install
 --------------
 
 This package requires:
- * numpy
- * scipy
- * pandas
- * statsmodels
- * docopt
+* numpy
+* scipy
+* pandas
+* statsmodels
+* docopt
 
 To install and use the Python package run the following commands
 
