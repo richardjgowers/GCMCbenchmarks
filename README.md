@@ -12,6 +12,7 @@ How to install
 --------------
 
 This package requires:
+
 * numpy
 * scipy
 * pandas
