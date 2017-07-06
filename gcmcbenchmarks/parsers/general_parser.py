@@ -1,5 +1,6 @@
 import glob
 import re
+import numpy as np
 import os
 import pandas as pd
 
@@ -82,6 +83,21 @@ def grab_all_results(d, ignore_incomplete=False):
 
     return pd.DataFrame(final, pressures, columns=['mean', 'std']).sort_index()
 
+
 def parse(d, ignore_incomplete=False):
     """Return timeseries from directory *d*"""
     return format_parser(d)(d, ignore_incomplete)
+
+
+def make_Series(sig, nsteps):
+    """Make a timeseries into a Pandas Series
+
+    Parameters
+    ----------
+    sig : np.ndarray
+      raw timeseries from ``parse``
+    nsteps : int
+      total number of MC steps performed in the simulation
+    """
+    n = len(sig)
+    return pd.Series(sig, np.linspace(0, nsteps, n + 1)[:-1])

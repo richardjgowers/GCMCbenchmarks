@@ -11,6 +11,7 @@ from .parsers.general_parser import (
     find_equil,
     grab_all_results,
     parse,
+    make_Series,
 )
 from .parsers.time_parser import (
     parse_timefile,
